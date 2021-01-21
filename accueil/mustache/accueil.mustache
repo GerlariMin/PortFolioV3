@@ -1,0 +1,33 @@
+
+<!--
+    "Sliding Text Effect"
+    Source: https://1stwebdesigner.com/css-text-effects/
+-->
+
+<!-- Fichier CSS associé -->
+<link rel="stylesheet" href="css/accueil.css"/>
+
+<!-- Code HTML -->
+<div class="wrap">
+
+    {{#line}}
+    <div class="line" id="line_{{line_id}}">
+
+        <div class="left">
+            <div class="content">
+                <span class="spanFast">{{line_left_content}}</span>
+            </div>
+        </div><!-- ne pas faire de retour charriot en dehors du commentaire (en left et right) car cela déformera l'animation
+        --><div class="right">
+            <div class="content">
+                <span class="spanFast">{{line_right_content}}</span>
+            </div>
+        </div>
+
+    </div>
+    {{/line}}
+
+</div>
+
+<!-- Fichier JavaScript associé -->
+<script src="js/accueil.js"></script>

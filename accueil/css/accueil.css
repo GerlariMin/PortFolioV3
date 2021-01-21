@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+body {
+    height: 100vh;
+    display: block; /* flex /
+    justify-content: center;
+    align-items: center;
+}  
+*/
+
+.wrap{
+    top: 50%;
+    position: fixed;
+}
+
+.line {
+    width: 100vw;
+}
+
+.left, .right {
+    width: 50vw;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.left {
+    color:orange;
+    transform: skew(0deg, -15deg);
+}
+
+.right {
+    color: white;
+    transform: skew(0deg, 15deg);
+}
+
+.left .content {
+    width: 100vw;
+    text-align: center;
+}
+
+.right .content {
+    width: 100vw;
+    text-align: center;
+    transform: translate(-50vw);
+}
+/* span */
+.spanSlow, .spanFast {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: .8;
+    transition: ease-out .6s;
+}

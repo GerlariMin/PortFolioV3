@@ -1,0 +1,305 @@
+[
+    {
+        "name": "components/jquery",
+        "version": "3.4.1",
+        "version_normalized": "3.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jquery.git",
+            "reference": "901828b7968b18319e377dc23d466f28426ee083"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jquery/zipball/901828b7968b18319e377dc23d466f28426ee083",
+            "reference": "901828b7968b18319e377dc23d466f28426ee083",
+            "shasum": ""
+        },
+        "time": "2019-10-23T05:15:13+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "jquery.js"
+                ],
+                "files": [
+                    "jquery.min.js",
+                    "jquery.min.map",
+                    "jquery.slim.js",
+                    "jquery.slim.min.js",
+                    "jquery.slim.min.map"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "JS Foundation and other contributors"
+            }
+        ],
+        "description": "jQuery JavaScript Library",
+        "homepage": "http://jquery.com"
+    },
+    {
+        "name": "components/jqueryui",
+        "version": "1.12.1",
+        "version_normalized": "1.12.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jqueryui.git",
+            "reference": "44ecf3794cc56b65954cc19737234a3119d036cc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jqueryui/zipball/44ecf3794cc56b65954cc19737234a3119d036cc",
+            "reference": "44ecf3794cc56b65954cc19737234a3119d036cc",
+            "shasum": ""
+        },
+        "require": {
+            "components/jquery": ">=1.6"
+        },
+        "time": "2016-09-16T05:47:55+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "name": "jquery-ui",
+                "scripts": [
+                    "jquery-ui.js"
+                ],
+                "files": [
+                    "ui/**",
+                    "themes/**",
+                    "jquery-ui.min.js"
+                ],
+                "shim": {
+                    "deps": [
+                        "jquery"
+                    ],
+                    "exports": "jQuery"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "jQuery UI Team",
+                "homepage": "http://jqueryui.com/about"
+            },
+            {
+                "name": "Joern Zaefferer",
+                "email": "joern.zaefferer@gmail.com",
+                "homepage": "http://bassistance.de"
+            },
+            {
+                "name": "Scott Gonzalez",
+                "email": "scott.gonzalez@gmail.com",
+                "homepage": "http://scottgonzalez.com"
+            },
+            {
+                "name": "Kris Borchers",
+                "email": "kris.borchers@gmail.com",
+                "homepage": "http://krisborchers.com"
+            },
+            {
+                "name": "Mike Sherov",
+                "email": "mike.sherov@gmail.com",
+                "homepage": "http://mike.sherov.com"
+            },
+            {
+                "name": "TJ VanToll",
+                "email": "tj.vantoll@gmail.com",
+                "homepage": "http://tjvantoll.com"
+            },
+            {
+                "name": "Corey Frang",
+                "email": "gnarf37@gmail.com",
+                "homepage": "http://gnarf.net"
+            },
+            {
+                "name": "Felix Nagel",
+                "email": "info@felixnagel.com",
+                "homepage": "http://www.felixnagel.com"
+            }
+        ],
+        "description": "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice."
+    },
+    {
+        "name": "fortawesome/font-awesome",
+        "version": "5.12.0",
+        "version_normalized": "5.12.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FortAwesome/Font-Awesome.git",
+            "reference": "d8db3d032d22e7a5e21f3b40905b7867be19bb02"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/d8db3d032d22e7a5e21f3b40905b7867be19bb02",
+            "reference": "d8db3d032d22e7a5e21f3b40905b7867be19bb02",
+            "shasum": ""
+        },
+        "time": "2019-12-10T22:52:13+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "CC-BY-4.0",
+            "OFL-1.1",
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Travis Chase",
+                "homepage": "http://twitter.com/supercodepoet"
+            },
+            {
+                "name": "Dave Gandy",
+                "homepage": "http://twitter.com/davegandy"
+            },
+            {
+                "name": "Rob Madole",
+                "homepage": "http://twitter.com/robmadole"
+            },
+            {
+                "name": "Jory Raphael",
+                "homepage": "http://twitter.com/sensibleworld"
+            },
+            {
+                "name": "Geremia Taglialatela",
+                "homepage": "http://twitter.com/gtagliala"
+            },
+            {
+                "name": "Brian Talbot",
+                "homepage": "http://twitter.com/talbs"
+            },
+            {
+                "name": "Mike Wilkerson",
+                "homepage": "http://twitter.com/mw77"
+            }
+        ],
+        "description": "The iconic font, CSS, and SVG framework",
+        "homepage": "https://fontawesome.com",
+        "keywords": [
+            "FontAwesome",
+            "awesome",
+            "bootstrap",
+            "font",
+            "icon",
+            "svg"
+        ]
+    },
+    {
+        "name": "mustache/mustache",
+        "version": "v2.13.0",
+        "version_normalized": "2.13.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bobthecow/mustache.php.git",
+            "reference": "e95c5a008c23d3151d59ea72484d4f72049ab7f4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/e95c5a008c23d3151d59ea72484d4f72049ab7f4",
+            "reference": "e95c5a008c23d3151d59ea72484d4f72049ab7f4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "~1.11",
+            "phpunit/phpunit": "~3.7|~4.0|~5.0"
+        },
+        "time": "2019-11-23T21:40:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Mustache": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Justin Hileman",
+                "email": "justin@justinhileman.info",
+                "homepage": "http://justinhileman.com"
+            }
+        ],
+        "description": "A Mustache implementation in PHP.",
+        "homepage": "https://github.com/bobthecow/mustache.php",
+        "keywords": [
+            "mustache",
+            "templating"
+        ]
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v4.6.0",
+        "version_normalized": "4.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+            "reference": "6ffb0b48e455430f8a5359ed689ad64c1143fac2",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2021-01-19T16:16:38+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            },
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "https://getbootstrap.com/",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "web"
+        ],
+        "funding": [
+            {
+                "url": "https://opencollective.com/bootstrap",
+                "type": "open_collective"
+            }
+        ]
+    }
+]
