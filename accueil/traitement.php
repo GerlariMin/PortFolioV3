@@ -12,7 +12,8 @@
             $this->bdd = $db;
         }
 
-        private function traitement_line()
+        // fonction pour une liaison avec une base de données
+        private function traitement_line_bdd()
         {
             $requete = "SELECT * FROM accueil;";
 
@@ -25,16 +26,51 @@
             } 
             catch (PDOException $e)
             {
-                //retournera une erreur (fonction définie dans BDDClass)
-                self::ErreurSurBdd($e);
+                error_log($e->getMessage());
             }
             //on retourne le resultat sous forme de tableau associatif
             return $requete->fetchAll(PDO::FETCH_ASSOC);
         }
 
+        private function traitement_line()
+        {
+            return 
+                [
+                    0 => 
+                        [
+                            'line_id' => "1",
+                            'line_left_content' => "Morgan MINBIELLE",
+                            'line_right_content' => "Morgan MINBIELLE",
+                            'line_span_class' => "spanSlow"
+                        ],
+                    1 => 
+                        [
+                            'line_id' =>  "2",
+                            'line_left_content' => "Alternant / Développeur",
+                            'line_right_content' => "Alternant / Développeur",
+                            'line_span_class' => "spanFast"
+                        ],
+                    2 => 
+                        [
+                            'line_id' => "3",
+                            'line_left_content' => "UPEC / Ecole Polytechnique",
+                            'line_right_content' => "UPEC / Ecole Polytechnique",
+                            'line_span_class' => "spanSlow"
+                        ],
+                    3 => 
+                        [
+                            'line_id' => "4",
+                            'line_left_content' => "Master M1",
+                            'line_right_content' => "Master M1",
+                            'line_span_class' => "spanFast"
+                        ]
+                ];
+        }
+
         public function traitement_toRender()
         {
             $data['line'] = $this->traitement_line();
+            
             $data['chemin'] = "../";
             $data['accueil'] = true;
             
