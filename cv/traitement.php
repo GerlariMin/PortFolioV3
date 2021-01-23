@@ -15,7 +15,7 @@
         public function traitement_toRender()
         {
             $data['chemin'] = "../";
-            $data['erreur'] = true;
+            $data['cv'] = true;
             
             $this->render->action_render($data);
         }

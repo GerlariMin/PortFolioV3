@@ -1,411 +1,99 @@
-  
+
     <div class="mt-1 mb-1 container marketing border border-start border-end border-white border-bottom-0 border-top-0">
 
         <hr class="featurette-divider">
 
-        <div class="row featurette w-100 m-1">
+        {{#featurette}}
+            <div class="row featurette w-100 m-1">
 
-            <div class="col-md-7">
+                <div class="col-md-7 {{#reverse}}order-md-2{{/reverse}}">
 
-                <h2 class="featurette-heading">
-                    <i class="fas fa-chalkboard-teacher"></i> M1 - Master Informatique parcours Logiciels Sûrs
-                    <span class="text-muted">Université Paris-Est Créteil (UPEC) - 2020/ 2021</span>
-                </h2>
-                <p class="lead">Actuellement en première année de Master (M1) en alternance au sein de l'Ecole Polytechnique.</p>
-                
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="m1-alternance-tab" data-bs-toggle="tab" href="#m1-alternance" role="tab" aria-controls="m1-alternance" aria-selected="true">Alternance</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="m1-prog-tab" data-bs-toggle="tab" href="#m1-prog" role="tab" aria-controls="m1-prog" aria-selected="false">Contenu pédagogique</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="m1-competences-tab" data-bs-toggle="tab" href="#m1-competences" role="tab" aria-controls="m1-competences" aria-selected="false">Compétences</a>
-                    </li>
-                </ul>
+                    {{#featuring-heading}}
+                        <h2 class="featurette-heading">
+                            {{#featuring-heading-fontawesome}}
+                                <i class="{{featuring-heading-fontawesome}}"></i>{{/featuring-heading-fontawesome}} 
+                            {{featuring-heading-titre}}
 
-                <div class="tab-content" id="myTabContent">
+                            {{#featuring-heading-span}}
+                                <span class="text-muted">{{featuring-heading-span}}</span>
+                            {{/featuring-heading-span}}
+                        </h2>
+                    {{/featuring-heading}}
 
-                    <br/>
+                    {{#lead}}
+                        <p class="lead">{{lead}}</p>
+                    {{/lead}}
 
-                    <div class="tab-pane fade show active" id="m1-alternance" role="tabpanel" aria-labelledby="m1-alternance-tab">
-                        
-                        <blockquote class="blockquote">
-                            <p class="mb-0"><i class="fas fa-briefcase"></i> Direction des Systèmes d'Informations (DSI) </p>
-                            <footer class="blockquote-footer">
-                                École Polytechnique -
-                                <cite title="Source Title">
-                                    2020/ 2021
-                                </cite>
-                            </footer>
-                        </blockquote>
-                    
-                    </div>
-
-                    <div class="tab-pane fade" id="m1-prog" role="tabpanel" aria-labelledby="m1-prog-tab">
-                    
-                        <ul>
-
-                            <li>Langages de programmation : Java, J2E, C++, phyton, ocaml, erlang...</li>
-                            <li>Outils de modélisation : Atelier B, Coq, Lustre, Prism, Uppaal</li>
-                            <li>Technologie : test, temps réel, calcul parallèle</li>
-
+                    {{#tablist}}
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            {{#tablist-ul}}
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link {{#list-active}}active{{/list-active}}" id="{{list-id}}-tab" data-bs-toggle="tab" href="#{{list-id}}" role="tab" aria-controls="{{list-id}}" aria-selected="true">{{list-titre}}</a>
+                                </li>
+                            {{/tablist-ul}}
                         </ul>
-                        
-                    </div>
 
-                    <div class="tab-pane fade" id="m1-competences" role="tabpanel" aria-labelledby="m1-competences-tab">
-                    
-                        <ul>
+                        <div class="tab-content" id="myTabContent">
 
-                            <li>analyser des besoins utilisateurs</li>
-                            <li>analyser les opportunités et la faisabilité technologique de l’application</li>
-                            <li>élaborer et rédiger des cahiers des charges</li>
-                            <li>concevoir une architecture logicielle</li>
-                            <li>définir des protocoles et des scenarios de test</li>
-                            <li>intégrer et déployer des solutions</li>
-                            <li>utiliser des normes de sûreté</li>
-                            <li>évaluer des risques pouvant intervenir au cours de la réalisation</li>
-                            <li>définir des schémas d’organisation, des méthodes de travail, des normes et des procédures qualité</li>
-                            <li>élaborer des éléments de chiffrage (besoins humains, financiers...)</li>
+                            <br/>
 
-                        </ul>
-                        
-                    </div>
+                            {{#tabcontent}}                    
+                                <div class="tab-pane fade {{#active}}show active{{/active}}" id="{{tab-pane-id}}" role="tabpanel" aria-labelledby="{{tab-pane-id}}-tab">
+                                    
+                                    {{#blockquote}}
+                                        <blockquote class="blockquote">
+                                            <p class="mb-0">{{#blockquote-fontawesome}}<i class="{{blockquote-fontawesome}}"></i>{{/blockquote-fontawesome}} {{blockquote-titre}} </p>
+                                            <footer class="blockquote-footer">
+                                                {{blockquote-footer}} -
+                                                <cite title="Source Title">
+                                                    {{blockquote-cite}}
+                                                </cite>
+                                            </footer>
+                                        </blockquote>
+                                    {{/blockquote}}
+
+                                    {{#tab-pane-ul}}
+                                        {{#tab-pane-h2}}
+                                            <h4>{{tab-pane-h2}}</h4>
+                                        {{/tab-pane-h2}}
+                                        <ul>
+                                            {{#tab-pane-li}}
+                                                <li>{{.}}</li>
+                                            {{/tab-pane-li}}
+                                        </ul>
+                                    {{/tab-pane-ul}}
+                                
+                                </div>
+                            {{/tabcontent}}
+
+                        </div>
+                    {{/tablist}}
+
+                </div>
+
+                <div class="col-md-5 {{#reverse}}order-md-1{{/reverse}}">
+
+                    {{#svg}}
+                        <!--
+                            Source: https://www.w3schools.com/html/html5_svg.asp
+                        -->
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg rounded-circle featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <defs>
+                                <linearGradient id="{{svg-id}}-svg" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:rgb({{svg-stop1-rgb}});stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:rgb({{svg-stop2-rgb}});stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="100%" height="100%" fill="url(#{{svg-id}}-svg)"/>
+                            <text fill="#ffffff" font-size="45" font-family="Verdana" x="25%" y="55%">{{svg-text}}</text>
+                            Votre navigateur ne supporte pas l'affichage des SVG! Veuillez réessayer sur un autre navigateur pour une visite optimale sur ce site!
+                        </svg>
+                    {{/svg}}
 
                 </div>
 
             </div>
 
-            <div class="col-md-5">
-
-                <!--
-                    Source: https://www.w3schools.com/html/html5_svg.asp
-                -->
-                <svg class="bd-placeholder-img bd-placeholder-img-lg rounded-circle featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <defs>
-                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-                        </linearGradient>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#grad1)"/>
-                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="25%" y="55%">M1 Pro</text>
-                    Votre navigateur ne supporte pas l'affichage des SVG! Veuillez réessayer sur un autre navigateur pour une visite optimale sur ce site!
-                </svg>
-
-            </div>
-
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-
-            <div class="col-md-7 order-md-2">
-
-                <h2 class="featurette-heading">
-                    <i class="fas fa-graduation-cap" aria-hidden="true"></i> L3 - Licence Professionnelle Informatique conception, développement et test de logiciels parcours Sécurité de l'Information (LPI SI)
-                    <span class="text-muted">Université Paris-Est Créteil (UPEC) - 2019/ 2020</span>
-                </h2>
-
-                <p class="lead">Dplôme obtenu avec la mention Très Bien.</p>
-
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="l3-pro-alternance-tab" data-bs-toggle="tab" href="#l3-pro-alternance" role="tab" aria-controls="l3-pro-alternance" aria-selected="true">Alternance</a>
-                    </li>
-
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="l3-pro-prog-tab" data-bs-toggle="tab" href="#l3-pro-prog" role="tab" aria-controls="l3-pro-prog" aria-selected="false">Programme</a>
-                    </li>
-
-                </ul>
-
-                <div class="tab-content" id="myTabContent">
-
-                    <br/>
-
-                    <div class="tab-pane fade show active" id="l3-pro-alternance" role="tabpanel" aria-labelledby="l3-pro-alternance-tab">
-                        
-                        <blockquote class="blockquote">
-
-                            <p class="mb-0"><i class="fas fa-briefcase"></i> Direction des Systèmes d'Informations (DSI) </p>
-
-                            <footer class="blockquote-footer">
-                                École Polytechnique -
-                                <cite title="Source Title">
-                                    2019/ 2020
-                                </cite>
-                            </footer>
-
-                        </blockquote>
-                    
-                    </div>
-
-                    <div class="tab-pane fade" id="l3-pro-prog" role="tabpanel" aria-labelledby="l3-pro-prog-tab">
-                    
-                        <p> UE 1 : CONNAISSANCES GENERALES </p>
-
-                        <ul>
-
-                            <li>Expression et communication en anglais</li>
-                            <li>Droit informatique</li>
-                            <li>Expression et communication en français</li>
-                            <li>Intelligence économique</li>
-
-                        </ul>
-
-                        <p> UE 2 : INFORMATIQUE GENERALE </p>
-
-                        <ul>
-
-                            <li>Modèle de conception</li>
-                            <li>Ingénierie du logiciel</li>
-                            <li>Programmation Web</li>
-                            <li>Bases de données avancées</li>
-                            
-                        </ul>
-
-                        <p> UE 3 : INFORMARTIQUE DE LA SPECIALITE </p>
-
-                        <ul>
-
-                            <li>Sécurité des réseaux (Cyber)</li>
-                            <li>Sécurité des réseaux (Applicative)</li>
-                            <li>Programmation Bid data</li>
-                            <li>Réalisation logiciel</li>
-                            <li>Programmation mobile</li>
-                            
-                        </ul>
-
-                        <p> UE 4 : EXPERIENCES PROFESSIONNELLES </p>
-
-                        <ul>
-
-                            <li>Projet tuteurés</li>
-                            <li>Stage / Entreprise</li>
-                            
-                        </ul>
-                        
-                    </div>
-
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                    
-                        ...
-                        
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-5 order-md-1">
-
-                <svg class="bd-placeholder-img bd-placeholder-img-lg rounded-circle featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <defs>
-                        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-                        </linearGradient>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#grad2)"/>
-                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="25%" y="55%">L3 Pro</text>
-                    Votre navigateur ne supporte pas l'affichage des SVG! Veuillez réessayer sur un autre navigateur pour une visite optimale sur ce site!
-                </svg>
-
-            </div>
-
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette w-100 m-1">
-
-            <div class="col-md-7">
-
-                <h2 class="featurette-heading">
-                    <i class="fas fa-graduation-cap" aria-hidden="true"></i> DUT Informatique 
-                    <span class="text-muted">IUT de Villetaneuse (Université Paris 13) - 2016/ 2019</span>
-                </h2>
-
-                <p class="lead">Dplôme obtenu sans mention.</p>
-                
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="stage-tab" data-bs-toggle="tab" href="#stage" role="tab" aria-controls="stage" aria-selected="true">Stage</a>
-                    </li>
-
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="dut-prog-info-tab" data-bs-toggle="tab" href="#dut-prog-info" role="tab" aria-controls="dut-prog-info" aria-selected="false">Progamme (Informatique)</a>
-                    </li>
-
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="dut-prog-autre-tab" data-bs-toggle="tab" href="#dut-prog-autre" role="tab" aria-controls="dut-prog-autre" aria-selected="false">Programme (Autre)</a>
-                    </li>
-
-                </ul>
-
-                <div class="tab-content" id="myTabContent">
-
-                    <br/>
-
-                    <div class="tab-pane fade show active" id="stage" role="tabpanel" aria-labelledby="stage-tab">
-                        
-                        <blockquote class="blockquote">
-
-                            <p class="mb-0"><i class="fas fa-briefcase"></i> Direction Informatique et des Technologies de l'Informations (DITI) </p>
-
-                            <footer class="blockquote-footer">
-                                Mairie d'Aubervilliers -
-                                <cite title="Source Title">
-                                    Avril/ Juin 2019
-                                </cite>
-                            </footer>
-
-                        </blockquote>
-
-                    </div>
-
-                    <div class="tab-pane fade" id="dut-prog-info" role="tabpanel" aria-labelledby="dut-prog-info-tab">
-                        
-                        <p> Systèmes informatiques <p>
-
-                        <ul>
-
-                            <li>Architecture des ordinateurs</li>
-                            <li>Systèmes d'exploitation</li>
-                            <li>Réseaux</li>
-
-                        </ul>
-
-                        <p> Outils et Méthodes du Génie Logiciel <p>
-
-                        <ul>
-
-                            <li>Modélisation avec UML</li>
-                            <li>Génie logiciel</li>
-                            <li>Utilisation de Système de Gestion de Base de Données</li>
-
-                        </ul>
-
-                        <p> Programmation <p>
-
-                        <ul>
-
-                            <li>Méthode de conception et pratique de la programmation</li>
-                            <li>Programmation objet</li>
-                            <li>Programmation web</li>
-
-                        </ul>
-
-                        <p> Projet <p>
-
-                        <ul>
-
-                            <li>Synthèse entre les aspects techniques et méthodologiqes</li>
-                            <li>Travail en équipe</li>
-
-                        </ul>
-                        
-                    </div>
-
-                    <div class="tab-pane fade" id="dut-prog-autre" role="tabpanel" aria-labelledby="dut-prog-autre-tab">
-                    
-                        <p> Mathématiques <p>
-
-                        <ul>
-
-                            <li>Bases mathématiques pour l’informatique : langages et automates, graphes</li>
-                            <li>Algèbre linéaire</li>
-                            <li>Analyse</li>
-                            <li>Modélisation</li>
-                            <li>Probabilités et statistiques</li>
-                            <li>Études de cas</li>
-
-                        </ul>
-
-                        <p> Économie et gestion des organisations <p>
-
-                        <ul>
-
-                            <li>Activités des organisations et processus de gestion</li>
-                            <li>Économie</li>
-                            <li>Méthodes et outils d’aide à la décision</li>
-                            <li>Gestion des systèmes d’informations</li>
-
-                        </ul>
-
-                        <p> Langues, expression et communication </p>
-
-                        <ul>
-
-                            <li>Préparation au travail en groupe</li>
-                            <li>Préparation à la recherche d’emploi</li>
-                            <li>Réflexion sur le rôle de l’informatique dans le monde du travail et dans la société</li>
-                            <li>Acquisition de l’anglais de communication et langue de spécialité (anglais de l’informatique)</li>
-
-                        </ul>
-                        
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-5">
-
-                <svg class="bd-placeholder-img bd-placeholder-img-lg rounded-circle featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <defs>
-                        <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-                        </linearGradient>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#grad3)"/>
-                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="25%" y="55%">DUT</text>
-                    Votre navigateur ne supporte pas l'affichage des SVG! Veuillez réessayer sur un autre navigateur pour une visite optimale sur ce site!
-                </svg>
-
-            </div>
-
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-
-            <div class="col-md-7 order-md-2">
-
-                <h2 class="featurette-heading">
-                    <i class="fas fa-graduation-cap" aria-hidden="true"></i> Baccalauréat Scientifique options Science de l'Ingénieur (SI) et Informatique et Science du Numérique (ISN)
-                    <span class="text-muted">Lycée polyvalent Maximilien Perret - 2015/ 2016</span>
-                </h2>
-                <p class="lead">Dplôme obtenu avec la mention Assez Bien.</p>
-
-            </div>
-
-            <div class="col-md-5 order-md-1">
-
-                <svg class="bd-placeholder-img bd-placeholder-img-lg rounded-circle featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <defs>
-                        <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-                        </linearGradient>
-                    </defs>
-                    <rect width="100%" height="100%" fill="url(#grad4)"/>
-                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="25%" y="55%">BAC S</text>
-                    Votre navigateur ne supporte pas l'affichage des SVG! Veuillez réessayer sur un autre navigateur pour une visite optimale sur ce site!
-                </svg>
-
-            </div>
-
-        </div>
-
-        <hr class="featurette-divider">
-
+            <hr class="featurette-divider">
+        {{/featurette}}
     </div>

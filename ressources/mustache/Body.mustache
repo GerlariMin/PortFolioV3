@@ -1,3 +1,4 @@
+
 {{>Head}}
 
     {{>Navbar}}
@@ -6,9 +7,21 @@
         {{>accueil}}
     {{/accueil}}
 
+    {{#contact}}
+        {{>contact}}
+    {{/contact}}
+
+    {{#cv}}
+        {{>cv}}
+    {{/cv}}
+
     {{#erreur}}
         {{>erreur}}
     {{/erreur}}
+
+    {{#experiences}}
+        {{>experiences}}
+    {{/experiences}}
 
     {{#parcours}}
         {{>parcours}}

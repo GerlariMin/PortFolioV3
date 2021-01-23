@@ -1,0 +1,16 @@
+
+body {
+  text-align: center;
+  background: #01DFA5 url("../../ressources/images/img-001.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  margin-top: -60px;
+  left: 50%;
+  margin-left: -225px;
+}
