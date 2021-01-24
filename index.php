@@ -9,6 +9,10 @@
         https://www.w3schools.com/howto/howto_css_parallax.asp
         https://1stwebdesigner.com/css-text-effects/
     */
+
+    /*
+        Pour gérer les erreurs 404, 403, etc..., voir la mise en place d'un fichier .htaccess
+    */
     
     include("ressources/config/config.inc.php");
     

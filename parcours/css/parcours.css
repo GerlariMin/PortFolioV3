@@ -1,0 +1,16 @@
+
+.alink{
+    color: white;
+    font-weight: bold;
+}
+
+.alink:hover{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.alink .active{
+    color: black;
+    font-weight: bold;
+}
