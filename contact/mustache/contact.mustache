@@ -1,11 +1,42 @@
 
-    <link rel="stylesheet" href="{{chemin}}ressources/css/terminal_text_effect.css"/>
+    <!-- 
+      Terminal Text Effect
+      Source: https://1stwebdesigner.com/css-text-effects/
+    -->
 
-    <div class='console-container'>
+    <!-- Fichier CSS associé -->
+    <link rel="stylesheet" href="css/contact.css"/>
+            
+    <div class="console-container">
+
         <span id='console_text'></span>
+
         <div class='console-underscore' id='console_underscore'>
+
             &#95;
+            
         </div>
+
     </div>
 
-    <script src="{{chemin}}ressources/js/terminal_text_effect.js"></script>
+    <div class="d-flex flex-column bd-highlight" style="position: absolute; top: 50%; left: 0; right: 0;">
+
+        {{#bd-highlight}}
+            <div class="p-2 bd-highlight mb-5">
+
+                <blockquote class="blockquote text-decoration-none text-info text-center">
+                    <p class="mb-0 font-weight-bold"><i class="{{fontawesome}}"></i> {{p-text}}</p>
+                    <footer class="blockquote-footer">
+                        <cite title="Source Title">
+                            <a href="{{footer-href}}" class="text-decoration-none text-info" {{#footer-href-target}}target="_blank"{{/footer-href-target}}> {{footer-text}}</a>
+                        </cite>
+                    </footer>
+                </blockquote>
+
+            </div>
+        {{/bd-highlight}}
+
+    </div>
+
+    <!-- Fichier JavaScript associé -->
+    <script src="js/contact.js"></script>

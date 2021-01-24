@@ -1,5 +1,5 @@
 
-  <div class="h-100 w-100">
+  <div id="cv" class="h-100 w-100">
 
     <!-- 
       Wave Text Effect
@@ -8,7 +8,7 @@
 
     <!-- Fichiers CSS associés -->
     <link href='https://fonts.googleapis.com/css?family=Cabin+Condensed:700' rel='stylesheet' type='text/css'>
-    <link href='css/wave_text_effect.css' rel='stylesheet' type='text/css'>
+    <link href='css/cv.css' rel='stylesheet' type='text/css'>
 
     <a class="h-100 w-100" href="{{chemin}}ressources/pdf/CV.pdf" target="_blank">
 
@@ -23,12 +23,12 @@
         <text id="text" transform="translate(2,116)" font-family="'Cabin Condensed'" font-size="161.047">CV</text>
         
         <mask id="text-mask">
-          <use x="0" y="0" xlink:href="#text" opacity="1" fill="#01DFA5"/>
+          <use x="0" y="0" xlink:href="#text" opacity="1" fill="#ffffff"/>
         </mask>
         
         <g id="eff">
 
-          <use x="0" y="0" xlink:href="#text" fill="#a2a3a5"/>
+          <use x="0" y="0" xlink:href="#text" fill="#FF4000"/>
       
           <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" x="-300" y="50" width="1200" height="120" opacity="0.3">
             <animate attributeType="xml" attributeName="x" from="-300" to="0" repeatCount="indefinite" dur="2s"/>
@@ -46,11 +46,11 @@
             <animate attributeType="xml" attributeName="x" from="-500" to="0" repeatCount="indefinite" dur="2.8s"/>
           </rect>
 
-          </g>
+        </g>
 
       </defs>
     
-        <use xlink:href="#eff" opacity="0.9" style="mix-blend-mode:color-burn"/>
+      <use xlink:href="#eff" opacity="1" style="mix-blend-mode:color-burn"/>
 
     </svg>
     </a>
@@ -61,6 +61,6 @@
     SweetAlert
     Source: https://sweetalert.js.org/
   -->
-  
+
   <script src="{{chemin}}ressources/js/sweetalert.min.js"></script>
   <script src="js/cv.js"></script>

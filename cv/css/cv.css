@@ -1,7 +1,7 @@
 
 body {
   text-align: center;
-  background: #01DFA5 url("../../ressources/images/img-001.jpg") no-repeat;
+  background: #ffffff url("../../ressources/images/img-001.jpg") no-repeat; 
   background-size: cover;
   background-position: 50%;
   height: 100vh;
@@ -13,4 +13,8 @@ svg {
   margin-top: -60px;
   left: 50%;
   margin-left: -225px;
+}
+
+#cv {
+  opacity: 0.9;
 }
