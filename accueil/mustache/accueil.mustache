@@ -11,20 +11,21 @@
 <div class="wrap">
 
     {{#line}}
-    <div class="line" id="line_{{line_id}}">
+        <div class="line" id="line_{{line_id}}">
 
-        <div class="left">
-            <div class="content">
-                <span class="{{line_span_class}}">{{line_left_content}}</span>
+            <div class="left">
+                <div class="content">
+                    <span class="{{line_span_class}}">{{line_left_content}}</span>
+                </div>
+            </div><!-- 
+                ne pas faire de retour charriot en dehors du commentaire (entre left et right) car cela déformera l'animation
+            --><div class="right">
+                <div class="content">
+                    <span class="{{line_span_class}}">{{line_right_content}}</span>
+                </div>
             </div>
-        </div><!-- ne pas faire de retour charriot en dehors du commentaire (en left et right) car cela déformera l'animation
-        --><div class="right">
-            <div class="content">
-                <span class="{{line_span_class}}">{{line_right_content}}</span>
-            </div>
+
         </div>
-
-    </div>
     {{/line}}
 
 </div>

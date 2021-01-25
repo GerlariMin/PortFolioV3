@@ -14,8 +14,20 @@
 
         public function traitement_featurette()
         {
-            return 
+            /*
+                Dans la balise svg, on peut appeler differents motifs.
 
+                Le motif par défaut qui s'appelle ainsi:
+                    "svg-default" =>
+                        [
+                            "svg-stop1-rgb" => "255,0,0", // ou "255,255,0"
+                            "svg-stop2-rgb" => "255,255,0", // ou "255,0,0"
+                        ],
+
+                Les autres motifs s'appellent par:
+                    "nom-du-fichier-svg" => true
+            */
+            return 
             [
                 0 =>
                     [
@@ -117,8 +129,7 @@
                         "svg" =>
                             [
                                 "svg-id" => "master",
-                                "svg-stop1-rgb" => "255,255,0",
-                                "svg-stop2-rgb" => "255,0,0",
+                                "svg-rainbow-vortex" => true,
                                 "svg-text" => "M1 Pro"
                             ]
 
@@ -225,8 +236,7 @@
                         "svg" =>
                             [
                                 "svg-id" => "l3",
-                                "svg-stop1-rgb" => "255,0,0",
-                                "svg-stop2-rgb" => "255,255,0",
+                                "svg-diamond-sunset" => true,
                                 "svg-text" => "L3 Pro"
                             ]
 
@@ -381,8 +391,7 @@
                         "svg" =>
                             [
                                 "svg-id" => "dut",
-                                "svg-stop1-rgb" => "255,255,0",
-                                "svg-stop2-rgb" => "255,0,0",
+                                "svg-rainbow-vortex" => true,
                                 "svg-text" => "DUT"
                             ]
 
@@ -402,8 +411,7 @@
                         "svg" =>
                             [
                                 "svg-id" => "bac",
-                                "svg-stop1-rgb" => "255,255,0",
-                                "svg-stop2-rgb" => "255,0,0",
+                                "svg-diamond-sunset" => true,
                                 "svg-text" => "BAC S"
                             ]
 

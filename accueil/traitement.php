@@ -60,8 +60,8 @@
                     3 => 
                         [
                             'line_id' => "4",
-                            'line_left_content' => "Master M1",
-                            'line_right_content' => "Master M1",
+                            'line_left_content' => "Master M1 Pro",
+                            'line_right_content' => "Master M1 Pro",
                             'line_span_class' => "spanFast"
                         ]
                 ];
