@@ -3,16 +3,24 @@
     class Traitement_Contact
     {
 
-        private $render;
-        private $bdd;
+        private Render $render;
+        private PDO $bdd;
 
+        /**
+         * Traitement_Contact constructor.
+         * @param $print
+         * @param $db
+         */
         public function __construct($print, $db)
         {
             $this->render = $print;
             $this->bdd = $db;
         }
 
-        public function traitement_bd_highlight()
+        /**
+         * @return array[]
+         */
+        public function traitement_bd_highlight(): array
         {
             return
                 [

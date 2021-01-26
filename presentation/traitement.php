@@ -3,9 +3,14 @@
     class Traitement_Presentation
     {
 
-        private $render;
-        private $bdd;
+        private Render $render;
+        private PDO $bdd;
 
+        /**
+         * Traitement_Presentation constructor.
+         * @param $print
+         * @param $db
+         */
         public function __construct($print, $db)
         {
             $this->render = $print;

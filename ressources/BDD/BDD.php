@@ -3,10 +3,23 @@
     class BDD
     {
 
+        /**
+         * @var null
+         */
         private static $instance = null;
 
-        private $pdo;
+        /**
+         * @var PDO
+         */
+        private PDO $pdo;
 
+        /**
+         * BDD constructor.
+         * @param $dsnPDO
+         * @param $usernamePDO
+         * @param $passwordPDO
+         * @param $optionPDO
+         */
         private function __construct($dsnPDO, $usernamePDO, $passwordPDO, $optionPDO)
         {
             //On essaye les instruction dans le bloc try afin de récupérer les exceptions si il y à un problème
@@ -22,12 +35,18 @@
                 $erreur = "Connexion échouée " . $e->getMessage(); //$e.getMessage() permet de connaître le problème exact lors de la connexion
                 //on affiche cette erreur dans le fichier des log
                 error_log($erreur);
-                var_dump($erreur);
             }
     
         }
 
-        public static function get_BDD($dsnPDO, $usernamePDO, $passwordPDO, $optionPDO)
+        /**
+         * @param $dsnPDO
+         * @param $usernamePDO
+         * @param $passwordPDO
+         * @param $optionPDO
+         * @return PDO
+         */
+        public static function get_BDD($dsnPDO, $usernamePDO, $passwordPDO, $optionPDO): PDO
         {            
             //Si la classe n'a pas encore été instanciée
             if (is_null(self::$instance))

@@ -3,17 +3,25 @@
     class Traitement_Accueil
     {
 
-        private $render;
-        private $bdd;
+        private Render $render;
+        private PDO $bdd;
 
+        /**
+         * Traitement_Accueil constructor.
+         * @param $print
+         * @param $db
+         */
         public function __construct($print, $db)
         {
             $this->render = $print;
             $this->bdd = $db;
         }
 
-        // fonction pour une liaison avec une base de données
-        private function traitement_line_bdd()
+        /**
+         * fonction pour une liaison avec une base de données
+         * @return array
+         */
+        private function traitement_line_bdd(): array
         {
             $requete = "SELECT * FROM accueil;";
 
@@ -32,7 +40,10 @@
             return $requete->fetchAll(PDO::FETCH_ASSOC);
         }
 
-        private function traitement_line()
+        /**
+         * @return string[][]
+         */
+        private function traitement_line(): array
         {
             return 
                 [

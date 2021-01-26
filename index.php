@@ -22,42 +22,34 @@
         {
             case 'accueil':
                 header("Location: ./accueil/");
-                exit();
                 break;
 
             case 'competences':
                 header("Location: ./competences/");
-                exit();
                 break;
 
             case 'contact':
                 header("Location: ./contact/");
-                exit();
                 break;
 
             case 'cv':
                 header("Location: ./cv/");
-                exit();
                 break;
 
             case 'experiences':
                 header("Location: ./experiences/");
-                exit();
                 break;
 
             case 'parcours':
                 header("Location: ./parcours/");
-                exit();
                 break;
 
             case 'presentation':
                 header("Location: ./presentation/");
-                exit();
                 break;
 
             default:
                 header("Location: ./erreur/");
-                exit();
                 break;
         }
     }

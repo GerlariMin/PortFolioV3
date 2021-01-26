@@ -2,8 +2,15 @@
 
     class Render
     {
-        private $mustache;
+        /**
+         * @var Mustache_Engine
+         */
+        private Mustache_Engine $mustache;
 
+        /**
+         * Render constructor.
+         * @param string $chemin
+         */
         public function __construct($chemin = "")
         {
             $this->mustache = new Mustache_Engine(

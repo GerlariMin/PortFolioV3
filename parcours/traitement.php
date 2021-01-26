@@ -3,16 +3,24 @@
     class Traitement_Parcours
     {
 
-        private $render;
-        private $bdd;
+        private Render $render;
+        private PDO $bdd;
 
+        /**
+         * Traitement_Parcours constructor.
+         * @param $print
+         * @param $db
+         */
         public function __construct($print, $db)
         {
             $this->render = $print;
             $this->bdd = $db;
         }
 
-        public function traitement_featurette()
+        /**
+         * @return array[]
+         */
+        public function traitement_featurette(): array
         {
             /*
                 Dans la balise svg, on peut appeler differents motifs.
@@ -129,7 +137,8 @@
                         "svg" =>
                             [
                                 "svg-id" => "master",
-                                "svg-rainbow-vortex" => true,
+                                "svg-subbtle-prism" => true,
+                                "svg-text-color" => "FF4000",
                                 "svg-text" => "M1 Pro"
                             ]
 
@@ -236,7 +245,8 @@
                         "svg" =>
                             [
                                 "svg-id" => "l3",
-                                "svg-diamond-sunset" => true,
+                                "svg-rainbow-vortex" => true,
+                                "svg-text-color" => "ffffff",
                                 "svg-text" => "L3 Pro"
                             ]
 
@@ -391,7 +401,8 @@
                         "svg" =>
                             [
                                 "svg-id" => "dut",
-                                "svg-rainbow-vortex" => true,
+                                "svg-subbtle-prism" => true,
+                                "svg-text-color" => "FF4000",
                                 "svg-text" => "DUT"
                             ]
 
@@ -411,7 +422,8 @@
                         "svg" =>
                             [
                                 "svg-id" => "bac",
-                                "svg-diamond-sunset" => true,
+                                "svg-rainbow-vortex" => true,
+                                "svg-text-color" => "ffffff",
                                 "svg-text" => "BAC S"
                             ]
 

@@ -3,9 +3,14 @@
     class Traitement_Erreur
     {
 
-        private $render;
-        private $bdd;
+        private Render $render;
+        private PDO $bdd;
 
+        /**
+         * Traitement_Erreur constructor.
+         * @param $print
+         * @param $db
+         */
         public function __construct($print, $db)
         {
             $this->render = $print;
