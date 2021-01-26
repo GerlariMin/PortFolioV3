@@ -1,0 +1,59 @@
+
+    <div class="container marketing mt-5">
+
+        <div class="row">
+
+            {{#programmation}}
+            <div class="col-lg-4">
+
+                <img class="bd-placeholder-img rounded-circle mb-2" src="../ressources/images/img-001.jpg" alt="Girl in a jacket" width="140" height="140">
+
+                <h2 class="mb-5">{{programmation-titre}}</h2>
+                {{#programmation-blockquotes}}
+                <blockquote class="blockquote">
+                    <p class="mb-0"><i class="{{programmation-blockquotes-fontawesome}}"></i> {{programmation-blockquotes-text}}</p>
+                    <footer class="blockquote-footer">
+                        {{#programmation-blockquotes-footer-niveau}}{{programmation-blockquotes-footer-niveau}}{{/programmation-blockquotes-footer-niveau}} {{#programmation-blockquotes-footer-apprentissage}}- {{programmation-blockquotes-footer-apprentissage}}{{/programmation-blockquotes-footer-apprentissage}}
+                    </footer>
+                </blockquote>
+                {{/programmation-blockquotes}}
+            </div>
+            {{/programmation}}
+            <!-- /.col-lg-4 -->
+            {{#conception}}
+            <div class="col-lg-4">
+
+                <img class="bd-placeholder-img rounded-circle mb-2" src="../ressources/images/img-001.jpg" alt="Girl in a jacket" width="140" height="140">
+
+                <h2 class="mb-5">{{conception-titre}}</h2>
+                {{#conception-blockquotes}}
+                    <blockquote class="blockquote">
+                        <p class="mb-0"><i class="{{conception-blockquotes-fontawesome}}"></i> {{conception-blockquotes-text}}</p>
+                        <footer class="blockquote-footer">
+                            {{#conception-blockquotes-footer-niveau}}{{conception-blockquotes-footer-niveau}} -{{/conception-blockquotes-footer-niveau}}{{#conception-blockquotes-footer-apprentissage}}{{conception-blockquotes-footer-apprentissage}} {{/conception-blockquotes-footer-apprentissage}}
+                        </footer>
+                    </blockquote>
+                {{/conception-blockquotes}}
+            </div>
+            {{/conception}}
+            <!-- /.col-lg-4 -->
+            {{#langues}}
+            <div class="col-lg-4">
+
+                <img class="bd-placeholder-img rounded-circle mb-2" src="../ressources/images/img-001.jpg" alt="Girl in a jacket" width="140" height="140">
+
+                <h2 class="mb-5">{{langues-titre}}</h2>
+                {{#langues-blockquotes}}
+                    <blockquote class="blockquote">
+                        <p class="mb-0"><i class="{{langues-blockquotes-fontawesome}}"></i> {{langues-blockquotes-text}}</p>
+                        <footer class="blockquote-footer">
+                            {{#langues-blockquotes-footer-niveau}}{{langues-blockquotes-footer-niveau}}{{/langues-blockquotes-footer-niveau}} {{#langues-blockquotes-footer-apprentissage}}- {{langues-blockquotes-footer-apprentissage}}{{/langues-blockquotes-footer-apprentissage}}
+                        </footer>
+                    </blockquote>
+                {{/langues-blockquotes}}
+            </div>
+            {{/langues}}
+            <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+    </div>
