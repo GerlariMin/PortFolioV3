@@ -50,80 +50,108 @@
                                 ],
                             3 =>
                                 [
+                                    "programmation-blockquotes-fontawesome" => "fas fa-code",
+                                    "programmation-blockquotes-text" => "C/ C++",
+                                    "programmation-blockquotes-footer-niveau" => "Intermédiaire",
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT, M1 Pro)"
+                                ],
+                            4 =>
+                                [
+                                    "programmation-blockquotes-fontawesome" => "fas fa-terminal",
+                                    "programmation-blockquotes-text" => "Cordova",
+                                    "programmation-blockquotes-footer-niveau" => "Intermédiaire",
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (L3 Pro)"
+                                ],
+                            5 =>
+                                [
                                     "programmation-blockquotes-fontawesome" => "fab fa-css3-alt",
                                     "programmation-blockquotes-text" => "CSS",
                                     "programmation-blockquotes-footer-niveau" => "Bon niveau",
                                     "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT)"
                                 ],
-                            4 =>
+                            6 =>
+                                [
+                                    "programmation-blockquotes-fontawesome" => "fas fa-code",
+                                    "programmation-blockquotes-text" => "C#",
+                                    "programmation-blockquotes-footer-niveau" => "Notions",
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
+                                ],
+                            7 =>
+                                [
+                                    "programmation-blockquotes-fontawesome" => "fab fa-github-square",
+                                    "programmation-blockquotes-text" => "GitHub",
+                                    "programmation-blockquotes-footer-niveau" => "Bon niveau",
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT, L3 Pro, M1 Pro)"
+                                ],
+                            8 =>
                                 [
                                     "programmation-blockquotes-fontawesome" => "fab fa-html5",
                                     "programmation-blockquotes-text" => "HTML",
                                     "programmation-blockquotes-footer-niveau" => "Avancé",
                                     "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT, L3 Pro)"
                                 ],
-                            5 =>
+                            9 =>
                                 [
                                     "programmation-blockquotes-fontawesome" => "fab fa-java",
                                     "programmation-blockquotes-text" => "Java",
                                     "programmation-blockquotes-footer-niveau" => "Avancé",
                                     "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT, L3 Pro, M1 Pro)"
                                 ],
-                            6 =>
+                            10 =>
                                 [
                                     "programmation-blockquotes-fontawesome" => "fab fa-js",
                                     "programmation-blockquotes-text" => "JavaScript",
                                     "programmation-blockquotes-footer-niveau" => "Bon niveau",
                                     "programmation-blockquotes-footer-apprentissage" => false
                                 ],
-                            7 =>
+                            11 =>
                                 [
                                     "programmation-blockquotes-fontawesome" => "fas fa-code",
                                     "programmation-blockquotes-text" => "Mustache",
                                     "programmation-blockquotes-footer-niveau" => "Bon niveau",
                                     "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (L3 Pro, M1 Pro)"
                                 ],
-                            8 =>
+                            12 =>
+                                [
+                                    "programmation-blockquotes-fontawesome" => "fas fa-code",
+                                    "programmation-blockquotes-text" => "OCaml",
+                                    "programmation-blockquotes-footer-niveau" => "Notions",
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (M1 Pro)"
+                                ],
+                            13 =>
                                 [
                                     "programmation-blockquotes-fontawesome" => "fab fa-php",
                                     "programmation-blockquotes-text" => "PHP",
                                     "programmation-blockquotes-footer-niveau" => "Avancé",
                                     "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT, L3 Pro, M1 Pro)"
                                 ],
-                            9 =>
+                            14 =>
                                 [
-                                    "programmation-blockquotes-fontawesome" => "fas fa-code",
-                                    "programmation-blockquotes-text" => "Mustache",
+                                    "programmation-blockquotes-fontawesome" => "fab fa-python",
+                                    "programmation-blockquotes-text" => "Python",
                                     "programmation-blockquotes-footer-niveau" => "Bon niveau",
-                                    "programmation-blockquotes-footer-apprentissage" => false
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT, M1 Pro)"
                                 ],
-                            10 =>
+                            15 =>
                                 [
-                                    "programmation-blockquotes-fontawesome" => "fas fa-terminal",
-                                    "programmation-blockquotes-text" => "Bash",
-                                    "programmation-blockquotes-footer-niveau" => "Intermédiaire",
-                                    "programmation-blockquotes-footer-apprentissage" => false
+                                    "programmation-blockquotes-fontawesome" => "fab fa-react",
+                                    "programmation-blockquotes-text" => "React Native",
+                                    "programmation-blockquotes-footer-niveau" => "Bases",
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage autodidacte)"
                                 ],
-                            11 =>
+                            16 =>
                                 [
-                                    "programmation-blockquotes-fontawesome" => "fas fa-terminal",
-                                    "programmation-blockquotes-text" => "Bash",
-                                    "programmation-blockquotes-footer-niveau" => "Intermédiaire",
-                                    "programmation-blockquotes-footer-apprentissage" => false
+                                    "programmation-blockquotes-fontawesome" => "fas fa-database",
+                                    "programmation-blockquotes-text" => "SQL/ PlPgSQL",
+                                    "programmation-blockquotes-footer-niveau" => "Bon niveau",
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT, L3 Pro, M1 Pro)"
                                 ],
-                            12 =>
+                            17 =>
                                 [
-                                    "programmation-blockquotes-fontawesome" => "fas fa-terminal",
-                                    "programmation-blockquotes-text" => "Bash",
-                                    "programmation-blockquotes-footer-niveau" => "Intermédiaire",
-                                    "programmation-blockquotes-footer-apprentissage" => false
-                                ],
-                            13 =>
-                                [
-                                    "programmation-blockquotes-fontawesome" => "fas fa-terminal",
-                                    "programmation-blockquotes-text" => "Bash",
-                                    "programmation-blockquotes-footer-niveau" => "Intermédiaire",
-                                    "programmation-blockquotes-footer-apprentissage" => false
+                                    "programmation-blockquotes-fontawesome" => "fas fa-database",
+                                    "programmation-blockquotes-text" => "SQLite",
+                                    "programmation-blockquotes-footer-niveau" => "Bon niveau",
+                                    "programmation-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors du cursus (DUT, L3 Pro, M1 Pro)"
                                 ]
                         ]
                 ];
@@ -136,71 +164,43 @@
         {
             return
                 [
-                    "conception-titre" => "Conception / Logiciel",
+                    "conception-titre" => "Conception",
                     "conception-blockquotes" =>
                         [
                             0 =>
                                 [
-                                    "conception-blockquotes-fontawesome" => "fas fa-laptop-code",
-                                    "conception-blockquotes-text" => "Atom",
+                                    "conception-blockquotes-fontawesome" => "fas fa-calendar-week",
+                                    "conception-blockquotes-text" => "GANTT",
                                     "conception-blockquotes-footer-niveau" => false,
-                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
+                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT)"
                                 ],
                             1 =>
-                                [
-                                    "conception-blockquotes-fontawesome" => "fab fa-android",
-                                    "conception-blockquotes-text" => "Android Studio",
-                                    "conception-blockquotes-footer-niveau" => false,
-                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT)"
-                                ],
-                            2 =>
-                                [
-                                    "conception-blockquotes-fontawesome" => "fas fa-laptop-code",
-                                    "conception-blockquotes-text" => "CoqIDE",
-                                    "conception-blockquotes-footer-niveau" => false,
-                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (M1 Pro)"
-                                ],
-                            3 =>
-                                [
-                                    "conception-blockquotes-fontawesome" => "fas fa-laptop-code",
-                                    "conception-blockquotes-text" => "Diagrammes (cas d'utilisation, PERT, GANTT)",
-                                    "conception-blockquotes-footer-niveau" => false,
-                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT)"
-                                ],
-                            4 =>
-                                [
-                                    "conception-blockquotes-fontawesome" => "fas fa-laptop-code",
-                                    "conception-blockquotes-text" => "Eclipse",
-                                    "conception-blockquotes-footer-niveau" => false,
-                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT, L3 Pro, M1 Pro)"
-                                ],
-                            5 =>
                                 [
                                     "conception-blockquotes-fontawesome" => "fas fa-laptop-code",
                                     "conception-blockquotes-text" => "Modèle-Vue-Contrôleur (MVC)",
                                     "conception-blockquotes-footer-niveau" => false,
                                     "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT)"
                                 ],
-                            6 =>
+                            2 =>
                                 [
                                     "conception-blockquotes-fontawesome" => "fas fa-laptop-code",
-                                    "conception-blockquotes-text" => "PHPStorm",
+                                    "conception-blockquotes-text" => "Orienté objet",
                                     "conception-blockquotes-footer-niveau" => false,
-                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (L3 Pro, M1 Pro)"
+                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT, L3 Pro, M1 Pro)"
                                 ],
-                            7 =>
+                            3 =>
                                 [
-                                    "conception-blockquotes-fontawesome" => "fab fa-windows",
-                                    "conception-blockquotes-text" => "Visual Studio",
+                                    "conception-blockquotes-fontawesome" => "fas fa-project-diagram",
+                                    "conception-blockquotes-text" => "PERT",
                                     "conception-blockquotes-footer-niveau" => false,
-                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
+                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT)"
                                 ],
-                            8 =>
+                            4 =>
                                 [
-                                    "conception-blockquotes-fontawesome" => "fab fa-windows",
-                                    "conception-blockquotes-text" => "Visual Studio Code",
+                                    "conception-blockquotes-fontawesome" => "fas fa-project-diagram",
+                                    "conception-blockquotes-text" => "UML",
                                     "conception-blockquotes-footer-niveau" => false,
-                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
+                                    "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT)"
                                 ]
                         ]
                 ];
@@ -213,22 +213,85 @@
         {
             return
                 [
-                    "langues-titre" => "Langues",
-                    "langues-blockquotes" =>
+                    "ide-titre" => "IDE",
+                    "ide-blockquotes" =>
                         [
                             0 =>
                                 [
-                                    "langues-blockquotes-fontawesome" => "fas fa-language",
-                                    "langues-blockquotes-text" => "Anglais",
-                                    "langues-blockquotes-footer-niveau" => "Opérationnel",
-                                    "langues-blockquotes-footer-apprentissage" => false
+                                    "ide-blockquotes-fontawesome" => "fas fa-laptop-code",
+                                    "ide-blockquotes-text" => "Anaconda",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
                                 ],
                             1 =>
                                 [
-                                    "langues-blockquotes-fontawesome" => "fas fa-language",
-                                    "langues-blockquotes-text" => "Espagnol",
-                                    "langues-blockquotes-footer-niveau" => "Débutant",
-                                    "langues-blockquotes-footer-apprentissage" => false
+                                    "ide-blockquotes-fontawesome" => "fab fa-android",
+                                    "ide-blockquotes-text" => "Android Studio",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT)"
+                                ],
+                            2 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fas fa-atom",
+                                    "ide-blockquotes-text" => "Atom",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
+                                ],
+                            3 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fas fa-laptop-code",
+                                    "ide-blockquotes-text" => "CoqIDE",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (M1 Pro)"
+                                ],
+                            4 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fas fa-laptop-code",
+                                    "ide-blockquotes-text" => "Eclipse",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT, L3 Pro, M1 Pro)"
+                                ],
+                            5 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fas fa-calendar-week",
+                                    "ide-blockquotes-text" => "GanttProject",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT, L3 Pro, M1 Pro)"
+                                ],
+                            6 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fab fa-git-alt",
+                                    "ide-blockquotes-text" => "Git Bash",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT, L3 Pro, M1 Pro)"
+                                ],
+                            7 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fas fa-laptop-code",
+                                    "ide-blockquotes-text" => "PHPStorm",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (L3 Pro, M1 Pro)"
+                                ],
+                            8 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fab fa-windows",
+                                    "ide-blockquotes-text" => "Visual Studio",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
+                                ],
+                            9 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fab fa-windows",
+                                    "ide-blockquotes-text" => "Visual Studio Code",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
+                                ],
+                            10 =>
+                                [
+                                    "ide-blockquotes-fontawesome" => "fas fa-server",
+                                    "ide-blockquotes-text" => "Wampserver",
+                                    "ide-blockquotes-footer-niveau" => false,
+                                    "ide-blockquotes-footer-apprentissage" => "Apprentissage autodidacte"
                                 ]
                         ]
                 ];
@@ -238,7 +301,7 @@
         {
             $data['programmation'] = $this->traitement_blockquote_programmation();
             $data['conception'] = $this->traitement_blockquote_conception();
-            $data['langues'] = $this->traitement_blockquote_langues();
+            $data['ide'] = $this->traitement_blockquote_langues();
 
             $data['chemin'] = "../";
             $data['competences'] = true;
