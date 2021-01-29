@@ -1,0 +1,44 @@
+
+    <div class="container marketing mt-5 mb-5 border border-start border-end border-white border-bottom-0 border-top-0">
+
+        <div class="accordion" id="accordionExperiences">
+
+            {{#arccordion-item}}
+            <div class="card bg-light">
+
+                <div class="card-header" id="header-{{header-id}}" data-toggle="collapse" data-target="#collapse-{{collapse-id}}" aria-expanded="true" aria-controls="collapse-{{collapse-id}}">
+
+                    <h2 class="mb-0">
+                        <button type="button" class="btn btn-link accordion-button collapsed text-decoration-none text-dark">
+                            <i class="{{header-fontawesome}}"></i> {{header-titre}} {{#accordion-span}}<span id="badge-collapse-{{collapse-id}}" class="badge badge-info"></span>{{/accordion-span}}
+                        </button>
+                    </h2>
+
+                </div>
+
+                <div id="collapse-{{collapse-id}}" class="collapse show bg-transparent text-white" aria-labelledby="header-{{header-id}}" data-parent="#accordionExperiences">
+
+                    <div class="card-body bg-dark">
+
+                        {{#blockquote}}
+                        <blockquote class="blockquote">
+                        <p class="mb-0"><i class="{{blockquote-fontawesome}}"></i> {{blockquote-text}} {{#blockquote-text-a}}<a href="{{blockquote-text-a-href}}" alt="{{blockquote-text-a-alt}}" data-toggle="tooltip" data-placement="top" title="{{blockquote-text-a-tooltip}}"><i class="fas fa-info-circle"></i></a> {{/blockquote-text-a}}</p>
+                            <footer class="blockquote-footer">
+                                {{blockquote-footer}}
+                                {{#blockquote-footer-cite}}
+                                    - <cite title="Source Title">{{blockquote-footer-cite}}</cite>
+                                {{/blockquote-footer-cite}}
+                            </footer>
+                        </blockquote>
+                        {{/blockquote}}
+
+                    </div>
+
+                </div>
+
+            </div>
+            {{/arccordion-item}}
+
+        </div>
+
+    </div>

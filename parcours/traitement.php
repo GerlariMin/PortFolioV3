@@ -140,8 +140,8 @@
                                 "svg-subbtle-prism" => true,
                                 "svg-text-color" => "FF4000",
                                 "svg-text" => "M1 Pro"
-                            ]
-
+                            ],
+                        "divider" => true
                     ],
 
                 1 =>
@@ -248,8 +248,8 @@
                                 "svg-rainbow-vortex" => true,
                                 "svg-text-color" => "ffffff",
                                 "svg-text" => "L3 Pro"
-                            ]
-
+                            ],
+                        "divider" => true
                     ],
 
                 2 =>
@@ -404,8 +404,8 @@
                                 "svg-subbtle-prism" => true,
                                 "svg-text-color" => "FF4000",
                                 "svg-text" => "DUT"
-                            ]
-
+                            ],
+                        "divider" => true
                     ],
 
                 3 =>
@@ -425,8 +425,8 @@
                                 "svg-rainbow-vortex" => true,
                                 "svg-text-color" => "ffffff",
                                 "svg-text" => "BAC S"
-                            ]
-
+                            ],
+                        "divider" => false
                 ]
 
             ];

@@ -1,9 +1,11 @@
 
     <link rel="stylesheet" href="css/parcours.css"/>
 
-    <div class="mt-1 mb-1 container marketing border border-start border-end border-white border-bottom-0 border-top-0">
+    <div class="container marketing mt-5 mb-5 border border-start border-end border-white border-bottom-0 border-top-0">
 
-        <hr class="featurette-divider">
+        <!--
+            <hr class="featurette-divider">
+        -->
 
         {{#featurette}}
             <div class="row featurette w-100 m-1">
@@ -139,6 +141,8 @@
 
             </div>
 
-            <hr class="featurette-divider">
+            {{#divider}}
+                <hr class="featurette-divider bg-white">
+            {{/divider}}
         {{/featurette}}
     </div>

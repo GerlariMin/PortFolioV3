@@ -176,14 +176,14 @@
                                 ],
                             1 =>
                                 [
-                                    "conception-blockquotes-fontawesome" => "fas fa-laptop-code",
+                                    "conception-blockquotes-fontawesome" => "fas fa-digital-tachograph",
                                     "conception-blockquotes-text" => "Modèle-Vue-Contrôleur (MVC)",
                                     "conception-blockquotes-footer-niveau" => false,
                                     "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT)"
                                 ],
                             2 =>
                                 [
-                                    "conception-blockquotes-fontawesome" => "fas fa-laptop-code",
+                                    "conception-blockquotes-fontawesome" => "fas fa-digital-tachograph",
                                     "conception-blockquotes-text" => "Orienté objet",
                                     "conception-blockquotes-footer-niveau" => false,
                                     "conception-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (DUT, L3 Pro, M1 Pro)"
@@ -267,7 +267,7 @@
                                 ],
                             7 =>
                                 [
-                                    "ide-blockquotes-fontawesome" => "fas fa-laptop-code",
+                                    "ide-blockquotes-fontawesome" => "fab fa-php",
                                     "ide-blockquotes-text" => "PHPStorm",
                                     "ide-blockquotes-footer-niveau" => false,
                                     "ide-blockquotes-footer-apprentissage" => "Apprentissage approfondi lors de mon cursus (L3 Pro, M1 Pro)"
@@ -297,7 +297,7 @@
                 ];
         }
 
-        public function traitement_toRender()
+        public function traitement_toRender(): void
         {
             $data['programmation'] = $this->traitement_blockquote_programmation();
             $data['conception'] = $this->traitement_blockquote_conception();
