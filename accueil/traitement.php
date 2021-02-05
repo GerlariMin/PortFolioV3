@@ -57,8 +57,8 @@
                     1 => 
                         [
                             'line_id' =>  "2",
-                            'line_left_content' => "Alternant / Développeur",
-                            'line_right_content' => "Alternant / Développeur",
+                            'line_left_content' => "Alternant Développeur",
+                            'line_right_content' => "Alternant Développeur",
                             'line_span_class' => "spanFast"
                         ],
                     2 => 

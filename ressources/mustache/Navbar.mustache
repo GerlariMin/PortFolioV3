@@ -5,7 +5,7 @@
 
             <b>
                 <a class="navbar-brand" href="{{chemin}}accueil/" style="padding-right: 1.5em; border-right: 1px solid;">
-                    Navbar
+                    Accueil
                 </a>
             </b>
 
@@ -18,28 +18,25 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{chemin}}presentation/">Présentation</a>
+                        <a class="nav-link {{#presentation}}active{{/presentation}}" aria-current="page" href="{{chemin}}presentation/">Présentation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{chemin}}parcours/">Parcours</a>
+                        <a class="nav-link {{#parcours}}active{{/parcours}}" href="{{chemin}}parcours/">Parcours</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{chemin}}experiences/">Expériences</a>
+                        <a class="nav-link {{#experiences}}active{{/experiences}}" href="{{chemin}}experiences/">Expériences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{chemin}}competences/">Compétences</a>
+                        <a class="nav-link {{#competences}}active{{/competences}}" href="{{chemin}}competences/">Compétences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{chemin}}contact/">Contact</a>
+                        <a class="nav-link {{#contact}}active{{/contact}}" href="{{chemin}}contact/">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{chemin}}cv/">CV</a>
+                        <a class="nav-link {{#cv}}active{{/cv}}" href="{{chemin}}cv/">CV</a>
                     </li>
 
                 </ul>
-                <span class="navbar-text">
-                     Navbar-Text
-                </span>
 
             </div>
 

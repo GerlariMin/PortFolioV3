@@ -21,20 +21,35 @@
 
     <div class="d-flex flex-column bd-highlight" style="position: absolute; top: 50%; left: 0; right: 0;">
 
-        {{#bd-highlight}}
-            <div class="p-2 bd-highlight mb-5">
+        <div class="container marketing h-100">
 
-                <blockquote class="blockquote text-decoration-none text-info text-center">
-                    <p class="mb-0 font-weight-bold"><i class="{{fontawesome}}"></i> {{p-text}}</p>
-                    <footer class="blockquote-footer">
-                        <cite title="Source Title">
-                            <a href="{{footer-href}}" class="text-decoration-none text-info" {{#footer-href-target}}target="_blank"{{/footer-href-target}}> {{footer-text}}</a>
-                        </cite>
-                    </footer>
-                </blockquote>
+            <div class="row">
+                {{#card}}
+                <div class="col-lg-6">
 
+                    <div class="card bg-dark border-light">
+
+                        <div class="card-body bg-transparent">
+                            {{#card-h5}}
+                                <b>
+                                    <h5 class="card-title"><i class="{{card-h5-fontawesome}}"></i> {{card-h5-text}}</h5>
+                                </b>
+                            {{/card-h5}}
+                            {{#card-p}}
+                                <p class="card-text">{{card-p-text}}</p>
+                            {{/card-p}}
+                            {{#card-btn}}
+                                <a href="{{card-btn-href}}" class="btn btn-outline-{{card-btn-color}}" style="display: block; margin: auto;" {{#card-btn-target}}target="_blank"{{/card-btn-target}}>{{card-btn-text}}</a>
+                            {{/card-btn}}
+                        </div>
+
+                    </div>
+
+                </div>
+                {{/card}}
             </div>
-        {{/bd-highlight}}
+
+        </div>
 
     </div>
 
