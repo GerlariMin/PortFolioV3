@@ -17,9 +17,13 @@
             $this->bdd = $db;
         }
 
+        /**
+         * @param $date
+         * @return false|int|string
+         */
         public function traitement_age($date)
         {
-            $age = date('Y') - $date;
+            $age = (int) date('Y') - (int) $date;
 
             if (date('md') < date('md', strtotime($date)))
             {
@@ -29,6 +33,9 @@
             return $age;
         }
 
+        /**
+         * @return array
+         */
         public function traitement_caroussel()
         {
             return
@@ -104,13 +111,17 @@
                 ];
         }
 
+        /**
+         * @return string[][]
+         */
         public function traitement_accroche()
         {
+            $age_courant = $this->traitement_age('1997-03-27');
             return
                 [
                     "accroche-p" =>
                         [
-                            0 => "Bonjour, je suis Morgan MINBIELLE, étudiant en Master Informatique Professionnel (parcours logiciels sûrs), en alternance au sein de la DSI de l'École Polytechnique.",
+                            0 => "Bonjour, je suis Morgan MINBIELLE, " . $age_courant . " ans, étudiant en Master Informatique Professionnel (parcours logiciels sûrs), en alternance au sein de la DSI de l'École Polytechnique.",
                             1 => "Je suis diplômé d'une Licence Professionnelle Informatique (parcours sécurité des données), obtennu à l'UPEC et d'un DUT Informatique venant de l'IUT de Villetaneuse.",
                             2 => "Mon parcours d'études reflète mon intérêt pour le développement informatique en général (Web ou applicatif) et la façon dont on sécurise les programmes codés.",
                             3 => "Grâce au stage de DUT et au choix des formations professionnelles (Licence et Master), j'ai pu mettre en pratique mes connaissances et compétences et en acquérir de nouvelles au sein d'une équipe.",
@@ -121,6 +132,9 @@
                 ];
         }
 
+        /**
+         * @return array[]
+         */
         public function traitement_featurette()
         {
             return
@@ -181,6 +195,9 @@
                 ];
         }
 
+        /**
+         * @return string[][][]
+         */
         public function traitement_gallerie()
         {
             return

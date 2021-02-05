@@ -18,6 +18,7 @@
                     'loader' => new Mustache_Loader_CascadingLoader(
                         [
                             new Mustache_Loader_FilesystemLoader($chemin . 'ressources/mustache'),
+                            new Mustache_Loader_FilesystemLoader($chemin . 'ressources/mustache/svg'),
                             new Mustache_Loader_FilesystemLoader($chemin . 'accueil/mustache'),
                             new Mustache_Loader_FilesystemLoader($chemin . 'competences/mustache'),
                             new Mustache_Loader_FilesystemLoader($chemin . 'contact/mustache'),
