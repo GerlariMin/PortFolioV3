@@ -4,17 +4,18 @@
     {
 
         private Render $render;
-        private PDO $bdd;
+        private $config;
 
         /**
          * Traitement_Competences constructor.
          * @param $print
          * @param $db
          */
-        public function __construct($print, $db)
+        public function __construct($print)
         {
             $this->render = $print;
-            $this->bdd = $db;
+            global $config;
+            $this->config = $config;
         }
 
         /**
@@ -303,7 +304,7 @@
             $data['conception'] = $this->traitement_blockquote_conception();
             $data['ide'] = $this->traitement_blockquote_langues();
 
-            $data['chemin'] = "../";
+            $data['chemin'] = $this->config['variables']['chemin'];
             $data['competences'] = true;
             
             $this->render->action_render($data);

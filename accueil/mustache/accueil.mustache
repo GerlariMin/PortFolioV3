@@ -1,34 +1,41 @@
 
-<!--
-    "Sliding Text Effect"
-    Source: https://1stwebdesigner.com/css-text-effects/
--->
+    <!--
+        Bienvenue sur mon PortFolio !
+        Si vous êtes ici, c'est que vous êtes à la recherche d'éléments précis dans le code, ça tombe bien, chaque page utilisant des effets visuels contient la source dans les commentaires HTML pour vous permettre de les retrouver !
+        Bonne visite à vous,
+        Morgan MIBIELLE.
+    -->
 
-<!-- Fichier CSS associé -->
-<link rel="stylesheet" href="css/accueil.css"/>
+    <!--
+        "Sliding Text Effect"
+        Source: https://1stwebdesigner.com/css-text-effects/
+    -->
 
-<!-- Code HTML -->
-<div class="wrap">
+    <!-- Fichier CSS associé -->
+    <link rel="stylesheet" href="css/accueil.css"/>
 
-    {{#line}}
-        <div class="line" id="line_{{line_id}}">
+    <!-- Code HTML -->
+    <div class="wrap">
 
-            <div class="left">
-                <div class="content">
-                    <span class="{{line_span_class}}">{{line_left_content}}</span>
+        {{#line}}
+            <div class="line" id="line_{{line_id}}">
+
+                <div class="left">
+                    <div class="content">
+                        <span class="{{line_span_class}}">{{line_left_content}}</span>
+                    </div>
+                </div><!--
+                    Ne pas faire de retour charriot en dehors du commentaire (entre la div left et right), car cela déformera l'animation.
+                --><div class="right">
+                    <div class="content">
+                        <span class="{{line_span_class}}">{{line_right_content}}</span>
+                    </div>
                 </div>
-            </div><!-- 
-                ne pas faire de retour charriot en dehors du commentaire (entre left et right) car cela déformera l'animation
-            --><div class="right">
-                <div class="content">
-                    <span class="{{line_span_class}}">{{line_right_content}}</span>
-                </div>
+
             </div>
+        {{/line}}
 
-        </div>
-    {{/line}}
+    </div>
 
-</div>
-
-<!-- Fichier JavaScript associé -->
-<script src="js/accueil.js"></script>
+    <!-- Fichier JavaScript associé -->
+    <script src="js/accueil.js"></script>

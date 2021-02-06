@@ -1,0 +1,7 @@
+
+options -indexes
+
+ErrorDocument 401 http://localhost/Chantier/erreur/index.php?erreur=401
+ErrorDocument 403 http://localhost/Chantier/erreur/index.php?erreur=403
+ErrorDocument 404 http://localhost/Chantier/erreur/index.php?erreur=404
+ErrorDocument 500 http://localhost/Chantier/erreur/index.php?erreur=500

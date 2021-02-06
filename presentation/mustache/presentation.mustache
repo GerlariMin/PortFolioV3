@@ -1,107 +1,113 @@
 
-<!-- https://getbootstrap.com/docs/5.0/examples/carousel/ -->
-{{#carousel}}
-<div id="{{carousel-id}}" class="carousel slide {{#carousel-fade}}carousel-fade {{/carousel-fade}}mb-5" data-bs-ride="carousel">
+    <!--
+        Bootstrap Carousel
+        Source: https://getbootstrap.com/docs/5.0/components/carousel/
+        Disposition de la page basée sur l'exemple "Carousel" des exemples Bootstrap
+        Source: https://getbootstrap.com/docs/5.0/examples/carousel/
+    -->
+    {{#carousel}}
+    <div id="{{carousel-id}}" class="carousel slide {{#carousel-fade}}carousel-fade {{/carousel-fade}}mb-5" data-bs-ride="carousel">
 
-    <ol class="carousel-indicators">
-        {{#carousel-indicators}}
-            <li data-bs-target="#{{carousel-id}}" data-bs-slide-to="{{slide-to}}" class="{{#active}}active{{/active}}"></li>
-        {{/carousel-indicators}}
-    </ol>
+        <ol class="carousel-indicators">
+            {{#carousel-indicators}}
+                <li data-bs-target="#{{carousel-id}}" data-bs-slide-to="{{slide-to}}" class="{{#active}}active{{/active}}"></li>
+            {{/carousel-indicators}}
+        </ol>
 
-    <div class="carousel-inner">
-        {{#carousel-items}}
-        <div class="carousel-item {{#active}}active{{/active}}" {{#data-bs-interval}}data-bs-interval="{{data-bs-interval}}"{{/data-bs-interval}}>
+        <div class="carousel-inner">
+            {{#carousel-items}}
+            <div class="carousel-item {{#active}}active{{/active}}" {{#data-bs-interval}}data-bs-interval="{{data-bs-interval}}"{{/data-bs-interval}}>
 
-            <img class="bd-placeholder-img" width="100%" height="100%" src="{{chemin}}ressources/images/{{img}}">
+                <img class="bd-placeholder-img" width="100%" height="100%" src="{{chemin}}ressources/images/{{img}}">
 
-            <div class="container">
+                <div class="container">
 
-                <div class="carousel-caption {{#carousel-caption-text}}{{carousel-caption-text}}{{/carousel-caption-text}}">
+                    <div class="carousel-caption {{#carousel-caption-text}}{{carousel-caption-text}}{{/carousel-caption-text}}">
 
-                {{#carousel-caption-h1}}
-                    <h1>{{carousel-caption-h1}}</h1>
-                {{/carousel-caption-h1}}
-                {{#carousel-caption-p}}
-                    <p>{{carousel-caption-p}}</p>
-                {{/carousel-caption-p}}
-                {{#carousel-caption-btn}}
-                    <p>
-                        <a class="btn btn-lg btn-outline-{{btn-color}}" href="{{btn-href}}" role="button">{{btn-text}}</a>
-                    </p>
-                {{/carousel-caption-btn}}
+                    {{#carousel-caption-h1}}
+                        <h1>{{carousel-caption-h1}}</h1>
+                    {{/carousel-caption-h1}}
+                    {{#carousel-caption-p}}
+                        <p>{{carousel-caption-p}}</p>
+                    {{/carousel-caption-p}}
+                    {{#carousel-caption-btn}}
+                        <p>
+                            <a class="btn btn-lg btn-outline-{{btn-color}}" href="{{btn-href}}" role="button">{{btn-text}}</a>
+                        </p>
+                    {{/carousel-caption-btn}}
+
+                    </div>
 
                 </div>
 
             </div>
-
+            {{/carousel-items}}
         </div>
-        {{/carousel-items}}
+
+        <a class="carousel-control-prev" href="#{{carousel-id}}" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </a>
+
+        <a class="carousel-control-next" href="#{{carousel-id}}" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </a>
+
     </div>
+    {{/carousel}}
 
-    <a class="carousel-control-prev" href="#{{carousel-id}}" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Précédent</span>
-    </a>
+    <div class="container marketing" style="height: 100vh;">
 
-    <a class="carousel-control-next" href="#{{carousel-id}}" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Suivant</span>
-    </a>
+        {{#accroche}}
+            <div id="accroche" class=""mt-5>
+                {{#accroche-p}}
+                    <p>{{.}}</p>
+                {{/accroche-p}}
+            </div>
+        {{/accroche}}
 
-</div>
-{{/carousel}}
+        <!-- START THE FEATURETTES -->
 
-<div class="container marketing" style="height: 100vh;">
+        <hr class="featurette-divider mt-5 mb-5 bg-white">
 
-    {{#accroche}}
-        <div id="accroche" class=""mt-5>
-            {{#accroche-p}}
-                <p>{{.}}</p>
-            {{/accroche-p}}
-        </div>
-    {{/accroche}}
+        {{#featurette}}
+            <div class="row featurette" id="{{featurette-id}}">
 
-    <!-- START THE FEATURETTES -->
+                <div class="col-md-7 {{#featurette-reverse}}order-md-2{{/featurette-reverse}}">
+                    {{#featurette-heading}}
+                        <h2 class="featurette-heading"> {{featurette-heading-h2}}
+                            {{#featurette-heading-span}}<span class="text-muted">{{featurette-heading-span}}</span>{{/featurette-heading-span}}
+                        </h2>
+                    {{/featurette-heading}}
+                    {{#featurette-lead}}
+                        <p class="lead">{{.}}</p>
+                    {{/featurette-lead}}
+                </div>
 
-    <hr class="featurette-divider mt-5 mb-5 bg-white">
-
-    {{#featurette}}
-        <div class="row featurette" id="{{featurette-id}}">
-
-            <div class="col-md-7 {{#featurette-reverse}}order-md-2{{/featurette-reverse}}">
-                {{#featurette-heading}}
-                    <h2 class="featurette-heading"> {{featurette-heading-h2}}
-                        {{#featurette-heading-span}}<span class="text-muted">{{featurette-heading-span}}</span>{{/featurette-heading-span}}
-                    </h2>
-                {{/featurette-heading}}
-                {{#featurette-lead}}
-                    <p class="lead">{{.}}</p>
-                {{/featurette-lead}}
+                {{#featurette-img}}
+                    <div class="col-md-5 {{#featurette-reverse}}order-md-1{{/featurette-reverse}}">
+                        <img {{#featurette-img-href}}href="{{featurette-img-href}}"{{/featurette-img-href}} class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid rounded-lg mx-auto" width="100%" height="100%" src="{{chemin}}ressources/images/{{featurette-img}}">
+                    </div>
+                {{/featurette-img}}
             </div>
 
-            {{#featurette-img}}
-                <div class="col-md-5 {{#featurette-reverse}}order-md-1{{/featurette-reverse}}">
-                    <img {{#featurette-img-href}}href="{{featurette-img-href}}"{{/featurette-img-href}} class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid rounded-lg mx-auto" width="100%" height="100%" src="{{chemin}}ressources/images/{{featurette-img}}">
-                </div>
-            {{/featurette-img}}
-        </div>
+            {{#featurette-divider}}
+                <hr class="featurette-divider {{#featurette-divider-final}}mt-5 mb-5{{/featurette-divider-final}} bg-white">
+            {{/featurette-divider}}
+        {{/featurette}}
 
-        {{#featurette-divider}}
-            <hr class="featurette-divider {{#featurette-divider-final}}mt-5 mb-5{{/featurette-divider-final}} bg-white">
-        {{/featurette-divider}}
-    {{/featurette}}
+        <!-- /END THE FEATURETTES -->
 
-    <!-- /END THE FEATURETTES -->
+        {{#gallerie}}
+            <div class="row justify-content-md-center">
+                {{#gallerie-ligne}}
+                    <div class="col-sm mb-5">
+                        <img class="img-fluid" width="100%" height="100%" src="{{chemin}}ressources/images/{{.}}">
+                    </div>
+                {{/gallerie-ligne}}
+            </div>
+        {{/gallerie}}
 
-    {{#gallerie}}
-        <div class="row justify-content-md-center">
-            {{#gallerie-ligne}}
-                <div class="col-sm mb-5">
-                    <img class="img-fluid" width="100%" height="100%" src="{{chemin}}ressources/images/{{.}}">
-                </div>
-            {{/gallerie-ligne}}
-        </div>
-    {{/gallerie}}
-
-  </div><!-- /.container -->
+    </div>
+    <!-- /.container -->

@@ -39,8 +39,20 @@ function init() {
 
 //create the text to be animated
 
-function createTextAnimation() {
-  var geometry = generateTextGeometry('ERREUR!', {
+function createTextAnimation()
+{
+  var texteErreur = "ERREUR ";
+  var typeErreur = document.getElementById("type-erreur").textContent;
+  if(typeErreur !== null)
+  {
+    texteErreur += typeErreur + "!";
+  }
+  else
+  {
+    texteErreur += "!";
+  }
+
+  var geometry = generateTextGeometry(texteErreur, {
     size:14,
     height:0,
     font:'droid sans',
@@ -56,7 +68,8 @@ function createTextAnimation() {
 
 //mathematical details of the animation
 
-function generateTextGeometry(text, params) {
+function generateTextGeometry(text, params)
+{
   var geometry = new THREE.TextGeometry(text, params);
 
   geometry.computeBoundingBox();

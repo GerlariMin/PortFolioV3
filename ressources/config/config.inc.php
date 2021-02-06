@@ -12,9 +12,10 @@
     $config['BDD']['password'] = "";
     $config['BDD']['optionsPDO'] = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
 
-    /**         **
-     * Variables *
-     **         **/
+    /**                **
+     * Variables utiles *
+     **                **/
 
     $config['variables']['chemin'] = "../";
+
 ?>

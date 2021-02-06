@@ -4,17 +4,17 @@
     {
 
         private Render $render;
-        private PDO $bdd;
+        private $config;
 
         /**
          * Traitement_Experiences constructor.
          * @param $print
-         * @param $db
          */
-        public function __construct($print, $db)
+        public function __construct($print)
         {
             $this->render = $print;
-            $this->bdd = $db;
+            global $config;
+            $this->config = $config;
         }
 
         public function traitement_accordion()
@@ -214,7 +214,7 @@
         {
             $data['arccordion-item'] = $this->traitement_accordion();
 
-            $data['chemin'] = "../";
+            $data['chemin'] = $this->config['variables']['chemin'];
             $data['experiences'] = true;
             
             $this->render->action_render($data);

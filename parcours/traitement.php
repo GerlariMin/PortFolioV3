@@ -4,17 +4,17 @@
     {
 
         private Render $render;
-        private PDO $bdd;
+        private $config;
 
         /**
          * Traitement_Parcours constructor.
          * @param $print
-         * @param $db
          */
-        public function __construct($print, $db)
+        public function __construct($print)
         {
             $this->render = $print;
-            $this->bdd = $db;
+            global $config;
+            $this->config = $config;
         }
 
         /**
@@ -436,7 +436,7 @@
         {
             $data['featurette'] = $this->traitement_featurette();
 
-            $data['chemin'] = "../";
+            $data['chemin'] = $this->config['variables']['chemin'];
             $data['parcours'] = true;
             
             $this->render->action_render($data);

@@ -1,11 +1,17 @@
 <?php
 
+    $typeErreur = null;
+    // appel depuis le fichier .htaccess
+    if(isset($_GET['erreur']))
+    {
+        $typeErreur = $_GET['erreur'];
+    }
+
     include("../ressources/php/fichiers_communs.php");
 
     global $render;
-    global $bdd;
 
-    $traitement = new Traitement_Erreur($render, $bdd);
-    $traitement->traitement_toRender();
+    $traitement = new Traitement_Erreur($render);
+    $traitement->traitement_toRender($typeErreur);
 
 ?>
