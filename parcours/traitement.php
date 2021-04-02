@@ -1,5 +1,8 @@
 <?php
 
+    /**
+     * Class Traitement_Parcours
+     */
     class Traitement_Parcours
     {
 
@@ -153,7 +156,7 @@
                                 "featuring-heading-titre" => "L3 - Licence Professionnelle Informatique conception, développement et test de logiciels parcours Sécurité de l'Information (LPI SI)",
                                 "featuring-heading-span" => "Université Paris-Est Créteil (UPEC) - 2019/ 2020"
                             ],
-                        "lead" => "Dplôme obtenu avec la mention Très Bien.",
+                        "lead" => "Diplôme obtenu avec la mention Très Bien.",
                         "tablist" =>
                             [
                                 "tablist-id" => "l3-tablist",
@@ -261,7 +264,7 @@
                                 "featuring-heading-titre" => "DUT Informatique",
                                 "featuring-heading-span" => "IUT de Villetaneuse (Université Paris 13) - 2016/ 2019"
                             ],
-                        "lead" => "Dplôme obtenu sans mention.",
+                        "lead" => "Diplôme obtenu sans mention.",
                         "tablist" =>
                             [
                                 "tablist-id" => "l3-tablist",

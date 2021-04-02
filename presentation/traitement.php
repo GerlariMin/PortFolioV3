@@ -1,5 +1,8 @@
 <?php
 
+    /**
+     * Class Traitement_Presentation
+     */
     class Traitement_Presentation
     {
 
@@ -122,9 +125,9 @@
                     "accroche-p" =>
                         [
                             0 => "Bonjour, je suis Morgan MINBIELLE, " . $age_courant . " ans, étudiant en Master Informatique Professionnel (parcours logiciels sûrs), en alternance au sein de la DSI de l'École Polytechnique.",
-                            1 => "Je suis diplômé d'une Licence Professionnelle Informatique (parcours sécurité des données), obtennu à l'UPEC et d'un DUT Informatique venant de l'IUT de Villetaneuse.",
+                            1 => "Je suis diplômé d'une Licence Professionnelle Informatique (parcours sécurité des données), obtenu à l'UPEC et d'un DUT Informatique venant de l'IUT de Villetaneuse.",
                             2 => "Mon parcours d'études reflète mon intérêt pour le développement informatique en général (Web ou applicatif) et la façon dont on sécurise les programmes codés.",
-                            3 => "Grâce au stage de DUT et au choix des formations professionnelles (Licence et Master), j'ai pu mettre en pratique mes connaissances et compétences et en acquérir de nouvelles au sein d'une équipe.",
+                            3 => "Grâce au stage de DUT et aux choix des formations professionnelles (Licence et Master), j'ai pu mettre en pratique mes connaissances et compétences et en acquérir de nouvelles au sein d'une équipe.",
                             4 => "Curieux, aussi bien au niveau logiciel que matériel, je m'intéresse aux nouvelles technologies, langages et méthodes de développement en parallèle de mon cursus. De plus, mes études m'ont apporté la bonne pratique et la rigueur nécessaire au bon développement d'un programme et la façon de plannifier et gérer des projets de groupes. Ces projets portaient sur le développement Web ou logiciel.",
                             5 => "Lors de votre visite sur ce site, vous trouverez toutes les informations essentielles me concernant.",
                             6 => "Bonne visite !"
@@ -151,7 +154,7 @@
                             "featurette-lead" =>
                                 [
                                     0 => "En dehors du développement, je suis l'actualité sur tout ce qui touche aux innovations technologiques.",
-                                    1=> "Quelles soient issues du monde informatique, automobile ou autre, ces innovations, qui ont ou auront un impact sur notre quotidien, représentent le summum de la technique humaine."
+                                    1=> "Qu'elles soient issues du monde informatique, automobile ou autre, ces innovations, qui ont ou auront un impact sur notre quotidien, représentent le summum de la technique humaine."
                                 ],
                             "featurette-img" => "img-005.jpg",
                             "featurette-divider" => true
@@ -168,7 +171,7 @@
                             "featurette-lead" =>
                                 [
                                     0 => "Passionné du sport automobile, je suis les diverses compétitions mondiales, et plus précisement, la Formule 1 et Formule E.",
-                                    1 => "J'aime également le tennis, que je pratique régulièrement (en club et en loisir) et du vélo occasionnellement",
+                                    1 => "J'aime également le tennis, que je pratique régulièrement (en club et en loisir) et du vélo occasionnellement.",
                                 ],
                             "featurette-img" => "img-003.jpg",
                             "featurette-divider" => true
@@ -184,7 +187,7 @@
                                 ],
                             "featurette-lead" =>
                                 [
-                                    0 => "Amateur de beaux clichés, j'ai pour passe temps de prendre de belles photos lors de mon quotidien et de m'essayer à la retouche pour faire ressortir certains éléments.",
+                                    0 => "Amateur de beaux clichés, j'ai pour passe-temps de prendre de belles photos et de m'essayer à la retouche pour faire ressortir certains éléments.",
                                 ],
                             "featurette-img" => "img-006.jpg",
                             "featurette-divider" =>

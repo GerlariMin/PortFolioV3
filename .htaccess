@@ -1,7 +1,15 @@
 
-options -indexes
+# https://wpmarmite.com/htaccess-wordpress/#:~:text=Le%20fichier%20.htaccess%20est%20un%20fichier%20de%20configuration,notamment%20pouvoir%20%3A%20Am%C3%A9liorer%20la%20s%C3%A9curit%C3%A9%20d%E2%80%99un%20site.
+# http://sebl69.free.fr/astuces/pagesweb/index.php?page=creation-htaccess
 
-ErrorDocument 401 http://localhost/Chantier/erreur/index.php?erreur=401
-ErrorDocument 403 http://localhost/Chantier/erreur/index.php?erreur=403
-ErrorDocument 404 http://localhost/Chantier/erreur/index.php?erreur=404
-ErrorDocument 500 http://localhost/Chantier/erreur/index.php?erreur=500
+# Désactiver l'affichage du contenu des répertoires
+Options All -Indexes
+
+# Alternative pour empêcher le listage des répertoires
+IndexIgnore *
+
+# Pages d'erreurs personnalisées
+ErrorDocument 401 http://127.0.0.1/Chantier/erreur/index.php?erreur=401
+ErrorDocument 403 http://127.0.0.1/Chantier/erreur/index.php?erreur=403
+ErrorDocument 404 http://127.0.0.1/Chantier/erreur/index.php?erreur=404
+ErrorDocument 500 http://127.0.0.1/Chantier/erreur/index.php?erreur=500

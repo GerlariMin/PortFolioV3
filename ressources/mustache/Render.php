@@ -1,5 +1,8 @@
 <?php
 
+    /**
+     * Class Render
+     */
     class Render
     {
         /**
@@ -33,6 +36,9 @@
             );
         }
 
+        /**
+         * @param array $data
+         */
         public function action_render($data = [])
         {
             //On extrait les données à afficher
