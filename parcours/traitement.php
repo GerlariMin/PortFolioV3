@@ -6,11 +6,18 @@
     class Traitement_Parcours
     {
 
+        /**
+         * @var Render
+         */
         private Render $render;
-        private $config;
+        /**
+         * @var array
+         */
+        private array $config;
 
         /**
          * Traitement_Parcours constructor.
+         *
          * @param $print
          */
         public function __construct($print)
@@ -21,6 +28,8 @@
         }
 
         /**
+         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage de la page de parcours.
+         *
          * @return array[]
          */
         public function traitement_featurette(): array
@@ -435,6 +444,9 @@
             ];
         }
 
+        /**
+         * Affichage de la page parcours.
+         */
         public function traitement_toRender()
         {
             $data['featurette'] = $this->traitement_featurette();

@@ -6,8 +6,14 @@
     class Traitement_Presentation
     {
 
+        /**
+         * @var Render
+         */
         private Render $render;
-        private $config;
+        /**
+         * @var array
+         */
+        private array $config;
 
         /**
          * Traitement_Presentation constructor.
@@ -21,6 +27,8 @@
         }
 
         /**
+         * Retourne l'âge courant en fonction de la date actuelle de manière automatique.
+         *
          * @param $date
          * @return false|int|string
          */
@@ -37,6 +45,8 @@
         }
 
         /**
+         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage dubloc caroussel de la page de presentation.
+         *
          * @return array
          */
         public function traitement_caroussel()
@@ -115,6 +125,8 @@
         }
 
         /**
+         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc accroche de la page de presentation.
+         *
          * @return string[][]
          */
         public function traitement_accroche()
@@ -136,6 +148,8 @@
         }
 
         /**
+         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc featurette de la page de presentation.
+         *
          * @return array[]
          */
         public function traitement_featurette()
@@ -199,6 +213,8 @@
         }
 
         /**
+         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc gallerie de la page de presentation.
+         *
          * @return string[][][]
          */
         public function traitement_gallerie()
@@ -235,6 +251,9 @@
                 ];
         }
 
+        /**
+         * Affichage de la page de présentation.
+         */
         public function traitement_toRender()
         {
             $data['accroche'] = $this->traitement_accroche();

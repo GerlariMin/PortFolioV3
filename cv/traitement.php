@@ -6,11 +6,18 @@
     class Traitement_CV
     {
 
+        /**
+         * @var Render
+         */
         private Render $render;
-        private $config;
+        /**
+         * @var array
+         */
+        private array $config;
 
         /**
          * Traitement_CV constructor.
+         *
          * @param $print
          */
         public function __construct($print)
@@ -20,7 +27,10 @@
             $this->config = $config;
         }
 
-        public function traitement_toRender()
+        /**
+         * Affichage de la page CV.
+         */
+        public function traitement_toRender(): void
         {
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['cv'] = true;

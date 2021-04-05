@@ -6,11 +6,18 @@
     class Traitement_Contact
     {
 
+        /**
+         * @var Render
+         */
         private Render $render;
-        private $config;
+        /**
+         * @var array
+         */
+        private array $config;
 
         /**
          * Traitement_Contact constructor.
+         *
          * @param $print
          */
         public function __construct($print)
@@ -21,9 +28,11 @@
         }
 
         /**
+         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage de la page Contact.
+         *
          * @return array[]
          */
-        public function traitement_card()
+        public function traitement_card(): array
         {
             return
                 [
@@ -68,7 +77,10 @@
                 ];
         }
 
-        public function traitement_toRender()
+        /**
+         * Affichage de la page de contact.
+         */
+        public function traitement_toRender(): void
         {
             $data['card'] = $this->traitement_card();
 

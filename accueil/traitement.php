@@ -1,15 +1,24 @@
 <?php
 
+    /**
+     * Class Traitement_Accueil
+     */
     class Traitement_Accueil
     {
 
+        /**
+         * @var Render
+         */
         private Render $render;
-        private $config;
+        /**
+         * @var array
+         */
+        private array $config;
 
         /**
          * Traitement_Accueil constructor.
+         *
          * @param $print
-         * @param $db
          */
         public function __construct($print)
         {
@@ -19,6 +28,8 @@
         }
 
         /**
+         * Retourne un tableau formaté pour les différentes balises Mustache de la page d'accueil.
+         *
          * @return string[][]
          */
         private function traitement_line(): array
@@ -56,13 +67,16 @@
                 ];
         }
 
-        public function traitement_toRender()
+        /**
+         * Affichage de la page d'accueil.
+         */
+        public function traitement_toRender(): void
         {
             $data['line'] = $this->traitement_line();
             
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['accueil'] = true;
-            
+
             $this->render->action_render($data);
         }
 
