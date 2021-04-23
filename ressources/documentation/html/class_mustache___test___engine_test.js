@@ -1,0 +1,25 @@
+var class_mustache___test___engine_test =
+[
+    [ "getBadEscapers", "class_mustache___test___engine_test.html#a1cb4e6c337e6696cb629cc069c489a8e", null ],
+    [ "testCache", "class_mustache___test___engine_test.html#a99a2daa6b452446dcab67b28bc90e63d", null ],
+    [ "testCacheWarningLogging", "class_mustache___test___engine_test.html#a873cb41e0102807a598862b32f770554", null ],
+    [ "testCompileFromMustacheSourceInstance", "class_mustache___test___engine_test.html#ab0542950f8a19bb2f2fd66bfa1384a71", null ],
+    [ "testConstructor", "class_mustache___test___engine_test.html#a47094dc941e72950570900d1418f89c6", null ],
+    [ "testCustomDelimiters", "class_mustache___test___engine_test.html#aa146b54e8dc108674145d22b36dd0803", null ],
+    [ "testEmptyTemplatePrefixThrowsException", "class_mustache___test___engine_test.html#a1c68c6a500cbf278dfc3a4e79baf27ae", null ],
+    [ "testHelpers", "class_mustache___test___engine_test.html#a1e4c195bfaabf351e9936a61caea1758", null ],
+    [ "testImmutablePartialsLoadersThrowException", "class_mustache___test___engine_test.html#a6d23b160e67b0807855e7f981c97d779", null ],
+    [ "testLambdaCache", "class_mustache___test___engine_test.html#a58ad5dea51228b357ada7c8738712aaf", null ],
+    [ "testLoadPartialCascading", "class_mustache___test___engine_test.html#a19fbd726d41c2f5b81ec310485fcaa67", null ],
+    [ "testLoggingIsNotTooAnnoying", "class_mustache___test___engine_test.html#a961dd48b7dcea0f9505aa3cf2c2191e1", null ],
+    [ "testMissingPartialsTreatedAsEmptyString", "class_mustache___test___engine_test.html#a8f3634f1b605b300af242a6972d2cd2d", null ],
+    [ "testNonCallableEscapeThrowsException", "class_mustache___test___engine_test.html#a549a3e68b5b2917d1a347a1e3328f9d2", null ],
+    [ "testPartialLoadFailLogging", "class_mustache___test___engine_test.html#a7a5d095021100a25094ff815296c1bbb", null ],
+    [ "testRender", "class_mustache___test___engine_test.html#ad34ccc015487e2ccffe0276688401008", null ],
+    [ "testSetHelpersThrowsExceptions", "class_mustache___test___engine_test.html#a5dd173519e2a528a21f895a50d87309d", null ],
+    [ "testSetLoggerThrowsExceptions", "class_mustache___test___engine_test.html#a6c766ad21a4c871cb25b25c5804889af", null ],
+    [ "testSettingServices", "class_mustache___test___engine_test.html#a4f0bb075628414f99fe4652183c82182", null ],
+    [ "testUnknownPragmaThrowsException", "class_mustache___test___engine_test.html#a1155fedfb6f31c8c2a97c9c7b0a62928", null ],
+    [ "testVerboseLoggingIsVerbose", "class_mustache___test___engine_test.html#a778c4f56dba85eefcbb020b49576a982", null ],
+    [ "testWithoutLambdaCache", "class_mustache___test___engine_test.html#a137a2f914de4c9412a232fc2ee915231", null ]
+];

@@ -37,14 +37,14 @@
         {
             switch($typeErreur)
             {
-                case '404':
-                    $erreur = "Page introuvable";
-                    break;
                 case '401':
                     $erreur = "Acces interdit";
                     break;
                 case '403':
                     $erreur = "Dossier non accessible";
+                    break;
+                case '404':
+                    $erreur = "Page introuvable";
                     break;
                 case '405':
                     $erreur = "Erreur serveur interne";
