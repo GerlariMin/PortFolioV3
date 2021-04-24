@@ -20,7 +20,7 @@
     $config['auteur']['titre'] = "Alternant développeur";
     $config['auteur']['etablissement'] = "UPEC / Ecole Polytechnique";
     $config['auteur']['annee'] = "Master M1 Pro";
-    
+
     /**      **
      * Erreur *
      **      **/
