@@ -28,7 +28,7 @@ Il s'agit d'une présentation sommaire de mes compétences, mon parcours et mes 
 
 ## Détails
 
-Chaque onglet (**`Accueil`, `Présentation`, `Parcours`, `Expériences`, `Compétences`, `Contact`, `CV`**)[^1] correspond à un répertoire éponyme.  
+Chaque onglet (**`Accueil`, `Présentation`, `Parcours`, `Expériences`, `Compétences`, `Contact`, `CV`**) [^1] correspond à un répertoire éponyme.  
 **Chaque répertoire contient une _vue_** (dans le répertoire **`mustache/`**), **un _index_** (qui permet d'utiliser les bonnes ressources et variables pour afficher la page voulue), **une classe contenant ce qu'il faut afficher** (**_texte.php_**) **et une classe de traitement** (**_traitement.php_**) qui récupère les bons textes et les intègre au tableau formaté pour correspondre à l'affichage [**_Mustache_**](https://mustache.github.io/mustache.5.html) voulu (via des balises précisent).  
 Les ressources communes sont dans le répertoire `ressources/`.  
 L'ensembles des sources que j'ai utilisé sont visibles dans les commentaires du code (visibiles également en visitant le site web, en activant l'outils de développeur du navigateur pour voir le code affiché, accessible avec la touche **_`F12`_**[^2]).
