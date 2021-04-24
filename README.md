@@ -626,6 +626,8 @@ Autres
 }
 ```
 
-[^1]: Liste des onglets principaux du site. D'autres onglets peuvent être présent sur le [site](https://monportfolio-mm.000webhostapp.com/accueil/)
-[^2]: Peut varier en fonction du navigateur utilisé.
-[^3]: Contient des extraits de code représentatif, l'ensemble des fichiers sont consultables sur le [répertoire Git](https://github.com/GerlariMin/PortFolioV3). L'emplacement exacte du fichier se trouver dans la section **_`Arborescence`_** du README.
+[^1]: Liste des onglets principaux du site. D'autres onglets peuvent être présent sur le [site](https://monportfolio-mm.000webhostapp.com/accueil/)  
+
+[^2]: Peut varier en fonction du navigateur utilisé.  
+
+[^3]: Contient des extraits de code représentatif, l'ensemble des fichiers sont consultables sur le [répertoire Git](https://github.com/GerlariMin/PortFolioV3). L'emplacement exacte du fichier se trouver dans la section **_`Arborescence`_** du README.  
