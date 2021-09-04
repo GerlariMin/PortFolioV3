@@ -1,5 +1,6 @@
 var class_composer_1_1_autoload_1_1_class_loader =
 [
+    [ "__construct", "class_composer_1_1_autoload_1_1_class_loader.html#ae3b73b1b7333e81be32ceeaf622945f9", null ],
     [ "add", "class_composer_1_1_autoload_1_1_class_loader.html#a5c0f76dc6dde6d1209d78b2fa27db0af", null ],
     [ "addClassMap", "class_composer_1_1_autoload_1_1_class_loader.html#a164966b8bcb9bf5470152bb5707a28af", null ],
     [ "addPsr4", "class_composer_1_1_autoload_1_1_class_loader.html#a264d8845526646ebc3725f219949baca", null ],

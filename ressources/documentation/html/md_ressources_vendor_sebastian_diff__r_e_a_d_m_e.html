@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -90,15 +90,15 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_sebastian_diff__r
 <div class="contents">
 <div class="textblock"><p><a href="https://github.com/sebastianbergmann/diff/actions"><img src="https://github.com/sebastianbergmann/diff/workflows/CI/badge.svg" alt="CI Status" style="pointer-events: none;" class="inline"/></a> <a href="https://shepherd.dev/github/sebastianbergmann/diff"><img src="https://shepherd.dev/github/sebastianbergmann/diff/coverage.svg" alt="Type Coverage" style="pointer-events: none;" class="inline"/></a></p>
 <p>Diff implementation for PHP, factored out of <a class="el" href="namespace_p_h_p_unit.html">PHPUnit</a> into a stand-alone component.</p>
-<h1><a class="anchor" id="autotoc_md926"></a>
+<h1><a class="anchor" id="autotoc_md951"></a>
 Installation</h1>
 <p>You can add this library as a local, per-project dependency to your project using <a href="https://getcomposer.org/">Composer</a>:</p>
 <div class="fragment"><div class="line">composer require sebastian/diff</div>
 </div><!-- fragment --><p>If you only need this library during development, for instance to run your project's test suite, then you should add it as a development-time dependency:</p>
 <div class="fragment"><div class="line">composer require --dev sebastian/diff</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md927"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md952"></a>
 Usage</h2>
-<h3><a class="anchor" id="autotoc_md928"></a>
+<h3><a class="anchor" id="autotoc_md953"></a>
 Generating diff</h3>
 <p>The <code>Differ</code> class can be used to generate a textual representation of the difference between two strings:</p>
 <div class="fragment"><div class="line">&lt;?php</div>
@@ -114,7 +114,7 @@ Generating diff</h3>
 <div class="line">-foo</div>
 <div class="line">+bar</div>
 </div><!-- fragment --><p>There are three output builders available in this package:</p>
-<h3><a class="anchor" id="autotoc_md929"></a>
+<h3><a class="anchor" id="autotoc_md954"></a>
 UnifiedDiffOutputBuilder</h3>
 <p>This is default builder, which generates the output close to udiff and is used by <a class="el" href="namespace_p_h_p_unit.html">PHPUnit</a>.</p>
 <div class="fragment"><div class="line">&lt;?php</div>
@@ -130,7 +130,7 @@ UnifiedDiffOutputBuilder</h3>
 <div class="line">$differ = <span class="keyword">new</span> Differ($builder);</div>
 <div class="line">print $differ-&gt;diff(<span class="stringliteral">&#39;foo&#39;</span>, <span class="stringliteral">&#39;bar&#39;</span>);</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_output_1_1_unified_diff_output_builder_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_output_1_1_unified_diff_output_builder.html">SebastianBergmann\Diff\Output\UnifiedDiffOutputBuilder</a></div><div class="ttdef"><b>Definition:</b> <a href="_unified_diff_output_builder_8php_source.html#l00027">UnifiedDiffOutputBuilder.php:28</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md930"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md955"></a>
 StrictUnifiedDiffOutputBuilder</h3>
 <p>Generates (strict) Unified diff's (unidiffs) with hunks, similar to <code>diff -u</code> and compatible with <code>patch</code> and <code>git apply</code>.</p>
 <div class="fragment"><div class="line">&lt;?php</div>
@@ -151,7 +151,7 @@ StrictUnifiedDiffOutputBuilder</h3>
 <div class="line">$differ = <span class="keyword">new</span> Differ($builder);</div>
 <div class="line">print $differ-&gt;diff(<span class="stringliteral">&#39;foo&#39;</span>, <span class="stringliteral">&#39;bar&#39;</span>);</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_output_1_1_strict_unified_diff_output_builder_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_output_1_1_strict_unified_diff_output_builder.html">SebastianBergmann\Diff\Output\StrictUnifiedDiffOutputBuilder</a></div><div class="ttdef"><b>Definition:</b> <a href="_strict_unified_diff_output_builder_8php_source.html#l00034">StrictUnifiedDiffOutputBuilder.php:35</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md931"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md956"></a>
 DiffOnlyOutputBuilder</h3>
 <p>Output only the lines that differ.</p>
 <div class="fragment"><div class="line">&lt;?php</div>
@@ -166,10 +166,10 @@ DiffOnlyOutputBuilder</h3>
 <div class="line">$differ = <span class="keyword">new</span> Differ($builder);</div>
 <div class="line">print $differ-&gt;diff(<span class="stringliteral">&#39;foo&#39;</span>, <span class="stringliteral">&#39;bar&#39;</span>);</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_output_1_1_diff_only_output_builder_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_output_1_1_diff_only_output_builder.html">SebastianBergmann\Diff\Output\DiffOnlyOutputBuilder</a></div><div class="ttdef"><b>Definition:</b> <a href="_diff_only_output_builder_8php_source.html#l00023">DiffOnlyOutputBuilder.php:24</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md932"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md957"></a>
 DiffOutputBuilderInterface</h3>
 <p>You can pass any output builder to the <code>Differ</code> class as longs as it implements the <code>DiffOutputBuilderInterface</code>.</p>
-<h3><a class="anchor" id="autotoc_md933"></a>
+<h3><a class="anchor" id="autotoc_md958"></a>
 Parsing diff</h3>
 <p>The <code>Parser</code> class can be used to parse a unified diff into an object graph:</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_parser.html">SebastianBergmann\Diff\Parser</a>;</div>

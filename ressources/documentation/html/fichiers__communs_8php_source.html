@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/fichiers_communs.php Source File</title>
+<title>PortFolio - Morgan MINBIELLE: ressources/php/fichiers_communs.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -90,23 +90,26 @@ $(document).ready(function(){initNavTree('fichiers__communs_8php_source.html',''
 <div class="contents">
 <a href="fichiers__communs_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    include(<span class="stringliteral">&quot;../config/config.inc.php&quot;</span>);</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    include(<span class="stringliteral">&quot;../ressources/config/config.inc.php&quot;</span>);</div>
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="fichiers__communs_8php.html#a84e7b001466beb659382f023bc106491">    4</a></span>&#160;    global <a class="code" href="fichiers__communs_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    include(<a class="code" href="fichiers__communs_8php.html#a84e7b001466beb659382f023bc106491">$config</a>[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>] . <span class="stringliteral">&quot;ressources/vendor/autoload.php&quot;</span>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    include(<a class="code" href="fichiers__communs_8php.html#a84e7b001466beb659382f023bc106491">$config</a>[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>] . <span class="stringliteral">&quot;ressources/mustache/Render.php&quot;</span>);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    include(<a class="code" href="fichiers__communs_8php.html#a84e7b001466beb659382f023bc106491">$config</a>[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>] . <span class="stringliteral">&quot;ressources/BDD/BDD.php&quot;</span>);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    include(<span class="stringliteral">&quot;traitement.php&quot;</span>);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;?&gt;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    include(<span class="stringliteral">&quot;traitement.php&quot;</span>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="fichiers__communs_8php.html#a05fdc1afd38b444148d38a2738aada33">   11</a></span>&#160;    <a class="code" href="fichiers__communs_8php.html#a05fdc1afd38b444148d38a2738aada33">$render</a> = <span class="keyword">new</span> <a class="code" href="class_render.html">Render</a>(<a class="code" href="fichiers__communs_8php.html#a84e7b001466beb659382f023bc106491">$config</a>[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>]);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;?&gt;</div>
+<div class="ttc" id="aclass_render_html"><div class="ttname"><a href="class_render.html">Render</a></div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00006">Render.php:7</a></div></div>
+<div class="ttc" id="afichiers__communs_8php_html_a05fdc1afd38b444148d38a2738aada33"><div class="ttname"><a href="fichiers__communs_8php.html#a05fdc1afd38b444148d38a2738aada33">$render</a></div><div class="ttdeci">$render</div><div class="ttdef"><b>Definition:</b> <a href="fichiers__communs_8php_source.html#l00011">fichiers_communs.php:11</a></div></div>
 <div class="ttc" id="afichiers__communs_8php_html_a84e7b001466beb659382f023bc106491"><div class="ttname"><a href="fichiers__communs_8php.html#a84e7b001466beb659382f023bc106491">$config</a></div><div class="ttdeci">global $config</div><div class="ttdef"><b>Definition:</b> <a href="fichiers__communs_8php_source.html#l00004">fichiers_communs.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_b310993d99a62c4e6da0db86d59823c0.html">ressources</a></li><li class="navelem"><a class="el" href="fichiers__communs_8php.html">fichiers_communs.php</a></li>
+    <li class="navelem"><a class="el" href="dir_b310993d99a62c4e6da0db86d59823c0.html">ressources</a></li><li class="navelem"><a class="el" href="dir_ba22033a78d3a4bfada81fe107d3f7e6.html">php</a></li><li class="navelem"><a class="el" href="fichiers__communs_8php.html">fichiers_communs.php</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -281,6 +281,7 @@ var hierarchy =
     ] ],
     [ "ImplicitIterator", "class_implicit_iterator.html", null ],
     [ "IniSetting", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_ini_setting.html", null ],
+    [ "InstalledVersions", "class_composer_1_1_installed_versions.html", null ],
     [ "InstantiatorInterface", "interface_doctrine_1_1_instantiator_1_1_instantiator_interface.html", [
       [ "Instantiator", "class_doctrine_1_1_instantiator_1_1_instantiator.html", null ]
     ] ],
@@ -1012,6 +1013,9 @@ var hierarchy =
     [ "Text", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_test_dox_1_1_text.html", null ],
     [ "Text", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_text.html", null ],
     [ "Text", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_text.html", null ],
+    [ "TextContact", "class_text_contact.html", null ],
+    [ "TextHome", "class_text_home.html", null ],
+    [ "TextSkills", "class_text_skills.html", null ],
     [ "TextTestListRenderer", "class_p_h_p_unit_1_1_util_1_1_text_test_list_renderer.html", null ],
     [ "Timer", "class_sebastian_bergmann_1_1_timer_1_1_timer.html", null ],
     [ "Token", "class_the_seer_1_1_tokenizer_1_1_token.html", null ],
@@ -1049,7 +1053,6 @@ var hierarchy =
     [ "Tokens", "class_php_parser_1_1_parser_1_1_tokens.html", null ],
     [ "TokenStream", "class_php_parser_1_1_internal_1_1_token_stream.html", null ],
     [ "Totals", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_totals.html", null ],
-    [ "Traitement_Accueil", "class_traitement___accueil.html", null ],
     [ "Traitement_Competences", "class_traitement___competences.html", null ],
     [ "Traitement_Contact", "class_traitement___contact.html", null ],
     [ "Traitement_CV", "class_traitement___c_v.html", null ],
@@ -1057,6 +1060,7 @@ var hierarchy =
     [ "Traitement_Experiences", "class_traitement___experiences.html", null ],
     [ "Traitement_Parcours", "class_traitement___parcours.html", null ],
     [ "Traitement_Presentation", "class_traitement___presentation.html", null ],
+    [ "TreatmentHome", "class_treatment_home.html", null ],
     [ "Type", "class_phar_io_1_1_manifest_1_1_type.html", [
       [ "Application", "class_phar_io_1_1_manifest_1_1_application.html", null ],
       [ "Extension", "class_phar_io_1_1_manifest_1_1_extension.html", null ],

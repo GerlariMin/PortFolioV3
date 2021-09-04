@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -90,15 +90,15 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_phpunit_php_timer
 <div class="contents">
 <div class="textblock"><p><a href="https://github.com/sebastianbergmann/php-timer/actions"><img src="https://github.com/sebastianbergmann/php-timer/workflows/CI/badge.svg" alt="CI Status" style="pointer-events: none;" class="inline"/></a> <a href="https://shepherd.dev/github/sebastianbergmann/php-timer"><img src="https://shepherd.dev/github/sebastianbergmann/php-timer/coverage.svg" alt="Type Coverage" style="pointer-events: none;" class="inline"/></a></p>
 <p>Utility class for timing things, factored out of <a class="el" href="namespace_p_h_p_unit.html">PHPUnit</a> into a stand-alone component.</p>
-<h1><a class="anchor" id="autotoc_md759"></a>
+<h1><a class="anchor" id="autotoc_md784"></a>
 Installation</h1>
 <p>You can add this library as a local, per-project dependency to your project using <a href="https://getcomposer.org/">Composer</a>:</p>
 <div class="fragment"><div class="line">composer require phpunit/php-timer</div>
 </div><!-- fragment --><p>If you only need this library during development, for instance to run your project's test suite, then you should add it as a development-time dependency:</p>
 <div class="fragment"><div class="line">composer require --dev phpunit/php-timer</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md760"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md785"></a>
 Usage</h1>
-<h2><a class="anchor" id="autotoc_md761"></a>
+<h2><a class="anchor" id="autotoc_md786"></a>
 Basic Timing</h2>
 <div class="fragment"><div class="line">require __DIR__ . <span class="stringliteral">&#39;/vendor/autoload.php&#39;</span>;</div>
 <div class="line"> </div>
@@ -129,9 +129,9 @@ Basic Timing</h2>
 <div class="line">float(2.851062)</div>
 <div class="line">float(2851.062)</div>
 <div class="line">int(2851062)</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md762"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md787"></a>
 Resource Consumption</h2>
-<h3><a class="anchor" id="autotoc_md763"></a>
+<h3><a class="anchor" id="autotoc_md788"></a>
 Explicit duration</h3>
 <div class="fragment"><div class="line">require __DIR__ . <span class="stringliteral">&#39;/vendor/autoload.php&#39;</span>;</div>
 <div class="line"> </div>
@@ -149,7 +149,7 @@ Explicit duration</h3>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_timer_1_1_resource_usage_formatter_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_timer_1_1_resource_usage_formatter.html">SebastianBergmann\Timer\ResourceUsageFormatter</a></div><div class="ttdef"><b>Definition:</b> <a href="_resource_usage_formatter_8php_source.html#l00017">ResourceUsageFormatter.php:18</a></div></div>
 </div><!-- fragment --><p>The code above yields the output below:</p>
 <div class="fragment"><div class="line">Time: 00:00.002, Memory: 6.00 MB</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md764"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md789"></a>
 Duration since PHP Startup (using unreliable ‘$_SERVER['REQUEST_TIME_FLOAT’]`)</h3>
 <div class="fragment"><div class="line">require __DIR__ . <span class="stringliteral">&#39;/vendor/autoload.php&#39;</span>;</div>
 <div class="line"> </div>

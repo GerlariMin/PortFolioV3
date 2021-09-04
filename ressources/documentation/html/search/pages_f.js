@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['webmozart_20assert_10521',['Webmozart Assert',['../md_ressources_vendor_webmozart_assert__r_e_a_d_m_e.html',1,'']]],
-  ['what_20do_20all_20those_20files_20mean_3f_10522',['What do all those files mean?',['../md_ressources_vendor_nikic_php_parser_grammar__r_e_a_d_m_e.html',1,'']]]
+  ['version_10569',['Version',['../md_ressources_vendor_phar_io_version__r_e_a_d_m_e.htmlm',1,'(Global Namespace)'],['../md_ressources_vendor_sebastian_version__r_e_a_d_m_e.htmlm',1,'(Global Namespace)']]]
 ];

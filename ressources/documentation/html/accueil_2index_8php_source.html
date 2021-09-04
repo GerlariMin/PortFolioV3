@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -91,16 +91,17 @@ $(document).ready(function(){initNavTree('accueil_2index_8php_source.html',''); 
 <a href="accueil_2index_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    include(<span class="stringliteral">&quot;../ressources/php/fichiers_communs.php&quot;</span>);</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="accueil_2index_8php.html#a8b3c85f8801c1e65a7e5aacf85681aa1">    5</a></span>&#160;    global <a class="code" href="accueil_2index_8php.html#a8b3c85f8801c1e65a7e5aacf85681aa1">$render</a>;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="accueil_2index_8php.html#ab5840221488924f9dadbfb58a83dd8e8">    7</a></span>&#160;    <a class="code" href="accueil_2index_8php.html#ab5840221488924f9dadbfb58a83dd8e8">$traitement</a> = <span class="keyword">new</span> <a class="code" href="class_traitement___accueil.html">Traitement_Accueil</a>(<a class="code" href="accueil_2index_8php.html#a8b3c85f8801c1e65a7e5aacf85681aa1">$render</a>);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="accueil_2index_8php.html#ab5840221488924f9dadbfb58a83dd8e8">$traitement</a>-&gt;traitement_toRender();</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;?&gt;</div>
-<div class="ttc" id="aaccueil_2index_8php_html_a8b3c85f8801c1e65a7e5aacf85681aa1"><div class="ttname"><a href="accueil_2index_8php.html#a8b3c85f8801c1e65a7e5aacf85681aa1">$render</a></div><div class="ttdeci">global $render</div><div class="ttdef"><b>Definition:</b> <a href="accueil_2index_8php_source.html#l00005">index.php:3</a></div></div>
-<div class="ttc" id="aaccueil_2index_8php_html_ab5840221488924f9dadbfb58a83dd8e8"><div class="ttname"><a href="accueil_2index_8php.html#ab5840221488924f9dadbfb58a83dd8e8">$traitement</a></div><div class="ttdeci">$traitement</div><div class="ttdef"><b>Definition:</b> <a href="accueil_2index_8php_source.html#l00007">index.php:7</a></div></div>
-<div class="ttc" id="aclass_traitement___accueil_html"><div class="ttname"><a href="class_traitement___accueil.html">Traitement_Accueil</a></div><div class="ttdef"><b>Definition:</b> <a href="accueil_2traitement_8php_source.html#l00006">traitement.php:7</a></div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    include(<span class="stringliteral">&quot;texte.php&quot;</span>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="accueil_2index_8php.html#a8b3c85f8801c1e65a7e5aacf85681aa1">    6</a></span>&#160;    global <a class="code" href="accueil_2index_8php.html#a8b3c85f8801c1e65a7e5aacf85681aa1">$render</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="accueil_2index_8php.html#ab5840221488924f9dadbfb58a83dd8e8">    8</a></span>&#160;    <a class="code" href="accueil_2index_8php.html#ab5840221488924f9dadbfb58a83dd8e8">$traitement</a> = <span class="keyword">new</span> <a class="code" href="class_treatment_home.html">TreatmentHome</a>(<a class="code" href="accueil_2index_8php.html#a8b3c85f8801c1e65a7e5aacf85681aa1">$render</a>);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="accueil_2index_8php.html#ab5840221488924f9dadbfb58a83dd8e8">$traitement</a>-&gt;treatmentToRender();</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;?&gt;</div>
+<div class="ttc" id="aaccueil_2index_8php_html_a8b3c85f8801c1e65a7e5aacf85681aa1"><div class="ttname"><a href="accueil_2index_8php.html#a8b3c85f8801c1e65a7e5aacf85681aa1">$render</a></div><div class="ttdeci">global $render</div><div class="ttdef"><b>Definition:</b> <a href="accueil_2index_8php_source.html#l00006">index.php:3</a></div></div>
+<div class="ttc" id="aaccueil_2index_8php_html_ab5840221488924f9dadbfb58a83dd8e8"><div class="ttname"><a href="accueil_2index_8php.html#ab5840221488924f9dadbfb58a83dd8e8">$traitement</a></div><div class="ttdeci">$traitement</div><div class="ttdef"><b>Definition:</b> <a href="accueil_2index_8php_source.html#l00008">index.php:8</a></div></div>
+<div class="ttc" id="aclass_treatment_home_html"><div class="ttname"><a href="class_treatment_home.html">TreatmentHome</a></div><div class="ttdef"><b>Definition:</b> <a href="accueil_2traitement_8php_source.html#l00006">traitement.php:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

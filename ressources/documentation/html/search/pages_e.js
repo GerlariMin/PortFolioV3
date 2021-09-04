@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_10520',['Version',['../md_ressources_vendor_phar_io_version__r_e_a_d_m_e.html',1,'(Global Namespace)'],['../md_ressources_vendor_sebastian_version__r_e_a_d_m_e.html',1,'(Global Namespace)']]]
+  ['upgrading_20guide_10568',['Upgrading Guide',['../md_ressources_vendor_fortawesome_font_awesome__u_p_g_r_a_d_i_n_g.htmlm',1,'']]]
 ];

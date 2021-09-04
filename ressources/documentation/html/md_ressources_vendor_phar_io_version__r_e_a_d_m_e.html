@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -90,17 +90,17 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_phar_io_version__
 <div class="contents">
 <div class="textblock"><p>Library for handling version information and constraints</p>
 <p><a href="https://travis-ci.org/phar-io/version"><img src="https://travis-ci.org/phar-io/version.svg?branch=master" alt="Build Status" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md494"></a>
+<h1><a class="anchor" id="autotoc_md519"></a>
 Installation</h1>
 <p>You can add this library as a local, per-project dependency to your project using <a href="https://getcomposer.org/">Composer</a>: </p><pre class="fragment">composer require phar-io/version
 </pre><p> If you only need this library during development, for instance to run your project's test suite, then you should add it as a development-time dependency: </p><pre class="fragment">composer require --dev phar-io/version
-</pre> <h1><a class="anchor" id="autotoc_md495"></a>
+</pre> <h1><a class="anchor" id="autotoc_md520"></a>
 Version constraints</h1>
 <p>A Version constraint describes a range of versions or a discrete version number. The format of version numbers follows the schema of <a href="http://semver.org">semantic versioning</a>: <code>&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</code>. A constraint might contain an operator that describes the range.</p>
 <p>Beside the typical mathematical operators like <code>&lt;=</code>, <code>&gt;=</code>, there are two special operators:</p>
 <p><em>Caret operator</em>: <code>^1.0</code> can be written as <code>&gt;=1.0.0 &lt;2.0.0</code> and read as »every Version within major version <code>1</code>«.</p>
 <p><em>Tilde operator</em>: <code>~1.0.0</code> can be written as <code>&gt;=1.0.0 &lt;1.1.0</code> and read as »every version within minor version <code>1.1</code>. The behavior of tilde operator depends on whether a patch level version is provided or not. If no patch level is provided, tilde operator behaves like the caret operator: <code>~1.0</code> is identical to <code>^1.0</code>.</p>
-<h1><a class="anchor" id="autotoc_md496"></a>
+<h1><a class="anchor" id="autotoc_md521"></a>
 Usage examples</h1>
 <p>Parsing version constraints and check discrete versions for compliance:</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_phar_io_1_1_version_1_1_version.html">PharIo\Version\Version</a>;</div>

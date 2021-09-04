@@ -1,7 +1,8 @@
 var namespaces_dup =
 [
     [ "Composer", null, [
-      [ "Autoload", "namespace_composer_1_1_autoload.html", "namespace_composer_1_1_autoload" ]
+      [ "Autoload", "namespace_composer_1_1_autoload.html", "namespace_composer_1_1_autoload" ],
+      [ "InstalledVersions", "class_composer_1_1_installed_versions.html", null ]
     ] ],
     [ "DeepCopy", "namespace_deep_copy.html", "namespace_deep_copy" ],
     [ "Doctrine", null, [

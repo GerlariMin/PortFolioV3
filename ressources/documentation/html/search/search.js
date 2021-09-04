@@ -83,7 +83,7 @@ function getYPos(item)
 function SearchBox(name, resultsPath, inFrame, label, extension)
 {
   if (!name || !resultsPath) {  alert("Missing parameters to SearchBox."); }
-  if (!extension || extension == "") { extension = ".html"; }
+  if (!extension || extension == "") { extension = ".htmlm"; }
 
   // ---------- Instance variables
   this.name                  = name;

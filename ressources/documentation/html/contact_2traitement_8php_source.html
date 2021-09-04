@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -101,70 +101,32 @@ $(document).ready(function(){initNavTree('contact_2traitement_8php_source.html',
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            $this-&gt;render = $print;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            global <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            $this-&gt;config = <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_traitement___contact.html#aa6dbdfb9ee63547d4e83a3a513bf2269">   35</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___contact.html#aa6dbdfb9ee63547d4e83a3a513bf2269">traitement_card</a>(): array</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">return</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                [</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    0 =&gt;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                        [</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                            <span class="stringliteral">&quot;card-h5&quot;</span> =&gt;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                [</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                    <span class="stringliteral">&quot;card-h5-fontawesome&quot;</span> =&gt; <span class="stringliteral">&quot;fas fa-envelope-open&quot;</span>,</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                    <span class="stringliteral">&quot;card-h5-text&quot;</span> =&gt; <span class="stringliteral">&quot;Adresse E-Mail&quot;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                ],</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                            <span class="stringliteral">&quot;card-p&quot;</span> =&gt;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                [</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                    <span class="stringliteral">&quot;card-p-text&quot;</span> =&gt; <span class="stringliteral">&quot;Cliquez sur ce bouton pour m&#39;envoyer un e-mail depuis votre messagerie.&quot;</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                ],</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                            <span class="stringliteral">&quot;card-btn&quot;</span> =&gt;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                [</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                    <span class="stringliteral">&quot;card-btn-href&quot;</span> =&gt; <span class="stringliteral">&quot;mailto:m.minbielle@outlook.fr&quot;</span>,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                    <span class="stringliteral">&quot;card-btn-color&quot;</span> =&gt; <span class="stringliteral">&quot;light&quot;</span>,</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                    <span class="stringliteral">&quot;card-btn-target&quot;</span> =&gt; <span class="keyword">false</span>,</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                                    <span class="stringliteral">&quot;card-btn-text&quot;</span> =&gt; <span class="stringliteral">&quot;M&#39;envoyer un e-mail&quot;</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                ]</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                        ],</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                    1 =&gt;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                        [</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                            <span class="stringliteral">&quot;card-h5&quot;</span> =&gt;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                [</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                    <span class="stringliteral">&quot;card-h5-fontawesome&quot;</span> =&gt; <span class="stringliteral">&quot;fab fa-linkedin&quot;</span>,</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                    <span class="stringliteral">&quot;card-h5-text&quot;</span> =&gt; <span class="stringliteral">&quot;Profil LinkedIn&quot;</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                ],</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                            <span class="stringliteral">&quot;card-p&quot;</span> =&gt;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                [</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                    <span class="stringliteral">&quot;card-p-text&quot;</span> =&gt; <span class="stringliteral">&quot;Cliquez sur ce bouton pour visionner mon profil LinkedIn sur un autre onglet.&quot;</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                ],</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                            <span class="stringliteral">&quot;card-btn&quot;</span> =&gt;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                [</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                    <span class="stringliteral">&quot;card-btn-href&quot;</span> =&gt; <span class="stringliteral">&quot;https://www.linkedin.com/in/morgan-minbielle-5619b8178/&quot;</span>,</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                    <span class="stringliteral">&quot;card-btn-color&quot;</span> =&gt; <span class="stringliteral">&quot;light&quot;</span>,</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                    <span class="stringliteral">&quot;card-btn-target&quot;</span> =&gt; <span class="keyword">true</span>,</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                                    <span class="stringliteral">&quot;card-btn-text&quot;</span> =&gt; <span class="stringliteral">&quot;Voir mon profil&quot;</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                ]</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                        ]</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                ];</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="class_traitement___contact.html#a0400c9c38bc43a3131e5b04f9c680a25">   83</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___contact.html#a0400c9c38bc43a3131e5b04f9c680a25">traitement_toRender</a>(): void</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            $data[<span class="stringliteral">&#39;card&#39;</span>] = $this-&gt;<a class="code" href="class_traitement___contact.html#aa6dbdfb9ee63547d4e83a3a513bf2269">traitement_card</a>();</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            $data[<span class="stringliteral">&#39;chemin&#39;</span>] = $this-&gt;config[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>];</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            $data[<span class="stringliteral">&#39;contact&#39;</span>] = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            $this-&gt;render-&gt;action_render($data);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;?&gt;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            $this-&gt;text = <span class="keyword">new</span> <a class="code" href="class_text_contact.html">TextContact</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_traitement___contact.html#aa6dbdfb9ee63547d4e83a3a513bf2269">   36</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___contact.html#aa6dbdfb9ee63547d4e83a3a513bf2269">traitement_card</a>(): array</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">return</span> $this-&gt;text-&gt;textCard();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_traitement___contact.html#a0400c9c38bc43a3131e5b04f9c680a25">   44</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___contact.html#a0400c9c38bc43a3131e5b04f9c680a25">traitement_toRender</a>(): void</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            $data[<span class="stringliteral">&#39;card&#39;</span>] = $this-&gt;<a class="code" href="class_traitement___contact.html#aa6dbdfb9ee63547d4e83a3a513bf2269">traitement_card</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            $data[<span class="stringliteral">&#39;chemin&#39;</span>] = $this-&gt;config[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            $data[<span class="stringliteral">&#39;contact&#39;</span>] = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            $this-&gt;render-&gt;action_render($data);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;?&gt;</div>
 <div class="ttc" id="aclass_render_html"><div class="ttname"><a href="class_render.html">Render</a></div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00006">Render.php:7</a></div></div>
+<div class="ttc" id="aclass_text_contact_html"><div class="ttname"><a href="class_text_contact.html">TextContact</a></div><div class="ttdef"><b>Definition:</b> <a href="contact_2texte_8php_source.html#l00003">texte.php:4</a></div></div>
 <div class="ttc" id="aclass_traitement___contact_html"><div class="ttname"><a href="class_traitement___contact.html">Traitement_Contact</a></div><div class="ttdef"><b>Definition:</b> <a href="contact_2traitement_8php_source.html#l00006">traitement.php:7</a></div></div>
-<div class="ttc" id="aclass_traitement___contact_html_a0400c9c38bc43a3131e5b04f9c680a25"><div class="ttname"><a href="class_traitement___contact.html#a0400c9c38bc43a3131e5b04f9c680a25">Traitement_Contact\traitement_toRender</a></div><div class="ttdeci">traitement_toRender()</div><div class="ttdef"><b>Definition:</b> <a href="contact_2traitement_8php_source.html#l00083">traitement.php:83</a></div></div>
-<div class="ttc" id="aclass_traitement___contact_html_aa6dbdfb9ee63547d4e83a3a513bf2269"><div class="ttname"><a href="class_traitement___contact.html#aa6dbdfb9ee63547d4e83a3a513bf2269">Traitement_Contact\traitement_card</a></div><div class="ttdeci">traitement_card()</div><div class="ttdef"><b>Definition:</b> <a href="contact_2traitement_8php_source.html#l00035">traitement.php:35</a></div></div>
+<div class="ttc" id="aclass_traitement___contact_html_a0400c9c38bc43a3131e5b04f9c680a25"><div class="ttname"><a href="class_traitement___contact.html#a0400c9c38bc43a3131e5b04f9c680a25">Traitement_Contact\traitement_toRender</a></div><div class="ttdeci">traitement_toRender()</div><div class="ttdef"><b>Definition:</b> <a href="contact_2traitement_8php_source.html#l00044">traitement.php:44</a></div></div>
+<div class="ttc" id="aclass_traitement___contact_html_aa6dbdfb9ee63547d4e83a3a513bf2269"><div class="ttname"><a href="class_traitement___contact.html#aa6dbdfb9ee63547d4e83a3a513bf2269">Traitement_Contact\traitement_card</a></div><div class="ttdeci">traitement_card()</div><div class="ttdef"><b>Definition:</b> <a href="contact_2traitement_8php_source.html#l00036">traitement.php:36</a></div></div>
 <div class="ttc" id="aclass_traitement___contact_html_af8bc883cd0edfdb65dcefe5ac119f90a"><div class="ttname"><a href="class_traitement___contact.html#af8bc883cd0edfdb65dcefe5ac119f90a">Traitement_Contact\__construct</a></div><div class="ttdeci">__construct($print)</div><div class="ttdef"><b>Definition:</b> <a href="contact_2traitement_8php_source.html#l00023">traitement.php:23</a></div></div>
 <div class="ttc" id="aconfig_8inc_8php_html_a84e7b001466beb659382f023bc106491"><div class="ttname"><a href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a></div><div class="ttdeci">global $config</div><div class="ttdef"><b>Definition:</b> <a href="config_8inc_8php_source.html#l00003">config.inc.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

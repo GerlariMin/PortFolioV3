@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -90,71 +90,44 @@ $(document).ready(function(){initNavTree('accueil_2traitement_8php_source.html',
 <div class="contents">
 <a href="accueil_2traitement_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_traitement___accueil.html">    6</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_traitement___accueil.html">Traitement_Accueil</a></div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_treatment_home.html">    6</a></span>&#160;    <span class="keyword">class </span><a class="code" href="class_treatment_home.html">TreatmentHome</a></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">private</span> <a class="code" href="class_render.html">Render</a> $render;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">private</span> array $config;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_traitement___accueil.html#af8bc883cd0edfdb65dcefe5ac119f90a">   23</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___accueil.html#af8bc883cd0edfdb65dcefe5ac119f90a">__construct</a>($print)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            $this-&gt;render = $print;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            global <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            $this-&gt;config = <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">private</span> <span class="keyword">function</span> traitement_line(): array</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">return</span> </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                [</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    0 =&gt; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                        [</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                            <span class="stringliteral">&#39;line_id&#39;</span> =&gt; <span class="stringliteral">&quot;1&quot;</span>,</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                            <span class="stringliteral">&#39;line_left_content&#39;</span> =&gt; <span class="stringliteral">&quot;Morgan MINBIELLE&quot;</span>,</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                            <span class="stringliteral">&#39;line_right_content&#39;</span> =&gt; <span class="stringliteral">&quot;Morgan MINBIELLE&quot;</span>,</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                            <span class="stringliteral">&#39;line_span_class&#39;</span> =&gt; <span class="stringliteral">&quot;spanSlow&quot;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                        ],</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                    1 =&gt; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                        [</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                            <span class="stringliteral">&#39;line_id&#39;</span> =&gt;  <span class="stringliteral">&quot;2&quot;</span>,</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                            <span class="stringliteral">&#39;line_left_content&#39;</span> =&gt; <span class="stringliteral">&quot;Alternant Développeur&quot;</span>,</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                            <span class="stringliteral">&#39;line_right_content&#39;</span> =&gt; <span class="stringliteral">&quot;Alternant Développeur&quot;</span>,</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                            <span class="stringliteral">&#39;line_span_class&#39;</span> =&gt; <span class="stringliteral">&quot;spanFast&quot;</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        ],</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                    2 =&gt; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                        [</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                            <span class="stringliteral">&#39;line_id&#39;</span> =&gt; <span class="stringliteral">&quot;3&quot;</span>,</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                            <span class="stringliteral">&#39;line_left_content&#39;</span> =&gt; <span class="stringliteral">&quot;UPEC / Ecole Polytechnique&quot;</span>,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                            <span class="stringliteral">&#39;line_right_content&#39;</span> =&gt; <span class="stringliteral">&quot;UPEC / Ecole Polytechnique&quot;</span>,</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                            <span class="stringliteral">&#39;line_span_class&#39;</span> =&gt; <span class="stringliteral">&quot;spanSlow&quot;</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                        ],</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                    3 =&gt; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                        [</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                            <span class="stringliteral">&#39;line_id&#39;</span> =&gt; <span class="stringliteral">&quot;4&quot;</span>,</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                            <span class="stringliteral">&#39;line_left_content&#39;</span> =&gt; <span class="stringliteral">&quot;Master M1 Pro&quot;</span>,</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                            <span class="stringliteral">&#39;line_right_content&#39;</span> =&gt; <span class="stringliteral">&quot;Master M1 Pro&quot;</span>,</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                            <span class="stringliteral">&#39;line_span_class&#39;</span> =&gt; <span class="stringliteral">&quot;spanFast&quot;</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                        ]</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                ];</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="class_traitement___accueil.html#a0400c9c38bc43a3131e5b04f9c680a25">   73</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___accueil.html#a0400c9c38bc43a3131e5b04f9c680a25">traitement_toRender</a>(): void</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            $data[<span class="stringliteral">&#39;line&#39;</span>] = $this-&gt;traitement_line();</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            $data[<span class="stringliteral">&#39;chemin&#39;</span>] = $this-&gt;config[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>];</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            $data[<span class="stringliteral">&#39;accueil&#39;</span>] = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            $this-&gt;render-&gt;action_render($data);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;?&gt;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">private</span> <a class="code" href="class_text_home.html">TextHome</a> $text;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_treatment_home.html#af8bc883cd0edfdb65dcefe5ac119f90a">   27</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_treatment_home.html#af8bc883cd0edfdb65dcefe5ac119f90a">__construct</a>($print)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            $this-&gt;render = $print;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            global <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            $this-&gt;config = <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            $this-&gt;text = <span class="keyword">new</span> <a class="code" href="class_text_home.html">TextHome</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">private</span> <span class="keyword">function</span> treatmentLine(): array</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordflow">return</span> $this-&gt;text-&gt;textLine($this-&gt;config);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_treatment_home.html#a792142995abc46a1398f8a60d5e94a36">   48</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_treatment_home.html#a792142995abc46a1398f8a60d5e94a36">treatmentToRender</a>(): void</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            $data[<span class="stringliteral">&#39;line&#39;</span>] = $this-&gt;treatmentLine();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            $data[<span class="stringliteral">&#39;chemin&#39;</span>] = $this-&gt;config[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>];</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            $data[<span class="stringliteral">&#39;accueil&#39;</span>] = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            $this-&gt;render-&gt;action_render($data);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;?&gt;</div>
 <div class="ttc" id="aclass_render_html"><div class="ttname"><a href="class_render.html">Render</a></div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00006">Render.php:7</a></div></div>
-<div class="ttc" id="aclass_traitement___accueil_html"><div class="ttname"><a href="class_traitement___accueil.html">Traitement_Accueil</a></div><div class="ttdef"><b>Definition:</b> <a href="accueil_2traitement_8php_source.html#l00006">traitement.php:7</a></div></div>
-<div class="ttc" id="aclass_traitement___accueil_html_a0400c9c38bc43a3131e5b04f9c680a25"><div class="ttname"><a href="class_traitement___accueil.html#a0400c9c38bc43a3131e5b04f9c680a25">Traitement_Accueil\traitement_toRender</a></div><div class="ttdeci">traitement_toRender()</div><div class="ttdef"><b>Definition:</b> <a href="accueil_2traitement_8php_source.html#l00073">traitement.php:73</a></div></div>
-<div class="ttc" id="aclass_traitement___accueil_html_af8bc883cd0edfdb65dcefe5ac119f90a"><div class="ttname"><a href="class_traitement___accueil.html#af8bc883cd0edfdb65dcefe5ac119f90a">Traitement_Accueil\__construct</a></div><div class="ttdeci">__construct($print)</div><div class="ttdef"><b>Definition:</b> <a href="accueil_2traitement_8php_source.html#l00023">traitement.php:23</a></div></div>
+<div class="ttc" id="aclass_text_home_html"><div class="ttname"><a href="class_text_home.html">TextHome</a></div><div class="ttdef"><b>Definition:</b> <a href="accueil_2texte_8php_source.html#l00006">texte.php:7</a></div></div>
+<div class="ttc" id="aclass_treatment_home_html"><div class="ttname"><a href="class_treatment_home.html">TreatmentHome</a></div><div class="ttdef"><b>Definition:</b> <a href="accueil_2traitement_8php_source.html#l00006">traitement.php:7</a></div></div>
+<div class="ttc" id="aclass_treatment_home_html_a792142995abc46a1398f8a60d5e94a36"><div class="ttname"><a href="class_treatment_home.html#a792142995abc46a1398f8a60d5e94a36">TreatmentHome\treatmentToRender</a></div><div class="ttdeci">treatmentToRender()</div><div class="ttdef"><b>Definition:</b> <a href="accueil_2traitement_8php_source.html#l00048">traitement.php:48</a></div></div>
+<div class="ttc" id="aclass_treatment_home_html_af8bc883cd0edfdb65dcefe5ac119f90a"><div class="ttname"><a href="class_treatment_home.html#af8bc883cd0edfdb65dcefe5ac119f90a">TreatmentHome\__construct</a></div><div class="ttdeci">__construct($print)</div><div class="ttdef"><b>Definition:</b> <a href="accueil_2traitement_8php_source.html#l00027">traitement.php:27</a></div></div>
 <div class="ttc" id="aconfig_8inc_8php_html_a84e7b001466beb659382f023bc106491"><div class="ttname"><a href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a></div><div class="ttdeci">global $config</div><div class="ttdef"><b>Definition:</b> <a href="config_8inc_8php_source.html#l00003">config.inc.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

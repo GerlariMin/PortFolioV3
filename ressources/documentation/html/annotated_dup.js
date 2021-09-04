@@ -4,7 +4,8 @@ var annotated_dup =
       [ "Autoload", "namespace_composer_1_1_autoload.html", [
         [ "ComposerStaticInit00bd0b8293d8f8871de8e737908e79b3", "class_composer_1_1_autoload_1_1_composer_static_init00bd0b8293d8f8871de8e737908e79b3.html", null ],
         [ "ClassLoader", "class_composer_1_1_autoload_1_1_class_loader.html", "class_composer_1_1_autoload_1_1_class_loader" ]
-      ] ]
+      ] ],
+      [ "InstalledVersions", "class_composer_1_1_installed_versions.html", null ]
     ] ],
     [ "DeepCopy", "namespace_deep_copy.html", [
       [ "Exception", "namespace_deep_copy_1_1_exception.html", [
@@ -1439,7 +1440,9 @@ var annotated_dup =
     [ "SectionsNested", "class_sections_nested.html", "class_sections_nested" ],
     [ "Simple", "class_simple.html", "class_simple" ],
     [ "TestStream", "class_test_stream.html", "class_test_stream" ],
-    [ "Traitement_Accueil", "class_traitement___accueil.html", "class_traitement___accueil" ],
+    [ "TextContact", "class_text_contact.html", "class_text_contact" ],
+    [ "TextHome", "class_text_home.html", "class_text_home" ],
+    [ "TextSkills", "class_text_skills.html", "class_text_skills" ],
     [ "Traitement_Competences", "class_traitement___competences.html", "class_traitement___competences" ],
     [ "Traitement_Contact", "class_traitement___contact.html", "class_traitement___contact" ],
     [ "Traitement_CV", "class_traitement___c_v.html", "class_traitement___c_v" ],
@@ -1447,6 +1450,7 @@ var annotated_dup =
     [ "Traitement_Experiences", "class_traitement___experiences.html", "class_traitement___experiences" ],
     [ "Traitement_Parcours", "class_traitement___parcours.html", "class_traitement___parcours" ],
     [ "Traitement_Presentation", "class_traitement___presentation.html", "class_traitement___presentation" ],
+    [ "TreatmentHome", "class_treatment_home.html", "class_treatment_home" ],
     [ "Unescaped", "class_unescaped.html", "class_unescaped" ],
     [ "UTF8", "class_u_t_f8.html", "class_u_t_f8" ],
     [ "UTF8Unescaped", "class_u_t_f8_unescaped.html", "class_u_t_f8_unescaped" ],

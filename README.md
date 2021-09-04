@@ -1,11 +1,11 @@
 [PortFolio Morgan MINBIELLE](https://monportfolio-mm.000webhostapp.com/accueil/)
 ========
 
-> Auteur: [Morgan MINBIELLE](https://monportfolio-mm.000webhostapp.com/accueil/)
+> Auteur: [**_Morgan MINBIELLE_**](https://monportfolio-mm.000webhostapp.com/accueil/)
 > 
-> Temps de lecture: ~ 7 minutes
+> Temps de lecture: **_\~ 7 minutes_**
 > 
-> `Version: 3.0`
+> Version: **_`3.0`_**
 
 ---
 
@@ -17,9 +17,7 @@
 - [Versions](#Versions)
 - [TODO](#TODO)
 - [Composer](#Composer)
-
----
-
+️
 ## Résumé
 
 Troisième version de mon PortFolio sur laquelle j'ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j'ai appris au sein de mon alternance).   
@@ -30,8 +28,8 @@ Il s'agit d'une présentation sommaire de mes compétences, mon parcours et mes 
 
 Chaque onglet (**`Accueil`, `Présentation`, `Parcours`, `Expériences`, `Compétences`, `Contact`, `CV`**) [^1] correspond à un répertoire éponyme.  
 **Chaque répertoire contient une _vue_** (dans le répertoire **`mustache/`**), **un _index_** (qui permet d'utiliser les bonnes ressources et variables pour afficher la page voulue), **une classe contenant ce qu'il faut afficher** (**_texte.php_**) **et une classe de traitement** (**_traitement.php_**) qui récupère les bons textes et les intègre au tableau formaté pour correspondre à l'affichage [**_Mustache_**](https://mustache.github.io/mustache.5.html) voulu (via des balises précisent).  
-Les ressources communes sont dans le répertoire `ressources/`.  
-L'ensembles des sources que j'ai utilisé sont visibles dans les commentaires du code (visibiles également en visitant le site web, en activant l'outils de développeur du navigateur pour voir le code affiché, accessible avec la touche **_`F12`_**[^2]).
+Les ressources communes sont dans le répertoire **_`ressources/`_**.  
+L'ensembles des sources que j'ai utilisé sont visibles dans les commentaires du code (visibiles également en visitant le site web, en activant l'outils de développeur du navigateur pour voir le code affiché, accessible avec la touche **_`F12`_** [^2] ).
 
 ## Arborescence
 
@@ -143,8 +141,6 @@ L'ensembles des sources que j'ai utilisé sont visibles dans les commentaires du
 
 ## Code [^3]
 
----
-
 ### Code commun
 
 #### index.php
@@ -192,6 +188,26 @@ else
     header("Location: ./accueil/");
     exit();
 }
+```
+
+#### .htaccess
+
+```
+# https://wpmarmite.com/htaccess-wordpress/#:~:text=Le%20fichier%20.htaccess%20est%20un%20fichier%20de%20configuration,notamment%20pouvoir%20%3A%20Am%C3%A9liorer%20la%20s%C3%A9curit%C3%A9%20d%E2%80%99un%20site.
+# http://sebl69.free.fr/astuces/pagesweb/index.php?page=creation-htaccess
+
+# Désactiver l'affichage du contenu des répertoires
+Options All -Indexes
+
+# Alternative pour empêcher le listage des répertoires
+IndexIgnore *
+
+# Pages d'erreurs personnalisées
+ErrorDocument 401 http://127.0.0.1/Chantier/erreur/index.php?erreur=401
+ErrorDocument 403 http://127.0.0.1/Chantier/erreur/index.php?erreur=403
+ErrorDocument 404 http://127.0.0.1/Chantier/erreur/index.php?erreur=404
+ErrorDocument 500 http://127.0.0.1/Chantier/erreur/index.php?erreur=500
+
 ```
 
 #### Render.php
@@ -626,8 +642,8 @@ Autres
 }
 ```
 
-[^1]: Liste des onglets principaux du site. D'autres onglets peuvent être présent sur le [site](https://monportfolio-mm.000webhostapp.com/accueil/)  
+[^1]: Liste des onglets principaux du site. D'autres onglets peuvent être présent sur le [**_site_**](https://monportfolio-mm.000webhostapp.com/accueil/)  
 
 [^2]: Peut varier en fonction du navigateur utilisé.  
 
-[^3]: Contient des extraits de code représentatif, l'ensemble des fichiers sont consultables sur le [répertoire Git](https://github.com/GerlariMin/PortFolioV3). L'emplacement exacte du fichier se trouver dans la section **_`Arborescence`_** du README.  
+[^3]: Contient des extraits de code représentatifs, l'ensemble des fichiers sont consultables sur le [**_répertoire Git_**](https://github.com/GerlariMin/PortFolioV3). L'emplacement exacte du fichier se trouver dans la section [**_`Arborescence`_**](#Arborescence) du **_README_**.  

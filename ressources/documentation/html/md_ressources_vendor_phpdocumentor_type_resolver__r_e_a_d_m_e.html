@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_phpdocumentor_typ
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" style="pointer-events: none;" class="inline"/></a> <img src="https://github.com/phpdocumentor/typeresolver/workflows/Qa%20workflow/badge.svg?branch=1.x" alt="" style="pointer-events: none;" class="inline"/> <a href="https://coveralls.io/github/phpDocumentor/TypeResolver?branch=1.x"><img src="https://img.shields.io/coveralls/github/phpDocumentor/TypeResolver.svg" alt="Coveralls Coverage" style="pointer-events: none;" class="inline"/></a> <a href="https://scrutinizer-ci.com/g/phpDocumentor/TypeResolver/?branch=1.x"><img src="https://img.shields.io/scrutinizer/coverage/g/phpDocumentor/TypeResolver.svg" alt="Scrutinizer Code Coverage" style="pointer-events: none;" class="inline"/></a> <a href="https://scrutinizer-ci.com/g/phpDocumentor/TypeResolver/?branch=1.x"><img src="https://img.shields.io/scrutinizer/g/phpDocumentor/TypeResolver.svg" alt="Scrutinizer Code Quality" style="pointer-events: none;" class="inline"/></a> <img src="https://img.shields.io/packagist/v/phpdocumentor/type-resolver?label=Packagist%20stable" alt="Packagist Version" class="inline"/> <img src="https://img.shields.io/packagist/vpre/phpdocumentor/type-resolver?label=Packagist%20unstable" alt="Packagist Version" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md502"></a>
+<h1><a class="anchor" id="autotoc_md527"></a>
 TypeResolver and FqsenResolver</h1>
 <p>The specification on types in DocBlocks (PSR-5) describes various keywords and special constructs but also how to statically resolve the partial name of a Class into a Fully Qualified Class Name (FQCN).</p>
 <p>PSR-5 also introduces an additional way to describe deeper elements than Classes, Interfaces and Traits called the Fully Qualified Structural Element Name (FQSEN). Using this it is possible to refer to methods, properties and class constants but also functions and global constants.</p>
@@ -98,13 +98,13 @@ TypeResolver and FqsenResolver</h1>
 <li>Returning a series of Value Object for given expression while resolving any partial class names, and</li>
 <li>Returning an FQSEN object after resolving any partial Structural Element Names into Fully Qualified Structural Element names.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md503"></a>
+<h2><a class="anchor" id="autotoc_md528"></a>
 Installing</h2>
 <p>The easiest way to install this library is with <a href="https://getcomposer.org">Composer</a> using the following command: </p><pre class="fragment">$ composer require phpdocumentor/type-resolver
-</pre> <h2><a class="anchor" id="autotoc_md504"></a>
+</pre> <h2><a class="anchor" id="autotoc_md529"></a>
 Examples</h2>
 <p>Ready to dive in and don't want to read through all that text below? Just consult the [examples](examples) folder and check which type of action that your want to accomplish.</p>
-<h2><a class="anchor" id="autotoc_md505"></a>
+<h2><a class="anchor" id="autotoc_md530"></a>
 On Types and Element Names</h2>
 <p>This component can be used in one of two ways</p>
 <ol type="1">
@@ -134,24 +134,24 @@ On Types and Element Names</h2>
 <li>Property expressions (i.e. <code>@see \MyNamespace\MyClass::$myProperty</code>)</li>
 <li>Method expressions (i.e. <code>@see \MyNamespace\MyClass::myMethod()</code>)</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md506"></a>
+<h2><a class="anchor" id="autotoc_md531"></a>
 Resolving a type</h2>
 <p>In order to resolve a type you will have to instantiate the class <code>\phpDocumentor\Reflection\TypeResolver</code> and call its <code>resolve</code> method like this:</p>
 <div class="fragment"><div class="line">$typeResolver = new \phpDocumentor\Reflection\TypeResolver();</div>
 <div class="line">$type = $typeResolver-&gt;resolve(<span class="stringliteral">&#39;string|integer&#39;</span>);</div>
 </div><!-- fragment --><p>In this example you will receive a Value Object of class <code>\phpDocumentor\Reflection\Types\Compound</code> that has two elements, one of type <code>\phpDocumentor\Reflection\Types\String_</code> and one of type <code>\phpDocumentor\Reflection\Types\Integer</code>.</p>
 <p>The real power of this resolver is in its capability to expand partial class names into fully qualified class names; but in order to do that we need an additional <code>\phpDocumentor\Reflection\Types\Context</code> class that will inform the resolver in which namespace the given expression occurs and which namespace aliases (or imports) apply.</p>
-<h3><a class="anchor" id="autotoc_md507"></a>
+<h3><a class="anchor" id="autotoc_md532"></a>
 Resolving nullable types</h3>
 <p>Php 7.1 introduced nullable types e.g. <code>?string</code>. Type resolver will resolve the original type without the nullable notation <code>?</code> just like it would do without the <code>?</code>. After that the type is wrapped in a <code>\phpDocumentor\Reflection\Types\Nullable</code> object. The <code>Nullable</code> type has a method to fetch the actual type.</p>
-<h2><a class="anchor" id="autotoc_md508"></a>
+<h2><a class="anchor" id="autotoc_md533"></a>
 Resolving an FQSEN</h2>
 <p>A Fully Qualified Structural Element Name is a reference to another element in your code bases and can be resolved using the <code>\phpDocumentor\Reflection\FqsenResolver</code> class' <code>resolve</code> method, like this:</p>
 <div class="fragment"><div class="line">$fqsenResolver = new \phpDocumentor\Reflection\FqsenResolver();</div>
 <div class="line">$fqsen = $fqsenResolver-&gt;resolve(<span class="stringliteral">&#39;\phpDocumentor\Reflection\FqsenResolver::resolve()&#39;</span>);</div>
 </div><!-- fragment --><p>In this example we resolve a Fully Qualified Structural Element Name (meaning that it includes the full namespace, class name and element name) and receive a Value Object of type <code>\phpDocumentor\Reflection\Fqsen</code>.</p>
 <p>The real power of this resolver is in its capability to expand partial element names into Fully Qualified Structural Element Names; but in order to do that we need an additional <code>\phpDocumentor\Reflection\Types\Context</code> class that will inform the resolver in which namespace the given expression occurs and which namespace aliases (or imports) apply.</p>
-<h2><a class="anchor" id="autotoc_md509"></a>
+<h2><a class="anchor" id="autotoc_md534"></a>
 Resolving partial Classes and Structural Element Names</h2>
 <p>Perhaps the best feature of this library is that it knows how to resolve partial class names into fully qualified class names.</p>
 <p>For example, you have this file:</p>
@@ -168,7 +168,7 @@ Resolving partial Classes and Structural Element Names</h2>
 <div class="ttc" id="anamespacephp_documentor_1_1_reflection_1_1_types_html"><div class="ttname"><a href="namespacephp_documentor_1_1_reflection_1_1_types.html">phpDocumentor\Reflection\Types</a></div><div class="ttdef"><b>Definition:</b> <a href="_abstract_list_8php_source.html#l00014">AbstractList.php:14</a></div></div>
 </div><!-- fragment --><p>Suppose that you would want to resolve (and expand) the type in the <code>@var</code> tag and the element name in the <code>@see</code> tag.</p>
 <p>For the resolvers to know how to expand partial names you have to provide a bit of <em>Context</em> for them by instantiating a new class named <code>\phpDocumentor\Reflection\Types\Context</code> with the name of the namespace and the aliases that are in play.</p>
-<h3><a class="anchor" id="autotoc_md510"></a>
+<h3><a class="anchor" id="autotoc_md535"></a>
 Creating a Context</h3>
 <p>You can do this by manually creating a Context like this:</p>
 <div class="fragment"><div class="line">$context = new \phpDocumentor\Reflection\Types\Context(</div>
@@ -181,7 +181,7 @@ Creating a Context</h3>
 </div><!-- fragment --><p>or</p>
 <div class="fragment"><div class="line">$contextFactory = new \phpDocumentor\Reflection\Types\ContextFactory();</div>
 <div class="line">$context = $contextFactory-&gt;createForNamespace(<span class="stringliteral">&#39;\My\Example&#39;</span>, file_get_contents(<span class="stringliteral">&#39;My/Example/Classy.php&#39;</span>));</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md511"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md536"></a>
 Using the Context</h3>
 <p>After you have obtained a Context it is just a matter of passing it along with the <code>resolve</code> method of either Resolver class as second argument and the Resolvers will take this into account when resolving partial names.</p>
 <p>To obtain the resolved class name for the <code>@var</code> tag in the example above you can do:</p>

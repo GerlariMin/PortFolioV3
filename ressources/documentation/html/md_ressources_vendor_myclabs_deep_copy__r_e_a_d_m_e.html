@@ -27,9 +27,9 @@
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">3.0</span>
    </div>
-   <div id="projectbrief">Site Web personnel. Développé en PHP 7.4, Mustache, HTML 5, JavaScript et CSS 3.</div>
+   <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
  </tr>
  </tbody>
@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_myclabs_deep_copy
 <div class="contents">
 <div class="textblock"><p><a class="el" href="namespace_deep_copy.html">DeepCopy</a> helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph.</p>
 <p><a href="https://travis-ci.org/myclabs/DeepCopy"><img src="https://travis-ci.org/myclabs/DeepCopy.png?branch=1.x" alt="Build Status" class="inline"/></a> <a href="https://coveralls.io/r/myclabs/DeepCopy?branch=1.x"><img src="https://coveralls.io/repos/myclabs/DeepCopy/badge.png?branch=1.x" alt="Coverage Status" class="inline"/></a> <a href="https://scrutinizer-ci.com/g/myclabs/DeepCopy/"><img src="https://scrutinizer-ci.com/g/myclabs/DeepCopy/badges/quality-score.png?s=2747100c19b275f93a777e3297c6c12d1b68b934" alt="Scrutinizer Quality Score" class="inline"/></a> <a href="https://packagist.org/packages/myclabs/deep-copy"><img src="https://poser.pugx.org/myclabs/deep-copy/downloads.svg" alt="Total Downloads" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md435"></a>
+<h1><a class="anchor" id="autotoc_md460"></a>
 Table of Contents</h1>
 <ol type="1">
 <li><a href="#how">How</a></li>
@@ -158,7 +158,7 @@ Table of Contents</h1>
 </ol>
 </li>
 </ol>
-<h1><a class="anchor" id="autotoc_md436"></a>
+<h1><a class="anchor" id="autotoc_md461"></a>
 How?</h1>
 <p>Install with Composer:</p>
 <div class="fragment"><div class="line">composer require myclabs/deep-copy</div>
@@ -169,7 +169,7 @@ How?</h1>
 <div class="line">$myCopy = $copier-&gt;copy($myObject);</div>
 <div class="ttc" id="aclass_deep_copy_1_1_deep_copy_html"><div class="ttname"><a href="class_deep_copy_1_1_deep_copy.html">DeepCopy\DeepCopy</a></div><div class="ttdef"><b>Definition:</b> <a href="_deep_copy_8php_source.html#l00025">DeepCopy.php:26</a></div></div>
 <div class="ttc" id="anamespace_deep_copy_html"><div class="ttname"><a href="namespace_deep_copy.html">DeepCopy</a></div><div class="ttdef"><b>Definition:</b> <a href="deep__copy_8php_source.html#l00003">deep_copy.php:3</a></div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md437"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md462"></a>
 Why?</h1>
 <ul>
 <li>How do you create copies of your objects?</li>
@@ -184,16 +184,16 @@ Why?</h1>
 </ul>
 <p>Now you're in for a big mess :(</p>
 <p><img src="doc/graph.png" alt="association graph" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md438"></a>
+<h2><a class="anchor" id="autotoc_md463"></a>
 Using simply &lt;tt&gt;clone&lt;/tt&gt;</h2>
 <p><img src="doc/clone.png" alt="Using clone" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md439"></a>
+<h2><a class="anchor" id="autotoc_md464"></a>
 Overridding &lt;tt&gt;__clone()&lt;/tt&gt;</h2>
 <p><img src="doc/deep-clone.png" alt="Overridding __clone" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md440"></a>
+<h2><a class="anchor" id="autotoc_md465"></a>
 With &lt;tt&gt;DeepCopy&lt;/tt&gt;</h2>
 <p><img src="doc/deep-copy.png" alt="With DeepCopy" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md441"></a>
+<h1><a class="anchor" id="autotoc_md466"></a>
 How it works</h1>
 <p><a class="el" href="namespace_deep_copy.html">DeepCopy</a> recursively traverses all the object's properties and clones them. To avoid cloning the same object twice it keeps a hash map of all instances and thus preserves the object graph.</p>
 <p>To use it:</p>
@@ -221,18 +221,18 @@ How it works</h1>
 <div class="line">    </div>
 <div class="line">    <span class="keywordflow">return</span> $copier-&gt;copy($var);</div>
 <div class="line">}</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md442"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md467"></a>
 Going further</h1>
 <p>You can add filters to customize the copy process.</p>
 <p>The method to add a filter is <code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\DeepCopy::addFilter($filter, $matcher)</code>, with <code>$filter</code> implementing <code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\Filter\Filter</code> and <code>$matcher</code> implementing <code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\Matcher\Matcher</code>.</p>
 <p>We provide some generic filters and matchers.</p>
-<h2><a class="anchor" id="autotoc_md443"></a>
+<h2><a class="anchor" id="autotoc_md468"></a>
 Matchers</h2>
 <ul>
 <li><code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\Matcher</code> applies on a object attribute.</li>
 <li><code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\TypeMatcher</code> applies on any element found in graph, including array elements.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md444"></a>
+<h3><a class="anchor" id="autotoc_md469"></a>
 Property name</h3>
 <p>The <code>PropertyNameMatcher</code> will match a property by its name:</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_matcher_1_1_property_name_matcher.html">DeepCopy\Matcher\PropertyNameMatcher</a>;</div>
@@ -240,7 +240,7 @@ Property name</h3>
 <div class="line"><span class="comment">// Will apply a filter to any property of any objects named &quot;id&quot;</span></div>
 <div class="line">$matcher = <span class="keyword">new</span> PropertyNameMatcher(<span class="stringliteral">&#39;id&#39;</span>);</div>
 <div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_property_name_matcher_html"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_property_name_matcher.html">DeepCopy\Matcher\PropertyNameMatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_property_name_matcher_8php_source.html#l00008">PropertyNameMatcher.php:9</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md445"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md470"></a>
 Specific property</h3>
 <p>The <code>PropertyMatcher</code> will match a specific property of a specific class:</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_matcher_1_1_property_matcher.html">DeepCopy\Matcher\PropertyMatcher</a>;</div>
@@ -248,7 +248,7 @@ Specific property</h3>
 <div class="line"><span class="comment">// Will apply a filter to the property &quot;id&quot; of any objects of the class &quot;MyClass&quot;</span></div>
 <div class="line">$matcher = <span class="keyword">new</span> PropertyMatcher(<span class="stringliteral">&#39;MyClass&#39;</span>, <span class="stringliteral">&#39;id&#39;</span>);</div>
 <div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_property_matcher_html"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_property_matcher.html">DeepCopy\Matcher\PropertyMatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_property_matcher_8php_source.html#l00008">PropertyMatcher.php:9</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md446"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md471"></a>
 Type</h3>
 <p>The <code>TypeMatcher</code> will match any element by its type (instance of a class or any value that could be parameter of <a href="http://php.net/manual/en/function.gettype.php">gettype()</a> function):</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_type_matcher_1_1_type_matcher.html">DeepCopy\TypeMatcher\TypeMatcher</a>;</div>
@@ -256,13 +256,13 @@ Type</h3>
 <div class="line"><span class="comment">// Will apply a filter to any object that is an instance of Doctrine\Common\Collections\Collection</span></div>
 <div class="line">$matcher = <span class="keyword">new</span> TypeMatcher(<span class="stringliteral">&#39;Doctrine\Common\Collections\Collection&#39;</span>);</div>
 <div class="ttc" id="aclass_deep_copy_1_1_type_matcher_1_1_type_matcher_html"><div class="ttname"><a href="class_deep_copy_1_1_type_matcher_1_1_type_matcher.html">DeepCopy\TypeMatcher\TypeMatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_type_matcher_8php_source.html#l00005">TypeMatcher.php:6</a></div></div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md447"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md472"></a>
 Filters</h2>
 <ul>
 <li><code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\Filter</code> applies a transformation to the object attribute matched by <code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\Matcher</code></li>
 <li><code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\TypeFilter</code> applies a transformation to any element matched by <code><a class="el" href="namespace_deep_copy.html">DeepCopy</a>\TypeMatcher</code></li>
 </ul>
-<h3><a class="anchor" id="autotoc_md448"></a>
+<h3><a class="anchor" id="autotoc_md473"></a>
 &lt;tt&gt;SetNullFilter&lt;/tt&gt; (filter)</h3>
 <p>Let's say for example that you are copying a database record (or a Doctrine entity), so you want the copy not to have any ID:</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_deep_copy.html">DeepCopy\DeepCopy</a>;</div>
@@ -279,7 +279,7 @@ Filters</h2>
 <div class="line"> </div>
 <div class="line">echo $copy-&gt;id; <span class="comment">// null</span></div>
 <div class="ttc" id="aclass_deep_copy_1_1_filter_1_1_set_null_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_filter_1_1_set_null_filter.html">DeepCopy\Filter\SetNullFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_set_null_filter_8php_source.html#l00010">SetNullFilter.php:11</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md449"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md474"></a>
 &lt;tt&gt;KeepFilter&lt;/tt&gt; (filter)</h3>
 <p>If you want a property to remain untouched (for example, an association to an object):</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_deep_copy.html">DeepCopy\DeepCopy</a>;</div>
@@ -292,7 +292,7 @@ Filters</h2>
 <div class="line">$copy = $copier-&gt;copy($object);</div>
 <div class="line"><span class="comment">// $copy-&gt;category has not been touched</span></div>
 <div class="ttc" id="aclass_deep_copy_1_1_filter_1_1_keep_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_filter_1_1_keep_filter.html">DeepCopy\Filter\KeepFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_keep_filter_8php_source.html#l00005">KeepFilter.php:6</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md450"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md475"></a>
 &lt;tt&gt;DoctrineCollectionFilter&lt;/tt&gt; (filter)</h3>
 <p>If you use Doctrine and want to copy an entity, you will need to use the <code>DoctrineCollectionFilter</code>:</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_deep_copy.html">DeepCopy\DeepCopy</a>;</div>
@@ -305,7 +305,7 @@ Filters</h2>
 <div class="line">$copy = $copier-&gt;copy($object);</div>
 <div class="ttc" id="aclass_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_collection_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_collection_filter.html">DeepCopy\Filter\Doctrine\DoctrineCollectionFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_doctrine_collection_filter_8php_source.html#l00011">DoctrineCollectionFilter.php:12</a></div></div>
 <div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_property_type_matcher_html"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html">DeepCopy\Matcher\PropertyTypeMatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_property_type_matcher_8php_source.html#l00016">PropertyTypeMatcher.php:17</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md451"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md476"></a>
 &lt;tt&gt;DoctrineEmptyCollectionFilter&lt;/tt&gt; (filter)</h3>
 <p>If you use Doctrine and want to copy an entity who contains a <code>Collection</code> that you want to be reset, you can use the <code>DoctrineEmptyCollectionFilter</code></p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_deep_copy.html">DeepCopy\DeepCopy</a>;</div>
@@ -319,7 +319,7 @@ Filters</h2>
 <div class="line"> </div>
 <div class="line"><span class="comment">// $copy-&gt;myProperty will return an empty collection</span></div>
 <div class="ttc" id="aclass_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html">DeepCopy\Filter\Doctrine\DoctrineEmptyCollectionFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_doctrine_empty_collection_filter_8php_source.html#l00012">DoctrineEmptyCollectionFilter.php:13</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md452"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md477"></a>
 &lt;tt&gt;DoctrineProxyFilter&lt;/tt&gt; (filter)</h3>
 <p>If you use Doctrine and use cloning on lazy loaded entities, you might encounter errors mentioning missing fields on a Doctrine proxy class (...\__CG__\Proxy). You can use the <code>DoctrineProxyFilter</code> to load the actual entity behind the Doctrine proxy class. <b>Make sure, though, to put this as one of your very first filters in the filter chain so that the entity is loaded before other filters are applied!</b></p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_deep_copy.html">DeepCopy\DeepCopy</a>;</div>
@@ -334,7 +334,7 @@ Filters</h2>
 <div class="line"><span class="comment">// $copy should now contain a clone of all entities, including those that were not yet fully loaded.</span></div>
 <div class="ttc" id="aclass_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_proxy_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_proxy_filter.html">DeepCopy\Filter\Doctrine\DoctrineProxyFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_doctrine_proxy_filter_8php_source.html#l00010">DoctrineProxyFilter.php:11</a></div></div>
 <div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_doctrine_1_1_doctrine_proxy_matcher_html"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_doctrine_1_1_doctrine_proxy_matcher.html">DeepCopy\Matcher\Doctrine\DoctrineProxyMatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_doctrine_proxy_matcher_8php_source.html#l00011">DoctrineProxyMatcher.php:12</a></div></div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md453"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md478"></a>
 &lt;tt&gt;ReplaceFilter&lt;/tt&gt; (type filter)</h3>
 <ol type="1">
 <li>If you want to replace the value of a property:</li>
@@ -371,7 +371,7 @@ Filters</h2>
 <div class="line"><span class="comment">// $copy will contain [&#39;MyClass&#39;, &#39;some string&#39;, &#39;MyClass&#39;]</span></div>
 <div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_replace_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html">DeepCopy\TypeFilter\ReplaceFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_2_replace_filter_8php_source.html#l00008">ReplaceFilter.php:9</a></div></div>
 </div><!-- fragment --><p>The <code>$callback</code> parameter of the <code>ReplaceFilter</code> constructor accepts any PHP callable.</p>
-<h3><a class="anchor" id="autotoc_md454"></a>
+<h3><a class="anchor" id="autotoc_md479"></a>
 &lt;tt&gt;ShallowCopyFilter&lt;/tt&gt; (type filter)</h3>
 <p>Stop <em><a class="el" href="namespace_deep_copy.html">DeepCopy</a></em> from recursively copying element, using standard <code>clone</code> instead:</p>
 <div class="fragment"><div class="line">use <a class="code" href="class_deep_copy_1_1_deep_copy.html">DeepCopy\DeepCopy</a>;</div>
@@ -388,21 +388,21 @@ Filters</h2>
 <div class="line">$myServiceWithMocks = <span class="keyword">new</span> MyService(m::mock(MyDependency1::class), m::mock(MyDependency2::class));</div>
 <div class="line"><span class="comment">// All mocks will be just cloned, not deep copied</span></div>
 <div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_shallow_copy_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_shallow_copy_filter.html">DeepCopy\TypeFilter\ShallowCopyFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_shallow_copy_filter_8php_source.html#l00008">ShallowCopyFilter.php:9</a></div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md455"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md480"></a>
 Edge cases</h1>
 <p>The following structures cannot be deep-copied with PHP Reflection. As a result they are shallow cloned and filters are not applied. There is two ways for you to handle them:</p>
 <ul>
 <li>Implement your own <code>__clone()</code> method</li>
 <li>Use a filter with a type matcher</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md456"></a>
+<h1><a class="anchor" id="autotoc_md481"></a>
 Contributing</h1>
 <p><a class="el" href="namespace_deep_copy.html">DeepCopy</a> is distributed under the MIT license.</p>
-<h2><a class="anchor" id="autotoc_md457"></a>
+<h2><a class="anchor" id="autotoc_md482"></a>
 Tests</h2>
 <p>Running the tests is simple:</p>
 <div class="fragment"><div class="line">vendor/bin/phpunit</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md458"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md483"></a>
 Support</h2>
 <p>Get professional support via <a href="https://tidelift.com/subscription/pkg/packagist-myclabs-deep-copy?utm_source=packagist-myclabs-deep-copy&amp;utm_medium=referral&amp;utm_campaign=readme">the Tidelift Subscription</a>. </p>
 </div></div><!-- contents -->
