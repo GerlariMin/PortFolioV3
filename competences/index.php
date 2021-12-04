@@ -5,7 +5,7 @@
 
     global $render;
 
-    $traitement = new Traitement_Competences($render);
-    $traitement->traitement_toRender();
+    $traitement = new TraitementCompetences($render);
+    $traitement->traitementRendu();
 
 ?>

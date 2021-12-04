@@ -1,10 +1,15 @@
 <?php
 
     /**
-     * Class TexteAccueil
+     * Classe TexteAccueil
+     * Contient l'ensemble du texte à afficher pour la page d'accueil.
      */
-    class TextHome
+    class TexteAccueil
     {
+        /**
+         * Variables correspondant aux balises Mustache de la page.
+         */
+
         /**
          * @var String line_id
          */
@@ -31,12 +36,12 @@
         private String $spanSlow = "spanSlow";
 
         /**
-         * Retourne un tableau formaté pour les différentes balises Mustache de la page d'accueil.
+         * Fonction texteLignes qui retourne un tableau formaté pour les différentes balises Mustache de la page d'accueil.
          *
          * @param $config
          * @return array[]
          */
-        public function textLine($config): array
+        public function texteLignes($config): array
         {
             return
                 [

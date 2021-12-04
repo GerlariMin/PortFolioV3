@@ -1,6 +1,10 @@
 <?php
 
-    class TextContact
+    /**
+     * Classe TexteContact
+     * Contient l'ensemble du texte à afficher pour la page contact.
+     */
+    class TexteContact
     {
         /**
          * @var string

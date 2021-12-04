@@ -192,7 +192,7 @@ else
 
 #### .htaccess
 
-```
+```.htaccess
 # https://wpmarmite.com/htaccess-wordpress/#:~:text=Le%20fichier%20.htaccess%20est%20un%20fichier%20de%20configuration,notamment%20pouvoir%20%3A%20Am%C3%A9liorer%20la%20s%C3%A9curit%C3%A9%20d%E2%80%99un%20site.
 # http://sebl69.free.fr/astuces/pagesweb/index.php?page=creation-htaccess
 
@@ -286,8 +286,8 @@ include("texte.php");
 
 global $render;
 
-$traitement = new TreatmentHome($render);
-$traitement->treatmentToRender();
+$traitement = new TraitementAccueil($render);
+$traitement->traitementRendu();
 ```
 
 #### accueil/texte.php
@@ -379,9 +379,9 @@ class TreatmentHome
      */
     private array $config;
     /**
-     * @var TextHome text
+     * @var TexteAccueil text
      */
-    private TextHome $text;
+    private TexteAccueil $text;
 
     /**
      * Traitement_Accueil constructor.
@@ -393,7 +393,7 @@ class TreatmentHome
         $this->render = $print;
         global $config;
         $this->config = $config;
-        $this->text = new TextHome();
+        $this->text = new TexteAccueil();
     }
 
     /**
@@ -403,7 +403,7 @@ class TreatmentHome
      */
     private function treatmentLine(): array
     {
-        return $this->text->textLine($this->config);
+        return $this->text->texteLignes($this->config);
     }
 
     /**
@@ -416,7 +416,7 @@ class TreatmentHome
         $data['chemin'] = $this->config['variables']['chemin'];
         $data['accueil'] = true;
 
-        $this->render->action_render($data);
+        $this->render->actionRendu($data);
     }
 
 }
@@ -589,7 +589,7 @@ class TreatmentHome
 
 ## Versions
 
-> `v3.0` `Bootstrap 4.6` `CSS 3` `Doxygen` `fontawesome 5.15` `HTML 5` `JavaScript` `jquery` `jquery-ui` `Mustache` `PHP 7.4/8` `PHPUnit`
+> `v3.0` `Bootstrap 4.6` `CSS 3` `Doxygen` `fontawesome 5.15` `HTML 5` `JavaScript` `jquery` `jquery-ui` `Mustache` `PHP 7.4` `PHP 8.0` `PHPUnit`
 > [Code source](https://github.com/GerlariMin/PortFolioV1)
 > [URL](https://monportfolio-mm.000webhostapp.com/accueil/)
 
@@ -613,9 +613,10 @@ Pages
 - [x] Contact
 - [x] CV
 - [x] Documentation
-- [ ] Projets
+- [x] ~~Projets~~ (page non nécessaire, les projets sont détaillés dans la page Expériences)
 
 Autres
+- [x] PHP 8.0
 - [x] PHP 7.4
 - [x] Mustache
 - [ ] Classes de textes
@@ -642,7 +643,7 @@ Autres
 }
 ```
 
-[^1]: Liste des onglets principaux du site. D'autres onglets peuvent être présent sur le [**_site_**](https://monportfolio-mm.000webhostapp.com/accueil/)  
+[^1]: Liste des onglets principaux du site. D'autres onglets peuvent être présent sur le [**_site_**](https://monportfolio-mm.000webhostapp.com/accueil/).  
 
 [^2]: Peut varier en fonction du navigateur utilisé.  
 

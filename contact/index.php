@@ -5,7 +5,7 @@
 
     global $render;
 
-    $traitement = new Traitement_Contact($render);
-    $traitement->traitement_toRender();
+    $traitement = new TraitementContact($render);
+    $traitement->traitementRendu();
 
 ?>

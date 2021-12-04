@@ -1,9 +1,9 @@
 <?php
 
     /**
-     * Class Traitement_CV
+     * Class TraitementCV
      */
-    class Traitement_CV
+    class TraitementCV
     {
 
         /**
@@ -16,13 +16,13 @@
         private array $config;
 
         /**
-         * Traitement_CV constructor.
+         * TraitementCV constructor.
          *
-         * @param $print
+         * @param $rendu
          */
-        public function __construct($print)
+        public function __construct($rendu)
         {
-            $this->render = $print;
+            $this->render = $rendu;
             global $config;
             $this->config = $config;
         }
@@ -30,12 +30,12 @@
         /**
          * Affichage de la page CV.
          */
-        public function traitement_toRender(): void
+        public function traitementRendu(): void
         {
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['cv'] = true;
 
-            $this->render->action_render($data);
+            $this->render->actionRendu($data);
         }
 
     }

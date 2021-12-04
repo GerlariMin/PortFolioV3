@@ -1,9 +1,9 @@
 <?php
 
     /**
-     * Class Traitement_Experiences
+     * Class TraitementExperiences
      */
-    class Traitement_Experiences
+    class TraitementExperiences
     {
 
         /**
@@ -14,17 +14,19 @@
          * @var array
          */
         private array $config;
+        private TexteExperiences $texte;
 
         /**
-         * Traitement_Experiences constructor.
+         * TraitementExperiences constructor.
          *
-         * @param $print
+         * @param $rendu
          */
-        public function __construct($print)
+        public function __construct($rendu)
         {
-            $this->render = $print;
+            $this->render = $rendu;
             global $config;
             $this->config = $config;
+            $this->texte = new TexteExperiences();
         }
 
         /**
@@ -32,22 +34,22 @@
          *
          * @return array[]
          */
-        public function traitement_accordion()
+        public function traitementAccordion(): array
         {
-            return $this->config['experiences']['accordion'];
+            return $this->texte->texteAccordion();
         }
 
         /**
          * Affichage de la page d'expériences.
          */
-        public function traitement_toRender()
+        public function traitementRendu()
         {
-            $data['arccordion-item'] = $this->traitement_accordion();
+            $data['arccordion-item'] = $this->traitementAccordion();
 
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['experiences'] = true;
             
-            $this->render->action_render($data);
+            $this->render->actionRendu($data);
         }
 
     }

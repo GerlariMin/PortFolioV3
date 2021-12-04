@@ -1,10 +1,11 @@
 <?php
 
     include("../ressources/php/fichiers_communs.php");
+    include("texte.php");
 
     global $render;
 
-    $traitement = new Traitement_Experiences($render);
-    $traitement->traitement_toRender();
+    $traitement = new TraitementExperiences($render);
+    $traitement->traitementRendu();
 
 ?>

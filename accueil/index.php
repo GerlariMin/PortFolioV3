@@ -5,7 +5,7 @@
 
     global $render;
 
-    $traitement = new TreatmentHome($render);
-    $traitement->treatmentToRender();
+    $traitement = new TraitementAccueil($render);
+    $traitement->traitementRendu();
 
 ?>

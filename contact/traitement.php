@@ -1,9 +1,9 @@
 <?php
 
     /**
-     * Class Traitement_Contact
+     * Classe TraitementContact
      */
-    class Traitement_Contact
+    class TraitementContact
     {
 
         /**
@@ -14,18 +14,22 @@
          * @var array
          */
         private array $config;
+        /**
+         * @var TexteContact
+         */
+        private TexteContact $texte;
 
         /**
          * Traitement_Contact constructor.
          *
-         * @param $print
+         * @param Render $rendu
          */
-        public function __construct($print)
+        public function __construct(Render $rendu)
         {
-            $this->render = $print;
+            $this->render = $rendu;
             global $config;
             $this->config = $config;
-            $this->text = new TextContact();
+            $this->texte = new TexteContact();
         }
 
         /**
@@ -33,22 +37,22 @@
          *
          * @return array[]
          */
-        public function traitement_card(): array
+        public function traitementCard(): array
         {
-            return $this->text->textCard();
+            return $this->texte->textCard();
         }
 
         /**
          * Affichage de la page de contact.
          */
-        public function traitement_toRender(): void
+        public function traitementRendu(): void
         {
-            $data['card'] = $this->traitement_card();
+            $data['card'] = $this->traitementCard();
 
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['contact'] = true;
             
-            $this->render->action_render($data);
+            $this->render->actionRendu($data);
         }
 
     }

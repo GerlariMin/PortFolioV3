@@ -1,9 +1,9 @@
 <?php
 
     /**
-     * Class Traitement_Competences
+     * Class TraitementCompetences
      */
-    class Traitement_Competences
+    class TraitementCompetences
     {
 
         /**
@@ -14,18 +14,22 @@
          * @var array
          */
         private array $config;
+        /**
+         * @var TexteCompetences
+         */
+        private TexteCompetences $texte;
 
         /**
-         * Traitement_Competences constructor.
+         * TraitementCompetences constructor.
          *
-         * @param $print
+         * @param Render $rendu
          */
-        public function __construct($print)
+        public function __construct(Render $rendu)
         {
-            $this->render = $print;
+            $this->render = $rendu;
             global $config;
             $this->config = $config;
-            $this->text = new TextSkills();
+            $this->texte = new TexteCompetences();
         }
 
         /**
@@ -33,9 +37,9 @@
          *
          * @return array
          */
-        public function traitement_blockquote_conception(): array
+        public function traitementBlockquoteConception(): array
         {
-            return $this->text->textConception();
+            return $this->texte->texteConception();
         }
 
         /**
@@ -43,9 +47,9 @@
          *
          * @return array
          */
-        public function traitement_blockquote_ide(): array
+        public function traitementBlockquoteOutils(): array
         {
-            return $this->text->textIDE();
+            return $this->texte->texteOutils();
         }
 
         /**
@@ -53,24 +57,24 @@
          *
          * @return array
          */
-        public function traitement_blockquote_programmation(): array
+        public function traitementBlockquoteProgrammation(): array
         {
-            return $this->text->textProgrammation();
+            return $this->texte->texteProgrammation();
         }
 
         /**
          * Affichage de la page des compétences.
          */
-        public function traitement_toRender(): void
+        public function traitementRendu(): void
         {
-            $data['programmation'] = $this->traitement_blockquote_programmation();
-            $data['conception'] = $this->traitement_blockquote_conception();
-            $data['ide'] = $this->traitement_blockquote_ide();
+            $data['programmation'] = $this->traitementBlockquoteProgrammation();
+            $data['conception'] = $this->traitementBlockquoteConception();
+            $data['ide'] = $this->traitementBlockquoteOutils();
 
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['competences'] = true;
 
-            $this->render->action_render($data);
+            $this->render->actionRendu($data);
         }
 
     }

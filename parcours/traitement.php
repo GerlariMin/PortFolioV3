@@ -47,7 +47,7 @@
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['parcours'] = true;
             
-            $this->render->action_render($data);
+            $this->render->actionRendu($data);
         }
 
     }

@@ -4,7 +4,7 @@
 
     global $render;
 
-    $traitement = new Traitement_CV($render);
-    $traitement->traitement_toRender();
+    $traitement = new TraitementCV($render);
+    $traitement->traitementRendu();
 
 ?>

@@ -1,9 +1,9 @@
 <?php
 
     /**
-     * Class TreatmentHome
+     * Classe TreatmentAccueil
      */
-    class TreatmentHome
+    class TraitementAccueil
     {
 
         /**
@@ -15,21 +15,21 @@
          */
         private array $config;
         /**
-         * @var TextHome text
+         * @var TexteAccueil texte
          */
-        private TextHome $text;
+        private TexteAccueil $texte;
 
         /**
          * Traitement_Accueil constructor.
          *
-         * @param $print
+         * @param Render $rendu
          */
-        public function __construct($print)
+        public function __construct(Render $rendu)
         {
-            $this->render = $print;
+            $this->render = $rendu;
             global $config;
             $this->config = $config;
-            $this->text = new TextHome();
+            $this->texte = new TexteAccueil();
         }
 
         /**
@@ -37,22 +37,22 @@
          *
          * @return array
          */
-        private function treatmentLine(): array
+        private function traitementLignes(): array
         {
-            return $this->text->textLine($this->config);
+            return $this->texte->texteLignes($this->config);
         }
 
         /**
          * Affichage de la page d'accueil.
          */
-        public function treatmentToRender(): void
+        public function traitementRendu(): void
         {
-            $data['line'] = $this->treatmentLine();
+            $data['line'] = $this->traitementLignes();
             
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['accueil'] = true;
 
-            $this->render->action_render($data);
+            $this->render->actionRendu($data);
         }
 
     }
