@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/php-code-coverage/src/Report/Xml/Coverage.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/php-code-coverage/src/Report/Xml/Coverage.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -111,7 +110,7 @@ $(document).ready(function(){initNavTree('_coverage_8php_source.html',''); initR
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">private</span> $finalized = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#acd954986e0f2ab3670e8f84f03878932">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#acd954986e0f2ab3670e8f84f03878932">__construct</a>(DOMElement $context, <span class="keywordtype">string</span> $line)</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#ac1d014806b15775221467451c87f6ac8">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#ac1d014806b15775221467451c87f6ac8">__construct</a>(DOMElement $context, <span class="keywordtype">string</span> $line)</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        $this-&gt;contextNode = $context;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
@@ -121,7 +120,7 @@ $(document).ready(function(){initNavTree('_coverage_8php_source.html',''); initR
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        $this-&gt;writer-&gt;writeAttribute(<span class="stringliteral">&#39;nr&#39;</span>, $line);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a51fa96afd489a649198b38a564991045">   49</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a51fa96afd489a649198b38a564991045">addTest</a>(<span class="keywordtype">string</span> $test): void</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a918184d453fd5865e51c5f9e254d0e3b">   49</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a918184d453fd5865e51c5f9e254d0e3b">addTest</a>(<span class="keywordtype">string</span> $test): void</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;finalized) {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_already_finalized_exception.html">ReportAlreadyFinalizedException</a>;</div>
@@ -132,7 +131,7 @@ $(document).ready(function(){initNavTree('_coverage_8php_source.html',''); initR
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        $this-&gt;writer-&gt;endElement();</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a9caaa1f5ea6177e55f13ebe7dec2bd60">   60</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a9caaa1f5ea6177e55f13ebe7dec2bd60">finalize</a>(): void</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a2717e1fb29ec74e0bd855c768e98a5a2">   60</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a2717e1fb29ec74e0bd855c768e98a5a2">finalize</a>(): void</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        $this-&gt;writer-&gt;endElement();</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
@@ -148,9 +147,9 @@ $(document).ready(function(){initNavTree('_coverage_8php_source.html',''); initR
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html">SebastianBergmann\CodeCoverage\Report\Xml\Coverage</a></div><div class="ttdef"><b>Definition:</b> <a href="_coverage_8php_source.html#l00019">Coverage.php:20</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage_html_a51fa96afd489a649198b38a564991045"><div class="ttname"><a href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a51fa96afd489a649198b38a564991045">SebastianBergmann\CodeCoverage\Report\Xml\Coverage\addTest</a></div><div class="ttdeci">addTest(string $test)</div><div class="ttdef"><b>Definition:</b> <a href="_coverage_8php_source.html#l00049">Coverage.php:49</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage_html_a9caaa1f5ea6177e55f13ebe7dec2bd60"><div class="ttname"><a href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a9caaa1f5ea6177e55f13ebe7dec2bd60">SebastianBergmann\CodeCoverage\Report\Xml\Coverage\finalize</a></div><div class="ttdeci">finalize()</div><div class="ttdef"><b>Definition:</b> <a href="_coverage_8php_source.html#l00060">Coverage.php:60</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage_html_acd954986e0f2ab3670e8f84f03878932"><div class="ttname"><a href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#acd954986e0f2ab3670e8f84f03878932">SebastianBergmann\CodeCoverage\Report\Xml\Coverage\__construct</a></div><div class="ttdeci">__construct(DOMElement $context, string $line)</div><div class="ttdef"><b>Definition:</b> <a href="_coverage_8php_source.html#l00036">Coverage.php:36</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage_html_a2717e1fb29ec74e0bd855c768e98a5a2"><div class="ttname"><a href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a2717e1fb29ec74e0bd855c768e98a5a2">SebastianBergmann\CodeCoverage\Report\Xml\Coverage\finalize</a></div><div class="ttdeci">finalize()</div><div class="ttdef"><b>Definition:</b> <a href="_coverage_8php_source.html#l00060">Coverage.php:60</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage_html_a918184d453fd5865e51c5f9e254d0e3b"><div class="ttname"><a href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#a918184d453fd5865e51c5f9e254d0e3b">SebastianBergmann\CodeCoverage\Report\Xml\Coverage\addTest</a></div><div class="ttdeci">addTest(string $test)</div><div class="ttdef"><b>Definition:</b> <a href="_coverage_8php_source.html#l00049">Coverage.php:49</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage_html_ac1d014806b15775221467451c87f6ac8"><div class="ttname"><a href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_coverage.html#ac1d014806b15775221467451c87f6ac8">SebastianBergmann\CodeCoverage\Report\Xml\Coverage\__construct</a></div><div class="ttdeci">__construct(DOMElement $context, string $line)</div><div class="ttdef"><b>Definition:</b> <a href="_coverage_8php_source.html#l00036">Coverage.php:36</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_code_coverage_1_1_report_already_finalized_exception_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_code_coverage_1_1_report_already_finalized_exception.html">SebastianBergmann\CodeCoverage\ReportAlreadyFinalizedException</a></div><div class="ttdef"><b>Definition:</b> <a href="_report_already_finalized_exception_8php_source.html#l00014">ReportAlreadyFinalizedException.php:15</a></div></div>
 <div class="ttc" id="anamespace_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_html"><div class="ttname"><a href="namespace_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml.html">SebastianBergmann\CodeCoverage\Report\Xml</a></div><div class="ttdef"><b>Definition:</b> <a href="_build_information_8php_source.html#l00010">BuildInformation.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

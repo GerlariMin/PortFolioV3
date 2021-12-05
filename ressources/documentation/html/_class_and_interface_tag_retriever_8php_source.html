@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/PhpDocumentor/ClassAndInterfaceTagRetriever.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/PhpDocumentor/ClassAndInterfaceTagRetriever.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -108,7 +107,7 @@ $(document).ready(function(){initNavTree('_class_and_interface_tag_retriever_8ph
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span> $classRetriever;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#ad2b0000efcdf6cfbc30f85ea1a657c6c">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#ad2b0000efcdf6cfbc30f85ea1a657c6c">__construct</a>(<a class="code" href="interface_prophecy_1_1_php_documentor_1_1_method_tag_retriever_interface.html">MethodTagRetrieverInterface</a> $classRetriever = <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#ad05fbac29e0bfa96bb8d6da8ec615a45">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#ad05fbac29e0bfa96bb8d6da8ec615a45">__construct</a>(<a class="code" href="interface_prophecy_1_1_php_documentor_1_1_method_tag_retriever_interface.html">MethodTagRetrieverInterface</a> $classRetriever = <span class="keyword">null</span>)</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span> (<span class="keyword">null</span> !== $classRetriever) {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            $this-&gt;classRetriever = $classRetriever;</div>
@@ -122,7 +121,7 @@ $(document).ready(function(){initNavTree('_class_and_interface_tag_retriever_8ph
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        ;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#a2eb68ce00dcc84a156b9a2b7844a5e6f">   45</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#a2eb68ce00dcc84a156b9a2b7844a5e6f">getTagList</a>(\ReflectionClass $reflectionClass)</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#af8b04677873618df6df44ae62cc06347">   45</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#af8b04677873618df6df44ae62cc06347">getTagList</a>(\ReflectionClass $reflectionClass)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> array_merge(</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            $this-&gt;classRetriever-&gt;getTagList($reflectionClass),</div>
@@ -143,8 +142,8 @@ $(document).ready(function(){initNavTree('_class_and_interface_tag_retriever_8ph
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever_html"><div class="ttname"><a href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html">Prophecy\PhpDocumentor\ClassAndInterfaceTagRetriever</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_and_interface_tag_retriever_8php_source.html#l00022">ClassAndInterfaceTagRetriever.php:23</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever_html_a2eb68ce00dcc84a156b9a2b7844a5e6f"><div class="ttname"><a href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#a2eb68ce00dcc84a156b9a2b7844a5e6f">Prophecy\PhpDocumentor\ClassAndInterfaceTagRetriever\getTagList</a></div><div class="ttdeci">getTagList(\ReflectionClass $reflectionClass)</div><div class="ttdef"><b>Definition:</b> <a href="_class_and_interface_tag_retriever_8php_source.html#l00045">ClassAndInterfaceTagRetriever.php:45</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever_html_ad2b0000efcdf6cfbc30f85ea1a657c6c"><div class="ttname"><a href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#ad2b0000efcdf6cfbc30f85ea1a657c6c">Prophecy\PhpDocumentor\ClassAndInterfaceTagRetriever\__construct</a></div><div class="ttdeci">__construct(MethodTagRetrieverInterface $classRetriever=null)</div><div class="ttdef"><b>Definition:</b> <a href="_class_and_interface_tag_retriever_8php_source.html#l00026">ClassAndInterfaceTagRetriever.php:26</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever_html_ad05fbac29e0bfa96bb8d6da8ec615a45"><div class="ttname"><a href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#ad05fbac29e0bfa96bb8d6da8ec615a45">Prophecy\PhpDocumentor\ClassAndInterfaceTagRetriever\__construct</a></div><div class="ttdeci">__construct(MethodTagRetrieverInterface $classRetriever=null)</div><div class="ttdef"><b>Definition:</b> <a href="_class_and_interface_tag_retriever_8php_source.html#l00026">ClassAndInterfaceTagRetriever.php:26</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever_html_af8b04677873618df6df44ae62cc06347"><div class="ttname"><a href="class_prophecy_1_1_php_documentor_1_1_class_and_interface_tag_retriever.html#af8b04677873618df6df44ae62cc06347">Prophecy\PhpDocumentor\ClassAndInterfaceTagRetriever\getTagList</a></div><div class="ttdeci">getTagList(\ReflectionClass $reflectionClass)</div><div class="ttdef"><b>Definition:</b> <a href="_class_and_interface_tag_retriever_8php_source.html#l00045">ClassAndInterfaceTagRetriever.php:45</a></div></div>
 <div class="ttc" id="aclass_prophecy_1_1_php_documentor_1_1_class_tag_retriever_html"><div class="ttname"><a href="class_prophecy_1_1_php_documentor_1_1_class_tag_retriever.html">Prophecy\PhpDocumentor\ClassTagRetriever</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_tag_retriever_8php_source.html#l00023">ClassTagRetriever.php:24</a></div></div>
 <div class="ttc" id="aclass_prophecy_1_1_php_documentor_1_1_legacy_class_tag_retriever_html"><div class="ttname"><a href="class_prophecy_1_1_php_documentor_1_1_legacy_class_tag_retriever.html">Prophecy\PhpDocumentor\LegacyClassTagRetriever</a></div><div class="ttdef"><b>Definition:</b> <a href="_legacy_class_tag_retriever_8php_source.html#l00022">LegacyClassTagRetriever.php:23</a></div></div>
 <div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_method_html"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_method.html">phpDocumentor\Reflection\DocBlock\Tags\Method</a></div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2reflection-docblock_2src_2_doc_block_2_tags_2_method_8php_source.html#l00039">Method.php:40</a></div></div>

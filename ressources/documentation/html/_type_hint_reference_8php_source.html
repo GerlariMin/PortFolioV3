@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/Doubler/Generator/TypeHintReference.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/Doubler/Generator/TypeHintReference.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -94,7 +93,7 @@ $(document).ready(function(){initNavTree('_type_hint_reference_8php_source.html'
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html">   11</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html">TypeHintReference</a></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a068564f754ac680bf4b57abd1253d584">   13</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a068564f754ac680bf4b57abd1253d584">isBuiltInParamTypeHint</a>($type)</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a7350b4fd72d62b9f527b222537ce222f">   13</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a7350b4fd72d62b9f527b222537ce222f">isBuiltInParamTypeHint</a>($type)</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">switch</span> ($type) {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keywordflow">case</span> <span class="stringliteral">&#39;self&#39;</span>:</div>
@@ -116,18 +115,18 @@ $(document).ready(function(){initNavTree('_type_hint_reference_8php_source.html'
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a960caa6842a728dad06ca34a3f925272">   35</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a960caa6842a728dad06ca34a3f925272">isBuiltInReturnTypeHint</a>($type)</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a7180dea8929752bafa22f855b643de16">   35</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a7180dea8929752bafa22f855b643de16">isBuiltInReturnTypeHint</a>($type)</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">if</span> ($type === <span class="stringliteral">&#39;void&#39;</span>) {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> $this-&gt;<a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a068564f754ac680bf4b57abd1253d584">isBuiltInParamTypeHint</a>($type);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> $this-&gt;<a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a7350b4fd72d62b9f527b222537ce222f">isBuiltInParamTypeHint</a>($type);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference_html"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html">Prophecy\Doubler\Generator\TypeHintReference</a></div><div class="ttdef"><b>Definition:</b> <a href="_type_hint_reference_8php_source.html#l00011">TypeHintReference.php:12</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference_html_a068564f754ac680bf4b57abd1253d584"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a068564f754ac680bf4b57abd1253d584">Prophecy\Doubler\Generator\TypeHintReference\isBuiltInParamTypeHint</a></div><div class="ttdeci">isBuiltInParamTypeHint($type)</div><div class="ttdef"><b>Definition:</b> <a href="_type_hint_reference_8php_source.html#l00013">TypeHintReference.php:13</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference_html_a960caa6842a728dad06ca34a3f925272"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a960caa6842a728dad06ca34a3f925272">Prophecy\Doubler\Generator\TypeHintReference\isBuiltInReturnTypeHint</a></div><div class="ttdeci">isBuiltInReturnTypeHint($type)</div><div class="ttdef"><b>Definition:</b> <a href="_type_hint_reference_8php_source.html#l00035">TypeHintReference.php:35</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference_html_a7180dea8929752bafa22f855b643de16"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a7180dea8929752bafa22f855b643de16">Prophecy\Doubler\Generator\TypeHintReference\isBuiltInReturnTypeHint</a></div><div class="ttdeci">isBuiltInReturnTypeHint($type)</div><div class="ttdef"><b>Definition:</b> <a href="_type_hint_reference_8php_source.html#l00035">TypeHintReference.php:35</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference_html_a7350b4fd72d62b9f527b222537ce222f"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_type_hint_reference.html#a7350b4fd72d62b9f527b222537ce222f">Prophecy\Doubler\Generator\TypeHintReference\isBuiltInParamTypeHint</a></div><div class="ttdeci">isBuiltInParamTypeHint($type)</div><div class="ttdef"><b>Definition:</b> <a href="_type_hint_reference_8php_source.html#l00013">TypeHintReference.php:13</a></div></div>
 <div class="ttc" id="anamespace_prophecy_1_1_doubler_1_1_generator_html"><div class="ttname"><a href="namespace_prophecy_1_1_doubler_1_1_generator.html">Prophecy\Doubler\Generator</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_code_generator_8php_source.html#l00012">ClassCodeGenerator.php:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

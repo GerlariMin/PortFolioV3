@@ -52,48 +52,61 @@
          *
          * @return array[]
          */
-        public function textCard(): array
+        private function texteCard():array
+        {
+            return
+            [
+                0 =>
+                    [
+                        $this->card_h5 =>
+                            [
+                                $this->card_h5_fontawesome => "fas fa-envelope-open",
+                                $this->card_h5_text => "Adresse E-Mail"
+                            ],
+                        $this->card_p =>
+                            [
+                                $this->card_p_text => "Cliquez sur ce bouton pour m'envoyer un e-mail depuis votre messagerie."
+                            ],
+                        $this->card_btn =>
+                            [
+                                $this->card_btn_href => "mailto:m.minbielle@outlook.fr",
+                                $this->card_btn_color => "light",
+                                $this->card_btn_target => false,
+                                $this->card_btn_text => "M'envoyer un e-mail"
+                            ]
+                    ],
+                1 =>
+                    [
+                        $this->card_h5 =>
+                            [
+                                $this->card_h5_fontawesome => "fab fa-linkedin",
+                                $this->card_h5_text => "Profil LinkedIn"
+                            ],
+                        $this->card_p =>
+                            [
+                                $this->card_p_text => "Cliquez sur ce bouton pour visionner mon profil LinkedIn sur un autre onglet."
+                            ],
+                        $this->card_btn =>
+                            [
+                                $this->card_btn_href => "https://www.linkedin.com/in/morgan-minbielle-5619b8178/",
+                                $this->card_btn_color => "light",
+                                $this->card_btn_target => true,
+                                $this->card_btn_text => "Voir mon profil"
+                            ]
+                    ]
+            ];
+        }
+
+        /**
+         * Retourne le tableau formaté final utilisé pour générer le rendu intégral.
+         *
+         * @return array
+         */
+        public function texteFinal(): array
         {
             return
                 [
-                    0 =>
-                        [
-                            $this->card_h5 =>
-                                [
-                                    $this->card_h5_fontawesome => "fas fa-envelope-open",
-                                    $this->card_h5_text => "Adresse E-Mail"
-                                ],
-                            $this->card_p =>
-                                [
-                                    $this->card_p_text => "Cliquez sur ce bouton pour m'envoyer un e-mail depuis votre messagerie."
-                                ],
-                            $this->card_btn =>
-                                [
-                                    $this->card_btn_href => "mailto:m.minbielle@outlook.fr",
-                                    $this->card_btn_color => "light",
-                                    $this->card_btn_target => false,
-                                    $this->card_btn_text => "M'envoyer un e-mail"
-                                ]
-                        ],
-                    1 =>
-                        [
-                            $this->card_h5 =>
-                                [
-                                    $this->card_h5_fontawesome => "fab fa-linkedin",
-                                    $this->card_h5_text => "Profil LinkedIn"
-                                ],
-                            $this->card_p =>
-                                [
-                                    $this->card_p_text => "Cliquez sur ce bouton pour visionner mon profil LinkedIn sur un autre onglet."
-                                ],
-                            $this->card_btn =>
-                                [
-                                    $this->card_btn_href => "https://www.linkedin.com/in/morgan-minbielle-5619b8178/",
-                                    $this->card_btn_color => "light",
-                                    $this->card_btn_target => true,
-                                    $this->card_btn_text => "Voir mon profil"
-                                ]
-                        ]
+                    "card" => $this->texteCard(),
                 ];
         }
     }

@@ -1,6 +1,6 @@
 var class_magic_object =
 [
-    [ "__get", "class_magic_object.html#a4537dad3b44254124991341cc91b28fb", null ],
-    [ "__isset", "class_magic_object.html#ae858fed7cd2822fbceac154138b68baa", null ],
-    [ "$_data", "class_magic_object.html#a5a3006290f2de94fff2dd63ca739d15a", null ]
+    [ "__get", "class_magic_object.html#aae0f188e4c58cd3e7333931fa15799d9", null ],
+    [ "__isset", "class_magic_object.html#abd85aba8ead97a88aa81b859a699ccb7", null ],
+    [ "$_data", "class_magic_object.html#a1a19c71ac7094ec4e73e3cc4b2ab6140", null ]
 ];

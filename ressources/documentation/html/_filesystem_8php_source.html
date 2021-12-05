@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Util/Filesystem.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Util/Filesystem.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -106,7 +105,7 @@ $(document).ready(function(){initNavTree('_filesystem_8php_source.html',''); ini
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html">   20</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html">Filesystem</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a9ef9f6a31a3682cad3b9ebae8fa2a7b7">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a9ef9f6a31a3682cad3b9ebae8fa2a7b7">classNameToFilename</a>(<span class="keywordtype">string</span> $className): string</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#abc0013bce22b133212dd3f8e519889cf">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#abc0013bce22b133212dd3f8e519889cf">classNameToFilename</a>(<span class="keywordtype">string</span> $className): string</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> str_replace(</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            [<span class="charliteral">&#39;_&#39;</span>, <span class="charliteral">&#39;\\&#39;</span>],</div>
@@ -115,14 +114,14 @@ $(document).ready(function(){initNavTree('_filesystem_8php_source.html',''); ini
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        ) . <span class="stringliteral">&#39;.php&#39;</span>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a6d92a17889a30a26d98aac7d8e640566">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a6d92a17889a30a26d98aac7d8e640566">createDirectory</a>(<span class="keywordtype">string</span> $directory): bool</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a817b14e8ab6916010f533f4b7a2833df">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a817b14e8ab6916010f533f4b7a2833df">createDirectory</a>(<span class="keywordtype">string</span> $directory): bool</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> !(!is_dir($directory) &amp;&amp; !@mkdir($directory, 0777, <span class="keyword">true</span>) &amp;&amp; !is_dir($directory));</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_filesystem_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_filesystem.html">PHPUnit\Util\Filesystem</a></div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_8php_source.html#l00020">Filesystem.php:21</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_filesystem_html_a6d92a17889a30a26d98aac7d8e640566"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a6d92a17889a30a26d98aac7d8e640566">PHPUnit\Util\Filesystem\createDirectory</a></div><div class="ttdeci">static createDirectory(string $directory)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_8php_source.html#l00037">Filesystem.php:37</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_filesystem_html_a9ef9f6a31a3682cad3b9ebae8fa2a7b7"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a9ef9f6a31a3682cad3b9ebae8fa2a7b7">PHPUnit\Util\Filesystem\classNameToFilename</a></div><div class="ttdeci">static classNameToFilename(string $className)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_8php_source.html#l00028">Filesystem.php:28</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_filesystem_html_a817b14e8ab6916010f533f4b7a2833df"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#a817b14e8ab6916010f533f4b7a2833df">PHPUnit\Util\Filesystem\createDirectory</a></div><div class="ttdeci">static createDirectory(string $directory)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_8php_source.html#l00037">Filesystem.php:37</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_filesystem_html_abc0013bce22b133212dd3f8e519889cf"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_filesystem.html#abc0013bce22b133212dd3f8e519889cf">PHPUnit\Util\Filesystem\classNameToFilename</a></div><div class="ttdeci">static classNameToFilename(string $className)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_8php_source.html#l00028">Filesystem.php:28</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

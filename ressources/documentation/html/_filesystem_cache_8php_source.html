@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/mustache/mustache/src/Mustache/Cache/FilesystemCache.php Source File</title>
+<title>PortFolioV3: ressources/vendor/mustache/mustache/src/Mustache/Cache/FilesystemCache.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -104,15 +103,15 @@ $(document).ready(function(){initNavTree('_filesystem_cache_8php_source.html',''
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span> $baseDir;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">private</span> $fileMode;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_mustache___cache___filesystem_cache.html#a7be5fcf3e10986df33d14999d0e69076">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___filesystem_cache.html#a7be5fcf3e10986df33d14999d0e69076">__construct</a>($baseDir, $fileMode = <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_mustache___cache___filesystem_cache.html#aae709ae7be09f6f2f3a454e6e70cafeb">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___filesystem_cache.html#aae709ae7be09f6f2f3a454e6e70cafeb">__construct</a>($baseDir, $fileMode = <span class="keyword">null</span>)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        $this-&gt;baseDir = $baseDir;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        $this-&gt;fileMode = $fileMode;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_mustache___cache___filesystem_cache.html#a8d0a51036af71436a1e8dcc26fc4281d">   46</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___filesystem_cache.html#a8d0a51036af71436a1e8dcc26fc4281d">load</a>($key)</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_mustache___cache___filesystem_cache.html#a8b62c0c8beda6894d2c713c4bbb01cb7">   46</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___filesystem_cache.html#a8b62c0c8beda6894d2c713c4bbb01cb7">load</a>($key)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        $fileName = $this-&gt;<a class="code" href="class_mustache___cache___filesystem_cache.html#a453c3932d4a4b360c9c46216a0a762c4">getCacheFilename</a>($key);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        $fileName = $this-&gt;<a class="code" href="class_mustache___cache___filesystem_cache.html#a055f43640d3af51335bc6dd104385e21">getCacheFilename</a>($key);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span> (!is_file($fileName)) {</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
@@ -122,21 +121,21 @@ $(document).ready(function(){initNavTree('_filesystem_cache_8php_source.html',''
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_mustache___cache___filesystem_cache.html#a002454e8760830b2942f6301f276255b">   64</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___filesystem_cache.html#a002454e8760830b2942f6301f276255b">cache</a>($key, $value)</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_mustache___cache___filesystem_cache.html#ac6e89e9a92ec9d1ddd19ff03555cf487">   64</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___filesystem_cache.html#ac6e89e9a92ec9d1ddd19ff03555cf487">cache</a>($key, $value)</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        $fileName = $this-&gt;<a class="code" href="class_mustache___cache___filesystem_cache.html#a453c3932d4a4b360c9c46216a0a762c4">getCacheFilename</a>($key);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        $fileName = $this-&gt;<a class="code" href="class_mustache___cache___filesystem_cache.html#a055f43640d3af51335bc6dd104385e21">getCacheFilename</a>($key);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">log</a>(</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="interface_mustache___logger.html#a758c150b67e476ecf77478f16b387c61">Mustache_Logger::DEBUG</a>,</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">log</a>(</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="interface_mustache___logger.html#a5fdcb105f7d4c8fb73b719d4c02155c8">Mustache_Logger::DEBUG</a>,</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="stringliteral">&#39;Writing to template cache: &quot;{fileName}&quot;&#39;</span>,</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            array(<span class="stringliteral">&#39;fileName&#39;</span> =&gt; $fileName)</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        );</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        $this-&gt;writeFile($fileName, $value);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        $this-&gt;<a class="code" href="class_mustache___cache___filesystem_cache.html#a8d0a51036af71436a1e8dcc26fc4281d">load</a>($key);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        $this-&gt;<a class="code" href="class_mustache___cache___filesystem_cache.html#a8b62c0c8beda6894d2c713c4bbb01cb7">load</a>($key);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="class_mustache___cache___filesystem_cache.html#a453c3932d4a4b360c9c46216a0a762c4">   86</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___filesystem_cache.html#a453c3932d4a4b360c9c46216a0a762c4">getCacheFilename</a>($name)</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="class_mustache___cache___filesystem_cache.html#a055f43640d3af51335bc6dd104385e21">   86</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___filesystem_cache.html#a055f43640d3af51335bc6dd104385e21">getCacheFilename</a>($name)</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> sprintf(<span class="stringliteral">&#39;%s/%s.php&#39;</span>, $this-&gt;baseDir, $name);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
@@ -145,8 +144,8 @@ $(document).ready(function(){initNavTree('_filesystem_cache_8php_source.html',''
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        $dirName = dirname($fileName);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">if</span> (!is_dir($dirName)) {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">log</a>(</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                <a class="code" href="interface_mustache___logger.html#af2d1bd27ecbe33ecaadb558404e9c669">Mustache_Logger::INFO</a>,</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">log</a>(</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                <a class="code" href="interface_mustache___logger.html#a8651304e4fc0a3ed1fa8474af2aca9d3">Mustache_Logger::INFO</a>,</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                <span class="stringliteral">&#39;Creating Mustache template cache directory: &quot;{dirName}&quot;&#39;</span>,</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                array(<span class="stringliteral">&#39;dirName&#39;</span> =&gt; $dirName)</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            );</div>
@@ -166,8 +165,8 @@ $(document).ready(function(){initNavTree('_filesystem_cache_8php_source.html',''
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    {</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        $dirName = $this-&gt;buildDirectoryForFilename($fileName);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">log</a>(</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            <a class="code" href="interface_mustache___logger.html#a758c150b67e476ecf77478f16b387c61">Mustache_Logger::DEBUG</a>,</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">log</a>(</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            <a class="code" href="interface_mustache___logger.html#a5fdcb105f7d4c8fb73b719d4c02155c8">Mustache_Logger::DEBUG</a>,</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="stringliteral">&#39;Caching compiled template to &quot;{fileName}&quot;&#39;</span>,</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            array(<span class="stringliteral">&#39;fileName&#39;</span> =&gt; $fileName)</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        );</div>
@@ -182,8 +181,8 @@ $(document).ready(function(){initNavTree('_filesystem_cache_8php_source.html',''
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            }</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="comment">// @codeCoverageIgnoreStart</span></div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">log</a>(</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                <a class="code" href="interface_mustache___logger.html#a7f79d7b73cfb40bb7855d4260393cc0f">Mustache_Logger::ERROR</a>,</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">log</a>(</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                <a class="code" href="interface_mustache___logger.html#ac8bc1aac5456dd366461dea79b5f4bcb">Mustache_Logger::ERROR</a>,</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                <span class="stringliteral">&#39;Unable to rename Mustache temp cache file: &quot;{tempName}&quot; -&gt; &quot;{fileName}&quot;&#39;</span>,</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                array(<span class="stringliteral">&#39;tempName&#39;</span> =&gt; $tempFile, <span class="stringliteral">&#39;fileName&#39;</span> =&gt; $fileName)</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            );</div>
@@ -196,16 +195,16 @@ $(document).ready(function(){initNavTree('_filesystem_cache_8php_source.html',''
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;}</div>
 <div class="ttc" id="aclass_mustache___cache___abstract_cache_html"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html">Mustache_Cache_AbstractCache</a></div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00019">AbstractCache.php:20</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a142f6bf4e86dc16e0bae4cff1de0dd44"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">Mustache_Cache_AbstractCache\log</a></div><div class="ttdeci">log($level, $message, array $context=array())</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00054">AbstractCache.php:54</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a3b75b6bb09e6e7ea87b2bf68c23bcf6f"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">Mustache_Cache_AbstractCache\log</a></div><div class="ttdeci">log($level, $message, array $context=array())</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00054">AbstractCache.php:54</a></div></div>
 <div class="ttc" id="aclass_mustache___cache___filesystem_cache_html"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html">Mustache_Cache_FilesystemCache</a></div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00022">FilesystemCache.php:23</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___filesystem_cache_html_a002454e8760830b2942f6301f276255b"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html#a002454e8760830b2942f6301f276255b">Mustache_Cache_FilesystemCache\cache</a></div><div class="ttdeci">cache($key, $value)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00064">FilesystemCache.php:64</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___filesystem_cache_html_a453c3932d4a4b360c9c46216a0a762c4"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html#a453c3932d4a4b360c9c46216a0a762c4">Mustache_Cache_FilesystemCache\getCacheFilename</a></div><div class="ttdeci">getCacheFilename($name)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00086">FilesystemCache.php:86</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___filesystem_cache_html_a7be5fcf3e10986df33d14999d0e69076"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html#a7be5fcf3e10986df33d14999d0e69076">Mustache_Cache_FilesystemCache\__construct</a></div><div class="ttdeci">__construct($baseDir, $fileMode=null)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00033">FilesystemCache.php:33</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___filesystem_cache_html_a8d0a51036af71436a1e8dcc26fc4281d"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html#a8d0a51036af71436a1e8dcc26fc4281d">Mustache_Cache_FilesystemCache\load</a></div><div class="ttdeci">load($key)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00046">FilesystemCache.php:46</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___filesystem_cache_html_a055f43640d3af51335bc6dd104385e21"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html#a055f43640d3af51335bc6dd104385e21">Mustache_Cache_FilesystemCache\getCacheFilename</a></div><div class="ttdeci">getCacheFilename($name)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00086">FilesystemCache.php:86</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___filesystem_cache_html_a8b62c0c8beda6894d2c713c4bbb01cb7"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html#a8b62c0c8beda6894d2c713c4bbb01cb7">Mustache_Cache_FilesystemCache\load</a></div><div class="ttdeci">load($key)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00046">FilesystemCache.php:46</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___filesystem_cache_html_aae709ae7be09f6f2f3a454e6e70cafeb"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html#aae709ae7be09f6f2f3a454e6e70cafeb">Mustache_Cache_FilesystemCache\__construct</a></div><div class="ttdeci">__construct($baseDir, $fileMode=null)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00033">FilesystemCache.php:33</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___filesystem_cache_html_ac6e89e9a92ec9d1ddd19ff03555cf487"><div class="ttname"><a href="class_mustache___cache___filesystem_cache.html#ac6e89e9a92ec9d1ddd19ff03555cf487">Mustache_Cache_FilesystemCache\cache</a></div><div class="ttdeci">cache($key, $value)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_cache_8php_source.html#l00064">FilesystemCache.php:64</a></div></div>
 <div class="ttc" id="aclass_mustache___exception___runtime_exception_html"><div class="ttname"><a href="class_mustache___exception___runtime_exception.html">Mustache_Exception_RuntimeException</a></div><div class="ttdef"><b>Definition:</b> <a href="mustache_2mustache_2src_2_mustache_2_exception_2_runtime_exception_8php_source.html#l00015">RuntimeException.php:16</a></div></div>
-<div class="ttc" id="ainterface_mustache___logger_html_a758c150b67e476ecf77478f16b387c61"><div class="ttname"><a href="interface_mustache___logger.html#a758c150b67e476ecf77478f16b387c61">Mustache_Logger\DEBUG</a></div><div class="ttdeci">const DEBUG</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00041">Logger.php:41</a></div></div>
-<div class="ttc" id="ainterface_mustache___logger_html_a7f79d7b73cfb40bb7855d4260393cc0f"><div class="ttname"><a href="interface_mustache___logger.html#a7f79d7b73cfb40bb7855d4260393cc0f">Mustache_Logger\ERROR</a></div><div class="ttdeci">const ERROR</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00037">Logger.php:37</a></div></div>
-<div class="ttc" id="ainterface_mustache___logger_html_af2d1bd27ecbe33ecaadb558404e9c669"><div class="ttname"><a href="interface_mustache___logger.html#af2d1bd27ecbe33ecaadb558404e9c669">Mustache_Logger\INFO</a></div><div class="ttdeci">const INFO</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00040">Logger.php:40</a></div></div>
+<div class="ttc" id="ainterface_mustache___logger_html_a5fdcb105f7d4c8fb73b719d4c02155c8"><div class="ttname"><a href="interface_mustache___logger.html#a5fdcb105f7d4c8fb73b719d4c02155c8">Mustache_Logger\DEBUG</a></div><div class="ttdeci">const DEBUG</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00041">Logger.php:41</a></div></div>
+<div class="ttc" id="ainterface_mustache___logger_html_a8651304e4fc0a3ed1fa8474af2aca9d3"><div class="ttname"><a href="interface_mustache___logger.html#a8651304e4fc0a3ed1fa8474af2aca9d3">Mustache_Logger\INFO</a></div><div class="ttdeci">const INFO</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00040">Logger.php:40</a></div></div>
+<div class="ttc" id="ainterface_mustache___logger_html_ac8bc1aac5456dd366461dea79b5f4bcb"><div class="ttname"><a href="interface_mustache___logger.html#ac8bc1aac5456dd366461dea79b5f4bcb">Mustache_Logger\ERROR</a></div><div class="ttdeci">const ERROR</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00037">Logger.php:37</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

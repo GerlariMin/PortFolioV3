@@ -1,5 +1,5 @@
 var class_deep_copy_1_1_type_matcher_1_1_type_matcher =
 [
-    [ "__construct", "class_deep_copy_1_1_type_matcher_1_1_type_matcher.html#ac395571e7767c80119b30cf2e5087c59", null ],
-    [ "matches", "class_deep_copy_1_1_type_matcher_1_1_type_matcher.html#a4644566c90bfcb803a927fb9581f64ab", null ]
+    [ "__construct", "class_deep_copy_1_1_type_matcher_1_1_type_matcher.html#ae2225ebccaa89939b5f07c45e3cbaeea", null ],
+    [ "matches", "class_deep_copy_1_1_type_matcher_1_1_type_matcher.html#ad68e5835dc51d58e02b1b29f92ba3c66", null ]
 ];

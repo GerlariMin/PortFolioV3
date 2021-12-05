@@ -1,7 +1,7 @@
 var class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver =
 [
-    [ "__construct", "class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver.html#a095c5d389db211932136b53f25f39685", null ],
-    [ "nameAndVersion", "class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver.html#a8e73ae4f8fd2e4fa8930d94e56e1739b", null ],
-    [ "start", "class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver.html#af8fa59992209e36dccb3eefb0f75531f", null ],
-    [ "stop", "class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver.html#a8b6fc76a620d7557d06e9a11a9ffb509", null ]
+    [ "__construct", "class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver.html#a1282205e0278586776c118a4964f61ba", null ],
+    [ "nameAndVersion", "class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver.html#aa9908561eae263c9bad1c1feb752d112", null ],
+    [ "start", "class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver.html#a36fc5a6089efd57d7cdbc49717f3faf0", null ],
+    [ "stop", "class_sebastian_bergmann_1_1_code_coverage_1_1_driver_1_1_phpdbg_driver.html#af77307c3a7faf97c59f8a1a6a8ca76f8", null ]
 ];

@@ -1,5 +1,5 @@
 var class_prophecy_1_1_comparator_1_1_prophecy_comparator =
 [
-    [ "accepts", "class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#ae9bdf0cba02ce3470169280656cdeb84", null ],
-    [ "assertEquals", "class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a85a7369896910cf1d55e31d477c29f1e", null ]
+    [ "accepts", "class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a37a324d150e258551f3509bf50134aa8", null ],
+    [ "assertEquals", "class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a0894fb54a5cff6eef38b6fa48aaaf2fb", null ]
 ];

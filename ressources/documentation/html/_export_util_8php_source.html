@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/Util/ExportUtil.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/Util/ExportUtil.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -106,12 +105,12 @@ $(document).ready(function(){initNavTree('_export_util_8php_source.html',''); in
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_util_1_1_export_util.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_prophecy_1_1_util_1_1_export_util.html">ExportUtil</a></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_util_1_1_export_util.html#a2db3e18d6a675951f7b0c18b0545f4a9">   40</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#a2db3e18d6a675951f7b0c18b0545f4a9">export</a>($value, $indentation = 0)</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_util_1_1_export_util.html#aa0cc70d261ab5f8a6cc31204456d2633">   40</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#aa0cc70d261ab5f8a6cc31204456d2633">export</a>($value, $indentation = 0)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#a9d3acbca8b00e35e7a505f3c82ec805c">self::recursiveExport</a>($value, $indentation);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#ab4689a3786dce5967752224b6eddb410">self::recursiveExport</a>($value, $indentation);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_util_1_1_export_util.html#ae000b7c960de913865bc706fa5484d3b">   52</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#ae000b7c960de913865bc706fa5484d3b">toArray</a>($value)</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_util_1_1_export_util.html#a7241bb95654a7f02ceba5f4341a6c44a">   52</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#a7241bb95654a7f02ceba5f4341a6c44a">toArray</a>($value)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    {</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> (!is_object($value)) {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keywordflow">return</span> (array) $value;</div>
@@ -163,7 +162,7 @@ $(document).ready(function(){initNavTree('_export_util_8php_source.html',''); in
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> $array;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_util_1_1_export_util.html#a9d3acbca8b00e35e7a505f3c82ec805c">  113</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#a9d3acbca8b00e35e7a505f3c82ec805c">recursiveExport</a>(&amp;$value, $indentation, $processed = <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_util_1_1_export_util.html#ab4689a3786dce5967752224b6eddb410">  113</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#ab4689a3786dce5967752224b6eddb410">recursiveExport</a>(&amp;$value, $indentation, $processed = <span class="keyword">null</span>)</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    {</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">if</span> ($value === <span class="keyword">null</span>) {</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&#39;null&#39;</span>;</div>
@@ -212,7 +211,7 @@ $(document).ready(function(){initNavTree('_export_util_8php_source.html',''); in
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            }</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            $array  = $value;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            $key    = $processed-&gt;<a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#af1ed54161c97c29f4c8c1714df6feccc">add</a>($value);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            $key    = $processed-&gt;<a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1a77e70003472ef355d309aaae22169a">add</a>($value);</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            $values = <span class="stringliteral">&#39;&#39;</span>;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <span class="keywordflow">if</span> (count($array) &gt; 0) {</div>
@@ -240,7 +239,7 @@ $(document).ready(function(){initNavTree('_export_util_8php_source.html',''); in
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            $hash   = $processed-&gt;add($value);</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            $values = <span class="stringliteral">&#39;&#39;</span>;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            $array  = <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#ae000b7c960de913865bc706fa5484d3b">self::toArray</a>($value);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            $array  = <a class="code" href="class_prophecy_1_1_util_1_1_export_util.html#a7241bb95654a7f02ceba5f4341a6c44a">self::toArray</a>($value);</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <span class="keywordflow">if</span> (count($array) &gt; 0) {</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                <span class="keywordflow">foreach</span> ($array as $k =&gt; $v) {</div>
@@ -262,11 +261,11 @@ $(document).ready(function(){initNavTree('_export_util_8php_source.html',''); in
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    }</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_util_1_1_export_util_html"><div class="ttname"><a href="class_prophecy_1_1_util_1_1_export_util.html">Prophecy\Util\ExportUtil</a></div><div class="ttdef"><b>Definition:</b> <a href="_export_util_8php_source.html#l00021">ExportUtil.php:22</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_util_1_1_export_util_html_a2db3e18d6a675951f7b0c18b0545f4a9"><div class="ttname"><a href="class_prophecy_1_1_util_1_1_export_util.html#a2db3e18d6a675951f7b0c18b0545f4a9">Prophecy\Util\ExportUtil\export</a></div><div class="ttdeci">static export($value, $indentation=0)</div><div class="ttdef"><b>Definition:</b> <a href="_export_util_8php_source.html#l00040">ExportUtil.php:40</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_util_1_1_export_util_html_a9d3acbca8b00e35e7a505f3c82ec805c"><div class="ttname"><a href="class_prophecy_1_1_util_1_1_export_util.html#a9d3acbca8b00e35e7a505f3c82ec805c">Prophecy\Util\ExportUtil\recursiveExport</a></div><div class="ttdeci">static recursiveExport(&amp;$value, $indentation, $processed=null)</div><div class="ttdef"><b>Definition:</b> <a href="_export_util_8php_source.html#l00113">ExportUtil.php:113</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_util_1_1_export_util_html_ae000b7c960de913865bc706fa5484d3b"><div class="ttname"><a href="class_prophecy_1_1_util_1_1_export_util.html#ae000b7c960de913865bc706fa5484d3b">Prophecy\Util\ExportUtil\toArray</a></div><div class="ttdeci">static toArray($value)</div><div class="ttdef"><b>Definition:</b> <a href="_export_util_8php_source.html#l00052">ExportUtil.php:52</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_util_1_1_export_util_html_a7241bb95654a7f02ceba5f4341a6c44a"><div class="ttname"><a href="class_prophecy_1_1_util_1_1_export_util.html#a7241bb95654a7f02ceba5f4341a6c44a">Prophecy\Util\ExportUtil\toArray</a></div><div class="ttdeci">static toArray($value)</div><div class="ttdef"><b>Definition:</b> <a href="_export_util_8php_source.html#l00052">ExportUtil.php:52</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_util_1_1_export_util_html_aa0cc70d261ab5f8a6cc31204456d2633"><div class="ttname"><a href="class_prophecy_1_1_util_1_1_export_util.html#aa0cc70d261ab5f8a6cc31204456d2633">Prophecy\Util\ExportUtil\export</a></div><div class="ttdeci">static export($value, $indentation=0)</div><div class="ttdef"><b>Definition:</b> <a href="_export_util_8php_source.html#l00040">ExportUtil.php:40</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_util_1_1_export_util_html_ab4689a3786dce5967752224b6eddb410"><div class="ttname"><a href="class_prophecy_1_1_util_1_1_export_util.html#ab4689a3786dce5967752224b6eddb410">Prophecy\Util\ExportUtil\recursiveExport</a></div><div class="ttdeci">static recursiveExport(&amp;$value, $indentation, $processed=null)</div><div class="ttdef"><b>Definition:</b> <a href="_export_util_8php_source.html#l00113">ExportUtil.php:113</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html">SebastianBergmann\RecursionContext\Context</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00027">Context.php:28</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_af1ed54161c97c29f4c8c1714df6feccc"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#af1ed54161c97c29f4c8c1714df6feccc">SebastianBergmann\RecursionContext\Context\add</a></div><div class="ttdeci">add(&amp;$value)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00074">Context.php:74</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_a1a77e70003472ef355d309aaae22169a"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1a77e70003472ef355d309aaae22169a">SebastianBergmann\RecursionContext\Context\add</a></div><div class="ttdeci">add(&amp;$value)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00074">Context.php:74</a></div></div>
 <div class="ttc" id="ainterface_prophecy_1_1_prophecy_1_1_prophecy_interface_html"><div class="ttname"><a href="interface_prophecy_1_1_prophecy_1_1_prophecy_interface.html">Prophecy\Prophecy\ProphecyInterface</a></div><div class="ttdef"><b>Definition:</b> <a href="_prophecy_interface_8php_source.html#l00019">ProphecyInterface.php:20</a></div></div>
 <div class="ttc" id="anamespace_prophecy_1_1_util_html"><div class="ttname"><a href="namespace_prophecy_1_1_util.html">Prophecy\Util</a></div><div class="ttdef"><b>Definition:</b> <a href="_export_util_8php_source.html#l00003">ExportUtil.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

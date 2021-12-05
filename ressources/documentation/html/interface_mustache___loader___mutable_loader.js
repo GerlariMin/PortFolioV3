@@ -1,5 +1,5 @@
 var interface_mustache___loader___mutable_loader =
 [
-    [ "setTemplate", "interface_mustache___loader___mutable_loader.html#aac414f998f58d0487c0ccec6a5af5ecb", null ],
-    [ "setTemplates", "interface_mustache___loader___mutable_loader.html#a62d6247a2420557d4a9a1637259e8896", null ]
+    [ "setTemplate", "interface_mustache___loader___mutable_loader.html#abd6d792fc4ce5a8cb3d41e79cffba09b", null ],
+    [ "setTemplates", "interface_mustache___loader___mutable_loader.html#a155029c77f5131e2887c044f271a2292", null ]
 ];

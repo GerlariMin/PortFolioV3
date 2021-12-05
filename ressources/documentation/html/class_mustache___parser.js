@@ -1,5 +1,5 @@
 var class_mustache___parser =
 [
-    [ "parse", "class_mustache___parser.html#a0fac010ae78b33e995bc7f22d07f937b", null ],
-    [ "setPragmas", "class_mustache___parser.html#a17ad56d23360d5bf90d058b34f58014d", null ]
+    [ "parse", "class_mustache___parser.html#aafa9cbeb3a9c721f97540c64063ee7f4", null ],
+    [ "setPragmas", "class_mustache___parser.html#a2fddc21dc7f8bfc62a8a0c00fa1662ac", null ]
 ];

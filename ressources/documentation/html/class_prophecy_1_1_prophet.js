@@ -1,8 +1,8 @@
 var class_prophecy_1_1_prophet =
 [
-    [ "__construct", "class_prophecy_1_1_prophet.html#a593bea02c73d9db266af7a7d92c30d6c", null ],
-    [ "checkPredictions", "class_prophecy_1_1_prophet.html#afe8e0b9b20a710e8f93bcc941181a4b1", null ],
-    [ "getDoubler", "class_prophecy_1_1_prophet.html#a37e4dba69fc63fdec7ce094ae5d888ee", null ],
-    [ "getProphecies", "class_prophecy_1_1_prophet.html#a06770379bed34f1d3b9173c9a33f9f4e", null ],
-    [ "prophesize", "class_prophecy_1_1_prophet.html#aee3901b35180731fb3b3bc51de4d894b", null ]
+    [ "__construct", "class_prophecy_1_1_prophet.html#a338179a65c1a7dc00f6394d55991d8b9", null ],
+    [ "checkPredictions", "class_prophecy_1_1_prophet.html#addbbbc78c841b3e6a0f7c7ecaeb45798", null ],
+    [ "getDoubler", "class_prophecy_1_1_prophet.html#a594d1992ab34a8e1b12f42f5c848d0c0", null ],
+    [ "getProphecies", "class_prophecy_1_1_prophet.html#ab68c9afb8d4b55a972da30985b247431", null ],
+    [ "prophesize", "class_prophecy_1_1_prophet.html#a5f218addcd8bd9e13f3a1ac3aae7c62d", null ]
 ];

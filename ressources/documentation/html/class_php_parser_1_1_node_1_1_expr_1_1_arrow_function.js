@@ -1,17 +1,17 @@
 var class_php_parser_1_1_node_1_1_expr_1_1_arrow_function =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#aea2475a3a13b5c66d17e0e125472f5f1", null ],
-    [ "getAttrGroups", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#af76eea7b49ba39be54fbac2debb45f23", null ],
-    [ "getParams", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#ae32cd7c32721b02d676bb63b4b1366db", null ],
-    [ "getReturnType", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a8d833642f3f98773f6ad2d64943be1b2", null ],
-    [ "getStmts", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a50ff17b7495cc1618bb06708d881e680", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "returnsByRef", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#adef7cd6ca4145c7ff9d43049f67268ae", null ],
-    [ "$attrGroups", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a68b22277a61a41a786be5be18177f514", null ],
-    [ "$byRef", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a5649918e8bd2664fff6709e4e8d1e52f", null ],
-    [ "$expr", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#aa660a3177eb257a767c0323f967d877f", null ],
-    [ "$params", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#afe68e6fbe7acfbffc0af0c84a1996466", null ],
-    [ "$returnType", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a0f317c2c1d4c617554890223a39037be", null ],
-    [ "$static", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a27f70cf38a488e14c8c23bfa04c2ca92", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a949e5437e04bbe67b3baac9dd8412e0d", null ],
+    [ "getAttrGroups", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a2a679edcf1730999045e48632d2a0e39", null ],
+    [ "getParams", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#ae664b6315ca3e06f04e14d9ca7a0b92e", null ],
+    [ "getReturnType", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a08221656a61386e8c7764e1a292d4295", null ],
+    [ "getStmts", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a19d987099ef8b88770d652f4db16d6d8", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a0355edda5994ea57fafb11b93e90fdb2", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#ac67b46e0aa1eceaa50407b84a80da0ca", null ],
+    [ "returnsByRef", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a9dfdb478654bdd1eb75e92ff56f0d4eb", null ],
+    [ "$attrGroups", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#aa19c5f53c83f023976c56be5cd70a013", null ],
+    [ "$byRef", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a383d5f533317b86c24889da33b4d0dc8", null ],
+    [ "$expr", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#af09b660c33efc720270af18b20223b94", null ],
+    [ "$params", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#ad0fab67d42f2fb451b024ee3102d0b3e", null ],
+    [ "$returnType", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#afd006658c3ecae5e55a8fac1bdf67484", null ],
+    [ "$static", "class_php_parser_1_1_node_1_1_expr_1_1_arrow_function.html#a4fbe4bed744b048c18f6ba3ebdebaf24", null ]
 ];

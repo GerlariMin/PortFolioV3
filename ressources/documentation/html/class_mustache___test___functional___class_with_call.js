@@ -1,5 +1,5 @@
 var class_mustache___test___functional___class_with_call =
 [
-    [ "__call", "class_mustache___test___functional___class_with_call.html#a9f1179240d068c94a040021326032bed", null ],
-    [ "$name", "class_mustache___test___functional___class_with_call.html#ab2fc40d43824ea3e1ce5d86dee0d763b", null ]
+    [ "__call", "class_mustache___test___functional___class_with_call.html#a7fff2cad3b7dc38777ae5e25cd418338", null ],
+    [ "$name", "class_mustache___test___functional___class_with_call.html#a9027c69e49cf4b44cdbe5c64baa2fb54", null ]
 ];

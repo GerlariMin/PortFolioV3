@@ -1,5 +1,5 @@
 var class_php_parser_1_1_node_1_1_scalar_1_1_magic_const_1_1_file =
 [
-    [ "getName", "class_php_parser_1_1_node_1_1_scalar_1_1_magic_const_1_1_file.html#a3d0963e68bb313b163a73f2803c64600", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_scalar_1_1_magic_const_1_1_file.html#a830b5c75df72b32396701bc563fbe3c7", null ]
+    [ "getName", "class_php_parser_1_1_node_1_1_scalar_1_1_magic_const_1_1_file.html#a441007557f4d6bf59e7291bfe718d105", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_scalar_1_1_magic_const_1_1_file.html#a11322a99c3ea11914fc50fbd54dd1e4d", null ]
 ];

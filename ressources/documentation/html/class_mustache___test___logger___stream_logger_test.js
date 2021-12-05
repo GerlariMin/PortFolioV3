@@ -1,13 +1,13 @@
 var class_mustache___test___logger___stream_logger_test =
 [
-    [ "acceptsStreamData", "class_mustache___test___logger___stream_logger_test.html#a619b766faf8348eb5b876bcc52706f92", null ],
-    [ "getLevels", "class_mustache___test___logger___stream_logger_test.html#ae620e3d9259d6af75bd37cc61cf89290", null ],
-    [ "getLogMessages", "class_mustache___test___logger___stream_logger_test.html#a616faf8e026281eb667b162dc19ef6c1", null ],
-    [ "testAcceptsStream", "class_mustache___test___logger___stream_logger_test.html#ab283a868271509ea3b4436cf7167caed", null ],
-    [ "testChangeLoggingLevels", "class_mustache___test___logger___stream_logger_test.html#a82b7447a1649d033bcf2f86afc5d193b", null ],
-    [ "testLogging", "class_mustache___test___logger___stream_logger_test.html#ada1d1b05001704e39da808394db04c01", null ],
-    [ "testLoggingThresholds", "class_mustache___test___logger___stream_logger_test.html#a0f03aea985161b77679eeb11acb90a8c", null ],
-    [ "testPrematurelyClosedStreamThrowsException", "class_mustache___test___logger___stream_logger_test.html#a2730999de7119dac49acb1c60a93500d", null ],
-    [ "testThrowsInvalidArgumentExceptionWhenLoggingUnknownLevels", "class_mustache___test___logger___stream_logger_test.html#a11206efb6b8f11181b2b546850264bbe", null ],
-    [ "testThrowsInvalidArgumentExceptionWhenSettingUnknownLevels", "class_mustache___test___logger___stream_logger_test.html#ad364129b5a702cc3afd28bad8d2f9971", null ]
+    [ "acceptsStreamData", "class_mustache___test___logger___stream_logger_test.html#ac50176d14e086dc939e8568a5793c2de", null ],
+    [ "getLevels", "class_mustache___test___logger___stream_logger_test.html#a2e26183d552fb31201d5a70c143e08e4", null ],
+    [ "getLogMessages", "class_mustache___test___logger___stream_logger_test.html#a1da2c2f6796d94756320b1918f5b959c", null ],
+    [ "testAcceptsStream", "class_mustache___test___logger___stream_logger_test.html#a786ede9219bbd5a11c24954f54f12f44", null ],
+    [ "testChangeLoggingLevels", "class_mustache___test___logger___stream_logger_test.html#ad8cf24a1b464e95c279f31b6dcb2ae07", null ],
+    [ "testLogging", "class_mustache___test___logger___stream_logger_test.html#ad53255fb827b90b22deae108eb5945ce", null ],
+    [ "testLoggingThresholds", "class_mustache___test___logger___stream_logger_test.html#abfb7d4558e51cf19f91b2cc725da755d", null ],
+    [ "testPrematurelyClosedStreamThrowsException", "class_mustache___test___logger___stream_logger_test.html#a23e1dee7997de61cfb627c1291c082ec", null ],
+    [ "testThrowsInvalidArgumentExceptionWhenLoggingUnknownLevels", "class_mustache___test___logger___stream_logger_test.html#a1291393694e8cc4d989be96ba402d179", null ],
+    [ "testThrowsInvalidArgumentExceptionWhenSettingUnknownLevels", "class_mustache___test___logger___stream_logger_test.html#a5d00fedc67354ab683378aae5f1b9c93", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: Mustache.php</title>
+<title>PortFolioV3: Mustache.php</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -90,14 +89,14 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_mustache_mustache
 <div class="contents">
 <div class="textblock"><p>A <a href="http://mustache.github.com/">Mustache</a> implementation in PHP.</p>
 <p><a href="https://packagist.org/packages/mustache/mustache"><img src="http://img.shields.io/packagist/v/mustache/mustache.svg?style=flat-square" alt="Package version" style="pointer-events: none;" class="inline"/></a> <a href="http://travis-ci.org/bobthecow/mustache.php"><img src="http://img.shields.io/travis/bobthecow/mustache.php/dev.svg?style=flat-square" alt="Build status" style="pointer-events: none;" class="inline"/></a> <a href="https://styleci.io/repos/569670"><img src="https://styleci.io/repos/569670/shield" alt="StyleCI" class="inline"/></a> <a href="https://packagist.org/packages/mustache/mustache"><img src="http://img.shields.io/packagist/dm/mustache/mustache.svg?style=flat-square" alt="Monthly downloads" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md456"></a>
+<h1><a class="anchor" id="autotoc_md457"></a>
 Usage</h1>
 <p>A quick example:</p>
 <div class="fragment"><div class="line">&lt;?php</div>
 <div class="line">$m = <span class="keyword">new</span> <a class="code" href="class_mustache___engine.html">Mustache_Engine</a>;</div>
-<div class="line">echo $m-&gt;<a class="code" href="class_mustache___engine.html#aa6aad0bfbedce46a5584c045775ee74b">render</a>(<span class="stringliteral">&#39;Hello {{planet}}&#39;</span>, array(<span class="stringliteral">&#39;planet&#39;</span> =&gt; <span class="stringliteral">&#39;World!&#39;</span>)); <span class="comment">// &quot;Hello World!&quot;</span></div>
+<div class="line">echo $m-&gt;<a class="code" href="class_mustache___engine.html#ab7aa95147f87fc0f4ac723ea0c28220c">render</a>(<span class="stringliteral">&#39;Hello {{planet}}&#39;</span>, array(<span class="stringliteral">&#39;planet&#39;</span> =&gt; <span class="stringliteral">&#39;World!&#39;</span>)); <span class="comment">// &quot;Hello World!&quot;</span></div>
 <div class="ttc" id="aclass_mustache___engine_html"><div class="ttname"><a href="class_mustache___engine.html">Mustache_Engine</a></div><div class="ttdef"><b>Definition:</b> <a href="_engine_8php_source.html#l00024">Engine.php:25</a></div></div>
-<div class="ttc" id="aclass_mustache___engine_html_aa6aad0bfbedce46a5584c045775ee74b"><div class="ttname"><a href="class_mustache___engine.html#aa6aad0bfbedce46a5584c045775ee74b">Mustache_Engine\render</a></div><div class="ttdeci">render($template, $context=array())</div><div class="ttdef"><b>Definition:</b> <a href="_engine_8php_source.html#l00234">Engine.php:234</a></div></div>
+<div class="ttc" id="aclass_mustache___engine_html_ab7aa95147f87fc0f4ac723ea0c28220c"><div class="ttname"><a href="class_mustache___engine.html#ab7aa95147f87fc0f4ac723ea0c28220c">Mustache_Engine\render</a></div><div class="ttdeci">render($template, $context=array())</div><div class="ttdef"><b>Definition:</b> <a href="_engine_8php_source.html#l00234">Engine.php:234</a></div></div>
 </div><!-- fragment --><p>And a more in-depth example &ndash; this is the canonical Mustache template:</p>
 <div class="fragment"><div class="line"> {html+jinja}</div>
 <div class="line">Hello {{name}}</div>
@@ -121,11 +120,11 @@ Usage</h1>
 <div class="fragment"><div class="line">&lt;?php</div>
 <div class="line">$m = <span class="keyword">new</span> <a class="code" href="class_mustache___engine.html">Mustache_Engine</a>;</div>
 <div class="line">$chris = <span class="keyword">new</span> Chris;</div>
-<div class="line">echo $m-&gt;<a class="code" href="class_mustache___engine.html#aa6aad0bfbedce46a5584c045775ee74b">render</a>($template, $chris);</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md457"></a>
+<div class="line">echo $m-&gt;<a class="code" href="class_mustache___engine.html#ab7aa95147f87fc0f4ac723ea0c28220c">render</a>($template, $chris);</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md458"></a>
 And That's Not All!</h1>
 <p>Read <a href="https://github.com/bobthecow/mustache.php/wiki/Home">the Mustache.php documentation</a> for more information.</p>
-<h1><a class="anchor" id="autotoc_md458"></a>
+<h1><a class="anchor" id="autotoc_md459"></a>
 See Also</h1>
 <ul>
 <li><a href="http://github.com/defunkt/mustache/blob/master/README.md">Readme for the Ruby Mustache implementation</a>.</li>

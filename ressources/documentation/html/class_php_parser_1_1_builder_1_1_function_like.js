@@ -1,10 +1,10 @@
 var class_php_parser_1_1_builder_1_1_function_like =
 [
-    [ "addParam", "class_php_parser_1_1_builder_1_1_function_like.html#a717627751ea7581667fcf0ee3f389ac3", null ],
-    [ "addParams", "class_php_parser_1_1_builder_1_1_function_like.html#a1c10caa53d12c87ed21af16935f6379b", null ],
-    [ "makeReturnByRef", "class_php_parser_1_1_builder_1_1_function_like.html#a20889f41cf3034dbbcbfbdc28ad9897e", null ],
-    [ "setReturnType", "class_php_parser_1_1_builder_1_1_function_like.html#ac0d515fc67f41d733dd7687c1b18fb51", null ],
-    [ "$params", "class_php_parser_1_1_builder_1_1_function_like.html#afe68e6fbe7acfbffc0af0c84a1996466", null ],
-    [ "$returnByRef", "class_php_parser_1_1_builder_1_1_function_like.html#a79fe1d03a9c3dd8b392760a6b1306bd2", null ],
-    [ "$returnType", "class_php_parser_1_1_builder_1_1_function_like.html#a0f317c2c1d4c617554890223a39037be", null ]
+    [ "addParam", "class_php_parser_1_1_builder_1_1_function_like.html#a58d5b41797dc26b4e8a094d81c67ef5c", null ],
+    [ "addParams", "class_php_parser_1_1_builder_1_1_function_like.html#aea403813793e7e9956189e7387b0a031", null ],
+    [ "makeReturnByRef", "class_php_parser_1_1_builder_1_1_function_like.html#ad04da2e6d6b44ba46ab7b88fdb0a501e", null ],
+    [ "setReturnType", "class_php_parser_1_1_builder_1_1_function_like.html#abce10c8c374396b3a80fe14e9665dec3", null ],
+    [ "$params", "class_php_parser_1_1_builder_1_1_function_like.html#aeb52bef46998b3e0122565993f3bbc25", null ],
+    [ "$returnByRef", "class_php_parser_1_1_builder_1_1_function_like.html#ac4ae1837b26b1c46ebc776a09d077d16", null ],
+    [ "$returnType", "class_php_parser_1_1_builder_1_1_function_like.html#aa6aa895ed882faecfa4af348463d67be", null ]
 ];

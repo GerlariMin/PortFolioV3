@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/mustache/mustache/src/Mustache/Cache/AbstractCache.php Source File</title>
+<title>PortFolioV3: ressources/vendor/mustache/mustache/src/Mustache/Cache/AbstractCache.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -103,12 +102,12 @@ $(document).ready(function(){initNavTree('_abstract_cache_8php_source.html','');
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">private</span> $logger = <span class="keyword">null</span>;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_mustache___cache___abstract_cache.html#a2321df4f2f7d188b92b96fe63dc71a90">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___abstract_cache.html#a2321df4f2f7d188b92b96fe63dc71a90">getLogger</a>()</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_mustache___cache___abstract_cache.html#a5be14fe4ce8d699f0ff07b3bda8e1751">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___abstract_cache.html#a5be14fe4ce8d699f0ff07b3bda8e1751">getLogger</a>()</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> $this-&gt;logger;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_mustache___cache___abstract_cache.html#a4a118fa144477f1c08b17423c62e7a21">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___abstract_cache.html#a4a118fa144477f1c08b17423c62e7a21">setLogger</a>($logger = <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_mustache___cache___abstract_cache.html#ad66cf37cdf59fba9bae518a6e2890c21">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___abstract_cache.html#ad66cf37cdf59fba9bae518a6e2890c21">setLogger</a>($logger = <span class="keyword">null</span>)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> ($logger !== <span class="keyword">null</span> &amp;&amp; !($logger instanceof <a class="code" href="interface_mustache___logger.html">Mustache_Logger</a> || is_a($logger, <span class="stringliteral">&#39;Psr\\Log\\LoggerInterface&#39;</span>))) {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_mustache___exception___invalid_argument_exception.html">Mustache_Exception_InvalidArgumentException</a>(<span class="stringliteral">&#39;Expected an instance of Mustache_Logger or Psr\\Log\\LoggerInterface.&#39;</span>);</div>
@@ -117,7 +116,7 @@ $(document).ready(function(){initNavTree('_abstract_cache_8php_source.html','');
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        $this-&gt;logger = $logger;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">   54</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">log</a>($level, $message, array $context = array())</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">   54</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">log</a>($level, $message, array $context = array())</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">if</span> (isset($this-&gt;logger)) {</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            $this-&gt;logger-&gt;log($level, $message, $context);</div>
@@ -125,9 +124,9 @@ $(document).ready(function(){initNavTree('_abstract_cache_8php_source.html','');
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 <div class="ttc" id="aclass_mustache___cache___abstract_cache_html"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html">Mustache_Cache_AbstractCache</a></div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00019">AbstractCache.php:20</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a142f6bf4e86dc16e0bae4cff1de0dd44"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">Mustache_Cache_AbstractCache\log</a></div><div class="ttdeci">log($level, $message, array $context=array())</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00054">AbstractCache.php:54</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a2321df4f2f7d188b92b96fe63dc71a90"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a2321df4f2f7d188b92b96fe63dc71a90">Mustache_Cache_AbstractCache\getLogger</a></div><div class="ttdeci">getLogger()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00028">AbstractCache.php:28</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a4a118fa144477f1c08b17423c62e7a21"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a4a118fa144477f1c08b17423c62e7a21">Mustache_Cache_AbstractCache\setLogger</a></div><div class="ttdeci">setLogger($logger=null)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00038">AbstractCache.php:38</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a3b75b6bb09e6e7ea87b2bf68c23bcf6f"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">Mustache_Cache_AbstractCache\log</a></div><div class="ttdeci">log($level, $message, array $context=array())</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00054">AbstractCache.php:54</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a5be14fe4ce8d699f0ff07b3bda8e1751"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a5be14fe4ce8d699f0ff07b3bda8e1751">Mustache_Cache_AbstractCache\getLogger</a></div><div class="ttdeci">getLogger()</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00028">AbstractCache.php:28</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_ad66cf37cdf59fba9bae518a6e2890c21"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#ad66cf37cdf59fba9bae518a6e2890c21">Mustache_Cache_AbstractCache\setLogger</a></div><div class="ttdeci">setLogger($logger=null)</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00038">AbstractCache.php:38</a></div></div>
 <div class="ttc" id="aclass_mustache___exception___invalid_argument_exception_html"><div class="ttname"><a href="class_mustache___exception___invalid_argument_exception.html">Mustache_Exception_InvalidArgumentException</a></div><div class="ttdef"><b>Definition:</b> <a href="mustache_2mustache_2src_2_mustache_2_exception_2_invalid_argument_exception_8php_source.html#l00015">InvalidArgumentException.php:16</a></div></div>
 <div class="ttc" id="ainterface_mustache___cache_html"><div class="ttname"><a href="interface_mustache___cache.html">Mustache_Cache</a></div><div class="ttdef"><b>Definition:</b> <a href="mustache_2mustache_2src_2_mustache_2_cache_8php_source.html#l00018">Cache.php:19</a></div></div>
 <div class="ttc" id="ainterface_mustache___logger_html"><div class="ttname"><a href="interface_mustache___logger.html">Mustache_Logger</a></div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00029">Logger.php:30</a></div></div>

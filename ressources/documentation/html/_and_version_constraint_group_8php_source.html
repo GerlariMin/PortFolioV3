@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phar-io/version/src/constraints/AndVersionConstraintGroup.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phar-io/version/src/constraints/AndVersionConstraintGroup.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -102,13 +101,13 @@ $(document).ready(function(){initNavTree('_and_version_constraint_group_8php_sou
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html">AndVersionConstraintGroup</a> <span class="keyword">extends</span> <a class="code" href="class_phar_io_1_1_version_1_1_abstract_version_constraint.html">AbstractVersionConstraint</a> {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">private</span> $constraints = [];</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#a135d86014c887a7f475c79c94062ceff">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#a135d86014c887a7f475c79c94062ceff">__construct</a>(<span class="keywordtype">string</span> $originalValue, array $constraints) {</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#aed0f0a87facfbe76371c5d28524e5d58">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#aed0f0a87facfbe76371c5d28524e5d58">__construct</a>(<span class="keywordtype">string</span> $originalValue, array $constraints) {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        parent::__construct($originalValue);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        $this-&gt;constraints = $constraints;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#af2fdc86427b43a60f12cff96fd5d64b5">   25</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#af2fdc86427b43a60f12cff96fd5d64b5">complies</a>(<a class="code" href="class_phar_io_1_1_version_1_1_version.html">Version</a> $version): bool {</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#a5908c726b752f1e4f41c2f03055db58e">   25</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#a5908c726b752f1e4f41c2f03055db58e">complies</a>(<a class="code" href="class_phar_io_1_1_version_1_1_version.html">Version</a> $version): bool {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        foreach ($this-&gt;constraints as $constraint) {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordflow">if</span> (!$constraint-&gt;complies($version)) {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -120,8 +119,8 @@ $(document).ready(function(){initNavTree('_and_version_constraint_group_8php_sou
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
 <div class="ttc" id="aclass_phar_io_1_1_version_1_1_abstract_version_constraint_html"><div class="ttname"><a href="class_phar_io_1_1_version_1_1_abstract_version_constraint.html">PharIo\Version\AbstractVersionConstraint</a></div><div class="ttdef"><b>Definition:</b> <a href="_abstract_version_constraint_8php_source.html#l00012">AbstractVersionConstraint.php:12</a></div></div>
 <div class="ttc" id="aclass_phar_io_1_1_version_1_1_and_version_constraint_group_html"><div class="ttname"><a href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html">PharIo\Version\AndVersionConstraintGroup</a></div><div class="ttdef"><b>Definition:</b> <a href="_and_version_constraint_group_8php_source.html#l00012">AndVersionConstraintGroup.php:12</a></div></div>
-<div class="ttc" id="aclass_phar_io_1_1_version_1_1_and_version_constraint_group_html_a135d86014c887a7f475c79c94062ceff"><div class="ttname"><a href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#a135d86014c887a7f475c79c94062ceff">PharIo\Version\AndVersionConstraintGroup\__construct</a></div><div class="ttdeci">__construct(string $originalValue, array $constraints)</div><div class="ttdef"><b>Definition:</b> <a href="_and_version_constraint_group_8php_source.html#l00019">AndVersionConstraintGroup.php:19</a></div></div>
-<div class="ttc" id="aclass_phar_io_1_1_version_1_1_and_version_constraint_group_html_af2fdc86427b43a60f12cff96fd5d64b5"><div class="ttname"><a href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#af2fdc86427b43a60f12cff96fd5d64b5">PharIo\Version\AndVersionConstraintGroup\complies</a></div><div class="ttdeci">complies(Version $version)</div><div class="ttdef"><b>Definition:</b> <a href="_and_version_constraint_group_8php_source.html#l00025">AndVersionConstraintGroup.php:25</a></div></div>
+<div class="ttc" id="aclass_phar_io_1_1_version_1_1_and_version_constraint_group_html_a5908c726b752f1e4f41c2f03055db58e"><div class="ttname"><a href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#a5908c726b752f1e4f41c2f03055db58e">PharIo\Version\AndVersionConstraintGroup\complies</a></div><div class="ttdeci">complies(Version $version)</div><div class="ttdef"><b>Definition:</b> <a href="_and_version_constraint_group_8php_source.html#l00025">AndVersionConstraintGroup.php:25</a></div></div>
+<div class="ttc" id="aclass_phar_io_1_1_version_1_1_and_version_constraint_group_html_aed0f0a87facfbe76371c5d28524e5d58"><div class="ttname"><a href="class_phar_io_1_1_version_1_1_and_version_constraint_group.html#aed0f0a87facfbe76371c5d28524e5d58">PharIo\Version\AndVersionConstraintGroup\__construct</a></div><div class="ttdeci">__construct(string $originalValue, array $constraints)</div><div class="ttdef"><b>Definition:</b> <a href="_and_version_constraint_group_8php_source.html#l00019">AndVersionConstraintGroup.php:19</a></div></div>
 <div class="ttc" id="aclass_phar_io_1_1_version_1_1_version_html"><div class="ttname"><a href="class_phar_io_1_1_version_1_1_version.html">PharIo\Version\Version</a></div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2version_2src_2_version_8php_source.html#l00012">Version.php:12</a></div></div>
 <div class="ttc" id="anamespace_phar_io_1_1_version_html"><div class="ttname"><a href="namespace_phar_io_1_1_version.html">PharIo\Version</a></div><div class="ttdef"><b>Definition:</b> <a href="_abstract_version_constraint_8php_source.html#l00010">AbstractVersionConstraint.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

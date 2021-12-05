@@ -1,6 +1,6 @@
 var class_mustache___test___template_stub =
 [
-    [ "getMustache", "class_mustache___test___template_stub.html#af27e24483c247a554ddd292f6f0ac87d", null ],
-    [ "renderInternal", "class_mustache___test___template_stub.html#a85005a29064a3e0acd07fb092a17fa9f", null ],
-    [ "$rendered", "class_mustache___test___template_stub.html#a3d89bc8b1c394034068825d3229e9bb8", null ]
+    [ "getMustache", "class_mustache___test___template_stub.html#ad949ff517cb73e167bd2fe32c818c35c", null ],
+    [ "renderInternal", "class_mustache___test___template_stub.html#a890af0a4ae96e91eb328176560c89b85", null ],
+    [ "$rendered", "class_mustache___test___template_stub.html#a3ba2e16b4a86e976632d59c7cad9e716", null ]
 ];

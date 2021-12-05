@@ -29,17 +29,7 @@
             $this->render = $rendu;
             global $config;
             $this->config = $config;
-            $this->texte = new TexteAccueil();
-        }
-
-        /**
-         * Retourne un tableau formaté pour les différentes balises Mustache de la page d'accueil.
-         *
-         * @return array
-         */
-        private function traitementLignes(): array
-        {
-            return $this->texte->texteLignes($this->config);
+            $this->texte = new TexteAccueil($this->config);
         }
 
         /**
@@ -47,7 +37,7 @@
          */
         public function traitementRendu(): void
         {
-            $data['line'] = $this->traitementLignes();
+            $data = $this->texte->texteFinal();
             
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['accueil'] = true;

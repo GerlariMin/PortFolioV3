@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Util/Xml.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Util/Xml.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -118,12 +117,12 @@ $(document).ready(function(){initNavTree('_util_2_xml_8php_source.html',''); ini
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html">   32</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html">Xml</a></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a08cf9b293b2e43eb1cc1ec2878d0dd29">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <span class="keyword">import</span>(DOMElement $element): DOMElement</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a7bd16c5ed730a27a136dbe1b67ae52a9">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <span class="keyword">import</span>(DOMElement $element): DOMElement</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> (<span class="keyword">new</span> DOMDocument)-&gt;importNode($element, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a2c80608cf99e22685634885c94930eab">   45</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a2c80608cf99e22685634885c94930eab">removeCharacterDataNodes</a>(DOMNode $node): void</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a350f988d092412c6b1976a6996c42703">   45</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a350f988d092412c6b1976a6996c42703">removeCharacterDataNodes</a>(DOMNode $node): void</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span> ($node-&gt;hasChildNodes()) {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">for</span> ($i = $node-&gt;childNodes-&gt;length - 1; $i &gt;= 0; $i--) {</div>
@@ -134,7 +133,7 @@ $(document).ready(function(){initNavTree('_util_2_xml_8php_source.html',''); ini
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html#ae96d7b4189bf7720e04c13614edc5dd5">   64</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#ae96d7b4189bf7720e04c13614edc5dd5">prepareString</a>(<span class="keywordtype">string</span> $string): string</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a7d828214ffe0cd1a7e22e88b6f213178">   64</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a7d828214ffe0cd1a7e22e88b6f213178">prepareString</a>(<span class="keywordtype">string</span> $string): string</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> preg_replace(</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="stringliteral">&#39;/[\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f\\x7f]/&#39;</span>,</div>
@@ -146,7 +145,7 @@ $(document).ready(function(){initNavTree('_util_2_xml_8php_source.html',''); ini
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        );</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a907699a2aab1dd40c7233e619e2534b0">   79</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a907699a2aab1dd40c7233e619e2534b0">xmlToVariable</a>(DOMElement $element)</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a4e2be34df5220d01f3aedf80ca55d142">   79</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a4e2be34df5220d01f3aedf80ca55d142">xmlToVariable</a>(DOMElement $element)</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        $variable = <span class="keyword">null</span>;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
@@ -164,7 +163,7 @@ $(document).ready(function(){initNavTree('_util_2_xml_8php_source.html',''); ini
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                        $item = $entry-&gt;childNodes-&gt;item(1);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                    }</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    $value = <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a907699a2aab1dd40c7233e619e2534b0">self::xmlToVariable</a>($item);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    $value = <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a4e2be34df5220d01f3aedf80ca55d142">self::xmlToVariable</a>($item);</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                    <span class="keywordflow">if</span> ($entry-&gt;hasAttribute(<span class="stringliteral">&#39;key&#39;</span>)) {</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                        $variable[(string) $entry-&gt;getAttribute(<span class="stringliteral">&#39;key&#39;</span>)] = $value;</div>
@@ -184,7 +183,7 @@ $(document).ready(function(){initNavTree('_util_2_xml_8php_source.html',''); ini
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                    <span class="keywordflow">foreach</span> ($arguments as $argument) {</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                        <span class="keywordflow">if</span> ($argument instanceof DOMElement) {</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                            $constructorArgs[] = <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a907699a2aab1dd40c7233e619e2534b0">self::xmlToVariable</a>($argument);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                            $constructorArgs[] = <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml.html#a4e2be34df5220d01f3aedf80ca55d142">self::xmlToVariable</a>($argument);</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                        }</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                    }</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
@@ -263,9 +262,9 @@ $(document).ready(function(){initNavTree('_util_2_xml_8php_source.html',''); ini
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_exception_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_exception.html">PHPUnit\Framework\Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_framework_2_exception_2_exception_8php_source.html#l00040">Exception.php:41</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml.html">PHPUnit\Util\Xml</a></div><div class="ttdef"><b>Definition:</b> <a href="_util_2_xml_8php_source.html#l00032">Xml.php:33</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_html_a2c80608cf99e22685634885c94930eab"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml.html#a2c80608cf99e22685634885c94930eab">PHPUnit\Util\Xml\removeCharacterDataNodes</a></div><div class="ttdeci">static removeCharacterDataNodes(DOMNode $node)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_xml_8php_source.html#l00045">Xml.php:45</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_html_a907699a2aab1dd40c7233e619e2534b0"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml.html#a907699a2aab1dd40c7233e619e2534b0">PHPUnit\Util\Xml\xmlToVariable</a></div><div class="ttdeci">static xmlToVariable(DOMElement $element)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_xml_8php_source.html#l00079">Xml.php:79</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_html_ae96d7b4189bf7720e04c13614edc5dd5"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml.html#ae96d7b4189bf7720e04c13614edc5dd5">PHPUnit\Util\Xml\prepareString</a></div><div class="ttdeci">static prepareString(string $string)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_xml_8php_source.html#l00064">Xml.php:64</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_html_a350f988d092412c6b1976a6996c42703"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml.html#a350f988d092412c6b1976a6996c42703">PHPUnit\Util\Xml\removeCharacterDataNodes</a></div><div class="ttdeci">static removeCharacterDataNodes(DOMNode $node)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_xml_8php_source.html#l00045">Xml.php:45</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_html_a4e2be34df5220d01f3aedf80ca55d142"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml.html#a4e2be34df5220d01f3aedf80ca55d142">PHPUnit\Util\Xml\xmlToVariable</a></div><div class="ttdeci">static xmlToVariable(DOMElement $element)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_xml_8php_source.html#l00079">Xml.php:79</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_html_a7d828214ffe0cd1a7e22e88b6f213178"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml.html#a7d828214ffe0cd1a7e22e88b6f213178">PHPUnit\Util\Xml\prepareString</a></div><div class="ttdeci">static prepareString(string $string)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_xml_8php_source.html#l00064">Xml.php:64</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,6 +1,6 @@
 var class_prophecy_1_1_doubler_1_1_class_patch_1_1_throwable_patch =
 [
-    [ "apply", "class_prophecy_1_1_doubler_1_1_class_patch_1_1_throwable_patch.html#a62fdb697928f35fc782d6889b8fe9b8b", null ],
-    [ "getPriority", "class_prophecy_1_1_doubler_1_1_class_patch_1_1_throwable_patch.html#a1e7a3c168dcd0901a0d2669c67575b55", null ],
-    [ "supports", "class_prophecy_1_1_doubler_1_1_class_patch_1_1_throwable_patch.html#a99b2455ac194faf79aff042c55719ac2", null ]
+    [ "apply", "class_prophecy_1_1_doubler_1_1_class_patch_1_1_throwable_patch.html#a4266c0dd58eabf49100d1c3adefdeb13", null ],
+    [ "getPriority", "class_prophecy_1_1_doubler_1_1_class_patch_1_1_throwable_patch.html#a85c8d533084dd294be653d8773ca99e4", null ],
+    [ "supports", "class_prophecy_1_1_doubler_1_1_class_patch_1_1_throwable_patch.html#af103d16f60a7b2f04bfb750ccfb91bf9", null ]
 ];

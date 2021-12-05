@@ -1,9 +1,9 @@
 var class_mustache___loader___inline_loader =
 [
-    [ "__construct", "class_mustache___loader___inline_loader.html#a342ee1132f12f5c6f16fba088f0436b7", null ],
-    [ "load", "class_mustache___loader___inline_loader.html#a5d4a434c5fe83bade81f5815706a3551", null ],
-    [ "loadTemplates", "class_mustache___loader___inline_loader.html#aabf10094cfb012c6418f876bb4d0bdcf", null ],
-    [ "$fileName", "class_mustache___loader___inline_loader.html#a68fbc5a9273a24181c50a057d11603fa", null ],
-    [ "$offset", "class_mustache___loader___inline_loader.html#aec4de82415d7f05cb9748d12d3a95a87", null ],
-    [ "$templates", "class_mustache___loader___inline_loader.html#a3326a7f5703016042df69801c9770b4c", null ]
+    [ "__construct", "class_mustache___loader___inline_loader.html#a2641d4b92280f5f8860383982ddc7480", null ],
+    [ "load", "class_mustache___loader___inline_loader.html#a89d252a31da361139014d94c615b7b3d", null ],
+    [ "loadTemplates", "class_mustache___loader___inline_loader.html#abe402f63c26da72a29740793471ef11f", null ],
+    [ "$fileName", "class_mustache___loader___inline_loader.html#ae5aa114899295bb5ae6bd3557dc00f4a", null ],
+    [ "$offset", "class_mustache___loader___inline_loader.html#a09ea35c36f00c3fb9b8ef027497007ff", null ],
+    [ "$templates", "class_mustache___loader___inline_loader.html#afc15a423d524c37f924b0bb463c7b4b5", null ]
 ];

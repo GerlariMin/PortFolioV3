@@ -1,17 +1,17 @@
 var class_php_parser_1_1_internal_1_1_token_stream =
 [
-    [ "__construct", "class_php_parser_1_1_internal_1_1_token_stream.html#a117ef0a01f9df3e8d4e01c04e1701e7a", null ],
-    [ "findRight", "class_php_parser_1_1_internal_1_1_token_stream.html#a085f02004987300ae9f375db9d162d8e", null ],
-    [ "getIndentationBefore", "class_php_parser_1_1_internal_1_1_token_stream.html#a526438c0586411fa20761d4c3bbccd5d", null ],
-    [ "getTokenCode", "class_php_parser_1_1_internal_1_1_token_stream.html#a48940c0ea97c67a136fa0c1ec2c2778f", null ],
-    [ "haveBraces", "class_php_parser_1_1_internal_1_1_token_stream.html#a4aaf4d06308e8477ee4371c106e3398c", null ],
-    [ "haveBracesInRange", "class_php_parser_1_1_internal_1_1_token_stream.html#ac040da2ff9fbff15dba740c9132a967e", null ],
-    [ "haveParens", "class_php_parser_1_1_internal_1_1_token_stream.html#aa8f48209de2b1f15d9f88449011dc009", null ],
-    [ "haveTokenImmediatelyAfter", "class_php_parser_1_1_internal_1_1_token_stream.html#a8e8c50798a50524f9591eee4ddaf89d3", null ],
-    [ "haveTokenImmediatelyBefore", "class_php_parser_1_1_internal_1_1_token_stream.html#a00d1409f913706b88aed03a959d43e45", null ],
-    [ "haveTokenInRange", "class_php_parser_1_1_internal_1_1_token_stream.html#a0bd88f4399da41e327fbb965c9ac4c37", null ],
-    [ "skipLeft", "class_php_parser_1_1_internal_1_1_token_stream.html#a587cf3cda4d9ba909af92cae7b6744a4", null ],
-    [ "skipLeftWhitespace", "class_php_parser_1_1_internal_1_1_token_stream.html#a3e1b2664d0127043b3f7483a422ad4d2", null ],
-    [ "skipRight", "class_php_parser_1_1_internal_1_1_token_stream.html#a85e130343afe0df18c87e8be7ccc45fa", null ],
-    [ "skipRightWhitespace", "class_php_parser_1_1_internal_1_1_token_stream.html#a75749455057360c94c36882e823c28f7", null ]
+    [ "__construct", "class_php_parser_1_1_internal_1_1_token_stream.html#a49b26b6fecc823c527e32017e6a142f0", null ],
+    [ "findRight", "class_php_parser_1_1_internal_1_1_token_stream.html#a54c3dc75ccc14e36486d1eda79b49411", null ],
+    [ "getIndentationBefore", "class_php_parser_1_1_internal_1_1_token_stream.html#ae87bc2f84ef81476daa4c80877589d0b", null ],
+    [ "getTokenCode", "class_php_parser_1_1_internal_1_1_token_stream.html#ad9e06ed9cd39e606a096eb8a5a221ba4", null ],
+    [ "haveBraces", "class_php_parser_1_1_internal_1_1_token_stream.html#aa18aa81e2408dc7dec719003a6aa337d", null ],
+    [ "haveBracesInRange", "class_php_parser_1_1_internal_1_1_token_stream.html#a4cb08017b3b708139c741efcaa05f097", null ],
+    [ "haveParens", "class_php_parser_1_1_internal_1_1_token_stream.html#a47eeb8b4707c109aa8ed8f10d4b6743d", null ],
+    [ "haveTokenImmediatelyAfter", "class_php_parser_1_1_internal_1_1_token_stream.html#a92a66062dcc531aaa9c2a680bf2609f9", null ],
+    [ "haveTokenImmediatelyBefore", "class_php_parser_1_1_internal_1_1_token_stream.html#a76c29befcd153811aad24d66450642d6", null ],
+    [ "haveTokenInRange", "class_php_parser_1_1_internal_1_1_token_stream.html#a462449ca91a921c287dcaa7a509e6ca9", null ],
+    [ "skipLeft", "class_php_parser_1_1_internal_1_1_token_stream.html#a81de1fb47523d0238586aa40b3a4fe95", null ],
+    [ "skipLeftWhitespace", "class_php_parser_1_1_internal_1_1_token_stream.html#af7bb71052479890635c2bec0e10ba495", null ],
+    [ "skipRight", "class_php_parser_1_1_internal_1_1_token_stream.html#a22949dd72eb7d553fd7741a0d1bbe5f5", null ],
+    [ "skipRightWhitespace", "class_php_parser_1_1_internal_1_1_token_stream.html#a0af4b9047fccbb47caaeb0e3c93f4c75", null ]
 ];

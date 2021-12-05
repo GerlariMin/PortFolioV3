@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phar-io/manifest/src/values/Author.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phar-io/manifest/src/values/Author.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -104,32 +103,32 @@ $(document).ready(function(){initNavTree('phar-io_2manifest_2src_2values_2_autho
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">private</span> $email;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_manifest_1_1_author.html#a8e58e903985d786c72542157800df9c6">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#a8e58e903985d786c72542157800df9c6">__construct</a>(<span class="keywordtype">string</span> $name, <a class="code" href="class_phar_io_1_1_manifest_1_1_email.html">Email</a> $email) {</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_manifest_1_1_author.html#aa3e42e16a13f6afe782e1913ab22c02b">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#aa3e42e16a13f6afe782e1913ab22c02b">__construct</a>(<span class="keywordtype">string</span> $name, <a class="code" href="class_phar_io_1_1_manifest_1_1_email.html">Email</a> $email) {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        $this-&gt;name  = $name;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        $this-&gt;email = $email;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_manifest_1_1_author.html#aa1a17ab79247b7e7d740bb55e13cab14">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#aa1a17ab79247b7e7d740bb55e13cab14">asString</a>(): string {</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_manifest_1_1_author.html#ae47735a968d16d700b067c6b5193eb0c">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#ae47735a968d16d700b067c6b5193eb0c">asString</a>(): string {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        return \sprintf(</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="stringliteral">&#39;%s &lt;%s&gt;&#39;</span>,</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            $this-&gt;name,</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            $this-&gt;email-&gt;<a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#aa1a17ab79247b7e7d740bb55e13cab14">asString</a>()</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            $this-&gt;email-&gt;<a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#ae47735a968d16d700b067c6b5193eb0c">asString</a>()</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        );</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_manifest_1_1_author.html#a3d0963e68bb313b163a73f2803c64600">   32</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#a3d0963e68bb313b163a73f2803c64600">getName</a>(): string {</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_manifest_1_1_author.html#ad1149b53b0aad4726f014441b309aa11">   32</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#ad1149b53b0aad4726f014441b309aa11">getName</a>(): string {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        return $this-&gt;name;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_manifest_1_1_author.html#a02a01849f28e2535e888ae4ec87b20f2">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#a02a01849f28e2535e888ae4ec87b20f2">getEmail</a>(): <a class="code" href="class_phar_io_1_1_manifest_1_1_email.html">Email</a> {</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_phar_io_1_1_manifest_1_1_author.html#a21adfe0e067bbcce3419f21e1b2e2983">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_phar_io_1_1_manifest_1_1_author.html#a21adfe0e067bbcce3419f21e1b2e2983">getEmail</a>(): <a class="code" href="class_phar_io_1_1_manifest_1_1_email.html">Email</a> {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        return $this-&gt;email;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html">PharIo\Manifest\Author</a></div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00012">Author.php:12</a></div></div>
-<div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html_a02a01849f28e2535e888ae4ec87b20f2"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html#a02a01849f28e2535e888ae4ec87b20f2">PharIo\Manifest\Author\getEmail</a></div><div class="ttdeci">getEmail()</div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00036">Author.php:36</a></div></div>
-<div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html_a3d0963e68bb313b163a73f2803c64600"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html#a3d0963e68bb313b163a73f2803c64600">PharIo\Manifest\Author\getName</a></div><div class="ttdeci">getName()</div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00032">Author.php:32</a></div></div>
-<div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html_a8e58e903985d786c72542157800df9c6"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html#a8e58e903985d786c72542157800df9c6">PharIo\Manifest\Author\__construct</a></div><div class="ttdeci">__construct(string $name, Email $email)</div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00019">Author.php:19</a></div></div>
-<div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html_aa1a17ab79247b7e7d740bb55e13cab14"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html#aa1a17ab79247b7e7d740bb55e13cab14">PharIo\Manifest\Author\asString</a></div><div class="ttdeci">asString()</div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00024">Author.php:24</a></div></div>
+<div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html_a21adfe0e067bbcce3419f21e1b2e2983"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html#a21adfe0e067bbcce3419f21e1b2e2983">PharIo\Manifest\Author\getEmail</a></div><div class="ttdeci">getEmail()</div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00036">Author.php:36</a></div></div>
+<div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html_aa3e42e16a13f6afe782e1913ab22c02b"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html#aa3e42e16a13f6afe782e1913ab22c02b">PharIo\Manifest\Author\__construct</a></div><div class="ttdeci">__construct(string $name, Email $email)</div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00019">Author.php:19</a></div></div>
+<div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html_ad1149b53b0aad4726f014441b309aa11"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html#ad1149b53b0aad4726f014441b309aa11">PharIo\Manifest\Author\getName</a></div><div class="ttdeci">getName()</div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00032">Author.php:32</a></div></div>
+<div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_author_html_ae47735a968d16d700b067c6b5193eb0c"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_author.html#ae47735a968d16d700b067c6b5193eb0c">PharIo\Manifest\Author\asString</a></div><div class="ttdeci">asString()</div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2manifest_2src_2values_2_author_8php_source.html#l00024">Author.php:24</a></div></div>
 <div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_email_html"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_email.html">PharIo\Manifest\Email</a></div><div class="ttdef"><b>Definition:</b> <a href="_email_8php_source.html#l00012">Email.php:12</a></div></div>
 <div class="ttc" id="anamespace_phar_io_1_1_manifest_html"><div class="ttname"><a href="namespace_phar_io_1_1_manifest.html">PharIo\Manifest</a></div><div class="ttdef"><b>Definition:</b> <a href="_element_collection_exception_8php_source.html#l00010">ElementCollectionException.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

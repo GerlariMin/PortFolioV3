@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/sebastian/diff/src/Parser.php Source File</title>
+<title>PortFolioV3: ressources/vendor/sebastian/diff/src/Parser.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -107,7 +106,7 @@ $(document).ready(function(){initNavTree('sebastian_2diff_2src_2_parser_8php_sou
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_diff_1_1_parser.html">   21</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_parser.html">Parser</a></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_diff_1_1_parser.html#a106c7aa8c2d4de4bbfd07282e3ab0744">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_parser.html#a106c7aa8c2d4de4bbfd07282e3ab0744">parse</a>(<span class="keywordtype">string</span> $string): array</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_diff_1_1_parser.html#aba7daf9b5004aea57b38890c946f37e4">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_parser.html#aba7daf9b5004aea57b38890c946f37e4">parse</a>(<span class="keywordtype">string</span> $string): array</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        $lines = preg_split(<span class="stringliteral">&#39;(\r\n|\r|\n)&#39;</span>, $string);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
@@ -173,12 +172,12 @@ $(document).ready(function(){initNavTree('sebastian_2diff_2src_2_parser_8php_sou
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            }</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">if</span> (preg_match(<span class="stringliteral">&#39;/^(?P&lt;type&gt;[+ -])?(?P&lt;line&gt;.*)/&#39;</span>, $line, $match)) {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                $type = <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a4aebc93452a080d340addea1ef92b4dc">Line::UNCHANGED</a>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                $type = <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a26455808b300fa6c0fab75c7c37cbaed">Line::UNCHANGED</a>;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordflow">if</span> ($match[<span class="stringliteral">&#39;type&#39;</span>] === <span class="charliteral">&#39;+&#39;</span>) {</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                    $type = <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a9dcf44632176616f583582396a5d6ec9">Line::ADDED</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                    $type = <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a94797145d34189e17edab920d9fb18f3">Line::ADDED</a>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                } elseif ($match[<span class="stringliteral">&#39;type&#39;</span>] === <span class="charliteral">&#39;-&#39;</span>) {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    $type = <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a407d200e9f16e51a21be57a9fcec09f0">Line::REMOVED</a>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    $type = <a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a16a1db19e762fcf47b42871917e5eaa5">Line::REMOVED</a>;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                }</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                $diffLines[] = <span class="keyword">new</span> Line($type, $match[<span class="stringliteral">&#39;line&#39;</span>]);</div>
@@ -189,17 +188,17 @@ $(document).ready(function(){initNavTree('sebastian_2diff_2src_2_parser_8php_sou
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            }</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        $diff-&gt;<a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_diff.html#a9cc885382e8c61c7bf75b12ac08e9ce6">setChunks</a>($chunks);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        $diff-&gt;<a class="code" href="class_sebastian_bergmann_1_1_diff_1_1_diff.html#a0ab8e892f69ba188c9659bdb31c06c31">setChunks</a>($chunks);</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_chunk_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_chunk.html">SebastianBergmann\Diff\Chunk</a></div><div class="ttdef"><b>Definition:</b> <a href="_chunk_8php_source.html#l00012">Chunk.php:13</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_diff_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_diff.html">SebastianBergmann\Diff\Diff</a></div><div class="ttdef"><b>Definition:</b> <a href="_diff_8php_source.html#l00012">Diff.php:13</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_diff_html_a9cc885382e8c61c7bf75b12ac08e9ce6"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_diff.html#a9cc885382e8c61c7bf75b12ac08e9ce6">SebastianBergmann\Diff\Diff\setChunks</a></div><div class="ttdeci">setChunks(array $chunks)</div><div class="ttdef"><b>Definition:</b> <a href="_diff_8php_source.html#l00060">Diff.php:60</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_line_html_a407d200e9f16e51a21be57a9fcec09f0"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a407d200e9f16e51a21be57a9fcec09f0">SebastianBergmann\Diff\Line\REMOVED</a></div><div class="ttdeci">const REMOVED</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_line_8php_source.html#l00016">Line.php:16</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_line_html_a4aebc93452a080d340addea1ef92b4dc"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a4aebc93452a080d340addea1ef92b4dc">SebastianBergmann\Diff\Line\UNCHANGED</a></div><div class="ttdeci">const UNCHANGED</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_line_8php_source.html#l00018">Line.php:18</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_line_html_a9dcf44632176616f583582396a5d6ec9"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a9dcf44632176616f583582396a5d6ec9">SebastianBergmann\Diff\Line\ADDED</a></div><div class="ttdeci">const ADDED</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_line_8php_source.html#l00014">Line.php:14</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_diff_html_a0ab8e892f69ba188c9659bdb31c06c31"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_diff.html#a0ab8e892f69ba188c9659bdb31c06c31">SebastianBergmann\Diff\Diff\setChunks</a></div><div class="ttdeci">setChunks(array $chunks)</div><div class="ttdef"><b>Definition:</b> <a href="_diff_8php_source.html#l00060">Diff.php:60</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_line_html_a16a1db19e762fcf47b42871917e5eaa5"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a16a1db19e762fcf47b42871917e5eaa5">SebastianBergmann\Diff\Line\REMOVED</a></div><div class="ttdeci">const REMOVED</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_line_8php_source.html#l00016">Line.php:16</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_line_html_a26455808b300fa6c0fab75c7c37cbaed"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a26455808b300fa6c0fab75c7c37cbaed">SebastianBergmann\Diff\Line\UNCHANGED</a></div><div class="ttdeci">const UNCHANGED</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_line_8php_source.html#l00018">Line.php:18</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_line_html_a94797145d34189e17edab920d9fb18f3"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_line.html#a94797145d34189e17edab920d9fb18f3">SebastianBergmann\Diff\Line\ADDED</a></div><div class="ttdeci">const ADDED</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_line_8php_source.html#l00014">Line.php:14</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_parser_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_parser.html">SebastianBergmann\Diff\Parser</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_parser_8php_source.html#l00021">Parser.php:22</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_parser_html_a106c7aa8c2d4de4bbfd07282e3ab0744"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_parser.html#a106c7aa8c2d4de4bbfd07282e3ab0744">SebastianBergmann\Diff\Parser\parse</a></div><div class="ttdeci">parse(string $string)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_parser_8php_source.html#l00026">Parser.php:26</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_diff_1_1_parser_html_aba7daf9b5004aea57b38890c946f37e4"><div class="ttname"><a href="class_sebastian_bergmann_1_1_diff_1_1_parser.html#aba7daf9b5004aea57b38890c946f37e4">SebastianBergmann\Diff\Parser\parse</a></div><div class="ttdeci">parse(string $string)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2diff_2src_2_parser_8php_source.html#l00026">Parser.php:26</a></div></div>
 <div class="ttc" id="anamespace_sebastian_bergmann_1_1_diff_html"><div class="ttname"><a href="namespace_sebastian_bergmann_1_1_diff.html">SebastianBergmann\Diff</a></div><div class="ttdef"><b>Definition:</b> <a href="_chunk_8php_source.html#l00010">Chunk.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

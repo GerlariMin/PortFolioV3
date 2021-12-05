@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/sebastian/recursion-context/src/Context.php Source File</title>
+<title>PortFolioV3: ressources/vendor/sebastian/recursion-context/src/Context.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -116,13 +115,13 @@ $(document).ready(function(){initNavTree('sebastian_2recursion-context_2src_2_co
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">private</span> $objects;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a095c5d389db211932136b53f25f39685">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a095c5d389db211932136b53f25f39685">__construct</a>()</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1da7b0bd6825f16821b4f7c7165a245e">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1da7b0bd6825f16821b4f7c7165a245e">__construct</a>()</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        $this-&gt;arrays  = [];</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        $this-&gt;objects = <span class="keyword">new</span> SplObjectStorage;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a421831a265621325e1fdd19aace0c758">   51</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a421831a265621325e1fdd19aace0c758">__destruct</a>()</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a0927504082c3aa8c3a109c7a88896109">   51</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a0927504082c3aa8c3a109c7a88896109">__destruct</a>()</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">foreach</span> ($this-&gt;arrays as &amp;$array) {</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">if</span> (is_array($array)) {</div>
@@ -132,7 +131,7 @@ $(document).ready(function(){initNavTree('sebastian_2recursion-context_2src_2_co
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#af1ed54161c97c29f4c8c1714df6feccc">   74</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#af1ed54161c97c29f4c8c1714df6feccc">add</a>(&amp;$value)</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1a77e70003472ef355d309aaae22169a">   74</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1a77e70003472ef355d309aaae22169a">add</a>(&amp;$value)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    {</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">if</span> (is_array($value)) {</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">return</span> $this-&gt;addArray($value);</div>
@@ -147,7 +146,7 @@ $(document).ready(function(){initNavTree('sebastian_2recursion-context_2src_2_co
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        );</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#ab5894516f0a3adabdf1e5579d9ede76d">  102</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#ab5894516f0a3adabdf1e5579d9ede76d">contains</a>(&amp;$value)</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a786e8a817d70fe791ee6a5fc7f6567e6">  102</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a786e8a817d70fe791ee6a5fc7f6567e6">contains</a>(&amp;$value)</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">if</span> (is_array($value)) {</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">return</span> $this-&gt;containsArray($value);</div>
@@ -219,10 +218,10 @@ $(document).ready(function(){initNavTree('sebastian_2recursion-context_2src_2_co
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    }</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;}</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html">SebastianBergmann\RecursionContext\Context</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00027">Context.php:28</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_a095c5d389db211932136b53f25f39685"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a095c5d389db211932136b53f25f39685">SebastianBergmann\RecursionContext\Context\__construct</a></div><div class="ttdeci">__construct()</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00042">Context.php:42</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_a421831a265621325e1fdd19aace0c758"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a421831a265621325e1fdd19aace0c758">SebastianBergmann\RecursionContext\Context\__destruct</a></div><div class="ttdeci">__destruct()</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00051">Context.php:51</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_ab5894516f0a3adabdf1e5579d9ede76d"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#ab5894516f0a3adabdf1e5579d9ede76d">SebastianBergmann\RecursionContext\Context\contains</a></div><div class="ttdeci">contains(&amp;$value)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00102">Context.php:102</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_af1ed54161c97c29f4c8c1714df6feccc"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#af1ed54161c97c29f4c8c1714df6feccc">SebastianBergmann\RecursionContext\Context\add</a></div><div class="ttdeci">add(&amp;$value)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00074">Context.php:74</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_a0927504082c3aa8c3a109c7a88896109"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a0927504082c3aa8c3a109c7a88896109">SebastianBergmann\RecursionContext\Context\__destruct</a></div><div class="ttdeci">__destruct()</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00051">Context.php:51</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_a1a77e70003472ef355d309aaae22169a"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1a77e70003472ef355d309aaae22169a">SebastianBergmann\RecursionContext\Context\add</a></div><div class="ttdeci">add(&amp;$value)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00074">Context.php:74</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_a1da7b0bd6825f16821b4f7c7165a245e"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1da7b0bd6825f16821b4f7c7165a245e">SebastianBergmann\RecursionContext\Context\__construct</a></div><div class="ttdeci">__construct()</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00042">Context.php:42</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_a786e8a817d70fe791ee6a5fc7f6567e6"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a786e8a817d70fe791ee6a5fc7f6567e6">SebastianBergmann\RecursionContext\Context\contains</a></div><div class="ttdeci">contains(&amp;$value)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00102">Context.php:102</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_invalid_argument_exception_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_invalid_argument_exception.html">SebastianBergmann\RecursionContext\InvalidArgumentException</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_invalid_argument_exception_8php_source.html#l00012">InvalidArgumentException.php:13</a></div></div>
 <div class="ttc" id="anamespace_sebastian_bergmann_1_1_recursion_context_html"><div class="ttname"><a href="namespace_sebastian_bergmann_1_1_recursion_context.html">SebastianBergmann\RecursionContext</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00010">Context.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

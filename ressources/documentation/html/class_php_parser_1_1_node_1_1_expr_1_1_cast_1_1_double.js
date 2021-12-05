@@ -1,7 +1,7 @@
 var class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double =
 [
-    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "KIND_DOUBLE", "class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double.html#a9509ffea2d66273a4acdb34fb2c68aba", null ],
-    [ "KIND_FLOAT", "class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double.html#af3c0a9bc5b9f4d42ca4efbe8d533c46b", null ],
-    [ "KIND_REAL", "class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double.html#ac4afdba06cda621fc4d2bca4500d48e8", null ]
+    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double.html#a23feba7fae0a715c164dd30fbec72466", null ],
+    [ "KIND_DOUBLE", "class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double.html#ae6925e6e4d276230dc66de758ec8cc52", null ],
+    [ "KIND_FLOAT", "class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double.html#a0edee164c73ab22aa75db9f8ff41f690", null ],
+    [ "KIND_REAL", "class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_double.html#a8d3537001e2077a068948d60085d8325", null ]
 ];

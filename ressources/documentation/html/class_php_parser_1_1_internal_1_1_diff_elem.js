@@ -1,11 +1,11 @@
 var class_php_parser_1_1_internal_1_1_diff_elem =
 [
-    [ "__construct", "class_php_parser_1_1_internal_1_1_diff_elem.html#af30a66aae333aa7a3bedb8bd34ede280", null ],
-    [ "$new", "class_php_parser_1_1_internal_1_1_diff_elem.html#a1d995397cf49f53afa5eed45eb5d1b32", null ],
-    [ "$old", "class_php_parser_1_1_internal_1_1_diff_elem.html#a48f5e5707f8bb584ced38eb6a0bcba96", null ],
-    [ "$type", "class_php_parser_1_1_internal_1_1_diff_elem.html#a9a4a6fba2208984cabb3afacadf33919", null ],
-    [ "TYPE_ADD", "class_php_parser_1_1_internal_1_1_diff_elem.html#ac6b369e4996f7fce2ecf5c4bf7a0e388", null ],
-    [ "TYPE_KEEP", "class_php_parser_1_1_internal_1_1_diff_elem.html#a234dbb4e73579179d416e4332cd2f79b", null ],
-    [ "TYPE_REMOVE", "class_php_parser_1_1_internal_1_1_diff_elem.html#ad6265a927767bd93c498bfa3fd9015fc", null ],
-    [ "TYPE_REPLACE", "class_php_parser_1_1_internal_1_1_diff_elem.html#a95301bb8fdf992d8d239218f33dd2a73", null ]
+    [ "__construct", "class_php_parser_1_1_internal_1_1_diff_elem.html#a78de6a3461fbceee36937c9772f0a345", null ],
+    [ "$new", "class_php_parser_1_1_internal_1_1_diff_elem.html#a3ad9625b5d74ba657ae233c3947c0d04", null ],
+    [ "$old", "class_php_parser_1_1_internal_1_1_diff_elem.html#a01aac42931bf64985432e78bf112a3f7", null ],
+    [ "$type", "class_php_parser_1_1_internal_1_1_diff_elem.html#ab2df6903328ebe12890de613b61f3be6", null ],
+    [ "TYPE_ADD", "class_php_parser_1_1_internal_1_1_diff_elem.html#ab9dcfcbf70d1c24fdff0bb8c424e6cd4", null ],
+    [ "TYPE_KEEP", "class_php_parser_1_1_internal_1_1_diff_elem.html#aa3ebccbd9265c1072aff363f587f9895", null ],
+    [ "TYPE_REMOVE", "class_php_parser_1_1_internal_1_1_diff_elem.html#a4ffd54f539543f3f80b6b18666b0274a", null ],
+    [ "TYPE_REPLACE", "class_php_parser_1_1_internal_1_1_diff_elem.html#ab56d4aefa6d212cd8c2407fbb6d1ff15", null ]
 ];

@@ -1,6 +1,6 @@
 var class_mustache___test___autoloader_test =
 [
-    [ "testAutoloader", "class_mustache___test___autoloader_test.html#a9938cafd46ca2fe977c68d9745cdd3d0", null ],
-    [ "testRegister", "class_mustache___test___autoloader_test.html#a21ba109cac25766104644b11982265e1", null ],
-    [ "testRegisterMultiple", "class_mustache___test___autoloader_test.html#aea200d37b648fe53b5ffdbf6647fb61a", null ]
+    [ "testAutoloader", "class_mustache___test___autoloader_test.html#ab1498d4fcaeaa5b0002ce7d398d48acf", null ],
+    [ "testRegister", "class_mustache___test___autoloader_test.html#a6747ca5a045d58f21bcee98362015d17", null ],
+    [ "testRegisterMultiple", "class_mustache___test___autoloader_test.html#aa66094ab432ad6fc9d6684ac41e8ab2a", null ]
 ];

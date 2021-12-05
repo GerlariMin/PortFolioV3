@@ -1,6 +1,6 @@
 var class_phar_io_1_1_manifest_1_1_php_element =
 [
-    [ "getExtElements", "class_phar_io_1_1_manifest_1_1_php_element.html#a8f7bee105fa4a4c33c84fede4c2cdaf9", null ],
-    [ "getVersion", "class_phar_io_1_1_manifest_1_1_php_element.html#afa8e7a3a646144eab50188b7a805a389", null ],
-    [ "hasExtElements", "class_phar_io_1_1_manifest_1_1_php_element.html#a63e49ea59b754192841ced563e2348be", null ]
+    [ "getExtElements", "class_phar_io_1_1_manifest_1_1_php_element.html#a3314a27b87daf5bc79bb4cf7dfa96396", null ],
+    [ "getVersion", "class_phar_io_1_1_manifest_1_1_php_element.html#ae1913739bbe0fef4c9822a63998dd0cc", null ],
+    [ "hasExtElements", "class_phar_io_1_1_manifest_1_1_php_element.html#aea417df58ecc0e249827106284225710", null ]
 ];

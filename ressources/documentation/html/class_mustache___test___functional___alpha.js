@@ -1,5 +1,5 @@
 var class_mustache___test___functional___alpha =
 [
-    [ "__construct", "class_mustache___test___functional___alpha.html#a095c5d389db211932136b53f25f39685", null ],
-    [ "$foo", "class_mustache___test___functional___alpha.html#a7a1efa8a0f6183fb3a5e8e8b0696526c", null ]
+    [ "__construct", "class_mustache___test___functional___alpha.html#ad13bb43bf03bf72e253a5ed21e77d060", null ],
+    [ "$foo", "class_mustache___test___functional___alpha.html#a4993b558ddcb5031ca25d3d70574be55", null ]
 ];

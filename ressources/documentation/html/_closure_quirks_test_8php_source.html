@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/ClosureQuirksTest.php Source File</title>
+<title>PortFolioV3: ressources/vendor/mustache/mustache/test/Mustache/Test/FiveThree/Functional/ClosureQuirksTest.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -103,12 +102,12 @@ $(document).ready(function(){initNavTree('_closure_quirks_test_8php_source.html'
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">private</span> $mustache;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_mustache___test___five_three___functional___closure_quirks_test.html#a0bc688732d2b3b162ffebaf7812e78da">   20</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___five_three___functional___closure_quirks_test.html#a0bc688732d2b3b162ffebaf7812e78da">setUp</a>()</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_mustache___test___five_three___functional___closure_quirks_test.html#a15c650146851b5dc9084627955a15604">   20</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___five_three___functional___closure_quirks_test.html#a15c650146851b5dc9084627955a15604">setUp</a>()</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        $this-&gt;mustache = <span class="keyword">new</span> <a class="code" href="class_mustache___engine.html">Mustache_Engine</a>();</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_mustache___test___five_three___functional___closure_quirks_test.html#a915246cff7bcb4e6a5b6cdcf42f49940">   25</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___five_three___functional___closure_quirks_test.html#a915246cff7bcb4e6a5b6cdcf42f49940">testClosuresDontLikeItWhenYouTouchTheirProperties</a>()</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_mustache___test___five_three___functional___closure_quirks_test.html#ab3254e50569859ee7e1cd458100a2f0a">   25</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___five_three___functional___closure_quirks_test.html#ab3254e50569859ee7e1cd458100a2f0a">testClosuresDontLikeItWhenYouTouchTheirProperties</a>()</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        $tpl = $this-&gt;mustache-&gt;loadTemplate(<span class="stringliteral">&#39;{{ foo.bar }}&#39;</span>);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        $this-&gt;assertEquals(<span class="stringliteral">&#39;&#39;</span>, $tpl-&gt;render(array(<span class="stringliteral">&#39;foo&#39;</span> =&gt; <span class="keyword">function</span> () {</div>
@@ -118,8 +117,8 @@ $(document).ready(function(){initNavTree('_closure_quirks_test_8php_source.html'
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="ttc" id="aclass_mustache___engine_html"><div class="ttname"><a href="class_mustache___engine.html">Mustache_Engine</a></div><div class="ttdef"><b>Definition:</b> <a href="_engine_8php_source.html#l00024">Engine.php:25</a></div></div>
 <div class="ttc" id="aclass_mustache___test___five_three___functional___closure_quirks_test_html"><div class="ttname"><a href="class_mustache___test___five_three___functional___closure_quirks_test.html">Mustache_Test_FiveThree_Functional_ClosureQuirksTest</a></div><div class="ttdef"><b>Definition:</b> <a href="_closure_quirks_test_8php_source.html#l00016">ClosureQuirksTest.php:17</a></div></div>
-<div class="ttc" id="aclass_mustache___test___five_three___functional___closure_quirks_test_html_a0bc688732d2b3b162ffebaf7812e78da"><div class="ttname"><a href="class_mustache___test___five_three___functional___closure_quirks_test.html#a0bc688732d2b3b162ffebaf7812e78da">Mustache_Test_FiveThree_Functional_ClosureQuirksTest\setUp</a></div><div class="ttdeci">setUp()</div><div class="ttdef"><b>Definition:</b> <a href="_closure_quirks_test_8php_source.html#l00020">ClosureQuirksTest.php:20</a></div></div>
-<div class="ttc" id="aclass_mustache___test___five_three___functional___closure_quirks_test_html_a915246cff7bcb4e6a5b6cdcf42f49940"><div class="ttname"><a href="class_mustache___test___five_three___functional___closure_quirks_test.html#a915246cff7bcb4e6a5b6cdcf42f49940">Mustache_Test_FiveThree_Functional_ClosureQuirksTest\testClosuresDontLikeItWhenYouTouchTheirProperties</a></div><div class="ttdeci">testClosuresDontLikeItWhenYouTouchTheirProperties()</div><div class="ttdef"><b>Definition:</b> <a href="_closure_quirks_test_8php_source.html#l00025">ClosureQuirksTest.php:25</a></div></div>
+<div class="ttc" id="aclass_mustache___test___five_three___functional___closure_quirks_test_html_a15c650146851b5dc9084627955a15604"><div class="ttname"><a href="class_mustache___test___five_three___functional___closure_quirks_test.html#a15c650146851b5dc9084627955a15604">Mustache_Test_FiveThree_Functional_ClosureQuirksTest\setUp</a></div><div class="ttdeci">setUp()</div><div class="ttdef"><b>Definition:</b> <a href="_closure_quirks_test_8php_source.html#l00020">ClosureQuirksTest.php:20</a></div></div>
+<div class="ttc" id="aclass_mustache___test___five_three___functional___closure_quirks_test_html_ab3254e50569859ee7e1cd458100a2f0a"><div class="ttname"><a href="class_mustache___test___five_three___functional___closure_quirks_test.html#ab3254e50569859ee7e1cd458100a2f0a">Mustache_Test_FiveThree_Functional_ClosureQuirksTest\testClosuresDontLikeItWhenYouTouchTheirProperties</a></div><div class="ttdeci">testClosuresDontLikeItWhenYouTouchTheirProperties()</div><div class="ttdef"><b>Definition:</b> <a href="_closure_quirks_test_8php_source.html#l00025">ClosureQuirksTest.php:25</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

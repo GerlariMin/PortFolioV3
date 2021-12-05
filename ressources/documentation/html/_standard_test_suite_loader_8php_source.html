@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -115,14 +114,14 @@ $(document).ready(function(){initNavTree('_standard_test_suite_loader_8php_sourc
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html">   31</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html">StandardTestSuiteLoader</a> <span class="keyword">implements</span> <a class="code" href="interface_p_h_p_unit_1_1_runner_1_1_test_suite_loader.html">TestSuiteLoader</a></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#ae07a5b2f91634121e9beaa9808be92b6">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#ae07a5b2f91634121e9beaa9808be92b6">load</a>(<span class="keywordtype">string</span> $suiteClassFile): ReflectionClass</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#ad325cba8dd1514619ea2f078352c9611">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#ad325cba8dd1514619ea2f078352c9611">load</a>(<span class="keywordtype">string</span> $suiteClassFile): ReflectionClass</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        $suiteClassName = basename($suiteClassFile, <span class="stringliteral">&#39;.php&#39;</span>);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        $loadedClasses  = get_declared_classes();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">if</span> (!class_exists($suiteClassName, <span class="keyword">false</span>)) {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="comment">/* @noinspection UnusedFunctionResultInspection */</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="class_p_h_p_unit_1_1_util_1_1_file_loader.html#ae3f1a629395ffbe88bc9d60562bcdb1e">FileLoader::checkAndLoad</a>($suiteClassFile);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="class_p_h_p_unit_1_1_util_1_1_file_loader.html#abf7aa0c08a54dfa95a3d734dac8095f7">FileLoader::checkAndLoad</a>($suiteClassFile);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            $loadedClasses = array_values(</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                array_diff(get_declared_classes(), $loadedClasses)</div>
@@ -187,7 +186,7 @@ $(document).ready(function(){initNavTree('_standard_test_suite_loader_8php_sourc
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">throw</span> $this-&gt;exceptionFor($suiteClassName, $suiteClassFile);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#af50f6853c6ef14bbd0162b490c45eb66">  108</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#af50f6853c6ef14bbd0162b490c45eb66">reload</a>(ReflectionClass $aClass): ReflectionClass</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#adb69ad0edaa09982c1c0a89c757c5b05">  108</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#adb69ad0edaa09982c1c0a89c757c5b05">reload</a>(ReflectionClass $aClass): ReflectionClass</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    {</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> $aClass;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
@@ -206,10 +205,10 @@ $(document).ready(function(){initNavTree('_standard_test_suite_loader_8php_sourc
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_exception_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_exception.html">PHPUnit\Framework\Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_framework_2_exception_2_exception_8php_source.html#l00040">Exception.php:41</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_test_case_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_test_case.html">PHPUnit\Framework\TestCase</a></div><div class="ttdef"><b>Definition:</b> <a href="_test_case_8php_source.html#l00119">TestCase.php:120</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html">PHPUnit\Runner\StandardTestSuiteLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_standard_test_suite_loader_8php_source.html#l00031">StandardTestSuiteLoader.php:32</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader_html_ae07a5b2f91634121e9beaa9808be92b6"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#ae07a5b2f91634121e9beaa9808be92b6">PHPUnit\Runner\StandardTestSuiteLoader\load</a></div><div class="ttdeci">load(string $suiteClassFile)</div><div class="ttdef"><b>Definition:</b> <a href="_standard_test_suite_loader_8php_source.html#l00036">StandardTestSuiteLoader.php:36</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader_html_af50f6853c6ef14bbd0162b490c45eb66"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#af50f6853c6ef14bbd0162b490c45eb66">PHPUnit\Runner\StandardTestSuiteLoader\reload</a></div><div class="ttdeci">reload(ReflectionClass $aClass)</div><div class="ttdef"><b>Definition:</b> <a href="_standard_test_suite_loader_8php_source.html#l00108">StandardTestSuiteLoader.php:108</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader_html_ad325cba8dd1514619ea2f078352c9611"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#ad325cba8dd1514619ea2f078352c9611">PHPUnit\Runner\StandardTestSuiteLoader\load</a></div><div class="ttdeci">load(string $suiteClassFile)</div><div class="ttdef"><b>Definition:</b> <a href="_standard_test_suite_loader_8php_source.html#l00036">StandardTestSuiteLoader.php:36</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader_html_adb69ad0edaa09982c1c0a89c757c5b05"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_standard_test_suite_loader.html#adb69ad0edaa09982c1c0a89c757c5b05">PHPUnit\Runner\StandardTestSuiteLoader\reload</a></div><div class="ttdeci">reload(ReflectionClass $aClass)</div><div class="ttdef"><b>Definition:</b> <a href="_standard_test_suite_loader_8php_source.html#l00108">StandardTestSuiteLoader.php:108</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_file_loader_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_file_loader.html">PHPUnit\Util\FileLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_file_loader_8php_source.html#l00023">FileLoader.php:24</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_file_loader_html_ae3f1a629395ffbe88bc9d60562bcdb1e"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_file_loader.html#ae3f1a629395ffbe88bc9d60562bcdb1e">PHPUnit\Util\FileLoader\checkAndLoad</a></div><div class="ttdeci">static checkAndLoad(string $filename)</div><div class="ttdef"><b>Definition:</b> <a href="_file_loader_8php_source.html#l00035">FileLoader.php:35</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_file_loader_html_abf7aa0c08a54dfa95a3d734dac8095f7"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_file_loader.html#abf7aa0c08a54dfa95a3d734dac8095f7">PHPUnit\Util\FileLoader\checkAndLoad</a></div><div class="ttdeci">static checkAndLoad(string $filename)</div><div class="ttdef"><b>Definition:</b> <a href="_file_loader_8php_source.html#l00035">FileLoader.php:35</a></div></div>
 <div class="ttc" id="ainterface_p_h_p_unit_1_1_runner_1_1_test_suite_loader_html"><div class="ttname"><a href="interface_p_h_p_unit_1_1_runner_1_1_test_suite_loader.html">PHPUnit\Runner\TestSuiteLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_test_suite_loader_8php_source.html#l00019">TestSuiteLoader.php:20</a></div></div>
 <div class="ttc" id="anamespace_p_h_p_unit_1_1_runner_html"><div class="ttname"><a href="namespace_p_h_p_unit_1_1_runner.html">PHPUnit\Runner</a></div><div class="ttdef"><b>Definition:</b> <a href="_base_test_runner_8php_source.html#l00010">BaseTestRunner.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

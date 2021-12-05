@@ -1,10 +1,10 @@
 var class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node =
 [
-    [ "__construct", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#a92c532da45cd0795c89f13adab571802", null ],
-    [ "addDirectory", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#a9e4c9b7e70fadf082fb66371b225b031", null ],
-    [ "addFile", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#a764c91bf01ff391c8539d5f755e32a09", null ],
-    [ "contextNode", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#a6f83548355a5f9e375fa835ecb788613", null ],
-    [ "dom", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#aef5deaaef1114647918d51f88802658a", null ],
-    [ "setContextNode", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#a2d885a2715ce691451a5a7116bbc4131", null ],
-    [ "totals", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#ad00aef3585d6bbf4514b2d9505791ac1", null ]
+    [ "__construct", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#adc276e08faffa67526700dc2aa434a4b", null ],
+    [ "addDirectory", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#aa687c3d95d66ca692487220031745dd0", null ],
+    [ "addFile", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#ac6bd2c8ab0db6a1470e1dbfc0a127a82", null ],
+    [ "contextNode", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#a7cc9e6a5b5623551cf20017b04adc3fb", null ],
+    [ "dom", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#a0d08de62722a4d399968be8e0784ce59", null ],
+    [ "setContextNode", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#a46d440818aeb1e7e0197cfa4a7ca5c7f", null ],
+    [ "totals", "class_sebastian_bergmann_1_1_code_coverage_1_1_report_1_1_xml_1_1_node.html#aef94e8a704f54d84cc28b338ee681418", null ]
 ];

@@ -1,6 +1,6 @@
 var class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_stub_1_1_exception =
 [
-    [ "__construct", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_stub_1_1_exception.html#a41fe29448c8df2df5c45fe6607ee5dac", null ],
-    [ "invoke", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_stub_1_1_exception.html#a3303792ebe83dffbeb473e3d68108662", null ],
-    [ "toString", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_stub_1_1_exception.html#a5558c5d549f41597377fa1ea8a1cefa3", null ]
+    [ "__construct", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_stub_1_1_exception.html#a4c87a75c1a6c368faf48ca507308f552", null ],
+    [ "invoke", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_stub_1_1_exception.html#a6c067602787a639d9ebeeae04a0e741f", null ],
+    [ "toString", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_stub_1_1_exception.html#a902dcd03972df01631b909e806352d2c", null ]
 ];

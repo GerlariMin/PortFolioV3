@@ -14,6 +14,9 @@
          * @var array
          */
         private array $config;
+        /**
+         * @var TexteExperiences
+         */
         private TexteExperiences $texte;
 
         /**
@@ -30,21 +33,11 @@
         }
 
         /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage de la page d'expériences.
-         *
-         * @return array[]
-         */
-        public function traitementAccordion(): array
-        {
-            return $this->texte->texteAccordion();
-        }
-
-        /**
          * Affichage de la page d'expériences.
          */
         public function traitementRendu()
         {
-            $data['arccordion-item'] = $this->traitementAccordion();
+            $data = $this->texte->texteFinal();
 
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['experiences'] = true;

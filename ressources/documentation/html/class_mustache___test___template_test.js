@@ -1,5 +1,5 @@
 var class_mustache___test___template_test =
 [
-    [ "testConstructor", "class_mustache___test___template_test.html#a47094dc941e72950570900d1418f89c6", null ],
-    [ "testRendering", "class_mustache___test___template_test.html#a344fe64c95c9d2aea8d8390bffa6b8f5", null ]
+    [ "testConstructor", "class_mustache___test___template_test.html#a0153a6f5f258cc9d166db8008c00c52d", null ],
+    [ "testRendering", "class_mustache___test___template_test.html#a1431a4634a30be4afa0287f21321f6fc", null ]
 ];

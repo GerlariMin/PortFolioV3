@@ -1,9 +1,9 @@
 var class_php_parser_1_1_node_1_1_stmt_1_1_try_catch =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#ac562b965cb21fff196922ee6e0bcf761", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "$catches", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#ae55dc6c7cc7f0394b99d03045b4d80c1", null ],
-    [ "$finally", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#a7cf213b89eae494ef2a65c21c405b7d7", null ],
-    [ "$stmts", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#a2c2c15e99eca72b05beb20ae91729fda", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#a363bff6672b3f6b3b55bca5878d0c259", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#a0102ef2465f3040caffe7143d2dca58d", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#a2096931fa5ac4d6a9c0cc0f09559ab36", null ],
+    [ "$catches", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#acce77d2155a9ca44f54af176b21f9ca2", null ],
+    [ "$finally", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#a2e44fde02d9ffd3370c6ee42e4ce297c", null ],
+    [ "$stmts", "class_php_parser_1_1_node_1_1_stmt_1_1_try_catch.html#ac07cd54b21bff5809affaf0b07518772", null ]
 ];

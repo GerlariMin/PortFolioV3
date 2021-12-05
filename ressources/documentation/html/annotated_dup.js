@@ -1440,6 +1440,7 @@ var annotated_dup =
     [ "SectionsNested", "class_sections_nested.html", "class_sections_nested" ],
     [ "Simple", "class_simple.html", "class_simple" ],
     [ "TestStream", "class_test_stream.html", "class_test_stream" ],
+    [ "TestTraitementPresentation", "class_test_traitement_presentation.html", "class_test_traitement_presentation" ],
     [ "TextContact", "class_text_contact.html", "class_text_contact" ],
     [ "TextHome", "class_text_home.html", "class_text_home" ],
     [ "TextSkills", "class_text_skills.html", "class_text_skills" ],

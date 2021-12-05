@@ -1,7 +1,7 @@
 var class_mustache_stub =
 [
-    [ "getProtectedLambdaCache", "class_mustache_stub.html#a1713f98056ce64dd3b3bbdceda7ff159", null ],
-    [ "loadTemplate", "class_mustache_stub.html#aefef3dcc17fb084ca2c0d308acca806c", null ],
-    [ "$source", "class_mustache_stub.html#a99a2b085f0a29bd5d799fdcbb63d261b", null ],
-    [ "$template", "class_mustache_stub.html#aa3e9534005fd516d941f6a5569896e01", null ]
+    [ "getProtectedLambdaCache", "class_mustache_stub.html#aa46f3c0f2cedb80c152bc2a30040fcd4", null ],
+    [ "loadTemplate", "class_mustache_stub.html#a60863f23a8e6ec0152b553b39a123ca5", null ],
+    [ "$source", "class_mustache_stub.html#ae09f0d265490fb59ff69d5fb15894ca4", null ],
+    [ "$template", "class_mustache_stub.html#a668c2c276eea731a446f8fbe5dce7ea9", null ]
 ];

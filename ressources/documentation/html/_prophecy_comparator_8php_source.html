@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/Comparator/ProphecyComparator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/Comparator/ProphecyComparator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -106,19 +105,19 @@ $(document).ready(function(){initNavTree('_prophecy_comparator_8php_source.html'
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html">ProphecyComparator</a> <span class="keyword">extends</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_object_comparator.html">ObjectComparator</a></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">accepts</a>($expected, $actual)</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a37a324d150e258551f3509bf50134aa8">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a37a324d150e258551f3509bf50134aa8">accepts</a>($expected, $actual)</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> is_object($expected) &amp;&amp; is_object($actual) &amp;&amp; $actual instanceof <a class="code" href="interface_prophecy_1_1_prophecy_1_1_prophecy_interface.html">ProphecyInterface</a>;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a85a7369896910cf1d55e31d477c29f1e">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a85a7369896910cf1d55e31d477c29f1e">assertEquals</a>($expected, $actual, $delta = 0.0, $canonicalize = <span class="keyword">false</span>, $ignoreCase = <span class="keyword">false</span>, array &amp;$processed = array())</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a0894fb54a5cff6eef38b6fa48aaaf2fb">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a0894fb54a5cff6eef38b6fa48aaaf2fb">assertEquals</a>($expected, $actual, $delta = 0.0, $canonicalize = <span class="keyword">false</span>, $ignoreCase = <span class="keyword">false</span>, array &amp;$processed = array())</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        parent::assertEquals($expected, $actual-&gt;reveal(), $delta, $canonicalize, $ignoreCase, $processed);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_prophecy_comparator_html"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html">Prophecy\Comparator\ProphecyComparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_prophecy_comparator_8php_source.html#l00017">ProphecyComparator.php:18</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_prophecy_comparator_html_a85a7369896910cf1d55e31d477c29f1e"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a85a7369896910cf1d55e31d477c29f1e">Prophecy\Comparator\ProphecyComparator\assertEquals</a></div><div class="ttdeci">assertEquals($expected, $actual, $delta=0.0, $canonicalize=false, $ignoreCase=false, array &amp;$processed=array())</div><div class="ttdef"><b>Definition:</b> <a href="_prophecy_comparator_8php_source.html#l00024">ProphecyComparator.php:24</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_prophecy_comparator_html_ae9bdf0cba02ce3470169280656cdeb84"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">Prophecy\Comparator\ProphecyComparator\accepts</a></div><div class="ttdeci">accepts($expected, $actual)</div><div class="ttdef"><b>Definition:</b> <a href="_prophecy_comparator_8php_source.html#l00019">ProphecyComparator.php:19</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_prophecy_comparator_html_a0894fb54a5cff6eef38b6fa48aaaf2fb"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a0894fb54a5cff6eef38b6fa48aaaf2fb">Prophecy\Comparator\ProphecyComparator\assertEquals</a></div><div class="ttdeci">assertEquals($expected, $actual, $delta=0.0, $canonicalize=false, $ignoreCase=false, array &amp;$processed=array())</div><div class="ttdef"><b>Definition:</b> <a href="_prophecy_comparator_8php_source.html#l00024">ProphecyComparator.php:24</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_prophecy_comparator_html_a37a324d150e258551f3509bf50134aa8"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_prophecy_comparator.html#a37a324d150e258551f3509bf50134aa8">Prophecy\Comparator\ProphecyComparator\accepts</a></div><div class="ttdeci">accepts($expected, $actual)</div><div class="ttdef"><b>Definition:</b> <a href="_prophecy_comparator_8php_source.html#l00019">ProphecyComparator.php:19</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_object_comparator_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_object_comparator.html">SebastianBergmann\Comparator\ObjectComparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_object_comparator_8php_source.html#l00021">ObjectComparator.php:22</a></div></div>
 <div class="ttc" id="ainterface_prophecy_1_1_prophecy_1_1_prophecy_interface_html"><div class="ttname"><a href="interface_prophecy_1_1_prophecy_1_1_prophecy_interface.html">Prophecy\Prophecy\ProphecyInterface</a></div><div class="ttdef"><b>Definition:</b> <a href="_prophecy_interface_8php_source.html#l00019">ProphecyInterface.php:20</a></div></div>
 <div class="ttc" id="anamespace_prophecy_1_1_comparator_html"><div class="ttname"><a href="namespace_prophecy_1_1_comparator.html">Prophecy\Comparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_closure_comparator_8php_source.html#l00012">ClosureComparator.php:12</a></div></div>

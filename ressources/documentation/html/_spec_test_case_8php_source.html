@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/mustache/mustache/test/Mustache/Test/SpecTestCase.php Source File</title>
+<title>PortFolioV3: ressources/vendor/mustache/mustache/test/Mustache/Test/SpecTestCase.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -101,21 +100,21 @@ $(document).ready(function(){initNavTree('_spec_test_case_8php_source.html','');
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html">   12</a></span>&#160;<span class="keyword">abstract</span> <span class="keyword">class </span><a class="code" href="class_mustache___test___spec_test_case.html">Mustache_Test_SpecTestCase</a> <span class="keyword">extends</span> PHPUnit_Framework_TestCase</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html#a656bcdea1bb111f9f308988572bbed72">   14</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <a class="code" href="class_mustache___test___spec_test_case.html#a656bcdea1bb111f9f308988572bbed72">$mustache</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html#a0633ef6d17a36068fb59a5a5df1e69a6">   14</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <a class="code" href="class_mustache___test___spec_test_case.html#a0633ef6d17a36068fb59a5a5df1e69a6">$mustache</a>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html#a80ef9eb20e7443b38276fb4647985fb7">   16</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___spec_test_case.html#a80ef9eb20e7443b38276fb4647985fb7">setUpBeforeClass</a>()</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html#ac534848465b769ab6e5b5020cee90dfd">   16</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___spec_test_case.html#ac534848465b769ab6e5b5020cee90dfd">setUpBeforeClass</a>()</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        self::$mustache = <span class="keyword">new</span> <a class="code" href="class_mustache___engine.html">Mustache_Engine</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html#adc3a41b31c5406f130762bfe2771d53f">   21</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___spec_test_case.html#adc3a41b31c5406f130762bfe2771d53f">loadTemplate</a>($source, $partials)</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html#a18c452c81ba66a9939aaefd3dc1bb7f3">   21</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___spec_test_case.html#a18c452c81ba66a9939aaefd3dc1bb7f3">loadTemplate</a>($source, $partials)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        self::$mustache-&gt;setPartials($partials);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">return</span> self::$mustache-&gt;loadTemplate($source);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html#a8b99333f05269f82ae0c6f5c59e7a3a3">   37</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___spec_test_case.html#a8b99333f05269f82ae0c6f5c59e7a3a3">loadSpec</a>($name)</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_mustache___test___spec_test_case.html#a49bf246264fb82fe0efabef8e051860d">   37</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___spec_test_case.html#a49bf246264fb82fe0efabef8e051860d">loadSpec</a>($name)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        $filename = dirname(__FILE__) . <span class="stringliteral">&#39;/../../../vendor/spec/specs/&#39;</span> . $name . <span class="stringliteral">&#39;.yml&#39;</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> (!file_exists($filename)) {</div>
@@ -149,10 +148,10 @@ $(document).ready(function(){initNavTree('_spec_test_case_8php_source.html','');
 <div class="ttc" id="abuild__bootstrap_8php_html_aa1bfbd27060176201b271918dff57e8f"><div class="ttname"><a href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a></div><div class="ttdeci">$file</div><div class="ttdef"><b>Definition:</b> <a href="build__bootstrap_8php_source.html#l00029">build_bootstrap.php:29</a></div></div>
 <div class="ttc" id="aclass_mustache___engine_html"><div class="ttname"><a href="class_mustache___engine.html">Mustache_Engine</a></div><div class="ttdef"><b>Definition:</b> <a href="_engine_8php_source.html#l00024">Engine.php:25</a></div></div>
 <div class="ttc" id="aclass_mustache___test___spec_test_case_html"><div class="ttname"><a href="class_mustache___test___spec_test_case.html">Mustache_Test_SpecTestCase</a></div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00012">SpecTestCase.php:13</a></div></div>
-<div class="ttc" id="aclass_mustache___test___spec_test_case_html_a656bcdea1bb111f9f308988572bbed72"><div class="ttname"><a href="class_mustache___test___spec_test_case.html#a656bcdea1bb111f9f308988572bbed72">Mustache_Test_SpecTestCase\$mustache</a></div><div class="ttdeci">static $mustache</div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00014">SpecTestCase.php:14</a></div></div>
-<div class="ttc" id="aclass_mustache___test___spec_test_case_html_a80ef9eb20e7443b38276fb4647985fb7"><div class="ttname"><a href="class_mustache___test___spec_test_case.html#a80ef9eb20e7443b38276fb4647985fb7">Mustache_Test_SpecTestCase\setUpBeforeClass</a></div><div class="ttdeci">static setUpBeforeClass()</div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00016">SpecTestCase.php:16</a></div></div>
-<div class="ttc" id="aclass_mustache___test___spec_test_case_html_a8b99333f05269f82ae0c6f5c59e7a3a3"><div class="ttname"><a href="class_mustache___test___spec_test_case.html#a8b99333f05269f82ae0c6f5c59e7a3a3">Mustache_Test_SpecTestCase\loadSpec</a></div><div class="ttdeci">loadSpec($name)</div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00037">SpecTestCase.php:37</a></div></div>
-<div class="ttc" id="aclass_mustache___test___spec_test_case_html_adc3a41b31c5406f130762bfe2771d53f"><div class="ttname"><a href="class_mustache___test___spec_test_case.html#adc3a41b31c5406f130762bfe2771d53f">Mustache_Test_SpecTestCase\loadTemplate</a></div><div class="ttdeci">static loadTemplate($source, $partials)</div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00021">SpecTestCase.php:21</a></div></div>
+<div class="ttc" id="aclass_mustache___test___spec_test_case_html_a0633ef6d17a36068fb59a5a5df1e69a6"><div class="ttname"><a href="class_mustache___test___spec_test_case.html#a0633ef6d17a36068fb59a5a5df1e69a6">Mustache_Test_SpecTestCase\$mustache</a></div><div class="ttdeci">static $mustache</div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00014">SpecTestCase.php:14</a></div></div>
+<div class="ttc" id="aclass_mustache___test___spec_test_case_html_a18c452c81ba66a9939aaefd3dc1bb7f3"><div class="ttname"><a href="class_mustache___test___spec_test_case.html#a18c452c81ba66a9939aaefd3dc1bb7f3">Mustache_Test_SpecTestCase\loadTemplate</a></div><div class="ttdeci">static loadTemplate($source, $partials)</div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00021">SpecTestCase.php:21</a></div></div>
+<div class="ttc" id="aclass_mustache___test___spec_test_case_html_a49bf246264fb82fe0efabef8e051860d"><div class="ttname"><a href="class_mustache___test___spec_test_case.html#a49bf246264fb82fe0efabef8e051860d">Mustache_Test_SpecTestCase\loadSpec</a></div><div class="ttdeci">loadSpec($name)</div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00037">SpecTestCase.php:37</a></div></div>
+<div class="ttc" id="aclass_mustache___test___spec_test_case_html_ac534848465b769ab6e5b5020cee90dfd"><div class="ttname"><a href="class_mustache___test___spec_test_case.html#ac534848465b769ab6e5b5020cee90dfd">Mustache_Test_SpecTestCase\setUpBeforeClass</a></div><div class="ttdeci">static setUpBeforeClass()</div><div class="ttdef"><b>Definition:</b> <a href="_spec_test_case_8php_source.html#l00016">SpecTestCase.php:16</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['params_10284',['PARAMS',['../rebuild_parsers_8php.htmlm#aacd3e6bbd2d882356c0e48999f57d83a',1,'rebuildParsers.php']]],
-  ['php_5f7_5f3_10285',['PHP_7_3',['../class_php_parser_1_1_lexer_1_1_emulative.htmlm#a1291e63cdabb384524c18db646ed8c58',1,'PhpParser::Lexer::Emulative']]],
-  ['php_5f7_5f4_10286',['PHP_7_4',['../class_php_parser_1_1_lexer_1_1_emulative.htmlm#aca27390db13ed6631b3d65a5de019a07',1,'PhpParser::Lexer::Emulative']]],
-  ['php_5f8_5f0_10287',['PHP_8_0',['../class_php_parser_1_1_lexer_1_1_emulative.htmlm#a6da12196ce74a834644c0c1cbcebbd51',1,'PhpParser::Lexer::Emulative']]],
-  ['pragma_5fanchored_5fdot_10288',['PRAGMA_ANCHORED_DOT',['../class_mustache___engine.htmlm#aaf9ce1a3379d3818dc8d92e17b7a6712',1,'Mustache_Engine']]],
-  ['pragma_5fblocks_10289',['PRAGMA_BLOCKS',['../class_mustache___engine.htmlm#acf04d209aa55493bc01ee7a27ac63ed2',1,'Mustache_Engine']]],
-  ['pragma_5ffilters_10290',['PRAGMA_FILTERS',['../class_mustache___engine.htmlm#a346b17e407f45f273ae2c04a96bfd4cd',1,'Mustache_Engine']]],
-  ['prefer_5fphp5_10291',['PREFER_PHP5',['../class_php_parser_1_1_parser_factory.htmlm#a5b66ce731f3594598d4fc8bff0bd163d',1,'PhpParser::ParserFactory']]],
-  ['prefer_5fphp7_10292',['PREFER_PHP7',['../class_php_parser_1_1_parser_factory.htmlm#a6cb5c8b69d76ac8bbf4bfd968c95c6f6',1,'PhpParser::ParserFactory']]],
-  ['prefix_10293',['PREFIX',['../class_sebastian_bergmann_1_1_file_iterator_1_1_iterator.htmlm#a2a00ef970c682ccf10b5376d22fa5c8a',1,'SebastianBergmann::FileIterator::Iterator']]]
+  ['params_10292',['PARAMS',['../rebuild_parsers_8php.html#aacd3e6bbd2d882356c0e48999f57d83a',1,'rebuildParsers.php']]],
+  ['php_5f7_5f3_10293',['PHP_7_3',['../class_php_parser_1_1_lexer_1_1_emulative.html#aff61146f7badfef24298576ee822a44c',1,'PhpParser::Lexer::Emulative']]],
+  ['php_5f7_5f4_10294',['PHP_7_4',['../class_php_parser_1_1_lexer_1_1_emulative.html#a2813f4b0e6dfb6203efdaa77264ce5b6',1,'PhpParser::Lexer::Emulative']]],
+  ['php_5f8_5f0_10295',['PHP_8_0',['../class_php_parser_1_1_lexer_1_1_emulative.html#a9f0e770c82de6996464b6a32f1880dc6',1,'PhpParser::Lexer::Emulative']]],
+  ['pragma_5fanchored_5fdot_10296',['PRAGMA_ANCHORED_DOT',['../class_mustache___engine.html#a9608f1286a9dff34ac08100e8b45dfd5',1,'Mustache_Engine']]],
+  ['pragma_5fblocks_10297',['PRAGMA_BLOCKS',['../class_mustache___engine.html#a58eff9405bbb1cf0473fb6b6f318edfb',1,'Mustache_Engine']]],
+  ['pragma_5ffilters_10298',['PRAGMA_FILTERS',['../class_mustache___engine.html#a2536a2d63eb58f1239bdd6654e77d375',1,'Mustache_Engine']]],
+  ['prefer_5fphp5_10299',['PREFER_PHP5',['../class_php_parser_1_1_parser_factory.html#a3f8b788bb562170825008830a3b1ba88',1,'PhpParser::ParserFactory']]],
+  ['prefer_5fphp7_10300',['PREFER_PHP7',['../class_php_parser_1_1_parser_factory.html#a8d5d1ec8a54257a49ebd8bc409db758a',1,'PhpParser::ParserFactory']]],
+  ['prefix_10301',['PREFIX',['../class_sebastian_bergmann_1_1_file_iterator_1_1_iterator.html#ad7fbe6c5c48877d9b9bd28dd8c768789',1,'SebastianBergmann::FileIterator::Iterator']]]
 ];

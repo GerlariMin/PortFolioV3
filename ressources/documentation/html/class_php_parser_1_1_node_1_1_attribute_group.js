@@ -1,7 +1,7 @@
 var class_php_parser_1_1_node_1_1_attribute_group =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_attribute_group.html#aa7420c5150518082e7ef40f04e1f4ec8", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_attribute_group.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_attribute_group.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "$attrs", "class_php_parser_1_1_node_1_1_attribute_group.html#af4cf24d99d068a1aefe99caf8dd8a458", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_attribute_group.html#a8f8b55f7362be24a7faea07d2bad7aca", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_attribute_group.html#ac0fe8415b808b9b7b82de6c5caccbc30", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_attribute_group.html#a19812ef5735f8785d2d9d40dc85daf22", null ],
+    [ "$attrs", "class_php_parser_1_1_node_1_1_attribute_group.html#a1f49d4b9df1fe5a33d21bb83aa383a0f", null ]
 ];

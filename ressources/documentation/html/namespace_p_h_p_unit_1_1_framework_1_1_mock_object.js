@@ -48,8 +48,8 @@ var namespace_p_h_p_unit_1_1_framework_1_1_mock_object =
     [ "__phpunit_setReturnValueGeneration", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#a1f38d33cfe3b0d5f5fd27fc4288dee37", null ],
     [ "__phpunit_verify", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#ae26547a2792315fc8c99e7a77339c698", null ],
     [ "expects", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#af523cb478765a606ea9087e97abbc0c1", null ],
-    [ "$__phpunit_invocationMocker", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#a9e255c59c8f4d20456df6dff175be77e", null ],
-    [ "$__phpunit_originalObject", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#a93e5fda12cd3eb7ac0b85d9ad81e967b", null ],
-    [ "$__phpunit_returnValueGeneration", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#a5920d76f129b68294366021ca365b046", null ],
-    [ "Api", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#ac0d4967de4aa62d7c96449d138da6c59", null ]
+    [ "$__phpunit_invocationMocker", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#a8287cfb39c59bc0344ca6517ffb5ed22", null ],
+    [ "$__phpunit_originalObject", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#a302ae7358910fe783d77439370604ef1", null ],
+    [ "$__phpunit_returnValueGeneration", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#a5149022340837dadcbbd92ab244d9d9a", null ],
+    [ "Api", "namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html#acefb5e8596931fb6b3677c14b9f858ed", null ]
 ];

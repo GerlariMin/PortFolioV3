@@ -31,11 +31,11 @@ var menudata={children:[
 {text:"All",url:"namespacemembers.html"},
 {text:"Functions",url:"namespacemembers_func.html"},
 {text:"Variables",url:"namespacemembers_vars.html"}]}]},
-{text:"Data Structures",url:"annotated.html",children:[
-{text:"Data Structures",url:"annotated.html"},
-{text:"Data Structure Index",url:"classes.html"},
+{text:"Classes",url:"annotated.html",children:[
+{text:"Class List",url:"annotated.html"},
+{text:"Class Index",url:"classes.html"},
 {text:"Class Hierarchy",url:"hierarchy.html"},
-{text:"Data Fields",url:"functions.html",children:[
+{text:"Class Members",url:"functions.html",children:[
 {text:"All",url:"functions.html",children:[
 {text:"$",url:"functions.html#index__24"},
 {text:"_",url:"functions__.html#index__5F"},
@@ -116,7 +116,7 @@ var menudata={children:[
 {text:"y",url:"functions_vars_y.html#index_y"}]}]}]},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},
-{text:"Globals",url:"globals.html",children:[
+{text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html",children:[
 {text:"$",url:"globals.html#index__24"},
 {text:"a",url:"globals.html#index_a"},

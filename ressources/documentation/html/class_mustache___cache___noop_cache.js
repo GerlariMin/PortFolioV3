@@ -1,5 +1,5 @@
 var class_mustache___cache___noop_cache =
 [
-    [ "cache", "class_mustache___cache___noop_cache.html#a002454e8760830b2942f6301f276255b", null ],
-    [ "load", "class_mustache___cache___noop_cache.html#a8d0a51036af71436a1e8dcc26fc4281d", null ]
+    [ "cache", "class_mustache___cache___noop_cache.html#a4ef9c625b18ae19c17b5ee8dd4e7e323", null ],
+    [ "load", "class_mustache___cache___noop_cache.html#a470e435bc26e89865a0ae1bc1c430f34", null ]
 ];

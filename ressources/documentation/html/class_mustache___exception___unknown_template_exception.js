@@ -1,6 +1,6 @@
 var class_mustache___exception___unknown_template_exception =
 [
-    [ "__construct", "class_mustache___exception___unknown_template_exception.html#a85f0ac8f5a1c1e78a410aae057b1700d", null ],
-    [ "getTemplateName", "class_mustache___exception___unknown_template_exception.html#a621a3ccd148ed8b9e937da6959c98f39", null ],
-    [ "$templateName", "class_mustache___exception___unknown_template_exception.html#a811dd317a408c35d379d08441ad8a982", null ]
+    [ "__construct", "class_mustache___exception___unknown_template_exception.html#ad12988632b452addc86122fe787be1f5", null ],
+    [ "getTemplateName", "class_mustache___exception___unknown_template_exception.html#a30d020906ecb1c0581943dc1db4759f1", null ],
+    [ "$templateName", "class_mustache___exception___unknown_template_exception.html#a6381d948cca86e4c5632ca8d3704ddc4", null ]
 ];

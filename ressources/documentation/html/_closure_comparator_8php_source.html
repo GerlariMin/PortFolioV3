@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/Comparator/ClosureComparator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/Comparator/ClosureComparator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -106,13 +105,13 @@ $(document).ready(function(){initNavTree('_closure_comparator_8php_source.html',
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html">   22</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html">ClosureComparator</a> <span class="keyword">extends</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_comparator.html">Comparator</a></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">accepts</a>($expected, $actual)</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a8b51f5543ba7c4567eb698555fc4011f">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a8b51f5543ba7c4567eb698555fc4011f">accepts</a>($expected, $actual)</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> is_object($expected) &amp;&amp; $expected instanceof \Closure</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            &amp;&amp; is_object($actual) &amp;&amp; $actual instanceof \Closure;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a85a7369896910cf1d55e31d477c29f1e">   30</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a85a7369896910cf1d55e31d477c29f1e">assertEquals</a>($expected, $actual, $delta = 0.0, $canonicalize = <span class="keyword">false</span>, $ignoreCase = <span class="keyword">false</span>, array &amp;$processed = array())</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a1791266c57103fbb1da527e52d82f641">   30</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a1791266c57103fbb1da527e52d82f641">assertEquals</a>($expected, $actual, $delta = 0.0, $canonicalize = <span class="keyword">false</span>, $ignoreCase = <span class="keyword">false</span>, array &amp;$processed = array())</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span> ($expected !== $actual) {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_comparison_failure.html">ComparisonFailure</a>(</div>
@@ -128,8 +127,8 @@ $(document).ready(function(){initNavTree('_closure_comparator_8php_source.html',
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_closure_comparator_html"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_closure_comparator.html">Prophecy\Comparator\ClosureComparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_closure_comparator_8php_source.html#l00022">ClosureComparator.php:23</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_closure_comparator_html_a85a7369896910cf1d55e31d477c29f1e"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a85a7369896910cf1d55e31d477c29f1e">Prophecy\Comparator\ClosureComparator\assertEquals</a></div><div class="ttdeci">assertEquals($expected, $actual, $delta=0.0, $canonicalize=false, $ignoreCase=false, array &amp;$processed=array())</div><div class="ttdef"><b>Definition:</b> <a href="_closure_comparator_8php_source.html#l00030">ClosureComparator.php:30</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_closure_comparator_html_ae9bdf0cba02ce3470169280656cdeb84"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">Prophecy\Comparator\ClosureComparator\accepts</a></div><div class="ttdeci">accepts($expected, $actual)</div><div class="ttdef"><b>Definition:</b> <a href="_closure_comparator_8php_source.html#l00024">ClosureComparator.php:24</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_closure_comparator_html_a1791266c57103fbb1da527e52d82f641"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a1791266c57103fbb1da527e52d82f641">Prophecy\Comparator\ClosureComparator\assertEquals</a></div><div class="ttdeci">assertEquals($expected, $actual, $delta=0.0, $canonicalize=false, $ignoreCase=false, array &amp;$processed=array())</div><div class="ttdef"><b>Definition:</b> <a href="_closure_comparator_8php_source.html#l00030">ClosureComparator.php:30</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_comparator_1_1_closure_comparator_html_a8b51f5543ba7c4567eb698555fc4011f"><div class="ttname"><a href="class_prophecy_1_1_comparator_1_1_closure_comparator.html#a8b51f5543ba7c4567eb698555fc4011f">Prophecy\Comparator\ClosureComparator\accepts</a></div><div class="ttdeci">accepts($expected, $actual)</div><div class="ttdef"><b>Definition:</b> <a href="_closure_comparator_8php_source.html#l00024">ClosureComparator.php:24</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_comparator_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_comparator.html">SebastianBergmann\Comparator\Comparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_comparator_8php_source.html#l00017">Comparator.php:18</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_comparison_failure_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_comparison_failure.html">SebastianBergmann\Comparator\ComparisonFailure</a></div><div class="ttdef"><b>Definition:</b> <a href="_comparison_failure_8php_source.html#l00019">ComparisonFailure.php:20</a></div></div>
 <div class="ttc" id="anamespace_prophecy_1_1_comparator_html"><div class="ttname"><a href="namespace_prophecy_1_1_comparator.html">Prophecy\Comparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_closure_comparator_8php_source.html#l00012">ClosureComparator.php:12</a></div></div>

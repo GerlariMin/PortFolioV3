@@ -1,7 +1,7 @@
 var class_mustache___test___five_three___functional___foo =
 [
-    [ "__construct", "class_mustache___test___five_three___functional___foo.html#a095c5d389db211932136b53f25f39685", null ],
-    [ "$lorem", "class_mustache___test___five_three___functional___foo.html#a3742c205662e0144915e8279eb178216", null ],
-    [ "$name", "class_mustache___test___five_three___functional___foo.html#ab2fc40d43824ea3e1ce5d86dee0d763b", null ],
-    [ "$wrap", "class_mustache___test___five_three___functional___foo.html#aedd95c5382d917cba1b2f0216813d717", null ]
+    [ "__construct", "class_mustache___test___five_three___functional___foo.html#a073e21b3dc73360c2b94553fc25ebfae", null ],
+    [ "$lorem", "class_mustache___test___five_three___functional___foo.html#aa71e4fc90ce57475c7201ecc2273e374", null ],
+    [ "$name", "class_mustache___test___five_three___functional___foo.html#aca838b5601c4bfc5f37c3432421770aa", null ],
+    [ "$wrap", "class_mustache___test___five_three___functional___foo.html#aad756be37d7fda564c9ae7d22af04b28", null ]
 ];

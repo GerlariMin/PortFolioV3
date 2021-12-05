@@ -1,5 +1,5 @@
 var class_inverted_double_section =
 [
-    [ "$t", "class_inverted_double_section.html#a3d44ea1cbbc9bc72aad8436186c4866e", null ],
-    [ "$two", "class_inverted_double_section.html#a6c7519bde09ff89a11a474606e57547f", null ]
+    [ "$t", "class_inverted_double_section.html#ace2edcf3218dd3a906511a9725814267", null ],
+    [ "$two", "class_inverted_double_section.html#a5c5d780e085012f43f7db11ea5f88cc2", null ]
 ];

@@ -1,6 +1,6 @@
 var class_sections =
 [
-    [ "middle", "class_sections.html#af7144a1cfd094e93d1110040090b3278", null ],
-    [ "$final", "class_sections.html#a8b38f0aed731abbde3e1381b1777d497", null ],
-    [ "$start", "class_sections.html#a50a00e7de77365e00b117e73aa82fb9b", null ]
+    [ "middle", "class_sections.html#ad43ebdb5d23011e668145248bb59f693", null ],
+    [ "$final", "class_sections.html#a6af7ea716594bd14f6bfb7d3442a8719", null ],
+    [ "$start", "class_sections.html#abfa7e571c670441054778940b6247aa5", null ]
 ];

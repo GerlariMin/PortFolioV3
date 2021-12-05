@@ -1,7 +1,7 @@
 var class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token =
 [
-    [ "__construct", "class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token.html#ae100579627fc7364dfae61182fbe1ac7", null ],
-    [ "__toString", "class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
-    [ "isLast", "class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token.html#ac72b8349b1340887fc1af30eca2b951c", null ],
-    [ "scoreArgument", "class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token.html#a8d5bf47ab6eaa935458d5ad160e52822", null ]
+    [ "__construct", "class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token.html#a4abffa728b927737e508176d796ba60d", null ],
+    [ "__toString", "class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token.html#ac98ea09c61c04a9f40700214913abc55", null ],
+    [ "isLast", "class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token.html#ae858ccf08aee5dd830d13ac7b0196925", null ],
+    [ "scoreArgument", "class_prophecy_1_1_argument_1_1_token_1_1_logical_and_token.html#a840e80e05b2352b70eae3e54fc1babd6", null ]
 ];

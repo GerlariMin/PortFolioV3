@@ -1,7 +1,7 @@
 var classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__ =
 [
-    [ "__construct", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__.html#acefe8f3b9c7d8ec496f4e2f17dc81748", null ],
-    [ "__toString", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
-    [ "getVariableName", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__.html#a20af85a4f4041ed681b095e1427b2a1d", null ],
-    [ "$variableName", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__.html#a34a81eb3c92d37d458c6d18032faee7e", null ]
+    [ "__construct", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__.html#a51449079dfc89799fa45950e61951505", null ],
+    [ "__toString", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__.html#a19b738a539e684d374a49ec28e0cebb1", null ],
+    [ "getVariableName", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__.html#a14b79940757d6a04f4ebf50018bc51c4", null ],
+    [ "$variableName", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_var__.html#a06fee28ecac3df6777a5850253722ae9", null ]
 ];

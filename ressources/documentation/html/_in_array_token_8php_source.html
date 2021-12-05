@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/Argument/Token/InArrayToken.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/Argument/Token/InArrayToken.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -106,13 +105,13 @@ $(document).ready(function(){initNavTree('_in_array_token_8php_source.html','');
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">private</span> $token = array();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">private</span> $strict;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#aaeb568e72087576df171abb0a839b4d0">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#aaeb568e72087576df171abb0a839b4d0">__construct</a>(array $arguments, $strict = <span class="keyword">true</span>)</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a4a09ab244a5db68ce54e62b6e0f3a287">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a4a09ab244a5db68ce54e62b6e0f3a287">__construct</a>(array $arguments, $strict = <span class="keyword">true</span>)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        $this-&gt;token = $arguments;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        $this-&gt;strict = $strict;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a8d5bf47ab6eaa935458d5ad160e52822">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a8d5bf47ab6eaa935458d5ad160e52822">scoreArgument</a>($argument)</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a8d7bd42ad3758d2daeb766ea16e537d9">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a8d7bd42ad3758d2daeb766ea16e537d9">scoreArgument</a>($argument)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> (count($this-&gt;token) === 0) {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -125,22 +124,22 @@ $(document).ready(function(){initNavTree('_in_array_token_8php_source.html','');
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#ac72b8349b1340887fc1af30eca2b951c">   59</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#ac72b8349b1340887fc1af30eca2b951c">isLast</a>()</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#afe842350160f3f4ea638da2f3addab83">   59</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#afe842350160f3f4ea638da2f3addab83">isLast</a>()</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a7516ca30af0db3cdbf9a7739b48ce91d">   69</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a7516ca30af0db3cdbf9a7739b48ce91d">__toString</a>()</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#acc2d74de612b6e813c9b2f60f9fd391f">   69</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#acc2d74de612b6e813c9b2f60f9fd391f">__toString</a>()</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        $arrayAsString = implode(<span class="stringliteral">&#39;, &#39;</span>, $this-&gt;token);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;[{$arrayAsString}]&quot;</span>;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html">Prophecy\Argument\Token\InArrayToken</a></div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00019">InArrayToken.php:20</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html_a7516ca30af0db3cdbf9a7739b48ce91d"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a7516ca30af0db3cdbf9a7739b48ce91d">Prophecy\Argument\Token\InArrayToken\__toString</a></div><div class="ttdeci">__toString()</div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00069">InArrayToken.php:69</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html_a8d5bf47ab6eaa935458d5ad160e52822"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a8d5bf47ab6eaa935458d5ad160e52822">Prophecy\Argument\Token\InArrayToken\scoreArgument</a></div><div class="ttdeci">scoreArgument($argument)</div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00041">InArrayToken.php:41</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html_aaeb568e72087576df171abb0a839b4d0"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#aaeb568e72087576df171abb0a839b4d0">Prophecy\Argument\Token\InArrayToken\__construct</a></div><div class="ttdeci">__construct(array $arguments, $strict=true)</div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00028">InArrayToken.php:28</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html_ac72b8349b1340887fc1af30eca2b951c"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#ac72b8349b1340887fc1af30eca2b951c">Prophecy\Argument\Token\InArrayToken\isLast</a></div><div class="ttdeci">isLast()</div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00059">InArrayToken.php:59</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html_a4a09ab244a5db68ce54e62b6e0f3a287"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a4a09ab244a5db68ce54e62b6e0f3a287">Prophecy\Argument\Token\InArrayToken\__construct</a></div><div class="ttdeci">__construct(array $arguments, $strict=true)</div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00028">InArrayToken.php:28</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html_a8d7bd42ad3758d2daeb766ea16e537d9"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#a8d7bd42ad3758d2daeb766ea16e537d9">Prophecy\Argument\Token\InArrayToken\scoreArgument</a></div><div class="ttdeci">scoreArgument($argument)</div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00041">InArrayToken.php:41</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html_acc2d74de612b6e813c9b2f60f9fd391f"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#acc2d74de612b6e813c9b2f60f9fd391f">Prophecy\Argument\Token\InArrayToken\__toString</a></div><div class="ttdeci">__toString()</div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00069">InArrayToken.php:69</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_in_array_token_html_afe842350160f3f4ea638da2f3addab83"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_in_array_token.html#afe842350160f3f4ea638da2f3addab83">Prophecy\Argument\Token\InArrayToken\isLast</a></div><div class="ttdeci">isLast()</div><div class="ttdef"><b>Definition:</b> <a href="_in_array_token_8php_source.html#l00059">InArrayToken.php:59</a></div></div>
 <div class="ttc" id="ainterface_prophecy_1_1_argument_1_1_token_1_1_token_interface_html"><div class="ttname"><a href="interface_prophecy_1_1_argument_1_1_token_1_1_token_interface.html">Prophecy\Argument\Token\TokenInterface</a></div><div class="ttdef"><b>Definition:</b> <a href="_token_interface_8php_source.html#l00019">TokenInterface.php:20</a></div></div>
 <div class="ttc" id="anamespace_prophecy_1_1_argument_1_1_token_html"><div class="ttname"><a href="namespace_prophecy_1_1_argument_1_1_token.html">Prophecy\Argument\Token</a></div><div class="ttdef"><b>Definition:</b> <a href="_any_values_token_8php_source.html#l00012">AnyValuesToken.php:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

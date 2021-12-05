@@ -1,13 +1,13 @@
 var class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter =
 [
-    [ "__construct", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a9ca28592399481f3b4f15a2a133c8057", null ],
-    [ "getExecutionOrder", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#af4110f2e0af9b7573909dc4963ab63e0", null ],
-    [ "getOriginalExecutionOrder", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a9e04a927d98cdfa18500f55fc653b16f", null ],
-    [ "reorderTestsInSuite", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#abd43fb551b901c391989be9bd844244d", null ],
-    [ "ORDER_DEFAULT", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a217cf36d44627c3c080a15ab7b86d986", null ],
-    [ "ORDER_DEFECTS_FIRST", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a664dd070c798c75a8f9312da090a2b00", null ],
-    [ "ORDER_DURATION", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a1654e4128add797dadc86fada49504c1", null ],
-    [ "ORDER_RANDOMIZED", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#afe291e04ce7026142f29cad87eaa24fd", null ],
-    [ "ORDER_REVERSED", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a4b1f1e1bccfcb6804f8b72a32e8dda58", null ],
-    [ "ORDER_SIZE", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#afd8547c26b0caf6ec045181f8e9c1ea6", null ]
+    [ "__construct", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a620e6a92f456aaf0c1bfef3cb0dcaa46", null ],
+    [ "getExecutionOrder", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a06179b92e6270fe9dc7252e1fcf0ef7f", null ],
+    [ "getOriginalExecutionOrder", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#afd6d4af04c2cd46c083200b617159058", null ],
+    [ "reorderTestsInSuite", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a6c39921bcd054753d5f9c131fbb5f300", null ],
+    [ "ORDER_DEFAULT", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a6556af86a7a3a04c707afac351abd8c2", null ],
+    [ "ORDER_DEFECTS_FIRST", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a38e5525f3f877c271870fdf84355a515", null ],
+    [ "ORDER_DURATION", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#aa149c98990a7ee2bb82f31b7b7044c4d", null ],
+    [ "ORDER_RANDOMIZED", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#af2f82d6e4aa586d61cd68a2dd9034f44", null ],
+    [ "ORDER_REVERSED", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a12cb9d60e3b5c5a3cbe69be2ef5794c0", null ],
+    [ "ORDER_SIZE", "class_p_h_p_unit_1_1_runner_1_1_test_suite_sorter.html#a17ac22feff4f062f6ea35c48fd4726d8", null ]
 ];

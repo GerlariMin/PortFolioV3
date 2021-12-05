@@ -1,5 +1,5 @@
 var class_prophecy_1_1_comparator_1_1_closure_comparator =
 [
-    [ "accepts", "class_prophecy_1_1_comparator_1_1_closure_comparator.html#ae9bdf0cba02ce3470169280656cdeb84", null ],
-    [ "assertEquals", "class_prophecy_1_1_comparator_1_1_closure_comparator.html#a85a7369896910cf1d55e31d477c29f1e", null ]
+    [ "accepts", "class_prophecy_1_1_comparator_1_1_closure_comparator.html#a8b51f5543ba7c4567eb698555fc4011f", null ],
+    [ "assertEquals", "class_prophecy_1_1_comparator_1_1_closure_comparator.html#a1791266c57103fbb1da527e52d82f641", null ]
 ];

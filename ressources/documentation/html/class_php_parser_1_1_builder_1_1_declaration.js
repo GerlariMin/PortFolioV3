@@ -1,7 +1,7 @@
 var class_php_parser_1_1_builder_1_1_declaration =
 [
-    [ "addStmt", "class_php_parser_1_1_builder_1_1_declaration.html#a84285314df11d1a21c01569981967d27", null ],
-    [ "addStmts", "class_php_parser_1_1_builder_1_1_declaration.html#a5c42f122153c4d02ae24d12b50712f0d", null ],
-    [ "setDocComment", "class_php_parser_1_1_builder_1_1_declaration.html#a7331d24646c54f9d8f98ecf7bc5827bd", null ],
-    [ "$attributes", "class_php_parser_1_1_builder_1_1_declaration.html#adc851f7a62250e75df0490c0280aef4c", null ]
+    [ "addStmt", "class_php_parser_1_1_builder_1_1_declaration.html#a611f2f93275eb2f09334762563765889", null ],
+    [ "addStmts", "class_php_parser_1_1_builder_1_1_declaration.html#acb093cb02d9bc8b0655819779f3d8978", null ],
+    [ "setDocComment", "class_php_parser_1_1_builder_1_1_declaration.html#a72a0a77d0d200694829bad8f5a726720", null ],
+    [ "$attributes", "class_php_parser_1_1_builder_1_1_declaration.html#a27ca02d680895493f31ff3f6e584c984", null ]
 ];

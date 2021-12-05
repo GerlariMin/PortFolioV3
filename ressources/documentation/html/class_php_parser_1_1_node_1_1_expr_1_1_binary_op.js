@@ -1,8 +1,8 @@
 var class_php_parser_1_1_node_1_1_expr_1_1_binary_op =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#ab8aab10b326c798ff3774de1e5dfa266", null ],
-    [ "getOperatorSigil", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#aed7b4ab91d29701a3d5f4936de669b72", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "$left", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a8ce48148e988ab5ecd61213c1d460962", null ],
-    [ "$right", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a79e068e5169b6f084dcf0baf74137378", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a876b57cfa9fcddb62216754c043e9532", null ],
+    [ "getOperatorSigil", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#aaa2b741cba3df6fc1d57d9cb6d068879", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a1e87604c9923e21f24ca9e8669a6a1a9", null ],
+    [ "$left", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a70d8aa6e37412b44e33815356fb69563", null ],
+    [ "$right", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a7bda44efca61e47307f49352d60b278f", null ]
 ];

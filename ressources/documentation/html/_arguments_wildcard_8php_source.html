@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/Argument/ArgumentsWildcard.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/Argument/ArgumentsWildcard.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -106,7 +105,7 @@ $(document).ready(function(){initNavTree('_arguments_wildcard_8php_source.html',
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span> $tokens = array();</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">private</span> $string;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#ae100579627fc7364dfae61182fbe1ac7">   32</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#ae100579627fc7364dfae61182fbe1ac7">__construct</a>(array $arguments)</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a1e58d98b12d8b85011b56198eab8bf7c">   32</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a1e58d98b12d8b85011b56198eab8bf7c">__construct</a>(array $arguments)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">foreach</span> ($arguments as $argument) {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordflow">if</span> (!$argument instanceof Token\<a class="code" href="interface_prophecy_1_1_argument_1_1_token_1_1_token_interface.html">TokenInterface</a>) {</div>
@@ -117,7 +116,7 @@ $(document).ready(function(){initNavTree('_arguments_wildcard_8php_source.html',
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a4d5364b222e55591a19a5b2ca6e61231">   50</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a4d5364b222e55591a19a5b2ca6e61231">scoreArguments</a>(array $arguments)</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a48032294f2bedc341efda682f05f7cf3">   50</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a48032294f2bedc341efda682f05f7cf3">scoreArguments</a>(array $arguments)</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (0 == count($arguments) &amp;&amp; 0 == count($this-&gt;tokens)) {</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">return</span> 1;</div>
@@ -145,7 +144,7 @@ $(document).ready(function(){initNavTree('_arguments_wildcard_8php_source.html',
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">return</span> $totalScore;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a7516ca30af0db3cdbf9a7739b48ce91d">   83</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a7516ca30af0db3cdbf9a7739b48ce91d">__toString</a>()</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a0ee7f08e9e6c2d6322041132b1e16db7">   83</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a0ee7f08e9e6c2d6322041132b1e16db7">__toString</a>()</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">if</span> (<span class="keyword">null</span> === $this-&gt;<span class="keywordtype">string</span>) {</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            $this-&gt;<span class="keywordtype">string</span> = implode(<span class="stringliteral">&#39;, &#39;</span>, array_map(<span class="keyword">function</span> ($token) {</div>
@@ -156,16 +155,16 @@ $(document).ready(function(){initNavTree('_arguments_wildcard_8php_source.html',
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> $this-&gt;string;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#acf2f05f60b57bd67020d2259a2cf9982">   97</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#acf2f05f60b57bd67020d2259a2cf9982">getTokens</a>()</div>
+<div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a3e117311d1e4d004ac0cec106d220a9d">   97</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a3e117311d1e4d004ac0cec106d220a9d">getTokens</a>()</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    {</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">return</span> $this-&gt;tokens;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html">Prophecy\Argument\ArgumentsWildcard</a></div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00019">ArgumentsWildcard.php:20</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html_a4d5364b222e55591a19a5b2ca6e61231"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a4d5364b222e55591a19a5b2ca6e61231">Prophecy\Argument\ArgumentsWildcard\scoreArguments</a></div><div class="ttdeci">scoreArguments(array $arguments)</div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00050">ArgumentsWildcard.php:50</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html_a7516ca30af0db3cdbf9a7739b48ce91d"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a7516ca30af0db3cdbf9a7739b48ce91d">Prophecy\Argument\ArgumentsWildcard\__toString</a></div><div class="ttdeci">__toString()</div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00083">ArgumentsWildcard.php:83</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html_acf2f05f60b57bd67020d2259a2cf9982"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#acf2f05f60b57bd67020d2259a2cf9982">Prophecy\Argument\ArgumentsWildcard\getTokens</a></div><div class="ttdeci">getTokens()</div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00097">ArgumentsWildcard.php:97</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html_ae100579627fc7364dfae61182fbe1ac7"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#ae100579627fc7364dfae61182fbe1ac7">Prophecy\Argument\ArgumentsWildcard\__construct</a></div><div class="ttdeci">__construct(array $arguments)</div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00032">ArgumentsWildcard.php:32</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html_a0ee7f08e9e6c2d6322041132b1e16db7"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a0ee7f08e9e6c2d6322041132b1e16db7">Prophecy\Argument\ArgumentsWildcard\__toString</a></div><div class="ttdeci">__toString()</div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00083">ArgumentsWildcard.php:83</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html_a1e58d98b12d8b85011b56198eab8bf7c"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a1e58d98b12d8b85011b56198eab8bf7c">Prophecy\Argument\ArgumentsWildcard\__construct</a></div><div class="ttdeci">__construct(array $arguments)</div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00032">ArgumentsWildcard.php:32</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html_a3e117311d1e4d004ac0cec106d220a9d"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a3e117311d1e4d004ac0cec106d220a9d">Prophecy\Argument\ArgumentsWildcard\getTokens</a></div><div class="ttdeci">getTokens()</div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00097">ArgumentsWildcard.php:97</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_argument_1_1_arguments_wildcard_html_a48032294f2bedc341efda682f05f7cf3"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_arguments_wildcard.html#a48032294f2bedc341efda682f05f7cf3">Prophecy\Argument\ArgumentsWildcard\scoreArguments</a></div><div class="ttdeci">scoreArguments(array $arguments)</div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00050">ArgumentsWildcard.php:50</a></div></div>
 <div class="ttc" id="aclass_prophecy_1_1_argument_1_1_token_1_1_exact_value_token_html"><div class="ttname"><a href="class_prophecy_1_1_argument_1_1_token_1_1_exact_value_token.html">Prophecy\Argument\Token\ExactValueToken</a></div><div class="ttdef"><b>Definition:</b> <a href="_exact_value_token_8php_source.html#l00023">ExactValueToken.php:24</a></div></div>
 <div class="ttc" id="ainterface_prophecy_1_1_argument_1_1_token_1_1_token_interface_html"><div class="ttname"><a href="interface_prophecy_1_1_argument_1_1_token_1_1_token_interface.html">Prophecy\Argument\Token\TokenInterface</a></div><div class="ttdef"><b>Definition:</b> <a href="_token_interface_8php_source.html#l00019">TokenInterface.php:20</a></div></div>
 <div class="ttc" id="anamespace_prophecy_1_1_argument_html"><div class="ttname"><a href="namespace_prophecy_1_1_argument.html">Prophecy\Argument</a></div><div class="ttdef"><b>Definition:</b> <a href="_arguments_wildcard_8php_source.html#l00012">ArgumentsWildcard.php:12</a></div></div>

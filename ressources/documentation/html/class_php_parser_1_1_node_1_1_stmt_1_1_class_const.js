@@ -1,12 +1,12 @@
 var class_php_parser_1_1_node_1_1_stmt_1_1_class_const =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a2d6d481a77590c3a3b5de86d1a13c313", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "isPrivate", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a55426c7f8596f9fc117210bf5311d4b9", null ],
-    [ "isProtected", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#aeb33f149ae972c38ea061fc80a67d7cc", null ],
-    [ "isPublic", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#ac0eb21abcd8889b02b75c545a480fb48", null ],
-    [ "$attrGroups", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a68b22277a61a41a786be5be18177f514", null ],
-    [ "$consts", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a34ba5984e16f17633afe3930711d89fb", null ],
-    [ "$flags", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a78556f0dc6bf3c1adae410a73d632caf", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#afcacc10ea96f8b2d31a5f8fd09e8a178", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a7c1b83a42f99dec655b9b288bc6a5580", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#ae208d6c8e325f55e38f0154ab02808b7", null ],
+    [ "isPrivate", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a7e2e94ac664aabbab6ad97d9ee16282b", null ],
+    [ "isProtected", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a9ccea313fd8610e3b30e68c9cc61dc0a", null ],
+    [ "isPublic", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a7fee173d8c8b72934ed3c54d5320844b", null ],
+    [ "$attrGroups", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#ab5e0ac2cdd93ef8e2808f7984fc0a2fd", null ],
+    [ "$consts", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a2c26e18bb7bf1e8cd5156bb4cb702958", null ],
+    [ "$flags", "class_php_parser_1_1_node_1_1_stmt_1_1_class_const.html#a3117363818c9bf23aae120f240746cbf", null ]
 ];

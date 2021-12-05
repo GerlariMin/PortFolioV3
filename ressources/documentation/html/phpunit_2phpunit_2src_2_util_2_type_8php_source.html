@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Util/Type.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Util/Type.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -103,7 +102,7 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_util_2_type_8p
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_type.html">   17</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="interfacephp_documentor_1_1_reflection_1_1_type.html">Type</a></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_type.html#a9f01b36b8494d8848d90022057da9d87">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_type.html#a9f01b36b8494d8848d90022057da9d87">isType</a>(<span class="keywordtype">string</span> $type): bool</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_type.html#a90db8426c5ab3df01b9fc22ec089d95c">   19</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_type.html#a90db8426c5ab3df01b9fc22ec089d95c">isType</a>(<span class="keywordtype">string</span> $type): bool</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">switch</span> ($type) {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keywordflow">case</span> <span class="stringliteral">&#39;numeric&#39;</span>:</div>
@@ -126,7 +125,7 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_util_2_type_8p
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_type.html#a18299f5ce018f385853398cdd3103317">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_type.html#a18299f5ce018f385853398cdd3103317">isCloneable</a>(<span class="keywordtype">object</span> $object): bool</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_type.html#a50b88059d449fa1d418669bfc3d49350">   42</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_type.html#a50b88059d449fa1d418669bfc3d49350">isCloneable</a>(<span class="keywordtype">object</span> $object): bool</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">try</span> {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            $clone = clone $object;</div>
@@ -137,8 +136,8 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_util_2_type_8p
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> $clone instanceof $object;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_type_html_a18299f5ce018f385853398cdd3103317"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_type.html#a18299f5ce018f385853398cdd3103317">PHPUnit\Util\Type\isCloneable</a></div><div class="ttdeci">static isCloneable(object $object)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_type_8php_source.html#l00042">Type.php:42</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_type_html_a9f01b36b8494d8848d90022057da9d87"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_type.html#a9f01b36b8494d8848d90022057da9d87">PHPUnit\Util\Type\isType</a></div><div class="ttdeci">static isType(string $type)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_type_8php_source.html#l00019">Type.php:19</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_type_html_a50b88059d449fa1d418669bfc3d49350"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_type.html#a50b88059d449fa1d418669bfc3d49350">PHPUnit\Util\Type\isCloneable</a></div><div class="ttdeci">static isCloneable(object $object)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_type_8php_source.html#l00042">Type.php:42</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_type_html_a90db8426c5ab3df01b9fc22ec089d95c"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_type.html#a90db8426c5ab3df01b9fc22ec089d95c">PHPUnit\Util\Type\isType</a></div><div class="ttdeci">static isType(string $type)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_type_8php_source.html#l00019">Type.php:19</a></div></div>
 <div class="ttc" id="ainterfacephp_documentor_1_1_reflection_1_1_type_html"><div class="ttname"><a href="interfacephp_documentor_1_1_reflection_1_1_type.html">phpDocumentor\Reflection\Type</a></div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2type-resolver_2src_2_type_8php_source.html#l00019">Type.php:20</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

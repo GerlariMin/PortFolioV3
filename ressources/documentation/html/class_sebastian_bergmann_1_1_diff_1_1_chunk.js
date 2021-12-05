@@ -1,10 +1,10 @@
 var class_sebastian_bergmann_1_1_diff_1_1_chunk =
 [
-    [ "__construct", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a0fe148a765ee55d2da092d3aef9a1bec", null ],
-    [ "getEnd", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a000b799500c1a9b8f1bd60c204191563", null ],
-    [ "getEndRange", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a0a7286c68cf530fa063e9593d2854bf2", null ],
-    [ "getLines", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a0136c01a67c37f34074107a9d358c134", null ],
-    [ "getStart", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#aa86e59bfce83f0dbfcd14a0c2a83e98e", null ],
-    [ "getStartRange", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a2863911a7e5034b92ad8fe53df371da2", null ],
-    [ "setLines", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a2dbb7ff411eebe139624f2832f334bf0", null ]
+    [ "__construct", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a483a0ec827e2b80cecaec66958b808ad", null ],
+    [ "getEnd", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#ad8cbaa1fb159a089e0e83dc10d11fbf0", null ],
+    [ "getEndRange", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a57ca6c4299beb868d22d8857e0b52e6b", null ],
+    [ "getLines", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#a46b04afae1027f9bcad180298c9f630b", null ],
+    [ "getStart", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#af875b22d26cc8346c1ee831f9088d753", null ],
+    [ "getStartRange", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#add9d9405f7f00ceab600b9f074e0f7cb", null ],
+    [ "setLines", "class_sebastian_bergmann_1_1_diff_1_1_chunk.html#ab291f9593e641f8255ed25a9407de016", null ]
 ];

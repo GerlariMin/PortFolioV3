@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Framework/Constraint/Cardinality/IsEmpty.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Framework/Constraint/Cardinality/IsEmpty.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -99,7 +98,7 @@ $(document).ready(function(){initNavTree('_is_empty_8php_source.html',''); initR
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_p_h_p_unit_1_1_framework_1_1_constraint.html">PHPUnit\Framework\Constraint</a>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;use <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint.html#ac751e87b3d4c4bf2feb03bee8b092755">count</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;use <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint.html#a980aea02875af7bc8d47c0e9caa5506f">count</a>;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;use <span class="keyword">function</span> gettype;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;use <span class="keyword">function</span> sprintf;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;use <span class="keyword">function</span> strpos;</div>
@@ -108,25 +107,25 @@ $(document).ready(function(){initNavTree('_is_empty_8php_source.html',''); initR
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html">   22</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html">IsEmpty</a> <span class="keyword">extends</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint.html">Constraint</a></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a5558c5d549f41597377fa1ea8a1cefa3">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a>(): string</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#abf7091851fd419a6868811fab200114b">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#abf7091851fd419a6868811fab200114b">toString</a>(): string</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;is empty&#39;</span>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a9c9c337de483bbdbb9fa249a6c7c9cc5">   38</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a9c9c337de483bbdbb9fa249a6c7c9cc5">matches</a>($other): bool</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a2780817f0a53b0ec19c3bbbc07fd887b">   38</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a2780817f0a53b0ec19c3bbbc07fd887b">matches</a>($other): bool</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> ($other instanceof EmptyIterator) {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">if</span> ($other instanceof Countable) {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint.html#ac751e87b3d4c4bf2feb03bee8b092755">count</a>($other) === 0;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint.html#a980aea02875af7bc8d47c0e9caa5506f">count</a>($other) === 0;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">return</span> empty($other);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#aaabb679273bfb812df4d81c283754a59">   59</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#aaabb679273bfb812df4d81c283754a59">failureDescription</a>($other): string</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a076f02c17afca5477d0b7afd633d7233">   59</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a076f02c17afca5477d0b7afd633d7233">failureDescription</a>($other): string</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        $type = gettype($other);</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
@@ -134,16 +133,16 @@ $(document).ready(function(){initNavTree('_is_empty_8php_source.html',''); initR
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="stringliteral">&#39;%s %s %s&#39;</span>,</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            strpos($type, <span class="charliteral">&#39;a&#39;</span>) === 0 || strpos($type, <span class="charliteral">&#39;o&#39;</span>) === 0 ? <span class="stringliteral">&#39;an&#39;</span> : <span class="charliteral">&#39;a&#39;</span>,</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            $type,</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            $this-&gt;<a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a5558c5d549f41597377fa1ea8a1cefa3">toString</a>()</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            $this-&gt;<a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#abf7091851fd419a6868811fab200114b">toString</a>()</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        );</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint.html">PHPUnit\Framework\Constraint\Constraint</a></div><div class="ttdef"><b>Definition:</b> <a href="_constraint_8php_source.html#l00022">Constraint.php:23</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint_html_ac751e87b3d4c4bf2feb03bee8b092755"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint.html#ac751e87b3d4c4bf2feb03bee8b092755">PHPUnit\Framework\Constraint\Constraint\count</a></div><div class="ttdeci">count()</div><div class="ttdef"><b>Definition:</b> <a href="_constraint_8php_source.html#l00064">Constraint.php:64</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint_html_a980aea02875af7bc8d47c0e9caa5506f"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_constraint.html#a980aea02875af7bc8d47c0e9caa5506f">PHPUnit\Framework\Constraint\Constraint\count</a></div><div class="ttdeci">count()</div><div class="ttdef"><b>Definition:</b> <a href="_constraint_8php_source.html#l00064">Constraint.php:64</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html">PHPUnit\Framework\Constraint\IsEmpty</a></div><div class="ttdef"><b>Definition:</b> <a href="_is_empty_8php_source.html#l00022">IsEmpty.php:23</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty_html_a5558c5d549f41597377fa1ea8a1cefa3"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a5558c5d549f41597377fa1ea8a1cefa3">PHPUnit\Framework\Constraint\IsEmpty\toString</a></div><div class="ttdeci">toString()</div><div class="ttdef"><b>Definition:</b> <a href="_is_empty_8php_source.html#l00027">IsEmpty.php:27</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty_html_a9c9c337de483bbdbb9fa249a6c7c9cc5"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a9c9c337de483bbdbb9fa249a6c7c9cc5">PHPUnit\Framework\Constraint\IsEmpty\matches</a></div><div class="ttdeci">matches($other)</div><div class="ttdef"><b>Definition:</b> <a href="_is_empty_8php_source.html#l00038">IsEmpty.php:38</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty_html_aaabb679273bfb812df4d81c283754a59"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#aaabb679273bfb812df4d81c283754a59">PHPUnit\Framework\Constraint\IsEmpty\failureDescription</a></div><div class="ttdeci">failureDescription($other)</div><div class="ttdef"><b>Definition:</b> <a href="_is_empty_8php_source.html#l00059">IsEmpty.php:59</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty_html_a076f02c17afca5477d0b7afd633d7233"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a076f02c17afca5477d0b7afd633d7233">PHPUnit\Framework\Constraint\IsEmpty\failureDescription</a></div><div class="ttdeci">failureDescription($other)</div><div class="ttdef"><b>Definition:</b> <a href="_is_empty_8php_source.html#l00059">IsEmpty.php:59</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty_html_a2780817f0a53b0ec19c3bbbc07fd887b"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#a2780817f0a53b0ec19c3bbbc07fd887b">PHPUnit\Framework\Constraint\IsEmpty\matches</a></div><div class="ttdeci">matches($other)</div><div class="ttdef"><b>Definition:</b> <a href="_is_empty_8php_source.html#l00038">IsEmpty.php:38</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty_html_abf7091851fd419a6868811fab200114b"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_is_empty.html#abf7091851fd419a6868811fab200114b">PHPUnit\Framework\Constraint\IsEmpty\toString</a></div><div class="ttdeci">toString()</div><div class="ttdef"><b>Definition:</b> <a href="_is_empty_8php_source.html#l00027">IsEmpty.php:27</a></div></div>
 <div class="ttc" id="anamespace_p_h_p_unit_1_1_framework_1_1_constraint_html"><div class="ttname"><a href="namespace_p_h_p_unit_1_1_framework_1_1_constraint.html">PHPUnit\Framework\Constraint</a></div><div class="ttdef"><b>Definition:</b> <a href="_is_false_8php_source.html#l00010">IsFalse.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

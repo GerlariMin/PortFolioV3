@@ -1,5 +1,5 @@
 var class_cache_stub =
 [
-    [ "cache", "class_cache_stub.html#a002454e8760830b2942f6301f276255b", null ],
-    [ "load", "class_cache_stub.html#a8d0a51036af71436a1e8dcc26fc4281d", null ]
+    [ "cache", "class_cache_stub.html#a83242890023b64edc4766bdca1900794", null ],
+    [ "load", "class_cache_stub.html#a89831cb0b1e2d707e5c8e45f1253d4e5", null ]
 ];

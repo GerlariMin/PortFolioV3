@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/mustache/mustache/src/Mustache/Exception/SyntaxException.php Source File</title>
+<title>PortFolioV3: ressources/vendor/mustache/mustache/src/Mustache/Exception/SyntaxException.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -101,11 +100,11 @@ $(document).ready(function(){initNavTree('_syntax_exception_8php_source.html',''
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_mustache___exception___syntax_exception.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mustache___exception___syntax_exception.html">Mustache_Exception_SyntaxException</a> <span class="keyword">extends</span> LogicException implements <a class="code" href="interface_mustache___exception.html">Mustache_Exception</a></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_mustache___exception___syntax_exception.html#a00ae4fcafb1145f5e968bdf920f83e2e">   17</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="class_mustache___exception___syntax_exception.html#a00ae4fcafb1145f5e968bdf920f83e2e">$token</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_mustache___exception___syntax_exception.html#aba9a06dbbd3defe56d3baec2ee8aa342">   17</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="class_mustache___exception___syntax_exception.html#aba9a06dbbd3defe56d3baec2ee8aa342">$token</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_mustache___exception___syntax_exception.html#aebcccccb5ccf954b022ef2a4002259de">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___exception___syntax_exception.html#aebcccccb5ccf954b022ef2a4002259de">__construct</a>($msg, array <a class="code" href="class_mustache___exception___syntax_exception.html#a00ae4fcafb1145f5e968bdf920f83e2e">$token</a>, Exception $previous = <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_mustache___exception___syntax_exception.html#a3e82dfc73f431b65ff25b7663988f02c">   24</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___exception___syntax_exception.html#a3e82dfc73f431b65ff25b7663988f02c">__construct</a>($msg, array <a class="code" href="class_mustache___exception___syntax_exception.html#aba9a06dbbd3defe56d3baec2ee8aa342">$token</a>, Exception $previous = <span class="keyword">null</span>)</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        $this-&gt;token = <a class="code" href="class_mustache___exception___syntax_exception.html#a00ae4fcafb1145f5e968bdf920f83e2e">$token</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        $this-&gt;token = <a class="code" href="class_mustache___exception___syntax_exception.html#aba9a06dbbd3defe56d3baec2ee8aa342">$token</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">if</span> (version_compare(PHP_VERSION, <span class="stringliteral">&#39;5.3.0&#39;</span>, <span class="stringliteral">&#39;&gt;=&#39;</span>)) {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            parent::__construct($msg, 0, $previous);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        } <span class="keywordflow">else</span> {</div>
@@ -113,15 +112,15 @@ $(document).ready(function(){initNavTree('_syntax_exception_8php_source.html',''
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_mustache___exception___syntax_exception.html#a211a2979c22afcd7d9056a2bb55aa449">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___exception___syntax_exception.html#a211a2979c22afcd7d9056a2bb55aa449">getToken</a>()</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_mustache___exception___syntax_exception.html#ade61205ec009140047b317b52089aea4">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___exception___syntax_exception.html#ade61205ec009140047b317b52089aea4">getToken</a>()</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_mustache___exception___syntax_exception.html#a00ae4fcafb1145f5e968bdf920f83e2e">$this-&gt;token</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_mustache___exception___syntax_exception.html#aba9a06dbbd3defe56d3baec2ee8aa342">$this-&gt;token</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
 <div class="ttc" id="aclass_mustache___exception___syntax_exception_html"><div class="ttname"><a href="class_mustache___exception___syntax_exception.html">Mustache_Exception_SyntaxException</a></div><div class="ttdef"><b>Definition:</b> <a href="_syntax_exception_8php_source.html#l00015">SyntaxException.php:16</a></div></div>
-<div class="ttc" id="aclass_mustache___exception___syntax_exception_html_a00ae4fcafb1145f5e968bdf920f83e2e"><div class="ttname"><a href="class_mustache___exception___syntax_exception.html#a00ae4fcafb1145f5e968bdf920f83e2e">Mustache_Exception_SyntaxException\$token</a></div><div class="ttdeci">$token</div><div class="ttdef"><b>Definition:</b> <a href="_syntax_exception_8php_source.html#l00017">SyntaxException.php:17</a></div></div>
-<div class="ttc" id="aclass_mustache___exception___syntax_exception_html_a211a2979c22afcd7d9056a2bb55aa449"><div class="ttname"><a href="class_mustache___exception___syntax_exception.html#a211a2979c22afcd7d9056a2bb55aa449">Mustache_Exception_SyntaxException\getToken</a></div><div class="ttdeci">getToken()</div><div class="ttdef"><b>Definition:</b> <a href="_syntax_exception_8php_source.html#l00037">SyntaxException.php:37</a></div></div>
-<div class="ttc" id="aclass_mustache___exception___syntax_exception_html_aebcccccb5ccf954b022ef2a4002259de"><div class="ttname"><a href="class_mustache___exception___syntax_exception.html#aebcccccb5ccf954b022ef2a4002259de">Mustache_Exception_SyntaxException\__construct</a></div><div class="ttdeci">__construct($msg, array $token, Exception $previous=null)</div><div class="ttdef"><b>Definition:</b> <a href="_syntax_exception_8php_source.html#l00024">SyntaxException.php:24</a></div></div>
+<div class="ttc" id="aclass_mustache___exception___syntax_exception_html_a3e82dfc73f431b65ff25b7663988f02c"><div class="ttname"><a href="class_mustache___exception___syntax_exception.html#a3e82dfc73f431b65ff25b7663988f02c">Mustache_Exception_SyntaxException\__construct</a></div><div class="ttdeci">__construct($msg, array $token, Exception $previous=null)</div><div class="ttdef"><b>Definition:</b> <a href="_syntax_exception_8php_source.html#l00024">SyntaxException.php:24</a></div></div>
+<div class="ttc" id="aclass_mustache___exception___syntax_exception_html_aba9a06dbbd3defe56d3baec2ee8aa342"><div class="ttname"><a href="class_mustache___exception___syntax_exception.html#aba9a06dbbd3defe56d3baec2ee8aa342">Mustache_Exception_SyntaxException\$token</a></div><div class="ttdeci">$token</div><div class="ttdef"><b>Definition:</b> <a href="_syntax_exception_8php_source.html#l00017">SyntaxException.php:17</a></div></div>
+<div class="ttc" id="aclass_mustache___exception___syntax_exception_html_ade61205ec009140047b317b52089aea4"><div class="ttname"><a href="class_mustache___exception___syntax_exception.html#ade61205ec009140047b317b52089aea4">Mustache_Exception_SyntaxException\getToken</a></div><div class="ttdeci">getToken()</div><div class="ttdef"><b>Definition:</b> <a href="_syntax_exception_8php_source.html#l00037">SyntaxException.php:37</a></div></div>
 <div class="ttc" id="ainterface_mustache___exception_html"><div class="ttname"><a href="interface_mustache___exception.html">Mustache_Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="mustache_2mustache_2src_2_mustache_2_exception_8php_source.html#l00015">Exception.php:16</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

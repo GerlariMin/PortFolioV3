@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpdocumentor/type-resolver/src/Types/Context.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpdocumentor/type-resolver/src/Types/Context.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -104,7 +103,7 @@ $(document).ready(function(){initNavTree('phpdocumentor_2type-resolver_2src_2_ty
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keyword">private</span> $namespaceAliases;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a87d65f8f81498505604e950bda2ed1b5">   56</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a87d65f8f81498505604e950bda2ed1b5">__construct</a>(<span class="keywordtype">string</span> $namespace, array $namespaceAliases = [])</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#adbef6ec83e133d3c31bee9f16d0bad5b">   56</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#adbef6ec83e133d3c31bee9f16d0bad5b">__construct</a>(<span class="keywordtype">string</span> $namespace, array $namespaceAliases = [])</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        $this-&gt;<span class="keyword">namespace </span>= $namespace !== <span class="stringliteral">&#39;global&#39;</span> &amp;&amp; $namespace !== <span class="stringliteral">&#39;default&#39;</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            ? trim($namespace, <span class="charliteral">&#39;\\&#39;</span>)</div>
@@ -125,20 +124,20 @@ $(document).ready(function(){initNavTree('phpdocumentor_2type-resolver_2src_2_ty
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        $this-&gt;namespaceAliases = $namespaceAliases;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a2614df64646ac71b70b1e1074258052b">   80</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a2614df64646ac71b70b1e1074258052b">getNamespace</a>() : string</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a24f40bf8767b76c8eee4ac3718f31a54">   80</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a24f40bf8767b76c8eee4ac3718f31a54">getNamespace</a>() : string</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> $this-&gt;namespace;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a71755ccbbbe1fb3ccd7446448d8e2e04">   93</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a71755ccbbbe1fb3ccd7446448d8e2e04">getNamespaceAliases</a>() : array</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#ab479dfb0a156ac1f13c05cb6a5543f85">   93</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#ab479dfb0a156ac1f13c05cb6a5543f85">getNamespaceAliases</a>() : array</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> $this-&gt;namespaceAliases;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 <div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_types_1_1_context_html"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html">phpDocumentor\Reflection\Types\Context</a></div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2type-resolver_2src_2_types_2_context_8php_source.html#l00036">Context.php:37</a></div></div>
-<div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_types_1_1_context_html_a2614df64646ac71b70b1e1074258052b"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a2614df64646ac71b70b1e1074258052b">phpDocumentor\Reflection\Types\Context\getNamespace</a></div><div class="ttdeci">getNamespace()</div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2type-resolver_2src_2_types_2_context_8php_source.html#l00080">Context.php:80</a></div></div>
-<div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_types_1_1_context_html_a71755ccbbbe1fb3ccd7446448d8e2e04"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a71755ccbbbe1fb3ccd7446448d8e2e04">phpDocumentor\Reflection\Types\Context\getNamespaceAliases</a></div><div class="ttdeci">getNamespaceAliases()</div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2type-resolver_2src_2_types_2_context_8php_source.html#l00093">Context.php:93</a></div></div>
-<div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_types_1_1_context_html_a87d65f8f81498505604e950bda2ed1b5"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a87d65f8f81498505604e950bda2ed1b5">phpDocumentor\Reflection\Types\Context\__construct</a></div><div class="ttdeci">__construct(string $namespace, array $namespaceAliases=[])</div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2type-resolver_2src_2_types_2_context_8php_source.html#l00056">Context.php:56</a></div></div>
+<div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_types_1_1_context_html_a24f40bf8767b76c8eee4ac3718f31a54"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#a24f40bf8767b76c8eee4ac3718f31a54">phpDocumentor\Reflection\Types\Context\getNamespace</a></div><div class="ttdeci">getNamespace()</div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2type-resolver_2src_2_types_2_context_8php_source.html#l00080">Context.php:80</a></div></div>
+<div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_types_1_1_context_html_ab479dfb0a156ac1f13c05cb6a5543f85"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#ab479dfb0a156ac1f13c05cb6a5543f85">phpDocumentor\Reflection\Types\Context\getNamespaceAliases</a></div><div class="ttdeci">getNamespaceAliases()</div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2type-resolver_2src_2_types_2_context_8php_source.html#l00093">Context.php:93</a></div></div>
+<div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_types_1_1_context_html_adbef6ec83e133d3c31bee9f16d0bad5b"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_types_1_1_context.html#adbef6ec83e133d3c31bee9f16d0bad5b">phpDocumentor\Reflection\Types\Context\__construct</a></div><div class="ttdeci">__construct(string $namespace, array $namespaceAliases=[])</div><div class="ttdef"><b>Definition:</b> <a href="phpdocumentor_2type-resolver_2src_2_types_2_context_8php_source.html#l00056">Context.php:56</a></div></div>
 <div class="ttc" id="anamespacephp_documentor_1_1_reflection_1_1_types_html"><div class="ttname"><a href="namespacephp_documentor_1_1_reflection_1_1_types.html">phpDocumentor\Reflection\Types</a></div><div class="ttdef"><b>Definition:</b> <a href="_abstract_list_8php_source.html#l00014">AbstractList.php:14</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

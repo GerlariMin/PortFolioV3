@@ -619,9 +619,8 @@ Autres
 - [x] PHP 8.0
 - [x] PHP 7.4
 - [x] Mustache
-- [ ] Classes de textes
-- [ ] Nettoyer config.inc.php
-- [ ] Tests PHPUnit
+- [x] Classes de textes
+- [x] Nettoyer config.inc.php
 
 ## Composer
 

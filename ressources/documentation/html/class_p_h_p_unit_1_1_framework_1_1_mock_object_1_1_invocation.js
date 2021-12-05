@@ -1,10 +1,10 @@
 var class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation =
 [
-    [ "__construct", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#aa5ab6cac69775467b52a9c1e8f1ebd41", null ],
-    [ "generateReturnValue", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#af64f7ab3f0f61dbcf7e63601099137d1", null ],
-    [ "getClassName", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#ab8f8ee56588ebf5091c288e44ebdfaf4", null ],
-    [ "getMethodName", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a0fa2079426d0262e759c4105fa4e9163", null ],
-    [ "getObject", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a8ecaa7401cc1e1144cb98698a9658ebc", null ],
-    [ "getParameters", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a015cb52e5774a1972d296c9694d2a3c3", null ],
-    [ "toString", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a5558c5d549f41597377fa1ea8a1cefa3", null ]
+    [ "__construct", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a62f325399b825df2a968e3d8ba23a903", null ],
+    [ "generateReturnValue", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a84008de7934b56983b829b91c7197d02", null ],
+    [ "getClassName", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a5b35f9b751499894808d87131891f287", null ],
+    [ "getMethodName", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a76567286381360fdcbb1e8c49a9faac3", null ],
+    [ "getObject", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#ac922ab07f7a06c6d155331ddae279526", null ],
+    [ "getParameters", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#a3a7565ebdb8ab59218bf4003d168bdf0", null ],
+    [ "toString", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_invocation.html#abd53db47ac05c3469add3fc4ccd17f7a", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveLogTypes.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveLogTypes.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -105,7 +104,7 @@ $(document).ready(function(){initNavTree('_remove_log_types_8php_source.html',''
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html">   19</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html">RemoveLogTypes</a> <span class="keyword">implements</span> <a class="code" href="interface_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_migration.html">Migration</a></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html#ad77632657fa54587023a2ddde8e06090">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html#ad77632657fa54587023a2ddde8e06090">migrate</a>(DOMDocument $document): void</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html#a9ec296304f7014b0fb2304657901ed48">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html#a9ec296304f7014b0fb2304657901ed48">migrate</a>(DOMDocument $document): void</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        $logging = $document-&gt;getElementsByTagName(<span class="stringliteral">&#39;logging&#39;</span>)-&gt;item(0);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
@@ -113,7 +112,7 @@ $(document).ready(function(){initNavTree('_remove_log_types_8php_source.html',''
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">foreach</span> (<a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_snapshot_node_list.html#a2dbb3d506ce7805ff7cc9ac58bb4e6cf">SnapshotNodeList::fromNodeList</a>($logging-&gt;getElementsByTagName(<span class="stringliteral">&#39;log&#39;</span>)) as $logNode) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">foreach</span> (<a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_snapshot_node_list.html#a04e7661570be894912a4c11689dde575">SnapshotNodeList::fromNodeList</a>($logging-&gt;getElementsByTagName(<span class="stringliteral">&#39;log&#39;</span>)) as $logNode) {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">switch</span> ($logNode-&gt;getAttribute(<span class="stringliteral">&#39;type&#39;</span>)) {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&#39;json&#39;</span>:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&#39;tap&#39;</span>:</div>
@@ -123,9 +122,9 @@ $(document).ready(function(){initNavTree('_remove_log_types_8php_source.html',''
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html">PHPUnit\TextUI\XmlConfiguration\RemoveLogTypes</a></div><div class="ttdef"><b>Definition:</b> <a href="_remove_log_types_8php_source.html#l00019">RemoveLogTypes.php:20</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types_html_ad77632657fa54587023a2ddde8e06090"><div class="ttname"><a href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html#ad77632657fa54587023a2ddde8e06090">PHPUnit\TextUI\XmlConfiguration\RemoveLogTypes\migrate</a></div><div class="ttdeci">migrate(DOMDocument $document)</div><div class="ttdef"><b>Definition:</b> <a href="_remove_log_types_8php_source.html#l00021">RemoveLogTypes.php:21</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types_html_a9ec296304f7014b0fb2304657901ed48"><div class="ttname"><a href="class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_remove_log_types.html#a9ec296304f7014b0fb2304657901ed48">PHPUnit\TextUI\XmlConfiguration\RemoveLogTypes\migrate</a></div><div class="ttdeci">migrate(DOMDocument $document)</div><div class="ttdef"><b>Definition:</b> <a href="_remove_log_types_8php_source.html#l00021">RemoveLogTypes.php:21</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_snapshot_node_list_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_snapshot_node_list.html">PHPUnit\Util\Xml\SnapshotNodeList</a></div><div class="ttdef"><b>Definition:</b> <a href="_snapshot_node_list_8php_source.html#l00021">SnapshotNodeList.php:22</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_snapshot_node_list_html_a2dbb3d506ce7805ff7cc9ac58bb4e6cf"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_snapshot_node_list.html#a2dbb3d506ce7805ff7cc9ac58bb4e6cf">PHPUnit\Util\Xml\SnapshotNodeList\fromNodeList</a></div><div class="ttdeci">static fromNodeList(DOMNodeList $list)</div><div class="ttdef"><b>Definition:</b> <a href="_snapshot_node_list_8php_source.html#l00028">SnapshotNodeList.php:28</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_snapshot_node_list_html_a04e7661570be894912a4c11689dde575"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_snapshot_node_list.html#a04e7661570be894912a4c11689dde575">PHPUnit\Util\Xml\SnapshotNodeList\fromNodeList</a></div><div class="ttdeci">static fromNodeList(DOMNodeList $list)</div><div class="ttdef"><b>Definition:</b> <a href="_snapshot_node_list_8php_source.html#l00028">SnapshotNodeList.php:28</a></div></div>
 <div class="ttc" id="ainterface_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_migration_html"><div class="ttname"><a href="interface_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_migration.html">PHPUnit\TextUI\XmlConfiguration\Migration</a></div><div class="ttdef"><b>Definition:</b> <a href="_migration_8php_source.html#l00017">Migration.php:18</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

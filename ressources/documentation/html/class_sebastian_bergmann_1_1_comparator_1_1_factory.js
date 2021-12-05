@@ -1,8 +1,8 @@
 var class_sebastian_bergmann_1_1_comparator_1_1_factory =
 [
-    [ "__construct", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#a095c5d389db211932136b53f25f39685", null ],
-    [ "getComparatorFor", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#ae9c794c946940961506ff398fad93133", null ],
-    [ "register", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#ad375a6b8e3b1ad05beaf311b6c05d4d6", null ],
-    [ "reset", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#a4a20559544fdf4dcb457e258dc976cf8", null ],
-    [ "unregister", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#a52e6511e6a6737ca95bc42fa9ff0f07e", null ]
+    [ "__construct", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#a3f6f6ee21d0ae3ba3c6f1a1001886fcd", null ],
+    [ "getComparatorFor", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#aef0d302f745ff6498960a713c978e8f6", null ],
+    [ "register", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#abd55efa9f80b070684215c025ae2abf0", null ],
+    [ "reset", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#a2865b7ec47274a23884192ad123f6ee4", null ],
+    [ "unregister", "class_sebastian_bergmann_1_1_comparator_1_1_factory.html#af2faa4fc2c5efa290820b65d2672c84d", null ]
 ];

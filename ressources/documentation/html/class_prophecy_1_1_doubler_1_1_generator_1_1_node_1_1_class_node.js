@@ -1,18 +1,18 @@
 var class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node =
 [
-    [ "addInterface", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a8ee340e93f5c12065057df00a3b37e3a", null ],
-    [ "addMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a7d7c609055289ad1fdeb670ad6e817b7", null ],
-    [ "addProperty", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a2b7ee41dea31bf84d61679decada4db6", null ],
-    [ "addUnextendableMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a275dbeed79a5e419b6bb16127402066a", null ],
-    [ "getInterfaces", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#aacd41ad982fee4953d8ad245ab7e4ec9", null ],
-    [ "getMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a020b4f470a4c7b67a7d530b40dddf961", null ],
-    [ "getMethods", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#ab8fcebfba8c498f2190941f7ebf62da8", null ],
-    [ "getParentClass", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a0102234be653614459dc1588c13d6f2e", null ],
-    [ "getProperties", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#ad92c14b6c86304d3f1fb86b2936d3408", null ],
-    [ "getUnextendableMethods", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#aa9eeb3801ccbac8fe075db29e6e57dcd", null ],
-    [ "hasInterface", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a514646f4edabb77d195e2de5b7a482a1", null ],
-    [ "hasMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a6d24132dc92242f7f71aa98e7ae86442", null ],
-    [ "isExtendable", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a12b8ffe13dc666dd9341cde1e4187bfc", null ],
-    [ "removeMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#ae19cd258a5a0cf83ffbac5fa5a0b24fa", null ],
-    [ "setParentClass", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a36c45e1400b3e0404a90bfa058ef8019", null ]
+    [ "addInterface", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a5cd9d1f08525bc78038439e03abf2a02", null ],
+    [ "addMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#ac65e23260ed97b1ef2293af123d3b897", null ],
+    [ "addProperty", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a3a1e3a2d774d2eeab56e0e59c43dd75e", null ],
+    [ "addUnextendableMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#af2843084be0d0c7f6bbabd678f308a8c", null ],
+    [ "getInterfaces", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#af4ab9c925689d41e5ea4a7fe1f629c17", null ],
+    [ "getMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a0409695baaa4048d2ed600e44e37b66d", null ],
+    [ "getMethods", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a1c437380323037f65fcd9bededdf3857", null ],
+    [ "getParentClass", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a3bd0c6248d2c2a03801eb388a56321d4", null ],
+    [ "getProperties", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a3dde9dbf823d2ac4d8a7b0e6effd31d6", null ],
+    [ "getUnextendableMethods", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a72e880e57f6805cdb68467f1b7fa9ccc", null ],
+    [ "hasInterface", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a8bfe8ed20110f9cb37a9e7296cb55fd3", null ],
+    [ "hasMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#ade1997b6424fc840d3566f80a7801cc8", null ],
+    [ "isExtendable", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#ad500c8db2bceb2c23d53736b7ff22b2d", null ],
+    [ "removeMethod", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#a9a540bab61027cbbc315a22aca5c5a9f", null ],
+    [ "setParentClass", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html#aa02a2158d4ca6124d026111fdafb55e8", null ]
 ];

@@ -1,8 +1,8 @@
 var class_prophecy_1_1_doubler_1_1_doubler =
 [
-    [ "__construct", "class_prophecy_1_1_doubler_1_1_doubler.html#a8902ae218ffdbb6700e93941e52f2d31", null ],
-    [ "createDoubleClass", "class_prophecy_1_1_doubler_1_1_doubler.html#a33ece4af76302e33e81acfc979b8ad1d", null ],
-    [ "double", "class_prophecy_1_1_doubler_1_1_doubler.html#afef9c70e781bf45cb707436abbd44465", null ],
-    [ "getClassPatches", "class_prophecy_1_1_doubler_1_1_doubler.html#ab73c2d1c9302d19ac828a0c88e18d42f", null ],
-    [ "registerClassPatch", "class_prophecy_1_1_doubler_1_1_doubler.html#ac205a70b043086bf5e2868032b30289e", null ]
+    [ "__construct", "class_prophecy_1_1_doubler_1_1_doubler.html#aa6a6764cd7ee593d06e90e6675c66a12", null ],
+    [ "createDoubleClass", "class_prophecy_1_1_doubler_1_1_doubler.html#a2f640d4651765f412659a073df15be06", null ],
+    [ "double", "class_prophecy_1_1_doubler_1_1_doubler.html#a3c81838d79c2a874a33fef4c34d07075", null ],
+    [ "getClassPatches", "class_prophecy_1_1_doubler_1_1_doubler.html#a710cb24de3e79220b50c1e2adad56f51", null ],
+    [ "registerClassPatch", "class_prophecy_1_1_doubler_1_1_doubler.html#af2658c5567a9ea2090a30415d9556f75", null ]
 ];

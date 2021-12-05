@@ -1,5 +1,5 @@
 var class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship =
 [
-    [ "getOperatorSigil", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship.html#aed7b4ab91d29701a3d5f4936de669b72", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship.html#a830b5c75df72b32396701bc563fbe3c7", null ]
+    [ "getOperatorSigil", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship.html#a9d2edbc8af47198b3691534bfbd58fff", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship.html#a6199315602ea3e1fa3f045be4a6358ce", null ]
 ];

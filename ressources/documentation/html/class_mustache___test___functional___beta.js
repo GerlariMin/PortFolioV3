@@ -1,7 +1,7 @@
 var class_mustache___test___functional___beta =
 [
-    [ "__construct", "class_mustache___test___functional___beta.html#a095c5d389db211932136b53f25f39685", null ],
-    [ "__get", "class_mustache___test___functional___beta.html#abc8e9e31bb15c8a44c3210ec551407c8", null ],
-    [ "__isset", "class_mustache___test___functional___beta.html#a8f132f051b7cd7d570ccb9f6e2bb4201", null ],
-    [ "$_data", "class_mustache___test___functional___beta.html#a5a3006290f2de94fff2dd63ca739d15a", null ]
+    [ "__construct", "class_mustache___test___functional___beta.html#a18b0c17948a75810d8e74a757048d8c8", null ],
+    [ "__get", "class_mustache___test___functional___beta.html#a9032b635c1f510aa473275d266cacb64", null ],
+    [ "__isset", "class_mustache___test___functional___beta.html#a4dbe5a25ce4622c88d1dd97a2b4d71b6", null ],
+    [ "$_data", "class_mustache___test___functional___beta.html#a2e7574f5f6961d47e5d219c01317dc04", null ]
 ];

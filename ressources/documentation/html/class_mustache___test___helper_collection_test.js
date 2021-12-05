@@ -1,8 +1,8 @@
 var class_mustache___test___helper_collection_test =
 [
-    [ "getInvalidHelperArguments", "class_mustache___test___helper_collection_test.html#a22fd22e99df0a9b977116e7b3d0850d9", null ],
-    [ "testAccessorsAndMutators", "class_mustache___test___helper_collection_test.html#a626dc269927bf9c76ed720c1bb2583a9", null ],
-    [ "testConstructor", "class_mustache___test___helper_collection_test.html#a47094dc941e72950570900d1418f89c6", null ],
-    [ "testHelperCollectionIsntAfraidToThrowExceptions", "class_mustache___test___helper_collection_test.html#afb736ab7514e7a79403c67fc554c9579", null ],
-    [ "testMagicMethods", "class_mustache___test___helper_collection_test.html#a057137636cb2254a9b1e2c5d09c8dabe", null ]
+    [ "getInvalidHelperArguments", "class_mustache___test___helper_collection_test.html#a3d629543cae5de1099b477f16dfe0fc1", null ],
+    [ "testAccessorsAndMutators", "class_mustache___test___helper_collection_test.html#a358ddc402d5d55688ead8c0973cc392b", null ],
+    [ "testConstructor", "class_mustache___test___helper_collection_test.html#a442381ddfc9044b7fdd3afb60196641a", null ],
+    [ "testHelperCollectionIsntAfraidToThrowExceptions", "class_mustache___test___helper_collection_test.html#ac68413d8fc5833e2d18cadb780fff79f", null ],
+    [ "testMagicMethods", "class_mustache___test___helper_collection_test.html#aec7fac6446cd17b567de0b2df3cf86da", null ]
 ];

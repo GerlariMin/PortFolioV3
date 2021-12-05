@@ -1,5 +1,5 @@
 var classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_throws =
 [
-    [ "__construct", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_throws.html#aeaaf2cb94a9647b75de17270352cf7d9", null ],
-    [ "__toString", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_throws.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ]
+    [ "__construct", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_throws.html#a40f370f2920b290ea494ac90c93ae3a6", null ],
+    [ "__toString", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_throws.html#ab77eaaa3f43d89f3e0b467ba70bf252f", null ]
 ];

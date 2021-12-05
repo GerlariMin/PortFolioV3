@@ -1,8 +1,8 @@
 var classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param =
 [
-    [ "__construct", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#a5982e72012e357ab3a85d8144e986e4f", null ],
-    [ "__toString", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
-    [ "getVariableName", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#a20af85a4f4041ed681b095e1427b2a1d", null ],
-    [ "isReference", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#a0e4f1a919fb3cff199a240e5a1bdc492", null ],
-    [ "isVariadic", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#ab2aa651fb210b4868f4c2a846ab40ebb", null ]
+    [ "__construct", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#a2eb66095cf632740513f4aad2e14816a", null ],
+    [ "__toString", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#a78e6056646716327b8e8308497097098", null ],
+    [ "getVariableName", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#ad908ed1d9073f9d5cff966e87e90b8d4", null ],
+    [ "isReference", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#a0d8ae1d37f460db04519502e5586c23e", null ],
+    [ "isVariadic", "classphp_documentor_1_1_reflection_1_1_doc_block_1_1_tags_1_1_param.html#a5952fcdf2ca90e47a1d3d39fd0bfc10f", null ]
 ];

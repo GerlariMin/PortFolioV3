@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/Doubler/Generator/ClassCreator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/Doubler/Generator/ClassCreator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -107,12 +106,12 @@ $(document).ready(function(){initNavTree('_class_creator_8php_source.html',''); 
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span> $generator;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a7487efef8f85be5720dfeaf0867fe65f">   31</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a7487efef8f85be5720dfeaf0867fe65f">__construct</a>(<a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_code_generator.html">ClassCodeGenerator</a> $generator = <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a039ae125f012a6a8a2771fd774608d6f">   31</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a039ae125f012a6a8a2771fd774608d6f">__construct</a>(<a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_code_generator.html">ClassCodeGenerator</a> $generator = <span class="keyword">null</span>)</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        $this-&gt;generator = $generator ?: <span class="keyword">new</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_code_generator.html">ClassCodeGenerator</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#ad62d66c423b697477e5823c5c6a903c0">   46</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#ad62d66c423b697477e5823c5c6a903c0">create</a>($classname, Node\<a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html">ClassNode</a> $class)</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a7ad0d762581cc9ec693115c886d2d973">   46</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a7ad0d762581cc9ec693115c886d2d973">create</a>($classname, Node\<a class="code" href="class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html">ClassNode</a> $class)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        $code = $this-&gt;generator-&gt;generate($classname, $class);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        $return = eval($code);</div>
@@ -136,8 +135,8 @@ $(document).ready(function(){initNavTree('_class_creator_8php_source.html',''); 
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_class_code_generator_html"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_code_generator.html">Prophecy\Doubler\Generator\ClassCodeGenerator</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_code_generator_8php_source.html#l00023">ClassCodeGenerator.php:24</a></div></div>
 <div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_class_creator_html"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html">Prophecy\Doubler\Generator\ClassCreator</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_creator_8php_source.html#l00022">ClassCreator.php:23</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_class_creator_html_a7487efef8f85be5720dfeaf0867fe65f"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a7487efef8f85be5720dfeaf0867fe65f">Prophecy\Doubler\Generator\ClassCreator\__construct</a></div><div class="ttdeci">__construct(ClassCodeGenerator $generator=null)</div><div class="ttdef"><b>Definition:</b> <a href="_class_creator_8php_source.html#l00031">ClassCreator.php:31</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_class_creator_html_ad62d66c423b697477e5823c5c6a903c0"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#ad62d66c423b697477e5823c5c6a903c0">Prophecy\Doubler\Generator\ClassCreator\create</a></div><div class="ttdeci">create($classname, Node\ClassNode $class)</div><div class="ttdef"><b>Definition:</b> <a href="_class_creator_8php_source.html#l00046">ClassCreator.php:46</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_class_creator_html_a039ae125f012a6a8a2771fd774608d6f"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a039ae125f012a6a8a2771fd774608d6f">Prophecy\Doubler\Generator\ClassCreator\__construct</a></div><div class="ttdeci">__construct(ClassCodeGenerator $generator=null)</div><div class="ttdef"><b>Definition:</b> <a href="_class_creator_8php_source.html#l00031">ClassCreator.php:31</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_class_creator_html_a7ad0d762581cc9ec693115c886d2d973"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_class_creator.html#a7ad0d762581cc9ec693115c886d2d973">Prophecy\Doubler\Generator\ClassCreator\create</a></div><div class="ttdeci">create($classname, Node\ClassNode $class)</div><div class="ttdef"><b>Definition:</b> <a href="_class_creator_8php_source.html#l00046">ClassCreator.php:46</a></div></div>
 <div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node_html"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_class_node.html">Prophecy\Doubler\Generator\Node\ClassNode</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_node_8php_source.html#l00022">ClassNode.php:23</a></div></div>
 <div class="ttc" id="aclass_prophecy_1_1_exception_1_1_doubler_1_1_class_creator_exception_html"><div class="ttname"><a href="class_prophecy_1_1_exception_1_1_doubler_1_1_class_creator_exception.html">Prophecy\Exception\Doubler\ClassCreatorException</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_creator_exception_8php_source.html#l00016">ClassCreatorException.php:17</a></div></div>
 <div class="ttc" id="anamespace_prophecy_1_1_doubler_1_1_generator_html"><div class="ttname"><a href="namespace_prophecy_1_1_doubler_1_1_generator.html">Prophecy\Doubler\Generator</a></div><div class="ttdef"><b>Definition:</b> <a href="_class_code_generator_8php_source.html#l00012">ClassCodeGenerator.php:12</a></div></div>

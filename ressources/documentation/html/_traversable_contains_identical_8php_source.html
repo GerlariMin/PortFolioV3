@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Framework/Constraint/Traversable/TraversableContainsIdentical.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Framework/Constraint/Traversable/TraversableContainsIdentical.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -103,14 +102,14 @@ $(document).ready(function(){initNavTree('_traversable_contains_identical_8php_s
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html">   17</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html">TraversableContainsIdentical</a> <span class="keyword">extends</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains.html">TraversableContains</a></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html#a9c9c337de483bbdbb9fa249a6c7c9cc5">   25</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html#a9c9c337de483bbdbb9fa249a6c7c9cc5">matches</a>($other): bool</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html#a75ad19565a8c2fa510ec979f31daa77f">   25</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html#a75ad19565a8c2fa510ec979f31daa77f">matches</a>($other): bool</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">if</span> ($other instanceof SplObjectStorage) {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordflow">return</span> $other-&gt;contains($this-&gt;<a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains.html#aefbfa229f1c9e1fc967bff724a010f9e">value</a>());</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordflow">return</span> $other-&gt;contains($this-&gt;<a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains.html#a651e117141860ac034c6414e75b36fb9">value</a>());</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">foreach</span> ($other as $element) {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains.html#aefbfa229f1c9e1fc967bff724a010f9e">value</a>() === $element) {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains.html#a651e117141860ac034c6414e75b36fb9">value</a>() === $element) {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div>
@@ -119,9 +118,9 @@ $(document).ready(function(){initNavTree('_traversable_contains_identical_8php_s
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains.html">PHPUnit\Framework\Constraint\TraversableContains</a></div><div class="ttdef"><b>Definition:</b> <a href="_traversable_contains_8php_source.html#l00018">TraversableContains.php:19</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_html_aefbfa229f1c9e1fc967bff724a010f9e"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains.html#aefbfa229f1c9e1fc967bff724a010f9e">PHPUnit\Framework\Constraint\TraversableContains\value</a></div><div class="ttdeci">value()</div><div class="ttdef"><b>Definition:</b> <a href="_traversable_contains_8php_source.html#l00059">TraversableContains.php:59</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_html_a651e117141860ac034c6414e75b36fb9"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains.html#a651e117141860ac034c6414e75b36fb9">PHPUnit\Framework\Constraint\TraversableContains\value</a></div><div class="ttdeci">value()</div><div class="ttdef"><b>Definition:</b> <a href="_traversable_contains_8php_source.html#l00059">TraversableContains.php:59</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html">PHPUnit\Framework\Constraint\TraversableContainsIdentical</a></div><div class="ttdef"><b>Definition:</b> <a href="_traversable_contains_identical_8php_source.html#l00017">TraversableContainsIdentical.php:18</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical_html_a9c9c337de483bbdbb9fa249a6c7c9cc5"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html#a9c9c337de483bbdbb9fa249a6c7c9cc5">PHPUnit\Framework\Constraint\TraversableContainsIdentical\matches</a></div><div class="ttdeci">matches($other)</div><div class="ttdef"><b>Definition:</b> <a href="_traversable_contains_identical_8php_source.html#l00025">TraversableContainsIdentical.php:25</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical_html_a75ad19565a8c2fa510ec979f31daa77f"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_constraint_1_1_traversable_contains_identical.html#a75ad19565a8c2fa510ec979f31daa77f">PHPUnit\Framework\Constraint\TraversableContainsIdentical\matches</a></div><div class="ttdeci">matches($other)</div><div class="ttdef"><b>Definition:</b> <a href="_traversable_contains_identical_8php_source.html#l00025">TraversableContainsIdentical.php:25</a></div></div>
 <div class="ttc" id="anamespace_p_h_p_unit_1_1_framework_1_1_constraint_html"><div class="ttname"><a href="namespace_p_h_p_unit_1_1_framework_1_1_constraint.html">PHPUnit\Framework\Constraint</a></div><div class="ttdef"><b>Definition:</b> <a href="_is_false_8php_source.html#l00010">IsFalse.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

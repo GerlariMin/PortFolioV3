@@ -1,15 +1,15 @@
 var class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer =
 [
-    [ "__construct", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a058d0261b18ee18c9fad1ffb1d08775c", null ],
-    [ "addError", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a688541c1f734f4656ddf940fd86a49e2", null ],
-    [ "addFailure", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a1a0ec8ce0e4c3d131044f62786aeb988", null ],
-    [ "addIncompleteTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#acb36b6f8625e24d85b8f21996f236418", null ],
-    [ "addRiskyTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a3c37b3311b251e354c73bfcd4217ced2", null ],
-    [ "addSkippedTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#aae38f220f6cc1bba31e8607b63dd5334", null ],
-    [ "addWarning", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#ab08386f846eb6ed94b45729c6e63d731", null ],
-    [ "endTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a8b5de1df4f8c5dc3948e7c86fa49df18", null ],
-    [ "endTestSuite", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a0db232475a4d0522dffe68281ebc771d", null ],
-    [ "flush", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a7751f77b5263bcf940ece6e824a05b38", null ],
-    [ "startTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a65233ce04e89fb4d4f13ce26f40d3951", null ],
-    [ "startTestSuite", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#ac6fe8558620490a841f4aff01a3c870a", null ]
+    [ "__construct", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a29b43a097881fb9088de504edf134614", null ],
+    [ "addError", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a99665e2adc17c6b7c86ed091b60e31d4", null ],
+    [ "addFailure", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a8dab5ae9a0316dd3ce79476c1250d6d7", null ],
+    [ "addIncompleteTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a2fde4ae66ec31a9be788c774ce1915eb", null ],
+    [ "addRiskyTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#ab73898d3b79772fd0153bb1f737e3c7f", null ],
+    [ "addSkippedTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a0786517eba5002790488d1591efb674c", null ],
+    [ "addWarning", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#aea86a9cba5af465898ce451aa176470a", null ],
+    [ "endTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a5a91750e61a4ca86065eae86c2e1c4cf", null ],
+    [ "endTestSuite", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a8d5fcf11e625d049dcdadb20e2996b52", null ],
+    [ "flush", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a04630d3f1e07b2158d218e92676088de", null ],
+    [ "startTest", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#acbac7195df9e7b9011293dd36ab62dd6", null ],
+    [ "startTestSuite", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_xml_result_printer.html#a5748bbc4ec8847c5eafa21b6e0ce7e77", null ]
 ];

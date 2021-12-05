@@ -1,5 +1,5 @@
 var class_the_seer_1_1_tokenizer_1_1_namespace_uri =
 [
-    [ "__construct", "class_the_seer_1_1_tokenizer_1_1_namespace_uri.html#a83828889e1e984950366956d8726ae28", null ],
-    [ "asString", "class_the_seer_1_1_tokenizer_1_1_namespace_uri.html#aa1a17ab79247b7e7d740bb55e13cab14", null ]
+    [ "__construct", "class_the_seer_1_1_tokenizer_1_1_namespace_uri.html#ae1cac699fc3298aabc81b6bb852e0b1b", null ],
+    [ "asString", "class_the_seer_1_1_tokenizer_1_1_namespace_uri.html#a9791267743b0cf7980aec5f5b364a09d", null ]
 ];

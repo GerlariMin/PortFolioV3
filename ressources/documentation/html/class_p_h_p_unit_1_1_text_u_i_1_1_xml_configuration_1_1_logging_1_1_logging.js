@@ -1,16 +1,16 @@
 var class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging =
 [
-    [ "__construct", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a7c2b71fcf35bcb0199418bf4ff8114b2", null ],
-    [ "hasJunit", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a55ee904daba817b31053bc72fa1c00ed", null ],
-    [ "hasTeamCity", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a0f94be7bc47adc0a2d7691b38a413aa3", null ],
-    [ "hasTestDoxHtml", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a31869d5a66ce35cf6f1bf24b9ee6884f", null ],
-    [ "hasTestDoxText", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#adba22d9895483118d950a8723396d865", null ],
-    [ "hasTestDoxXml", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a3134c7d024c8a3545e194c27c2b48655", null ],
-    [ "hasText", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a452e63a9bb22be25951042c624828a71", null ],
-    [ "junit", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a2ca51b36fa7bcc1abe7b2c1c6077d5e3", null ],
-    [ "teamCity", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#ac3a0d18a539142637450228821921464", null ],
-    [ "testDoxHtml", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#aebbefccf82f33b944774725771675b37", null ],
-    [ "testDoxText", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#abd1976b076be2d3afe52619f16e2e0e9", null ],
-    [ "testDoxXml", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#ad1ab0e9f4821537b0c78f26ae22a2587", null ],
-    [ "text", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a37df362c2f77a0045fa8af094f432238", null ]
+    [ "__construct", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a5335e4a9520d7aae10e760fca8282586", null ],
+    [ "hasJunit", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a7ef26cc7958006ae58b60f3e357829d2", null ],
+    [ "hasTeamCity", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a30dd78ce7925991e518032882d02db97", null ],
+    [ "hasTestDoxHtml", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#afc9058141c93bb71c78d68011c9bed7e", null ],
+    [ "hasTestDoxText", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a1a354e2bdb2bd3f9bd5c8e56a35b7549", null ],
+    [ "hasTestDoxXml", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#afe99dd60da42ddc0ada57d93c1a10362", null ],
+    [ "hasText", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#aa86564856e50a118f225d663d0eee78d", null ],
+    [ "junit", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#afaa3ac0611720ffc5f7ad14990fc5313", null ],
+    [ "teamCity", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#acd78ad3bda4fefd06423d3a3f1b7f80d", null ],
+    [ "testDoxHtml", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#af44e0fac814e4c0151132d4c2dd1f23d", null ],
+    [ "testDoxText", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a175435516abe5326122a5bc1d2b22b28", null ],
+    [ "testDoxXml", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#a816a5b9538c20c0539143bd51736953d", null ],
+    [ "text", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_logging_1_1_logging.html#ac48f0461e6b7fe519bac36e8d0afa298", null ]
 ];

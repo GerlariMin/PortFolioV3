@@ -1,11 +1,11 @@
 var class_mustache___test___loader___production_filesystem_loader_test =
 [
-    [ "testConstructor", "class_mustache___test___loader___production_filesystem_loader_test.html#a47094dc941e72950570900d1418f89c6", null ],
-    [ "testConstructorWithProtocol", "class_mustache___test___loader___production_filesystem_loader_test.html#a9c3e991950abe0b1926fb202a5f436c3", null ],
-    [ "testEmptyExtensionString", "class_mustache___test___loader___production_filesystem_loader_test.html#a01b3866b83cbb43056dca5d902277a4f", null ],
-    [ "testLoadTemplates", "class_mustache___test___loader___production_filesystem_loader_test.html#a9596bd29af3bcd47ac76be747dcf7b16", null ],
-    [ "testLoadWithDifferentStatProps", "class_mustache___test___loader___production_filesystem_loader_test.html#ad34dab167a223357e0c3d1d63e915a6c", null ],
-    [ "testMissingBaseDirThrowsException", "class_mustache___test___loader___production_filesystem_loader_test.html#a5ed8fca973153378a71f35a482d2db1a", null ],
-    [ "testMissingTemplateThrowsException", "class_mustache___test___loader___production_filesystem_loader_test.html#a1baf90459ad93d0488830586732d7b01", null ],
-    [ "testTrailingSlashes", "class_mustache___test___loader___production_filesystem_loader_test.html#a1d9ec99b3b8337ceef15f29928619a3d", null ]
+    [ "testConstructor", "class_mustache___test___loader___production_filesystem_loader_test.html#a4585598aae792f610b3d64cfd78d3a36", null ],
+    [ "testConstructorWithProtocol", "class_mustache___test___loader___production_filesystem_loader_test.html#a302ed554c37682214a85e5ceb96a86df", null ],
+    [ "testEmptyExtensionString", "class_mustache___test___loader___production_filesystem_loader_test.html#afbd67db12e24c6ebceb34c5ed611a7d7", null ],
+    [ "testLoadTemplates", "class_mustache___test___loader___production_filesystem_loader_test.html#aba6c5589e329f73811eeabe151efb17c", null ],
+    [ "testLoadWithDifferentStatProps", "class_mustache___test___loader___production_filesystem_loader_test.html#a171dbdcffc11d07b1de96f3b2c8828f2", null ],
+    [ "testMissingBaseDirThrowsException", "class_mustache___test___loader___production_filesystem_loader_test.html#aba278165b0d2e9e00057c2093e01d155", null ],
+    [ "testMissingTemplateThrowsException", "class_mustache___test___loader___production_filesystem_loader_test.html#aa5e6779d539f84ff9e5f2643bf8323b5", null ],
+    [ "testTrailingSlashes", "class_mustache___test___loader___production_filesystem_loader_test.html#ac9af78d2096cab2f615715f726f7e1b1", null ]
 ];

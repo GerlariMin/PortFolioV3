@@ -1,5 +1,5 @@
 var class_sebastian_bergmann_1_1_comparator_1_1_type_comparator =
 [
-    [ "accepts", "class_sebastian_bergmann_1_1_comparator_1_1_type_comparator.html#ae9bdf0cba02ce3470169280656cdeb84", null ],
-    [ "assertEquals", "class_sebastian_bergmann_1_1_comparator_1_1_type_comparator.html#adb3679ea06503114394431cb250ec5a4", null ]
+    [ "accepts", "class_sebastian_bergmann_1_1_comparator_1_1_type_comparator.html#ad904dbcf973b71bdb6da238310251809", null ],
+    [ "assertEquals", "class_sebastian_bergmann_1_1_comparator_1_1_type_comparator.html#ab837851957625ee9f9fe5f1f7aaae2f9", null ]
 ];

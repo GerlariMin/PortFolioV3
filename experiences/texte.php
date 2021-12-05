@@ -13,119 +13,119 @@ class TexteExperiences
     /**
      * @var string
      */
-    public String $accordion_span = "accordion-span";
+    private String $accordion_span = "accordion-span";
     /**
      * @var string
      */
-    public String $blocquote = "blockquote";
+    private String $blocquote = "blockquote";
     /**
      * @var string
      */
-    public String $blockquote_fontawesome = "blockquote-fontawesome";
+    private String $blockquote_fontawesome = "blockquote-fontawesome";
     /**
      * @var string
      */
-    public String $blockquote_text = "blockquote-text";
+    private String $blockquote_text = "blockquote-text";
     /**
      * @var string
      */
-    public String $blockquote_text_a = "blockquote-text-a";
+    private String $blockquote_text_a = "blockquote-text-a";
     /**
      * @var string
      */
-    public String $blockquote_text_a_href = "blockquote-text-a-href";
+    private String $blockquote_text_a_href = "blockquote-text-a-href";
     /**
      * @var string
      */
-    public String $blockquote_text_a_tooltip = "blockquote-text-a-tooltip";
+    private String $blockquote_text_a_tooltip = "blockquote-text-a-tooltip";
     /**
      * @var string
      */
-    public String $blockquote_footer = "blockquote-footer";
+    private String $blockquote_footer = "blockquote-footer";
     /**
      * @var string
      */
-    public String $blockquote_footer_cite = "blockquote-footer-cite";
+    private String $blockquote_footer_cite = "blockquote-footer-cite";
     /**
      * @var string
      */
-    public String $collapse_id = "collapse-id";
+    private String $collapse_id = "collapse-id";
     /**
      * @var string
      */
-    public String $fa_android = "fab fa-android";
+    private String $fa_android = "fab fa-android";
     /**
      * @var string
      */
-    public String $fa_blog = "fas fa-blog";
+    private String $fa_blog = "fas fa-blog";
     /**
      * @var string
      */
-    public String $fa_building = "fas fa-building";
+    private String $fa_building = "fas fa-building";
     /**
      * @var string
      */
-    public String $fa_chess_king = "fas fa-chess-king";
+    private String $fa_chess_king = "fas fa-chess-king";
     /**
      * @var string
      */
-    public String $fa_clipboard = "fas fa-clipboard";
+    private String $fa_clipboard = "fas fa-clipboard";
     /**
      * @var string
      */
-    public String $fa_clipboard_list = "fas fa-clipboard-list";
+    private String $fa_clipboard_list = "fas fa-clipboard-list";
     /**
      * @var string
      */
-    public String $fa_docker = "fab fa-docker";
+    private String $fa_docker = "fab fa-docker";
     /**
      * @var string
      */
-    public String $fa_folder_open = "fas fa-folder-open";
+    private String $fa_folder_open = "fas fa-folder-open";
     /**
      * @var string
      */
-    public String $fa_java = "fab fa-java";
+    private String $fa_java = "fab fa-java";
     /**
      * @var string
      */
-    public String $fa_mobile = "fas fa-mobile";
+    private String $fa_mobile = "fas fa-mobile";
     /**
      * @var string
      */
-    public String $fa_scroll = "fas fa-scroll";
+    private String $fa_scroll = "fas fa-scroll";
     /**
      * @var string
      */
-    public String $fa_search = "fas fa-search";
+    private String $fa_search = "fas fa-search";
     /**
      * @var string
      */
-    public String $fa_search_plus = "fas fa-search-plus";
+    private String $fa_search_plus = "fas fa-search-plus";
     /**
      * @var string
      */
-    public String $fa_seedling = "fas fa-seedling";
+    private String $fa_seedling = "fas fa-seedling";
     /**
      * @var string
      */
-    public String $fa_window_maximize = "fas fa-window-maximize";
+    private String $fa_window_maximize = "fas fa-window-maximize";
     /**
      * @var string
      */
-    public String $fa_window_restore = "fas fa-window-restore";
+    private String $fa_window_restore = "fas fa-window-restore";
     /**
      * @var string
      */
-    public String $header_id = "header-id";
+    private String $header_id = "header-id";
     /**
      * @var string
      */
-    public String $header_fontawesome = "header-fontawesome";
+    private String $header_fontawesome = "header-fontawesome";
     /**
      * @var string
      */
-    public String $header_titre = "header-titre";
+    private String $header_titre = "header-titre";
 
     /**
      * Retourne un tableau formaté contenant les données sur mes expériences professionnelles
@@ -163,6 +163,9 @@ class TexteExperiences
             ];
     }
 
+    /**
+     * @return array
+     */
     private function texteInformatiqueProjetsETGL():array
     {
         return
@@ -430,17 +433,25 @@ class TexteExperiences
             ];
     }
 
-    public function texteAccordion(): array
+    /**
+     * Retourne le tableau formaté final utilisé pour générer le rendu intégral.
+     *
+     * @return array
+     */
+    public function texteFinal(): array
     {
         return
             [
-                0 => $this->texteInformatiqueProfessionnel(),
-                1 => $this->texteInformatiqueProjetsETGL(),
-                2 => $this->texteInformatiqueProjetsM1Pro(),
-                3 => $this->texteInformatiqueProjetsL3Pro(),
-                4 => $this->texteInformatiqueDUT(),
-                5 => $this->texteInformatiqueProjetsPersonnels(),
-                6 => $this->texteAutres()
+                "arccordion-item" =>
+                [
+                    0 => $this->texteInformatiqueProfessionnel(),
+                    1 => $this->texteInformatiqueProjetsETGL(),
+                    2 => $this->texteInformatiqueProjetsM1Pro(),
+                    3 => $this->texteInformatiqueProjetsL3Pro(),
+                    4 => $this->texteInformatiqueDUT(),
+                    5 => $this->texteInformatiqueProjetsPersonnels(),
+                    6 => $this->texteAutres()
+                ]
             ];
     }
 }

@@ -1,6 +1,6 @@
 var class_sebastian_bergmann_1_1_complexity_1_1_complexity =
 [
-    [ "__construct", "class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a6a8bfcedad40dd908389849435ab866f", null ],
-    [ "cyclomaticComplexity", "class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9793d35cd7e79cd8151be32ca0e451b3", null ],
-    [ "name", "class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a4b516aaa5fa38da4fed24ab6001627e2", null ]
+    [ "__construct", "class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#aea4fe9f89caa34ff3b1df046cf5db4a3", null ],
+    [ "cyclomaticComplexity", "class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a757710d2a7aba0fd43b079f02c7156ab", null ],
+    [ "name", "class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9bdadbe2160043764960fa7e59139409", null ]
 ];

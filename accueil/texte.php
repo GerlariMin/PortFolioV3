@@ -11,6 +11,10 @@
          */
 
         /**
+         * @var array
+         */
+        private array $config;
+        /**
          * @var String line_id
          */
         private String $line_id = "line_id";
@@ -35,45 +39,62 @@
          */
         private String $spanSlow = "spanSlow";
 
+        public function __construct(array $config)
+        {
+            $this->config = $config;
+        }
+
         /**
          * Fonction texteLignes qui retourne un tableau formaté pour les différentes balises Mustache de la page d'accueil.
          *
-         * @param $config
          * @return array[]
          */
-        public function texteLignes($config): array
+        private function texteLignes(): array
         {
             return
                 [
                     0 =>
                         [
                             $this->line_id => "1",
-                            $this->line_left_content => $config['auteur']['nomComplet'],
-                            $this->line_right_content => $config['auteur']['nomComplet'],
+                            $this->line_left_content => $this->config['auteur']['nomComplet'],
+                            $this->line_right_content => $this->config['auteur']['nomComplet'],
                             $this->line_span_class => $this->spanSlow
                         ],
                     1 =>
                         [
                             $this->line_id =>  "2",
-                            $this->line_left_content => $config['auteur']['titre'],
-                            $this->line_right_content => $config['auteur']['titre'],
+                            $this->line_left_content => $this->config['auteur']['titre'],
+                            $this->line_right_content => $this->config['auteur']['titre'],
                             $this->line_span_class => $this->spanFast
                         ],
                     2 =>
                         [
                             $this->line_id => "3",
-                            $this->line_left_content => $config['auteur']['etablissement'],
-                            $this->line_right_content => $config['auteur']['etablissement'],
+                            $this->line_left_content => $this->config['auteur']['etablissement'],
+                            $this->line_right_content => $this->config['auteur']['etablissement'],
                             $this->line_span_class => $this->spanSlow
                         ],
                     3 =>
                         [
                             $this->line_id => "4",
-                            $this->line_left_content => $config['auteur']['annee'],
-                            $this->line_right_content => $config['auteur']['annee'],
+                            $this->line_left_content => $this->config['auteur']['annee'],
+                            $this->line_right_content => $this->config['auteur']['annee'],
                             $this->line_span_class => $this->spanFast
                         ]
                 ];
+        }
+
+        /**
+         * Retourne le tableau formaté final utilisé pour générer le rendu intégral.
+         *
+         * @return array
+         */
+        public function texteFinal():array
+        {
+            return
+            [
+                "line" => $this->texteLignes()
+            ];
         }
 
     }

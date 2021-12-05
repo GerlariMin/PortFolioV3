@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpspec/prophecy/src/Prophecy/Doubler/CachedDoubler.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpspec/prophecy/src/Prophecy/Doubler/CachedDoubler.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -107,7 +106,7 @@ $(document).ready(function(){initNavTree('_cached_doubler_8php_source.html','');
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> $classes = array();</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a33ece4af76302e33e81acfc979b8ad1d">   29</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a33ece4af76302e33e81acfc979b8ad1d">createDoubleClass</a>(ReflectionClass $class = <span class="keyword">null</span>, array $interfaces)</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a2dec42b0b26e37d27a9f81d8c6e57e3b">   29</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a2dec42b0b26e37d27a9f81d8c6e57e3b">createDoubleClass</a>(ReflectionClass $class = <span class="keyword">null</span>, array $interfaces)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        $classId = $this-&gt;generateClassId($class, $interfaces);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span> (isset(self::$classes[$classId])) {</div>
@@ -126,7 +125,7 @@ $(document).ready(function(){initNavTree('_cached_doubler_8php_source.html','');
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">foreach</span> ($interfaces as $interface) {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            $parts[] = $interface-&gt;getName();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">foreach</span> ($this-&gt;<a class="code" href="class_prophecy_1_1_doubler_1_1_doubler.html#ab73c2d1c9302d19ac828a0c88e18d42f">getClassPatches</a>() as $patch) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">foreach</span> ($this-&gt;<a class="code" href="class_prophecy_1_1_doubler_1_1_doubler.html#a710cb24de3e79220b50c1e2adad56f51">getClassPatches</a>() as $patch) {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            $parts[] = get_class($patch);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        sort($parts);</div>
@@ -134,16 +133,16 @@ $(document).ready(function(){initNavTree('_cached_doubler_8php_source.html','');
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> md5(implode(<span class="stringliteral">&#39;&#39;</span>, $parts));</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a5c57acc4276e59a760f9f24b7a07037b">   62</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a5c57acc4276e59a760f9f24b7a07037b">resetCache</a>()</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a2c961b941d29d726d425c95068e07233">   62</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a2c961b941d29d726d425c95068e07233">resetCache</a>()</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        self::$classes = array();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
 <div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_cached_doubler_html"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_cached_doubler.html">Prophecy\Doubler\CachedDoubler</a></div><div class="ttdef"><b>Definition:</b> <a href="_cached_doubler_8php_source.html#l00022">CachedDoubler.php:23</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_cached_doubler_html_a33ece4af76302e33e81acfc979b8ad1d"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a33ece4af76302e33e81acfc979b8ad1d">Prophecy\Doubler\CachedDoubler\createDoubleClass</a></div><div class="ttdeci">createDoubleClass(ReflectionClass $class=null, array $interfaces)</div><div class="ttdef"><b>Definition:</b> <a href="_cached_doubler_8php_source.html#l00029">CachedDoubler.php:29</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_cached_doubler_html_a5c57acc4276e59a760f9f24b7a07037b"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a5c57acc4276e59a760f9f24b7a07037b">Prophecy\Doubler\CachedDoubler\resetCache</a></div><div class="ttdeci">resetCache()</div><div class="ttdef"><b>Definition:</b> <a href="_cached_doubler_8php_source.html#l00062">CachedDoubler.php:62</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_cached_doubler_html_a2c961b941d29d726d425c95068e07233"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a2c961b941d29d726d425c95068e07233">Prophecy\Doubler\CachedDoubler\resetCache</a></div><div class="ttdeci">resetCache()</div><div class="ttdef"><b>Definition:</b> <a href="_cached_doubler_8php_source.html#l00062">CachedDoubler.php:62</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_cached_doubler_html_a2dec42b0b26e37d27a9f81d8c6e57e3b"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_cached_doubler.html#a2dec42b0b26e37d27a9f81d8c6e57e3b">Prophecy\Doubler\CachedDoubler\createDoubleClass</a></div><div class="ttdeci">createDoubleClass(ReflectionClass $class=null, array $interfaces)</div><div class="ttdef"><b>Definition:</b> <a href="_cached_doubler_8php_source.html#l00029">CachedDoubler.php:29</a></div></div>
 <div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_doubler_html"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_doubler.html">Prophecy\Doubler\Doubler</a></div><div class="ttdef"><b>Definition:</b> <a href="_doubler_8php_source.html#l00027">Doubler.php:28</a></div></div>
-<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_doubler_html_ab73c2d1c9302d19ac828a0c88e18d42f"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_doubler.html#ab73c2d1c9302d19ac828a0c88e18d42f">Prophecy\Doubler\Doubler\getClassPatches</a></div><div class="ttdeci">getClassPatches()</div><div class="ttdef"><b>Definition:</b> <a href="_doubler_8php_source.html#l00063">Doubler.php:63</a></div></div>
+<div class="ttc" id="aclass_prophecy_1_1_doubler_1_1_doubler_html_a710cb24de3e79220b50c1e2adad56f51"><div class="ttname"><a href="class_prophecy_1_1_doubler_1_1_doubler.html#a710cb24de3e79220b50c1e2adad56f51">Prophecy\Doubler\Doubler\getClassPatches</a></div><div class="ttdeci">getClassPatches()</div><div class="ttdef"><b>Definition:</b> <a href="_doubler_8php_source.html#l00063">Doubler.php:63</a></div></div>
 <div class="ttc" id="anamespace_prophecy_1_1_doubler_html"><div class="ttname"><a href="namespace_prophecy_1_1_doubler.html">Prophecy\Doubler</a></div><div class="ttdef"><b>Definition:</b> <a href="_cached_doubler_8php_source.html#l00012">CachedDoubler.php:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

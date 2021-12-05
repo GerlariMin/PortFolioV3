@@ -25,7 +25,7 @@
                     <div class="carousel-caption {{#carousel-caption-text}}{{carousel-caption-text}}{{/carousel-caption-text}}">
 
                     {{#carousel-caption-h1}}
-                        <h1>{{carousel-caption-h1}}</h1>
+                        <h1 {{#carousel-caption-h1-color}}class="text-{{carousel-caption-h1-color}}"{{/carousel-caption-h1-color}}>{{carousel-caption-h1}}</h1>
                     {{/carousel-caption-h1}}
                     {{#carousel-caption-p}}
                         <p>{{carousel-caption-p}}</p>
@@ -76,7 +76,7 @@
 
                 <div class="col-md-7 {{#featurette-reverse}}order-md-2{{/featurette-reverse}}">
                     {{#featurette-heading}}
-                        <h2 class="featurette-heading"> {{featurette-heading-h2}}
+                        <h2 class="featurette-heading{{#featurette-heading-h2-color}} text-{{featurette-heading-h2-color}}{{/featurette-heading-h2-color}}"> {{featurette-heading-h2}}
                             {{#featurette-heading-span}}<span class="text-muted">{{featurette-heading-span}}</span>{{/featurette-heading-span}}
                         </h2>
                     {{/featurette-heading}}

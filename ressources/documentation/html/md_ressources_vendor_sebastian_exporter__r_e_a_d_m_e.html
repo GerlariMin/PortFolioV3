@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: sebastian/exporter</title>
+<title>PortFolioV3: sebastian/exporter</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -90,13 +89,13 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_sebastian_exporte
 <div class="contents">
 <div class="textblock"><p><a href="https://github.com/sebastianbergmann/exporter/actions"><img src="https://github.com/sebastianbergmann/exporter/workflows/CI/badge.svg" alt="CI Status" style="pointer-events: none;" class="inline"/></a> <a href="https://shepherd.dev/github/sebastianbergmann/exporter"><img src="https://shepherd.dev/github/sebastianbergmann/exporter/coverage.svg" alt="Type Coverage" style="pointer-events: none;" class="inline"/></a></p>
 <p>This component provides the functionality to export PHP variables for visualization.</p>
-<h1><a class="anchor" id="autotoc_md1021"></a>
+<h1><a class="anchor" id="autotoc_md1022"></a>
 Installation</h1>
 <p>You can add this library as a local, per-project dependency to your project using <a href="https://getcomposer.org/">Composer</a>:</p>
 <div class="fragment"><div class="line">composer require sebastian/exporter</div>
 </div><!-- fragment --><p>If you only need this library during development, for instance to run your project's test suite, then you should add it as a development-time dependency:</p>
 <div class="fragment"><div class="line">composer require --dev sebastian/exporter</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md1022"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md1023"></a>
 Usage</h1>
 <p>Exporting:</p>
 <div class="fragment"><div class="line">&lt;?php</div>
@@ -115,10 +114,10 @@ Usage</h1>
 <div class="line"><span class="comment">)</span></div>
 <div class="line"><span class="comment">*/</span></div>
 <div class="line"> </div>
-<div class="line">print $exporter-&gt;<a class="code" href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#ac3e08a7045a8606223a3128f3899699f">export</a>(<span class="keyword">new</span> Exception);</div>
+<div class="line">print $exporter-&gt;<a class="code" href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#a475f8b4c5f21f87488fe11cf3ff0e625">export</a>(<span class="keyword">new</span> Exception);</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_exporter_1_1_exporter_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html">SebastianBergmann\Exporter\Exporter</a></div><div class="ttdef"><b>Definition:</b> <a href="_exporter_8php_source.html#l00047">Exporter.php:48</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_exporter_1_1_exporter_html_ac3e08a7045a8606223a3128f3899699f"><div class="ttname"><a href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#ac3e08a7045a8606223a3128f3899699f">SebastianBergmann\Exporter\Exporter\export</a></div><div class="ttdeci">export($value, $indentation=0)</div><div class="ttdef"><b>Definition:</b> <a href="_exporter_8php_source.html#l00066">Exporter.php:66</a></div></div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md1023"></a>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_exporter_1_1_exporter_html_a475f8b4c5f21f87488fe11cf3ff0e625"><div class="ttname"><a href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#a475f8b4c5f21f87488fe11cf3ff0e625">SebastianBergmann\Exporter\Exporter\export</a></div><div class="ttdeci">export($value, $indentation=0)</div><div class="ttdef"><b>Definition:</b> <a href="_exporter_8php_source.html#l00066">Exporter.php:66</a></div></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md1024"></a>
 Data Types</h1>
 <p>Exporting simple types:</p>
 <div class="fragment"><div class="line">&lt;?php</div>
@@ -127,7 +126,7 @@ Data Types</h1>
 <div class="line">$exporter = <span class="keyword">new</span> Exporter;</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// 46</span></div>
-<div class="line">print $exporter-&gt;<a class="code" href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#ac3e08a7045a8606223a3128f3899699f">export</a>(46);</div>
+<div class="line">print $exporter-&gt;<a class="code" href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#a475f8b4c5f21f87488fe11cf3ff0e625">export</a>(46);</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// 4.0</span></div>
 <div class="line">print $exporter-&gt;export(4.0);</div>
@@ -173,7 +172,7 @@ Data Types</h1>
 <div class="line"><span class="comment">)</span></div>
 <div class="line"><span class="comment">*/</span></div>
 <div class="line"> </div>
-<div class="line">print $exporter-&gt;<a class="code" href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#ac3e08a7045a8606223a3128f3899699f">export</a>(array(array(1,2,3), array(<span class="stringliteral">&quot;&quot;</span>,0,FALSE)));</div>
+<div class="line">print $exporter-&gt;<a class="code" href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#a475f8b4c5f21f87488fe11cf3ff0e625">export</a>(array(array(1,2,3), array(<span class="stringliteral">&quot;&quot;</span>,0,FALSE)));</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">/*</span></div>
 <div class="line"><span class="comment">Array &amp;0 (</span></div>
@@ -203,7 +202,7 @@ Data Types</h1>
 <div class="line">$exporter = <span class="keyword">new</span> Exporter;</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Array ()</span></div>
-<div class="line">print $exporter-&gt;<a class="code" href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#a2b6cd7fb6130ef59e058429cdcca5bd2">shortenedExport</a>(array());</div>
+<div class="line">print $exporter-&gt;<a class="code" href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#a8a626e5a83786ee4e9b798591f57ff8c">shortenedExport</a>(array());</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">// Array (...)</span></div>
 <div class="line">print $exporter-&gt;shortenedExport(array(1,2,3,4,5));</div>
@@ -236,7 +235,7 @@ Data Types</h1>
 <div class="line">space</div>
 <div class="line">LONG_STRING</div>
 <div class="line">);</div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_exporter_1_1_exporter_html_a2b6cd7fb6130ef59e058429cdcca5bd2"><div class="ttname"><a href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#a2b6cd7fb6130ef59e058429cdcca5bd2">SebastianBergmann\Exporter\Exporter\shortenedExport</a></div><div class="ttdeci">shortenedExport($value)</div><div class="ttdef"><b>Definition:</b> <a href="_exporter_8php_source.html#l00120">Exporter.php:120</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_exporter_1_1_exporter_html_a8a626e5a83786ee4e9b798591f57ff8c"><div class="ttname"><a href="class_sebastian_bergmann_1_1_exporter_1_1_exporter.html#a8a626e5a83786ee4e9b798591f57ff8c">SebastianBergmann\Exporter\Exporter\shortenedExport</a></div><div class="ttdeci">shortenedExport($value)</div><div class="ttdef"><b>Definition:</b> <a href="_exporter_8php_source.html#l00120">Exporter.php:120</a></div></div>
 </div><!-- fragment --> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

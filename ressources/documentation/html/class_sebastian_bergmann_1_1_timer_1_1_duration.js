@@ -1,8 +1,8 @@
 var class_sebastian_bergmann_1_1_timer_1_1_duration =
 [
-    [ "asMicroseconds", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#ae2f0b19186de9119ebd766a5cfdab49c", null ],
-    [ "asMilliseconds", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#a43acbf420b6a23a8c5b2e65795f9b50b", null ],
-    [ "asNanoseconds", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#a4a2040755634f862de032ce10d0b535b", null ],
-    [ "asSeconds", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#ab8cb6c7deaa457b4942eeb3463f4c3d7", null ],
-    [ "asString", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#aa1a17ab79247b7e7d740bb55e13cab14", null ]
+    [ "asMicroseconds", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#a429f7a1d9845d024960f875c47532d80", null ],
+    [ "asMilliseconds", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#a082f12f5365c3ec4adcf8b24d12b5893", null ],
+    [ "asNanoseconds", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#a984cd08e5685ad6eaa5b7cad822db1c2", null ],
+    [ "asSeconds", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#ab75bcf067526b5036d0068aa5e657ae6", null ],
+    [ "asString", "class_sebastian_bergmann_1_1_timer_1_1_duration.html#a2ab2bd15240799369a09e938df515ed9", null ]
 ];

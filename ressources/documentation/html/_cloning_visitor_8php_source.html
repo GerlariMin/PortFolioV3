@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/CloningVisitor.php Source File</title>
+<title>PortFolioV3: ressources/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/CloningVisitor.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -97,17 +96,17 @@ $(document).ready(function(){initNavTree('_cloning_visitor_8php_source.html','')
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html">CloningVisitor</a> <span class="keyword">extends</span> <a class="code" href="class_php_parser_1_1_node_visitor_abstract.html">NodeVisitorAbstract</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html#a25ef32b8b5406ef04d6033cd9baa5b92">   15</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html#a25ef32b8b5406ef04d6033cd9baa5b92">enterNode</a>(<a class="code" href="interface_php_parser_1_1_node.html">Node</a> $origNode) {</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html#a239b5723f4a386eaedce1b8d52b7ff5e">   15</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html#a239b5723f4a386eaedce1b8d52b7ff5e">enterNode</a>(<a class="code" href="interface_php_parser_1_1_node.html">Node</a> $origNode) {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        $node = clone $origNode;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        $node-&gt;<a class="code" href="interface_php_parser_1_1_node.html#a5d036ff8a979c733d4b44be513ebff63">setAttribute</a>(<span class="stringliteral">&#39;origNode&#39;</span>, $origNode);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        $node-&gt;<a class="code" href="interface_php_parser_1_1_node.html#ae2cc250feb4d0372b10a9da649741ee5">setAttribute</a>(<span class="stringliteral">&#39;origNode&#39;</span>, $origNode);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">return</span> $node;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 <div class="ttc" id="aclass_php_parser_1_1_node_visitor_1_1_cloning_visitor_html"><div class="ttname"><a href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html">PhpParser\NodeVisitor\CloningVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_cloning_visitor_8php_source.html#l00013">CloningVisitor.php:14</a></div></div>
-<div class="ttc" id="aclass_php_parser_1_1_node_visitor_1_1_cloning_visitor_html_a25ef32b8b5406ef04d6033cd9baa5b92"><div class="ttname"><a href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html#a25ef32b8b5406ef04d6033cd9baa5b92">PhpParser\NodeVisitor\CloningVisitor\enterNode</a></div><div class="ttdeci">enterNode(Node $origNode)</div><div class="ttdef"><b>Definition:</b> <a href="_cloning_visitor_8php_source.html#l00015">CloningVisitor.php:15</a></div></div>
+<div class="ttc" id="aclass_php_parser_1_1_node_visitor_1_1_cloning_visitor_html_a239b5723f4a386eaedce1b8d52b7ff5e"><div class="ttname"><a href="class_php_parser_1_1_node_visitor_1_1_cloning_visitor.html#a239b5723f4a386eaedce1b8d52b7ff5e">PhpParser\NodeVisitor\CloningVisitor\enterNode</a></div><div class="ttdeci">enterNode(Node $origNode)</div><div class="ttdef"><b>Definition:</b> <a href="_cloning_visitor_8php_source.html#l00015">CloningVisitor.php:15</a></div></div>
 <div class="ttc" id="aclass_php_parser_1_1_node_visitor_abstract_html"><div class="ttname"><a href="class_php_parser_1_1_node_visitor_abstract.html">PhpParser\NodeVisitorAbstract</a></div><div class="ttdef"><b>Definition:</b> <a href="_node_visitor_abstract_8php_source.html#l00008">NodeVisitorAbstract.php:9</a></div></div>
 <div class="ttc" id="ainterface_php_parser_1_1_node_html"><div class="ttname"><a href="interface_php_parser_1_1_node.html">PhpParser\Node</a></div><div class="ttdef"><b>Definition:</b> <a href="nikic_2php-parser_2lib_2_php_parser_2_node_8php_source.html#l00005">Node.php:6</a></div></div>
-<div class="ttc" id="ainterface_php_parser_1_1_node_html_a5d036ff8a979c733d4b44be513ebff63"><div class="ttname"><a href="interface_php_parser_1_1_node.html#a5d036ff8a979c733d4b44be513ebff63">PhpParser\Node\setAttribute</a></div><div class="ttdeci">setAttribute(string $key, $value)</div></div>
+<div class="ttc" id="ainterface_php_parser_1_1_node_html_ae2cc250feb4d0372b10a9da649741ee5"><div class="ttname"><a href="interface_php_parser_1_1_node.html#ae2cc250feb4d0372b10a9da649741ee5">PhpParser\Node\setAttribute</a></div><div class="ttdeci">setAttribute(string $key, $value)</div></div>
 <div class="ttc" id="anamespace_php_parser_1_1_node_html"><div class="ttname"><a href="namespace_php_parser_1_1_node.html">PhpParser\Node</a></div><div class="ttdef"><b>Definition:</b> <a href="_arg_8php_source.html#l00003">Arg.php:3</a></div></div>
 <div class="ttc" id="anamespace_php_parser_1_1_node_visitor_html"><div class="ttname"><a href="namespace_php_parser_1_1_node_visitor.html">PhpParser\NodeVisitor</a></div><div class="ttdef"><b>Definition:</b> <a href="_cloning_visitor_8php_source.html#l00003">CloningVisitor.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

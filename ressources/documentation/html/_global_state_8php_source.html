@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Util/GlobalState.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Util/GlobalState.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -128,12 +127,12 @@ $(document).ready(function(){initNavTree('_global_state_8php_source.html',''); i
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="stringliteral">&#39;_REQUEST&#39;</span>,</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    ];</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#abc27fa88baf584e0a34b6529f397f290">   50</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#abc27fa88baf584e0a34b6529f397f290">getIncludedFilesAsString</a>(): string</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a38096a0cb4e95c62ff55dca9782766fa">   50</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a38096a0cb4e95c62ff55dca9782766fa">getIncludedFilesAsString</a>(): string</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a90e12f63ce3df81a029a462cc0b01ddf">self::processIncludedFilesAsString</a>(get_included_files());</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a1d3c6eeac15ea1e62190e2bd3fe909d1">self::processIncludedFilesAsString</a>(get_included_files());</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a90e12f63ce3df81a029a462cc0b01ddf">   60</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a90e12f63ce3df81a029a462cc0b01ddf">processIncludedFilesAsString</a>(array $files): string</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a1d3c6eeac15ea1e62190e2bd3fe909d1">   60</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a1d3c6eeac15ea1e62190e2bd3fe909d1">processIncludedFilesAsString</a>(array $files): string</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        $excludeList = <span class="keyword">new</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html">ExcludeList</a>;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        $prefix      = <span class="keyword">false</span>;</div>
@@ -169,7 +168,7 @@ $(document).ready(function(){initNavTree('_global_state_8php_source.html',''); i
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">return</span> $result;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#afb71e18e570bbe1896653880bff7db6d">   96</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#afb71e18e570bbe1896653880bff7db6d">getIniSettingsAsString</a>(): string</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ae36692b28e2cf0c550d57cb48f9cdd4b">   96</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ae36692b28e2cf0c550d57cb48f9cdd4b">getIniSettingsAsString</a>(): string</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    {</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        $result = <span class="stringliteral">&#39;&#39;</span>;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
@@ -184,7 +183,7 @@ $(document).ready(function(){initNavTree('_global_state_8php_source.html',''); i
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> $result;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
-<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ae53dadd0f7682fac99d4882017936caa">  111</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ae53dadd0f7682fac99d4882017936caa">getConstantsAsString</a>(): string</div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ab752f09b04c2275489714fd5c8081c79">  111</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ab752f09b04c2275489714fd5c8081c79">getConstantsAsString</a>(): string</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    {</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        $constants = get_defined_constants(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        $result    = <span class="stringliteral">&#39;&#39;</span>;</div>
@@ -203,7 +202,7 @@ $(document).ready(function(){initNavTree('_global_state_8php_source.html',''); i
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span> $result;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; </div>
-<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a54b637f53d26c8b49f86c515d0673159">  130</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a54b637f53d26c8b49f86c515d0673159">getGlobalsAsString</a>(): string</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a12e50fd63941dd9a0cc7f0eeff2d1f07">  130</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a12e50fd63941dd9a0cc7f0eeff2d1f07">getGlobalsAsString</a>(): string</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    {</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        $result = <span class="stringliteral">&#39;&#39;</span>;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
@@ -272,11 +271,11 @@ $(document).ready(function(){initNavTree('_global_state_8php_source.html',''); i
 <div class="ttc" id="abuild__bootstrap_8php_html_aa1bfbd27060176201b271918dff57e8f"><div class="ttname"><a href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a></div><div class="ttdeci">$file</div><div class="ttdef"><b>Definition:</b> <a href="build__bootstrap_8php_source.html#l00029">build_bootstrap.php:29</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_exclude_list_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html">PHPUnit\Util\ExcludeList</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_exclude_list_8php_source.html#l00061">ExcludeList.php:62</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html">PHPUnit\Util\GlobalState</a></div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00032">GlobalState.php:33</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_a54b637f53d26c8b49f86c515d0673159"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a54b637f53d26c8b49f86c515d0673159">PHPUnit\Util\GlobalState\getGlobalsAsString</a></div><div class="ttdeci">static getGlobalsAsString()</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00130">GlobalState.php:130</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_a90e12f63ce3df81a029a462cc0b01ddf"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a90e12f63ce3df81a029a462cc0b01ddf">PHPUnit\Util\GlobalState\processIncludedFilesAsString</a></div><div class="ttdeci">static processIncludedFilesAsString(array $files)</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00060">GlobalState.php:60</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_abc27fa88baf584e0a34b6529f397f290"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#abc27fa88baf584e0a34b6529f397f290">PHPUnit\Util\GlobalState\getIncludedFilesAsString</a></div><div class="ttdeci">static getIncludedFilesAsString()</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00050">GlobalState.php:50</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_ae53dadd0f7682fac99d4882017936caa"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ae53dadd0f7682fac99d4882017936caa">PHPUnit\Util\GlobalState\getConstantsAsString</a></div><div class="ttdeci">static getConstantsAsString()</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00111">GlobalState.php:111</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_afb71e18e570bbe1896653880bff7db6d"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#afb71e18e570bbe1896653880bff7db6d">PHPUnit\Util\GlobalState\getIniSettingsAsString</a></div><div class="ttdeci">static getIniSettingsAsString()</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00096">GlobalState.php:96</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_a12e50fd63941dd9a0cc7f0eeff2d1f07"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a12e50fd63941dd9a0cc7f0eeff2d1f07">PHPUnit\Util\GlobalState\getGlobalsAsString</a></div><div class="ttdeci">static getGlobalsAsString()</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00130">GlobalState.php:130</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_a1d3c6eeac15ea1e62190e2bd3fe909d1"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a1d3c6eeac15ea1e62190e2bd3fe909d1">PHPUnit\Util\GlobalState\processIncludedFilesAsString</a></div><div class="ttdeci">static processIncludedFilesAsString(array $files)</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00060">GlobalState.php:60</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_a38096a0cb4e95c62ff55dca9782766fa"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#a38096a0cb4e95c62ff55dca9782766fa">PHPUnit\Util\GlobalState\getIncludedFilesAsString</a></div><div class="ttdeci">static getIncludedFilesAsString()</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00050">GlobalState.php:50</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_ab752f09b04c2275489714fd5c8081c79"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ab752f09b04c2275489714fd5c8081c79">PHPUnit\Util\GlobalState\getConstantsAsString</a></div><div class="ttdeci">static getConstantsAsString()</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00111">GlobalState.php:111</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_global_state_html_ae36692b28e2cf0c550d57cb48f9cdd4b"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_global_state.html#ae36692b28e2cf0c550d57cb48f9cdd4b">PHPUnit\Util\GlobalState\getIniSettingsAsString</a></div><div class="ttdeci">static getIniSettingsAsString()</div><div class="ttdef"><b>Definition:</b> <a href="_global_state_8php_source.html#l00096">GlobalState.php:96</a></div></div>
 <div class="ttc" id="aclass_php_parser_1_1_node_1_1_expr_1_1_closure_html"><div class="ttname"><a href="class_php_parser_1_1_node_1_1_expr_1_1_closure.html">PhpParser\Node\Expr\Closure</a></div><div class="ttdef"><b>Definition:</b> <a href="_closure_8php_source.html#l00009">Closure.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

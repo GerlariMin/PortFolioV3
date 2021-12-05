@@ -1,9 +1,9 @@
 var class_php_parser_1_1_node_1_1_expr_1_1_ternary =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#abe8d55b3a8bcc3654f8bb1a4894b5fc1", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "$cond", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#a69797a95f7c668470e5eafed3ebf7706", null ],
-    [ "$else", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#ac02b5e5f9c3377d52c2265ceb0413597", null ],
-    [ "$if", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#a22930c7a7b87b9a5271800da2691b4b3", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#ae5b6cf58bfd5e9fabdcf1c8d362a5715", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#a6efab28ac439469167335f7739f2ea11", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#aa7cca8626fe2485763f61ff8e578c3ad", null ],
+    [ "$cond", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#abeac10b11514f0ce993789f687977b11", null ],
+    [ "$else", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#a94a5dec482f4520f1d53060e09f0853f", null ],
+    [ "$if", "class_php_parser_1_1_node_1_1_expr_1_1_ternary.html#aebd394b5925a928d7e42500864f47c65", null ]
 ];

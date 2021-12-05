@@ -1,7 +1,7 @@
 var class_prophecy_1_1_argument_1_1_token_1_1_type_token =
 [
-    [ "__construct", "class_prophecy_1_1_argument_1_1_token_1_1_type_token.html#ac395571e7767c80119b30cf2e5087c59", null ],
-    [ "__toString", "class_prophecy_1_1_argument_1_1_token_1_1_type_token.html#a7516ca30af0db3cdbf9a7739b48ce91d", null ],
-    [ "isLast", "class_prophecy_1_1_argument_1_1_token_1_1_type_token.html#ac72b8349b1340887fc1af30eca2b951c", null ],
-    [ "scoreArgument", "class_prophecy_1_1_argument_1_1_token_1_1_type_token.html#a8d5bf47ab6eaa935458d5ad160e52822", null ]
+    [ "__construct", "class_prophecy_1_1_argument_1_1_token_1_1_type_token.html#a0c19a06898fd6e25778a2d3f766ca366", null ],
+    [ "__toString", "class_prophecy_1_1_argument_1_1_token_1_1_type_token.html#adea930a7c1b5d7c3a31526cb04737b4c", null ],
+    [ "isLast", "class_prophecy_1_1_argument_1_1_token_1_1_type_token.html#aacd8a2eec7c970072f186852e3a42e0f", null ],
+    [ "scoreArgument", "class_prophecy_1_1_argument_1_1_token_1_1_type_token.html#ad7aaa7bdb3c6e91b565892e778a6b672", null ]
 ];

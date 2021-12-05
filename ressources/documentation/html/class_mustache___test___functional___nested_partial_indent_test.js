@@ -1,5 +1,5 @@
 var class_mustache___test___functional___nested_partial_indent_test =
 [
-    [ "partialsAndStuff", "class_mustache___test___functional___nested_partial_indent_test.html#a1ddccb4db329b5270e9d1023fb7dda59", null ],
-    [ "testNestedPartialsAreIndentedProperly", "class_mustache___test___functional___nested_partial_indent_test.html#a917a25b285ce3a488965dba78b073ded", null ]
+    [ "partialsAndStuff", "class_mustache___test___functional___nested_partial_indent_test.html#a64985f251629c722b51edf27064c9c5a", null ],
+    [ "testNestedPartialsAreIndentedProperly", "class_mustache___test___functional___nested_partial_indent_test.html#a2c06cd0c540266560def3420cb767a26", null ]
 ];

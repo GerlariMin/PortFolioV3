@@ -1,9 +1,9 @@
 <?php
 
     /**
-     * Class Traitement_Parcours
+     * Class TraitementParcours
      */
-    class Traitement_Parcours
+    class TraitementParcours
     {
 
         /**
@@ -14,35 +14,30 @@
          * @var array
          */
         private array $config;
+        /**
+         * @var TexteParcours
+         */
+        private TexteParcours $texte;
 
         /**
          * Traitement_Parcours constructor.
          *
-         * @param $print
+         * @param Render $rendu
          */
-        public function __construct($print)
+        public function __construct(Render $rendu)
         {
-            $this->render = $print;
+            $this->render = $rendu;
             global $config;
             $this->config = $config;
-        }
-
-        /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage de la page de parcours.
-         *
-         * @return array[]
-         */
-        public function traitement_featurette(): array
-        {
-            return $this->config['parcours']['featurette'];
+            $this->texte = new TexteParcours();
         }
 
         /**
          * Affichage de la page parcours.
          */
-        public function traitement_toRender()
+        public function traitementRendu()
         {
-            $data['featurette'] = $this->traitement_featurette();
+            $data = $this->texte->texteFinal();
 
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['parcours'] = true;

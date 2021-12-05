@@ -1,6 +1,6 @@
 var class_mustache___test___loader___array_loader_test =
 [
-    [ "testConstructor", "class_mustache___test___loader___array_loader_test.html#a47094dc941e72950570900d1418f89c6", null ],
-    [ "testMissingTemplatesThrowExceptions", "class_mustache___test___loader___array_loader_test.html#ac0e8664ea5326c77720c43bd784ef4b5", null ],
-    [ "testSetAndLoadTemplates", "class_mustache___test___loader___array_loader_test.html#a35b502ef5bb51ee80e72fefc7f6399d1", null ]
+    [ "testConstructor", "class_mustache___test___loader___array_loader_test.html#ae945523fdb3d364fe52070e27f1fc692", null ],
+    [ "testMissingTemplatesThrowExceptions", "class_mustache___test___loader___array_loader_test.html#aa3a9659458bfefd9a6ccda42e6ed0e20", null ],
+    [ "testSetAndLoadTemplates", "class_mustache___test___loader___array_loader_test.html#aaa52c9bd3b90ce4cd6cd7d1fea49ef71", null ]
 ];

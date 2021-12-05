@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/sebastian/comparator/src/ResourceComparator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/sebastian/comparator/src/ResourceComparator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -103,12 +102,12 @@ $(document).ready(function(){initNavTree('_resource_comparator_8php_source.html'
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html">ResourceComparator</a> <span class="keyword">extends</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_comparator.html">Comparator</a></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">accepts</a>($expected, $actual)</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#a4f7b5f16ffd2c1f75cdc2d754659976f">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#a4f7b5f16ffd2c1f75cdc2d754659976f">accepts</a>($expected, $actual)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> is_resource($expected) &amp;&amp; is_resource($actual);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#adb3679ea06503114394431cb250ec5a4">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#adb3679ea06503114394431cb250ec5a4">assertEquals</a>($expected, $actual, $delta = 0.0, $canonicalize = <span class="keyword">false</span>, $ignoreCase = <span class="keyword">false</span>)<span class="comment">/*: void*/</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#a5349209a07a6ef8d9b449f7ef619ed80">   43</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#a5349209a07a6ef8d9b449f7ef619ed80">assertEquals</a>($expected, $actual, $delta = 0.0, $canonicalize = <span class="keyword">false</span>, $ignoreCase = <span class="keyword">false</span>)<span class="comment">/*: void*/</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">if</span> ($actual != $expected) {</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_comparison_failure.html">ComparisonFailure</a>(</div>
@@ -123,8 +122,8 @@ $(document).ready(function(){initNavTree('_resource_comparator_8php_source.html'
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_comparator_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_comparator.html">SebastianBergmann\Comparator\Comparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_comparator_8php_source.html#l00017">Comparator.php:18</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_comparison_failure_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_comparison_failure.html">SebastianBergmann\Comparator\ComparisonFailure</a></div><div class="ttdef"><b>Definition:</b> <a href="_comparison_failure_8php_source.html#l00019">ComparisonFailure.php:20</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_resource_comparator_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html">SebastianBergmann\Comparator\ResourceComparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_resource_comparator_8php_source.html#l00017">ResourceComparator.php:18</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_resource_comparator_html_adb3679ea06503114394431cb250ec5a4"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#adb3679ea06503114394431cb250ec5a4">SebastianBergmann\Comparator\ResourceComparator\assertEquals</a></div><div class="ttdeci">assertEquals($expected, $actual, $delta=0.0, $canonicalize=false, $ignoreCase=false)</div><div class="ttdef"><b>Definition:</b> <a href="_resource_comparator_8php_source.html#l00043">ResourceComparator.php:43</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_resource_comparator_html_ae9bdf0cba02ce3470169280656cdeb84"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">SebastianBergmann\Comparator\ResourceComparator\accepts</a></div><div class="ttdeci">accepts($expected, $actual)</div><div class="ttdef"><b>Definition:</b> <a href="_resource_comparator_8php_source.html#l00027">ResourceComparator.php:27</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_resource_comparator_html_a4f7b5f16ffd2c1f75cdc2d754659976f"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#a4f7b5f16ffd2c1f75cdc2d754659976f">SebastianBergmann\Comparator\ResourceComparator\accepts</a></div><div class="ttdeci">accepts($expected, $actual)</div><div class="ttdef"><b>Definition:</b> <a href="_resource_comparator_8php_source.html#l00027">ResourceComparator.php:27</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_resource_comparator_html_a5349209a07a6ef8d9b449f7ef619ed80"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#a5349209a07a6ef8d9b449f7ef619ed80">SebastianBergmann\Comparator\ResourceComparator\assertEquals</a></div><div class="ttdeci">assertEquals($expected, $actual, $delta=0.0, $canonicalize=false, $ignoreCase=false)</div><div class="ttdef"><b>Definition:</b> <a href="_resource_comparator_8php_source.html#l00043">ResourceComparator.php:43</a></div></div>
 <div class="ttc" id="anamespace_sebastian_bergmann_1_1_comparator_html"><div class="ttname"><a href="namespace_sebastian_bergmann_1_1_comparator.html">SebastianBergmann\Comparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_array_comparator_8php_source.html#l00010">ArrayComparator.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

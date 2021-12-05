@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/mustache/mustache/test/Mustache/Test/FunctionalTestCase.php Source File</title>
+<title>PortFolioV3: ressources/vendor/mustache/mustache/test/Mustache/Test/FunctionalTestCase.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -101,17 +100,17 @@ $(document).ready(function(){initNavTree('_functional_test_case_8php_source.html
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_mustache___test___functional_test_case.html">   12</a></span>&#160;<span class="keyword">abstract</span> <span class="keyword">class </span><a class="code" href="class_mustache___test___functional_test_case.html">Mustache_Test_FunctionalTestCase</a> <span class="keyword">extends</span> PHPUnit_Framework_TestCase</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_mustache___test___functional_test_case.html#ad43ebed35607a83896793c9536fb1b94">   14</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <a class="code" href="class_mustache___test___functional_test_case.html#ad43ebed35607a83896793c9536fb1b94">$tempDir</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_mustache___test___functional_test_case.html#afb3151339e614c0e17cdc98f8a03a7ab">   14</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <a class="code" href="class_mustache___test___functional_test_case.html#afb3151339e614c0e17cdc98f8a03a7ab">$tempDir</a>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_mustache___test___functional_test_case.html#a80ef9eb20e7443b38276fb4647985fb7">   16</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___functional_test_case.html#a80ef9eb20e7443b38276fb4647985fb7">setUpBeforeClass</a>()</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_mustache___test___functional_test_case.html#ad44ee38fa72a48e170e84de9369e8926">   16</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___functional_test_case.html#ad44ee38fa72a48e170e84de9369e8926">setUpBeforeClass</a>()</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        self::$tempDir = sys_get_temp_dir() . <span class="stringliteral">&#39;/mustache_test&#39;</span>;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">if</span> (file_exists(self::$tempDir)) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="class_mustache___test___functional_test_case.html#aaf236f29e20d6172ea64580902f911eb">self::rmdir</a>(self::$tempDir);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="class_mustache___test___functional_test_case.html#ae3abb9b1a9d182d4392117ca2a549476">self::rmdir</a>(self::$tempDir);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_mustache___test___functional_test_case.html#aaf236f29e20d6172ea64580902f911eb">   27</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___functional_test_case.html#aaf236f29e20d6172ea64580902f911eb">rmdir</a>($path)</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_mustache___test___functional_test_case.html#ae3abb9b1a9d182d4392117ca2a549476">   27</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_mustache___test___functional_test_case.html#ae3abb9b1a9d182d4392117ca2a549476">rmdir</a>($path)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        $path = rtrim($path, <span class="charliteral">&#39;/&#39;</span>) . <span class="charliteral">&#39;/&#39;</span>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        $handle = opendir($path);</div>
@@ -122,21 +121,21 @@ $(document).ready(function(){initNavTree('_functional_test_case_8php_source.html
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            $fullpath = $path . <a class="code" href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">if</span> (is_dir($fullpath)) {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <a class="code" href="class_mustache___test___functional_test_case.html#aaf236f29e20d6172ea64580902f911eb">self::rmdir</a>($fullpath);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <a class="code" href="class_mustache___test___functional_test_case.html#ae3abb9b1a9d182d4392117ca2a549476">self::rmdir</a>($fullpath);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                unlink($fullpath);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        closedir($handle);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="class_mustache___test___functional_test_case.html#aaf236f29e20d6172ea64580902f911eb">rmdir</a>($path);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="class_mustache___test___functional_test_case.html#ae3abb9b1a9d182d4392117ca2a549476">rmdir</a>($path);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
 <div class="ttc" id="abuild__bootstrap_8php_html_aa1bfbd27060176201b271918dff57e8f"><div class="ttname"><a href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a></div><div class="ttdeci">$file</div><div class="ttdef"><b>Definition:</b> <a href="build__bootstrap_8php_source.html#l00029">build_bootstrap.php:29</a></div></div>
 <div class="ttc" id="aclass_mustache___test___functional_test_case_html"><div class="ttname"><a href="class_mustache___test___functional_test_case.html">Mustache_Test_FunctionalTestCase</a></div><div class="ttdef"><b>Definition:</b> <a href="_functional_test_case_8php_source.html#l00012">FunctionalTestCase.php:13</a></div></div>
-<div class="ttc" id="aclass_mustache___test___functional_test_case_html_a80ef9eb20e7443b38276fb4647985fb7"><div class="ttname"><a href="class_mustache___test___functional_test_case.html#a80ef9eb20e7443b38276fb4647985fb7">Mustache_Test_FunctionalTestCase\setUpBeforeClass</a></div><div class="ttdeci">static setUpBeforeClass()</div><div class="ttdef"><b>Definition:</b> <a href="_functional_test_case_8php_source.html#l00016">FunctionalTestCase.php:16</a></div></div>
-<div class="ttc" id="aclass_mustache___test___functional_test_case_html_aaf236f29e20d6172ea64580902f911eb"><div class="ttname"><a href="class_mustache___test___functional_test_case.html#aaf236f29e20d6172ea64580902f911eb">Mustache_Test_FunctionalTestCase\rmdir</a></div><div class="ttdeci">static rmdir($path)</div><div class="ttdef"><b>Definition:</b> <a href="_functional_test_case_8php_source.html#l00027">FunctionalTestCase.php:27</a></div></div>
-<div class="ttc" id="aclass_mustache___test___functional_test_case_html_ad43ebed35607a83896793c9536fb1b94"><div class="ttname"><a href="class_mustache___test___functional_test_case.html#ad43ebed35607a83896793c9536fb1b94">Mustache_Test_FunctionalTestCase\$tempDir</a></div><div class="ttdeci">static $tempDir</div><div class="ttdef"><b>Definition:</b> <a href="_functional_test_case_8php_source.html#l00014">FunctionalTestCase.php:14</a></div></div>
+<div class="ttc" id="aclass_mustache___test___functional_test_case_html_ad44ee38fa72a48e170e84de9369e8926"><div class="ttname"><a href="class_mustache___test___functional_test_case.html#ad44ee38fa72a48e170e84de9369e8926">Mustache_Test_FunctionalTestCase\setUpBeforeClass</a></div><div class="ttdeci">static setUpBeforeClass()</div><div class="ttdef"><b>Definition:</b> <a href="_functional_test_case_8php_source.html#l00016">FunctionalTestCase.php:16</a></div></div>
+<div class="ttc" id="aclass_mustache___test___functional_test_case_html_ae3abb9b1a9d182d4392117ca2a549476"><div class="ttname"><a href="class_mustache___test___functional_test_case.html#ae3abb9b1a9d182d4392117ca2a549476">Mustache_Test_FunctionalTestCase\rmdir</a></div><div class="ttdeci">static rmdir($path)</div><div class="ttdef"><b>Definition:</b> <a href="_functional_test_case_8php_source.html#l00027">FunctionalTestCase.php:27</a></div></div>
+<div class="ttc" id="aclass_mustache___test___functional_test_case_html_afb3151339e614c0e17cdc98f8a03a7ab"><div class="ttname"><a href="class_mustache___test___functional_test_case.html#afb3151339e614c0e17cdc98f8a03a7ab">Mustache_Test_FunctionalTestCase\$tempDir</a></div><div class="ttdeci">static $tempDir</div><div class="ttdef"><b>Definition:</b> <a href="_functional_test_case_8php_source.html#l00014">FunctionalTestCase.php:14</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: cv/traitement.php Source File</title>
+<title>PortFolioV3: cv/traitement.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -96,14 +95,14 @@ $(document).ready(function(){initNavTree('cv_2traitement_8php_source.html',''); 
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">private</span> <a class="code" href="class_render.html">Render</a> $render;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">private</span> array $config;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_traitement___c_v.html#af8bc883cd0edfdb65dcefe5ac119f90a">   23</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___c_v.html#af8bc883cd0edfdb65dcefe5ac119f90a">__construct</a>($print)</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_traitement___c_v.html#aaaaadcfc3808086f35c5fe9b06e709c5">   23</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___c_v.html#aaaaadcfc3808086f35c5fe9b06e709c5">__construct</a>($print)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            $this-&gt;render = $print;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            global <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            $this-&gt;config = <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_traitement___c_v.html#a0400c9c38bc43a3131e5b04f9c680a25">   33</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___c_v.html#a0400c9c38bc43a3131e5b04f9c680a25">traitement_toRender</a>(): void</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_traitement___c_v.html#a14e9a6a92e8d2d7fc1d206beca259f3d">   33</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___c_v.html#a14e9a6a92e8d2d7fc1d206beca259f3d">traitement_toRender</a>(): void</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            $data[<span class="stringliteral">&#39;chemin&#39;</span>] = $this-&gt;config[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>];</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            $data[<span class="stringliteral">&#39;cv&#39;</span>] = <span class="keyword">true</span>;</div>
@@ -116,8 +115,8 @@ $(document).ready(function(){initNavTree('cv_2traitement_8php_source.html',''); 
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;?&gt;</div>
 <div class="ttc" id="aclass_render_html"><div class="ttname"><a href="class_render.html">Render</a></div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00006">Render.php:7</a></div></div>
 <div class="ttc" id="aclass_traitement___c_v_html"><div class="ttname"><a href="class_traitement___c_v.html">Traitement_CV</a></div><div class="ttdef"><b>Definition:</b> <a href="cv_2traitement_8php_source.html#l00006">traitement.php:7</a></div></div>
-<div class="ttc" id="aclass_traitement___c_v_html_a0400c9c38bc43a3131e5b04f9c680a25"><div class="ttname"><a href="class_traitement___c_v.html#a0400c9c38bc43a3131e5b04f9c680a25">Traitement_CV\traitement_toRender</a></div><div class="ttdeci">traitement_toRender()</div><div class="ttdef"><b>Definition:</b> <a href="cv_2traitement_8php_source.html#l00033">traitement.php:33</a></div></div>
-<div class="ttc" id="aclass_traitement___c_v_html_af8bc883cd0edfdb65dcefe5ac119f90a"><div class="ttname"><a href="class_traitement___c_v.html#af8bc883cd0edfdb65dcefe5ac119f90a">Traitement_CV\__construct</a></div><div class="ttdeci">__construct($print)</div><div class="ttdef"><b>Definition:</b> <a href="cv_2traitement_8php_source.html#l00023">traitement.php:23</a></div></div>
+<div class="ttc" id="aclass_traitement___c_v_html_a14e9a6a92e8d2d7fc1d206beca259f3d"><div class="ttname"><a href="class_traitement___c_v.html#a14e9a6a92e8d2d7fc1d206beca259f3d">Traitement_CV\traitement_toRender</a></div><div class="ttdeci">traitement_toRender()</div><div class="ttdef"><b>Definition:</b> <a href="cv_2traitement_8php_source.html#l00033">traitement.php:33</a></div></div>
+<div class="ttc" id="aclass_traitement___c_v_html_aaaaadcfc3808086f35c5fe9b06e709c5"><div class="ttname"><a href="class_traitement___c_v.html#aaaaadcfc3808086f35c5fe9b06e709c5">Traitement_CV\__construct</a></div><div class="ttdeci">__construct($print)</div><div class="ttdef"><b>Definition:</b> <a href="cv_2traitement_8php_source.html#l00023">traitement.php:23</a></div></div>
 <div class="ttc" id="aconfig_8inc_8php_html_a84e7b001466beb659382f023bc106491"><div class="ttname"><a href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a></div><div class="ttdeci">global $config</div><div class="ttdef"><b>Definition:</b> <a href="config_8inc_8php_source.html#l00003">config.inc.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,9 +1,9 @@
 <?php
 
     /**
-     * Class Traitement_Presentation
+     * Class TraitementPresentation
      */
-    class Traitement_Presentation
+    class TraitementPresentation
     {
 
         /**
@@ -14,25 +14,30 @@
          * @var array
          */
         private array $config;
+        /**
+         * @var TextePresentation
+         */
+        private TextePresentation $texte;
 
         /**
          * Traitement_Presentation constructor.
-         * @param $print
+         * @param $rendu
          */
-        public function __construct($print)
+        public function __construct($rendu)
         {
-            $this->render = $print;
+            $this->render = $rendu;
             global $config;
             $this->config = $config;
+            $this->texte = new TextePresentation($this, $this->config);
         }
 
         /**
          * Retourne l'âge courant en fonction de la date actuelle de manière automatique.
          *
          * @param $date
-         * @return false|int|string
+         * @return int
          */
-        public function traitement_age($date)
+        public function traitementAge($date): int
         {
             $age = (int) date('Y') - (int) $date;
 
@@ -45,67 +50,13 @@
         }
 
         /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage dubloc caroussel de la page de presentation.
-         *
-         * @return array
-         */
-        public function traitement_caroussel()
-        {
-            return $this->config['presentation']['caroussel'];
-        }
-
-        /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc accroche de la page de presentation.
-         *
-         * @return string[][]
-         */
-        public function traitement_accroche()
-        {
-            $age = $this->traitement_age($this->config['auteur']['naissance']);
-            return
-                [
-                    "accroche-p" =>
-                        [
-                            0 => "Bonjour, je suis Morgan MINBIELLE, " . $age . " ans, étudiant en Master Informatique Professionnel (parcours logiciels sûrs), en alternance au sein de la DSI de l'École Polytechnique.",
-                            1 => "Je suis diplômé d'une Licence Professionnelle Informatique (parcours sécurité des données), obtenu à l'UPEC et d'un DUT Informatique venant de l'IUT de Villetaneuse.",
-                            2 => "Mon parcours d'études reflète mon intérêt pour le développement informatique en général (Web ou applicatif) et la façon dont on sécurise les programmes codés.",
-                            3 => "Grâce au stage de DUT et aux choix des formations professionnelles (Licence et Master), j'ai pu mettre en pratique mes connaissances et compétences et en acquérir de nouvelles au sein d'une équipe.",
-                            4 => "Curieux, aussi bien au niveau logiciel que matériel, je m'intéresse aux nouvelles technologies, langages et méthodes de développement en parallèle de mon cursus. De plus, mes études m'ont apporté la bonne pratique et la rigueur nécessaire au bon développement d'un programme et la façon de plannifier et gérer des projets de groupes. Ces projets portaient sur le développement Web ou logiciel.",
-                            5 => "Lors de votre visite sur ce site, vous trouverez toutes les informations essentielles me concernant.",
-                            6 => "Bonne visite !"
-                        ]
-                ];
-        }
-
-        /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc featurette de la page de presentation.
-         *
-         * @return array[]
-         */
-        public function traitement_featurette()
-        {
-            return $this->config['presentation']['featurette'];
-        }
-
-        /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc gallerie de la page de presentation.
-         *
-         * @return string[][][]
-         */
-        public function traitement_gallerie()
-        {
-            return $this->config['presentation']['gallerie'];
-        }
-
-        /**
          * Affichage de la page de présentation.
          */
-        public function traitement_toRender()
+        public function traitementRendu()
         {
-            $data['accroche'] = $this->traitement_accroche();
-            $data['carousel'] = $this->traitement_caroussel();
-            $data['featurette'] = $this->traitement_featurette();
-            $data['gallerie'] = $this->traitement_gallerie();
+
+
+            $data = $this->texte->texteFinal();
 
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['presentation'] = true;

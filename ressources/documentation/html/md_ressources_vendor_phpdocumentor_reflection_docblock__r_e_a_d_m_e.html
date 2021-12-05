@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: README</title>
+<title>PortFolioV3: README</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -89,20 +88,20 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_phpdocumentor_ref
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" style="pointer-events: none;" class="inline"/></a> <img src="https://github.com/phpDocumentor/ReflectionDocBlock/workflows/Qa%20workflow/badge.svg" alt="Qa workflow" style="pointer-events: none;" class="inline"/> <a href="https://coveralls.io/github/phpDocumentor/ReflectionDocBlock?branch=master"><img src="https://img.shields.io/coveralls/github/phpDocumentor/ReflectionDocBlock.svg" alt="Coveralls Coverage" style="pointer-events: none;" class="inline"/></a> <a href="https://scrutinizer-ci.com/g/phpDocumentor/ReflectionDocBlock/?branch=master"><img src="https://img.shields.io/scrutinizer/coverage/g/phpDocumentor/ReflectionDocBlock.svg" alt="Scrutinizer Code Coverage" style="pointer-events: none;" class="inline"/></a> <a href="https://scrutinizer-ci.com/g/phpDocumentor/ReflectionDocBlock/?branch=master"><img src="https://img.shields.io/scrutinizer/g/phpDocumentor/ReflectionDocBlock.svg" alt="Scrutinizer Code Quality" style="pointer-events: none;" class="inline"/></a> <a href="https://packagist.org/packages/phpdocumentor/reflection-docblock"><img src="https://img.shields.io/packagist/v/phpdocumentor/reflection-docblock.svg" alt="Stable Version" style="pointer-events: none;" class="inline"/></a> <a href="https://packagist.org/packages/phpdocumentor/reflection-docblock"><img src="https://img.shields.io/packagist/vpre/phpdocumentor/reflection-docblock.svg" alt="Unstable Version" style="pointer-events: none;" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md523"></a>
+<h1><a class="anchor" id="autotoc_md524"></a>
 ReflectionDocBlock</h1>
-<h2><a class="anchor" id="autotoc_md524"></a>
+<h2><a class="anchor" id="autotoc_md525"></a>
 Introduction</h2>
 <p>The ReflectionDocBlock component of phpDocumentor provides a DocBlock parser that is 100% compatible with the <a href="http://phpdoc.org/docs/latest">PHPDoc standard</a>.</p>
 <p>With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.</p>
-<h2><a class="anchor" id="autotoc_md525"></a>
+<h2><a class="anchor" id="autotoc_md526"></a>
 Installation</h2>
 <div class="fragment"><div class="line">composer require phpdocumentor/reflection-docblock</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md526"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md527"></a>
 Usage</h2>
 <p>In order to parse the DocBlock one needs a DocBlockFactory that can be instantiated using its <code>createInstance</code> factory method like this:</p>
-<div class="fragment"><div class="line">$factory  = <a class="code" href="classphp_documentor_1_1_reflection_1_1_doc_block_factory.html#a220aa312016b6fa0c9a6c4bf61a7ead4">\phpDocumentor\Reflection\DocBlockFactory::createInstance</a>();</div>
-<div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_doc_block_factory_html_a220aa312016b6fa0c9a6c4bf61a7ead4"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_doc_block_factory.html#a220aa312016b6fa0c9a6c4bf61a7ead4">phpDocumentor\Reflection\DocBlockFactory\createInstance</a></div><div class="ttdeci">static createInstance(array $additionalTags=[])</div><div class="ttdef"><b>Definition:</b> <a href="_doc_block_factory_8php_source.html#l00057">DocBlockFactory.php:57</a></div></div>
+<div class="fragment"><div class="line">$factory  = <a class="code" href="classphp_documentor_1_1_reflection_1_1_doc_block_factory.html#a2200f2d8d8684feb2256caab648451f5">\phpDocumentor\Reflection\DocBlockFactory::createInstance</a>();</div>
+<div class="ttc" id="aclassphp_documentor_1_1_reflection_1_1_doc_block_factory_html_a2200f2d8d8684feb2256caab648451f5"><div class="ttname"><a href="classphp_documentor_1_1_reflection_1_1_doc_block_factory.html#a2200f2d8d8684feb2256caab648451f5">phpDocumentor\Reflection\DocBlockFactory\createInstance</a></div><div class="ttdeci">static createInstance(array $additionalTags=[])</div><div class="ttdef"><b>Definition:</b> <a href="_doc_block_factory_8php_source.html#l00057">DocBlockFactory.php:57</a></div></div>
 </div><!-- fragment --><p>Then we can use the <code>create</code> method of the factory to interpret the DocBlock. Please note that it is also possible to provide a class that has the <code>getDocComment()</code> method, such as an object of type <code>ReflectionClass</code>, the create method will read that if it exists.</p>
 <div class="fragment"><div class="line">$docComment = &lt;&lt;&lt;DOCCOMMENT</div>
 <div class="line">DOCCOMMENT;</div>

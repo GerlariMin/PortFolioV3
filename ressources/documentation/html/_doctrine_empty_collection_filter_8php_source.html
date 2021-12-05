@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Doctrine/DoctrineEmptyCollectionFilter.php Source File</title>
+<title>PortFolioV3: ressources/vendor/myclabs/deep-copy/src/DeepCopy/Filter/Doctrine/DoctrineEmptyCollectionFilter.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -98,18 +97,18 @@ $(document).ready(function(){initNavTree('_doctrine_empty_collection_filter_8php
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html">DoctrineEmptyCollectionFilter</a> <span class="keyword">implements</span> <a class="code" href="interface_deep_copy_1_1_filter_1_1_filter.html">Filter</a></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html#a360932fe7f9488472623d76aa7da2a25">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html#a360932fe7f9488472623d76aa7da2a25">apply</a>($object, $property, $objectCopier)</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html#a9f396c705b9c3423ae32c13b708e9af6">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html#a9f396c705b9c3423ae32c13b708e9af6">apply</a>($object, $property, $objectCopier)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        $reflectionProperty = <a class="code" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a2cbe7dd2f6c9bc8b41ca4beaffb376a7">ReflectionHelper::getProperty</a>($object, $property);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        $reflectionProperty = <a class="code" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a5e3914eb80dc5734a24ef2a9a5780dc4">ReflectionHelper::getProperty</a>($object, $property);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        $reflectionProperty-&gt;setAccessible(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        $reflectionProperty-&gt;setValue($object, <span class="keyword">new</span> ArrayCollection());</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;} </div>
 <div class="ttc" id="aclass_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html">DeepCopy\Filter\Doctrine\DoctrineEmptyCollectionFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_doctrine_empty_collection_filter_8php_source.html#l00012">DoctrineEmptyCollectionFilter.php:13</a></div></div>
-<div class="ttc" id="aclass_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter_html_a360932fe7f9488472623d76aa7da2a25"><div class="ttname"><a href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html#a360932fe7f9488472623d76aa7da2a25">DeepCopy\Filter\Doctrine\DoctrineEmptyCollectionFilter\apply</a></div><div class="ttdeci">apply($object, $property, $objectCopier)</div><div class="ttdef"><b>Definition:</b> <a href="_doctrine_empty_collection_filter_8php_source.html#l00021">DoctrineEmptyCollectionFilter.php:21</a></div></div>
+<div class="ttc" id="aclass_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter_html_a9f396c705b9c3423ae32c13b708e9af6"><div class="ttname"><a href="class_deep_copy_1_1_filter_1_1_doctrine_1_1_doctrine_empty_collection_filter.html#a9f396c705b9c3423ae32c13b708e9af6">DeepCopy\Filter\Doctrine\DoctrineEmptyCollectionFilter\apply</a></div><div class="ttdeci">apply($object, $property, $objectCopier)</div><div class="ttdef"><b>Definition:</b> <a href="_doctrine_empty_collection_filter_8php_source.html#l00021">DoctrineEmptyCollectionFilter.php:21</a></div></div>
 <div class="ttc" id="aclass_deep_copy_1_1_reflection_1_1_reflection_helper_html"><div class="ttname"><a href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html">DeepCopy\Reflection\ReflectionHelper</a></div><div class="ttdef"><b>Definition:</b> <a href="_reflection_helper_8php_source.html#l00011">ReflectionHelper.php:12</a></div></div>
-<div class="ttc" id="aclass_deep_copy_1_1_reflection_1_1_reflection_helper_html_a2cbe7dd2f6c9bc8b41ca4beaffb376a7"><div class="ttname"><a href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a2cbe7dd2f6c9bc8b41ca4beaffb376a7">DeepCopy\Reflection\ReflectionHelper\getProperty</a></div><div class="ttdeci">static getProperty($object, $name)</div><div class="ttdef"><b>Definition:</b> <a href="_reflection_helper_8php_source.html#l00058">ReflectionHelper.php:58</a></div></div>
+<div class="ttc" id="aclass_deep_copy_1_1_reflection_1_1_reflection_helper_html_a5e3914eb80dc5734a24ef2a9a5780dc4"><div class="ttname"><a href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a5e3914eb80dc5734a24ef2a9a5780dc4">DeepCopy\Reflection\ReflectionHelper\getProperty</a></div><div class="ttdeci">static getProperty($object, $name)</div><div class="ttdef"><b>Definition:</b> <a href="_reflection_helper_8php_source.html#l00058">ReflectionHelper.php:58</a></div></div>
 <div class="ttc" id="ainterface_deep_copy_1_1_filter_1_1_filter_html"><div class="ttname"><a href="interface_deep_copy_1_1_filter_1_1_filter.html">DeepCopy\Filter\Filter</a></div><div class="ttdef"><b>Definition:</b> <a href="myclabs_2deep-copy_2src_2_deep_copy_2_filter_2_filter_8php_source.html#l00008">Filter.php:9</a></div></div>
 <div class="ttc" id="anamespace_deep_copy_1_1_filter_1_1_doctrine_html"><div class="ttname"><a href="namespace_deep_copy_1_1_filter_1_1_doctrine.html">DeepCopy\Filter\Doctrine</a></div><div class="ttdef"><b>Definition:</b> <a href="_doctrine_collection_filter_8php_source.html#l00003">DoctrineCollectionFilter.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

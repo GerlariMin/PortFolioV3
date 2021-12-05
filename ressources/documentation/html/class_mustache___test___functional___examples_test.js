@@ -1,5 +1,5 @@
 var class_mustache___test___functional___examples_test =
 [
-    [ "getExamples", "class_mustache___test___functional___examples_test.html#aeffef18032ebdcbe2450c06ea03a6fd2", null ],
-    [ "testExamples", "class_mustache___test___functional___examples_test.html#a08c1391815c12943d78e7c2a1f0e01fe", null ]
+    [ "getExamples", "class_mustache___test___functional___examples_test.html#a08e39b458a158e90a884803da0f16c80", null ],
+    [ "testExamples", "class_mustache___test___functional___examples_test.html#ad849e3434e2c76bba3374883ee8cbfc8", null ]
 ];

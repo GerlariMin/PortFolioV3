@@ -1,6 +1,6 @@
 var class_php_parser_1_1_internal_1_1_differ =
 [
-    [ "__construct", "class_php_parser_1_1_internal_1_1_differ.html#a5a1358ae5ba5717eecd25cc37e729636", null ],
-    [ "diff", "class_php_parser_1_1_internal_1_1_differ.html#aa3e5fc36e72602e792f4afd9e0ec47c6", null ],
-    [ "diffWithReplacements", "class_php_parser_1_1_internal_1_1_differ.html#a02f4a29dde3061642d70eb574f4aaaef", null ]
+    [ "__construct", "class_php_parser_1_1_internal_1_1_differ.html#a7f5fe5cee1f3007b8a7775f6f6c6ed05", null ],
+    [ "diff", "class_php_parser_1_1_internal_1_1_differ.html#ab56ef257fc5d28042f0fc2fa4a4b6c7b", null ],
+    [ "diffWithReplacements", "class_php_parser_1_1_internal_1_1_differ.html#a2dc6e8573debdb5f6d0bd10e2d5d494e", null ]
 ];

@@ -9,5 +9,6 @@ var files_dup =
     [ "parcours", "dir_777d52c16efe4df91fc89e2a1bf4ae9c.html", "dir_777d52c16efe4df91fc89e2a1bf4ae9c" ],
     [ "presentation", "dir_c41742280eca4b9a81be97becaeaa836.html", "dir_c41742280eca4b9a81be97becaeaa836" ],
     [ "ressources", "dir_b310993d99a62c4e6da0db86d59823c0.html", "dir_b310993d99a62c4e6da0db86d59823c0" ],
+    [ "tests", "dir_59425e443f801f1f2fd8bbe4959a3ccf.html", "dir_59425e443f801f1f2fd8bbe4959a3ccf" ],
     [ "index.php", "index_8php.html", "index_8php" ]
 ];

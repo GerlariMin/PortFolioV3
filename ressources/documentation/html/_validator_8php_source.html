@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Util/Xml/Validator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Util/Xml/Validator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -107,7 +106,7 @@ $(document).ready(function(){initNavTree('_validator_8php_source.html',''); init
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html">   21</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html">Validator</a></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html#a3ae50221a60de2b9045e234df749e2c0">   23</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html#a3ae50221a60de2b9045e234df749e2c0">validate</a>(DOMDocument $document, <span class="keywordtype">string</span> $xsdFilename): <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result.html">ValidationResult</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html#ac08746bb6ffe265fe34698e7803dc807">   23</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html#ac08746bb6ffe265fe34698e7803dc807">validate</a>(DOMDocument $document, <span class="keywordtype">string</span> $xsdFilename): <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result.html">ValidationResult</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        $originalErrorHandling = libxml_use_internal_errors(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
@@ -117,13 +116,13 @@ $(document).ready(function(){initNavTree('_validator_8php_source.html',''); init
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        libxml_clear_errors();</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        libxml_use_internal_errors($originalErrorHandling);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result.html#a2c1b0d93e3744259d40b9d4311eaf55f">ValidationResult::fromArray</a>($errors);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result.html#acb1aa9d29b13eb065013cfe3c572ce3a">ValidationResult::fromArray</a>($errors);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result.html">PHPUnit\Util\Xml\ValidationResult</a></div><div class="ttdef"><b>Definition:</b> <a href="_validation_result_8php_source.html#l00020">ValidationResult.php:21</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result_html_a2c1b0d93e3744259d40b9d4311eaf55f"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result.html#a2c1b0d93e3744259d40b9d4311eaf55f">PHPUnit\Util\Xml\ValidationResult\fromArray</a></div><div class="ttdeci">static fromArray(array $errors)</div><div class="ttdef"><b>Definition:</b> <a href="_validation_result_8php_source.html#l00030">ValidationResult.php:30</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result_html_acb1aa9d29b13eb065013cfe3c572ce3a"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validation_result.html#acb1aa9d29b13eb065013cfe3c572ce3a">PHPUnit\Util\Xml\ValidationResult\fromArray</a></div><div class="ttdeci">static fromArray(array $errors)</div><div class="ttdef"><b>Definition:</b> <a href="_validation_result_8php_source.html#l00030">ValidationResult.php:30</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_validator_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html">PHPUnit\Util\Xml\Validator</a></div><div class="ttdef"><b>Definition:</b> <a href="_validator_8php_source.html#l00021">Validator.php:22</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_validator_html_a3ae50221a60de2b9045e234df749e2c0"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html#a3ae50221a60de2b9045e234df749e2c0">PHPUnit\Util\Xml\Validator\validate</a></div><div class="ttdeci">validate(DOMDocument $document, string $xsdFilename)</div><div class="ttdef"><b>Definition:</b> <a href="_validator_8php_source.html#l00023">Validator.php:23</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_xml_1_1_validator_html_ac08746bb6ffe265fe34698e7803dc807"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_xml_1_1_validator.html#ac08746bb6ffe265fe34698e7803dc807">PHPUnit\Util\Xml\Validator\validate</a></div><div class="ttdeci">validate(DOMDocument $document, string $xsdFilename)</div><div class="ttdef"><b>Definition:</b> <a href="_validator_8php_source.html#l00023">Validator.php:23</a></div></div>
 <div class="ttc" id="anamespace_p_h_p_unit_1_1_util_1_1_xml_html"><div class="ttname"><a href="namespace_p_h_p_unit_1_1_util_1_1_xml.html">PHPUnit\Util\Xml</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_xml_2_exception_8php_source.html#l00010">Exception.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

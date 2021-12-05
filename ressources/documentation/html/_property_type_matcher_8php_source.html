@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/PropertyTypeMatcher.php Source File</title>
+<title>PortFolioV3: ressources/vendor/myclabs/deep-copy/src/DeepCopy/Matcher/PropertyTypeMatcher.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -99,15 +98,15 @@ $(document).ready(function(){initNavTree('_property_type_matcher_8php_source.htm
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">private</span> $propertyType;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a8301badd5a46b9a02fe2fa21d994902d">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a8301badd5a46b9a02fe2fa21d994902d">__construct</a>($propertyType)</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a23a6380ee6cb26a8b41eb86e511e9726">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a23a6380ee6cb26a8b41eb86e511e9726">__construct</a>($propertyType)</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        $this-&gt;propertyType = $propertyType;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a2e9fdbe8d1a508d5c5ee7c81d27d77ea">   34</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a2e9fdbe8d1a508d5c5ee7c81d27d77ea">matches</a>($object, $property)</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a59d82c2384a0c556b09cef4ca4794a89">   34</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a59d82c2384a0c556b09cef4ca4794a89">matches</a>($object, $property)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">try</span> {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            $reflectionProperty = <a class="code" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a2cbe7dd2f6c9bc8b41ca4beaffb376a7">ReflectionHelper::getProperty</a>($object, $property);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            $reflectionProperty = <a class="code" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a5e3914eb80dc5734a24ef2a9a5780dc4">ReflectionHelper::getProperty</a>($object, $property);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        } <span class="keywordflow">catch</span> (ReflectionException $exception) {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
@@ -124,10 +123,10 @@ $(document).ready(function(){initNavTree('_property_type_matcher_8php_source.htm
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 <div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_property_type_matcher_html"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html">DeepCopy\Matcher\PropertyTypeMatcher</a></div><div class="ttdef"><b>Definition:</b> <a href="_property_type_matcher_8php_source.html#l00016">PropertyTypeMatcher.php:17</a></div></div>
-<div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_property_type_matcher_html_a2e9fdbe8d1a508d5c5ee7c81d27d77ea"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a2e9fdbe8d1a508d5c5ee7c81d27d77ea">DeepCopy\Matcher\PropertyTypeMatcher\matches</a></div><div class="ttdeci">matches($object, $property)</div><div class="ttdef"><b>Definition:</b> <a href="_property_type_matcher_8php_source.html#l00034">PropertyTypeMatcher.php:34</a></div></div>
-<div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_property_type_matcher_html_a8301badd5a46b9a02fe2fa21d994902d"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a8301badd5a46b9a02fe2fa21d994902d">DeepCopy\Matcher\PropertyTypeMatcher\__construct</a></div><div class="ttdeci">__construct($propertyType)</div><div class="ttdef"><b>Definition:</b> <a href="_property_type_matcher_8php_source.html#l00026">PropertyTypeMatcher.php:26</a></div></div>
+<div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_property_type_matcher_html_a23a6380ee6cb26a8b41eb86e511e9726"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a23a6380ee6cb26a8b41eb86e511e9726">DeepCopy\Matcher\PropertyTypeMatcher\__construct</a></div><div class="ttdeci">__construct($propertyType)</div><div class="ttdef"><b>Definition:</b> <a href="_property_type_matcher_8php_source.html#l00026">PropertyTypeMatcher.php:26</a></div></div>
+<div class="ttc" id="aclass_deep_copy_1_1_matcher_1_1_property_type_matcher_html_a59d82c2384a0c556b09cef4ca4794a89"><div class="ttname"><a href="class_deep_copy_1_1_matcher_1_1_property_type_matcher.html#a59d82c2384a0c556b09cef4ca4794a89">DeepCopy\Matcher\PropertyTypeMatcher\matches</a></div><div class="ttdeci">matches($object, $property)</div><div class="ttdef"><b>Definition:</b> <a href="_property_type_matcher_8php_source.html#l00034">PropertyTypeMatcher.php:34</a></div></div>
 <div class="ttc" id="aclass_deep_copy_1_1_reflection_1_1_reflection_helper_html"><div class="ttname"><a href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html">DeepCopy\Reflection\ReflectionHelper</a></div><div class="ttdef"><b>Definition:</b> <a href="_reflection_helper_8php_source.html#l00011">ReflectionHelper.php:12</a></div></div>
-<div class="ttc" id="aclass_deep_copy_1_1_reflection_1_1_reflection_helper_html_a2cbe7dd2f6c9bc8b41ca4beaffb376a7"><div class="ttname"><a href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a2cbe7dd2f6c9bc8b41ca4beaffb376a7">DeepCopy\Reflection\ReflectionHelper\getProperty</a></div><div class="ttdeci">static getProperty($object, $name)</div><div class="ttdef"><b>Definition:</b> <a href="_reflection_helper_8php_source.html#l00058">ReflectionHelper.php:58</a></div></div>
+<div class="ttc" id="aclass_deep_copy_1_1_reflection_1_1_reflection_helper_html_a5e3914eb80dc5734a24ef2a9a5780dc4"><div class="ttname"><a href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a5e3914eb80dc5734a24ef2a9a5780dc4">DeepCopy\Reflection\ReflectionHelper\getProperty</a></div><div class="ttdeci">static getProperty($object, $name)</div><div class="ttdef"><b>Definition:</b> <a href="_reflection_helper_8php_source.html#l00058">ReflectionHelper.php:58</a></div></div>
 <div class="ttc" id="ainterface_deep_copy_1_1_matcher_1_1_matcher_html"><div class="ttname"><a href="interface_deep_copy_1_1_matcher_1_1_matcher.html">DeepCopy\Matcher\Matcher</a></div><div class="ttdef"><b>Definition:</b> <a href="myclabs_2deep-copy_2src_2_deep_copy_2_matcher_2_matcher_8php_source.html#l00005">Matcher.php:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,4 +1,4 @@
 var class_mustache___loader___string_loader =
 [
-    [ "load", "class_mustache___loader___string_loader.html#a5d4a434c5fe83bade81f5815706a3551", null ]
+    [ "load", "class_mustache___loader___string_loader.html#a9f0ea7e8c9870f2434a80eb633bb9a57", null ]
 ];

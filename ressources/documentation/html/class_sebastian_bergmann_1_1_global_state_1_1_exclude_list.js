@@ -1,11 +1,11 @@
 var class_sebastian_bergmann_1_1_global_state_1_1_exclude_list =
 [
-    [ "addClass", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a077e15e10f9b80dd49c2fe17b12ad479", null ],
-    [ "addClassNamePrefix", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a4c575d88a6e3c725eaf4e1565fded145", null ],
-    [ "addGlobalVariable", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#ae7889d992bcdf55b9d5357ee40607006", null ],
-    [ "addImplementorsOf", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a26de591677327867bf178c412ee8a8a1", null ],
-    [ "addStaticAttribute", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a171356a99b7039527ce3db4c0fd44ce2", null ],
-    [ "addSubclassesOf", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#ad81979b9860c2b50151ae6788eb991ff", null ],
-    [ "isGlobalVariableExcluded", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a7218d993abf17b162394cf2ca195ffd0", null ],
-    [ "isStaticAttributeExcluded", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a9503148f7e9707126f58dd8e084c03a0", null ]
+    [ "addClass", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#afbae24dda362a210a0e2c99b301948d9", null ],
+    [ "addClassNamePrefix", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#aaaf1126bbe11797bd274f73ee1a36237", null ],
+    [ "addGlobalVariable", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a943e0386d4e0817c2d6ce2a0504639c5", null ],
+    [ "addImplementorsOf", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#aa6522c2e7f4455ceb0641897a2bb0330", null ],
+    [ "addStaticAttribute", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#aae55a64fbe292ff8eff3b9af6c8a4cdf", null ],
+    [ "addSubclassesOf", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a6934be5383cd3efd1cbf5b2decb9a875", null ],
+    [ "isGlobalVariableExcluded", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#a5551869568cde2232741e5f093d83cff", null ],
+    [ "isStaticAttributeExcluded", "class_sebastian_bergmann_1_1_global_state_1_1_exclude_list.html#af1dffd7b9e67372b27d3dc56b038356c", null ]
 ];

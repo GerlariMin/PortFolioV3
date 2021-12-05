@@ -1,4 +1,4 @@
 var class_mustache___test___logger___abstract_logger_test =
 [
-    [ "testEverything", "class_mustache___test___logger___abstract_logger_test.html#a8e9431a938f50eeeb82a1051080d8638", null ]
+    [ "testEverything", "class_mustache___test___logger___abstract_logger_test.html#a6b02817ce57d35ca32b43ed63fbb0b50", null ]
 ];

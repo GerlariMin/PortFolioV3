@@ -1,7 +1,7 @@
 var class_mustache___test___five_three___functional___higher_order_sections_test =
 [
-    [ "setUp", "class_mustache___test___five_three___functional___higher_order_sections_test.html#a0bc688732d2b3b162ffebaf7812e78da", null ],
-    [ "testAnonymousFunctionSectionCallback", "class_mustache___test___five_three___functional___higher_order_sections_test.html#a990f4bf55602da1d258aa3e1dc21b15b", null ],
-    [ "testSectionCallback", "class_mustache___test___five_three___functional___higher_order_sections_test.html#aaab49d5fe04d062b8b6fb1943b6a220d", null ],
-    [ "testViewArrayAnonymousSectionCallback", "class_mustache___test___five_three___functional___higher_order_sections_test.html#a052f4204b6dc85e8f15956067e3603e5", null ]
+    [ "setUp", "class_mustache___test___five_three___functional___higher_order_sections_test.html#a3d262b1f62782aec8bf14c3288906adb", null ],
+    [ "testAnonymousFunctionSectionCallback", "class_mustache___test___five_three___functional___higher_order_sections_test.html#a5b0a375b34eec490c9c0508c8e1dd654", null ],
+    [ "testSectionCallback", "class_mustache___test___five_three___functional___higher_order_sections_test.html#a69f34b589ae9c82caa253a41803fb908", null ],
+    [ "testViewArrayAnonymousSectionCallback", "class_mustache___test___five_three___functional___higher_order_sections_test.html#a14b2e164d25e895d0c38f6bb0631ca6e", null ]
 ];

@@ -1,5 +1,5 @@
 var class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus =
 [
-    [ "getOperatorSigil", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus.html#aed7b4ab91d29701a3d5f4936de669b72", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus.html#a830b5c75df72b32396701bc563fbe3c7", null ]
+    [ "getOperatorSigil", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus.html#ad85259e08807341e2515d9d0f416bbe6", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus.html#ad50d4f9e13c928b0ae4e9b0a8329a8e7", null ]
 ];

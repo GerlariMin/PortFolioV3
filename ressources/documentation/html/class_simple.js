@@ -1,7 +1,7 @@
 var class_simple =
 [
-    [ "taxed_value", "class_simple.html#afca1530af08c7f030858be89574f4bf1", null ],
-    [ "$in_ca", "class_simple.html#a40dc144a5a6c92a0ba47851dc77f3d28", null ],
-    [ "$name", "class_simple.html#ab2fc40d43824ea3e1ce5d86dee0d763b", null ],
-    [ "$value", "class_simple.html#a0f298096f322952a72a50f98a74c7b60", null ]
+    [ "taxed_value", "class_simple.html#a0e8c1d6471388e7c2f6e5d861a01a63a", null ],
+    [ "$in_ca", "class_simple.html#aabc4be1ecec7d73f6c7759696a5517d5", null ],
+    [ "$name", "class_simple.html#ac5cb985aa0694232ed9cfa7c2c832d97", null ],
+    [ "$value", "class_simple.html#af9052ddaf24cf32271f9845306544984", null ]
 ];

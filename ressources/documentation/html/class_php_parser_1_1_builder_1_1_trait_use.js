@@ -1,9 +1,9 @@
 var class_php_parser_1_1_builder_1_1_trait_use =
 [
-    [ "__construct", "class_php_parser_1_1_builder_1_1_trait_use.html#a8d9bccddf062cb5b9b4eb3ea0a7b8f46", null ],
-    [ "and", "class_php_parser_1_1_builder_1_1_trait_use.html#a3642daaddfd9fb16ea7d80ba16ca7c9c", null ],
-    [ "getNode", "class_php_parser_1_1_builder_1_1_trait_use.html#a3a0d17930cbcc57bef84064afcc1a837", null ],
-    [ "with", "class_php_parser_1_1_builder_1_1_trait_use.html#ad89cc2aec38dcf6fffe14cec76ae1225", null ],
-    [ "$adaptations", "class_php_parser_1_1_builder_1_1_trait_use.html#a1f5a20fc19bd8e652fde385a3bc305ec", null ],
-    [ "$traits", "class_php_parser_1_1_builder_1_1_trait_use.html#a00d691d7d5290df7d075c00deb62dd1b", null ]
+    [ "__construct", "class_php_parser_1_1_builder_1_1_trait_use.html#ae581c97a944a3bae082e3174ae6d0bde", null ],
+    [ "and", "class_php_parser_1_1_builder_1_1_trait_use.html#a069124a67dc5b76985771189c6113500", null ],
+    [ "getNode", "class_php_parser_1_1_builder_1_1_trait_use.html#a4b927666b9bff595cf46b96333b6ce4b", null ],
+    [ "with", "class_php_parser_1_1_builder_1_1_trait_use.html#a7928d020278700a29c249983d97290f9", null ],
+    [ "$adaptations", "class_php_parser_1_1_builder_1_1_trait_use.html#a28e2f5fe0b5ea68ad1fcb4b32ff9f513", null ],
+    [ "$traits", "class_php_parser_1_1_builder_1_1_trait_use.html#ad1d13a740f2086b7e70b8c485484c476", null ]
 ];

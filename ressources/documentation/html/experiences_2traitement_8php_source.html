@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: experiences/traitement.php Source File</title>
+<title>PortFolioV3: experiences/traitement.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -96,21 +95,21 @@ $(document).ready(function(){initNavTree('experiences_2traitement_8php_source.ht
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">private</span> <a class="code" href="class_render.html">Render</a> $render;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">private</span> array $config;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_traitement___experiences.html#af8bc883cd0edfdb65dcefe5ac119f90a">   23</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___experiences.html#af8bc883cd0edfdb65dcefe5ac119f90a">__construct</a>($print)</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_traitement___experiences.html#ac7008ff417a0046555368446d89532c2">   23</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___experiences.html#ac7008ff417a0046555368446d89532c2">__construct</a>($print)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            $this-&gt;render = $print;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            global <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            $this-&gt;config = <a class="code" href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a>;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_traitement___experiences.html#ae54c279ffb48aa8984b037466bae5c98">   35</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___experiences.html#ae54c279ffb48aa8984b037466bae5c98">traitement_accordion</a>()</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_traitement___experiences.html#afd4e4ac054b347b339f511de7d977601">   35</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___experiences.html#afd4e4ac054b347b339f511de7d977601">traitement_accordion</a>(): array</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">return</span> $this-&gt;config[<span class="stringliteral">&#39;experiences&#39;</span>][<span class="stringliteral">&#39;accordion&#39;</span>];</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_traitement___experiences.html#a0400c9c38bc43a3131e5b04f9c680a25">   43</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___experiences.html#a0400c9c38bc43a3131e5b04f9c680a25">traitement_toRender</a>()</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_traitement___experiences.html#acaeb0710533655b367d649d331bc41cd">   43</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_traitement___experiences.html#acaeb0710533655b367d649d331bc41cd">traitement_toRender</a>()</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            $data[<span class="stringliteral">&#39;arccordion-item&#39;</span>] = $this-&gt;<a class="code" href="class_traitement___experiences.html#ae54c279ffb48aa8984b037466bae5c98">traitement_accordion</a>();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            $data[<span class="stringliteral">&#39;arccordion-item&#39;</span>] = $this-&gt;<a class="code" href="class_traitement___experiences.html#afd4e4ac054b347b339f511de7d977601">traitement_accordion</a>();</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            $data[<span class="stringliteral">&#39;chemin&#39;</span>] = $this-&gt;config[<span class="stringliteral">&#39;variables&#39;</span>][<span class="stringliteral">&#39;chemin&#39;</span>];</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            $data[<span class="stringliteral">&#39;experiences&#39;</span>] = <span class="keyword">true</span>;</div>
@@ -123,9 +122,9 @@ $(document).ready(function(){initNavTree('experiences_2traitement_8php_source.ht
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;?&gt;</div>
 <div class="ttc" id="aclass_render_html"><div class="ttname"><a href="class_render.html">Render</a></div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00006">Render.php:7</a></div></div>
 <div class="ttc" id="aclass_traitement___experiences_html"><div class="ttname"><a href="class_traitement___experiences.html">Traitement_Experiences</a></div><div class="ttdef"><b>Definition:</b> <a href="experiences_2traitement_8php_source.html#l00006">traitement.php:7</a></div></div>
-<div class="ttc" id="aclass_traitement___experiences_html_a0400c9c38bc43a3131e5b04f9c680a25"><div class="ttname"><a href="class_traitement___experiences.html#a0400c9c38bc43a3131e5b04f9c680a25">Traitement_Experiences\traitement_toRender</a></div><div class="ttdeci">traitement_toRender()</div><div class="ttdef"><b>Definition:</b> <a href="experiences_2traitement_8php_source.html#l00043">traitement.php:43</a></div></div>
-<div class="ttc" id="aclass_traitement___experiences_html_ae54c279ffb48aa8984b037466bae5c98"><div class="ttname"><a href="class_traitement___experiences.html#ae54c279ffb48aa8984b037466bae5c98">Traitement_Experiences\traitement_accordion</a></div><div class="ttdeci">traitement_accordion()</div><div class="ttdef"><b>Definition:</b> <a href="experiences_2traitement_8php_source.html#l00035">traitement.php:35</a></div></div>
-<div class="ttc" id="aclass_traitement___experiences_html_af8bc883cd0edfdb65dcefe5ac119f90a"><div class="ttname"><a href="class_traitement___experiences.html#af8bc883cd0edfdb65dcefe5ac119f90a">Traitement_Experiences\__construct</a></div><div class="ttdeci">__construct($print)</div><div class="ttdef"><b>Definition:</b> <a href="experiences_2traitement_8php_source.html#l00023">traitement.php:23</a></div></div>
+<div class="ttc" id="aclass_traitement___experiences_html_ac7008ff417a0046555368446d89532c2"><div class="ttname"><a href="class_traitement___experiences.html#ac7008ff417a0046555368446d89532c2">Traitement_Experiences\__construct</a></div><div class="ttdeci">__construct($print)</div><div class="ttdef"><b>Definition:</b> <a href="experiences_2traitement_8php_source.html#l00023">traitement.php:23</a></div></div>
+<div class="ttc" id="aclass_traitement___experiences_html_acaeb0710533655b367d649d331bc41cd"><div class="ttname"><a href="class_traitement___experiences.html#acaeb0710533655b367d649d331bc41cd">Traitement_Experiences\traitement_toRender</a></div><div class="ttdeci">traitement_toRender()</div><div class="ttdef"><b>Definition:</b> <a href="experiences_2traitement_8php_source.html#l00043">traitement.php:43</a></div></div>
+<div class="ttc" id="aclass_traitement___experiences_html_afd4e4ac054b347b339f511de7d977601"><div class="ttname"><a href="class_traitement___experiences.html#afd4e4ac054b347b339f511de7d977601">Traitement_Experiences\traitement_accordion</a></div><div class="ttdeci">traitement_accordion()</div><div class="ttdef"><b>Definition:</b> <a href="experiences_2traitement_8php_source.html#l00035">traitement.php:35</a></div></div>
 <div class="ttc" id="aconfig_8inc_8php_html_a84e7b001466beb659382f023bc106491"><div class="ttname"><a href="config_8inc_8php.html#a84e7b001466beb659382f023bc106491">$config</a></div><div class="ttdeci">global $config</div><div class="ttdef"><b>Definition:</b> <a href="config_8inc_8php_source.html#l00003">config.inc.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

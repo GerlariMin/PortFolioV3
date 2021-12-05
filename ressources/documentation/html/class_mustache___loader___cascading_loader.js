@@ -1,6 +1,6 @@
 var class_mustache___loader___cascading_loader =
 [
-    [ "__construct", "class_mustache___loader___cascading_loader.html#aa94b98a38dc6c45449a45212d47f1a95", null ],
-    [ "addLoader", "class_mustache___loader___cascading_loader.html#ad94b399aedd8aec839f06611231e4f59", null ],
-    [ "load", "class_mustache___loader___cascading_loader.html#a5d4a434c5fe83bade81f5815706a3551", null ]
+    [ "__construct", "class_mustache___loader___cascading_loader.html#a1bcf26f2dbfe1075a63c8b132904b7c1", null ],
+    [ "addLoader", "class_mustache___loader___cascading_loader.html#a7c7489dcda526a2f2f1bc41e4da98601", null ],
+    [ "load", "class_mustache___loader___cascading_loader.html#a60a621601656f6340c794773acdbfa57", null ]
 ];

@@ -1,5 +1,5 @@
 var class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor =
 [
-    [ "getOperatorSigil", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor.html#aed7b4ab91d29701a3d5f4936de669b72", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor.html#a830b5c75df72b32396701bc563fbe3c7", null ]
+    [ "getOperatorSigil", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor.html#a7e92957e4aeae5c353c4ec4a9caa7dfb", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor.html#a9448ac9d43ecf442da505acff12ed932", null ]
 ];

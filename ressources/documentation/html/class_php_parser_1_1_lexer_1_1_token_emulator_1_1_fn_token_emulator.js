@@ -1,6 +1,6 @@
 var class_php_parser_1_1_lexer_1_1_token_emulator_1_1_fn_token_emulator =
 [
-    [ "getKeywordString", "class_php_parser_1_1_lexer_1_1_token_emulator_1_1_fn_token_emulator.html#a741f1cca644c5d5b30a6340b32fc54f4", null ],
-    [ "getKeywordToken", "class_php_parser_1_1_lexer_1_1_token_emulator_1_1_fn_token_emulator.html#ac7dedbb2924b08f9db7545fb95289d4a", null ],
-    [ "getPhpVersion", "class_php_parser_1_1_lexer_1_1_token_emulator_1_1_fn_token_emulator.html#a3387e708ca19a61036f28cf50a6e7adc", null ]
+    [ "getKeywordString", "class_php_parser_1_1_lexer_1_1_token_emulator_1_1_fn_token_emulator.html#acdc036f3dfd08654878f93de0c40d217", null ],
+    [ "getKeywordToken", "class_php_parser_1_1_lexer_1_1_token_emulator_1_1_fn_token_emulator.html#a0d77e718e2e829875d10c625765fd838", null ],
+    [ "getPhpVersion", "class_php_parser_1_1_lexer_1_1_token_emulator_1_1_fn_token_emulator.html#a1ee81503790733df7a6235fa6f477a28", null ]
 ];

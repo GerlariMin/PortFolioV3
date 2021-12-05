@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Util/ExcludeList.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Util/ExcludeList.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -253,7 +252,7 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_util_2_exclude
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> $directories;</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
-<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#ab34d5f1c61a28e4439cae3b08d6d04e2">  175</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#ab34d5f1c61a28e4439cae3b08d6d04e2">addDirectory</a>(<span class="keywordtype">string</span> $directory): void</div>
+<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#a5217f2309ea18589f3204d989b6d3578">  175</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#a5217f2309ea18589f3204d989b6d3578">addDirectory</a>(<span class="keywordtype">string</span> $directory): void</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    {</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">if</span> (!is_dir($directory)) {</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_exception.html">Exception</a>(</div>
@@ -267,14 +266,14 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_util_2_exclude
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        self::$directories[] = realpath($directory);</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160; </div>
-<div class="line"><a name="l00194"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#ad4658b1bfd9ae522aaf132c3200d02f4">  194</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#ad4658b1bfd9ae522aaf132c3200d02f4">getExcludedDirectories</a>(): array</div>
+<div class="line"><a name="l00194"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#a1b87214f11cd9b36d45c5bed6e050c93">  194</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#a1b87214f11cd9b36d45c5bed6e050c93">getExcludedDirectories</a>(): array</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        $this-&gt;initialize();</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">return</span> self::$directories;</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
-<div class="line"><a name="l00204"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#adc451ba3830e9a379f9454bdf8cdf426">  204</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#adc451ba3830e9a379f9454bdf8cdf426">isExcluded</a>(<span class="keywordtype">string</span> <a class="code" href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a>): bool</div>
+<div class="line"><a name="l00204"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#acc10a25c4ea29709c1bbedd32af7e90b">  204</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#acc10a25c4ea29709c1bbedd32af7e90b">isExcluded</a>(<span class="keywordtype">string</span> <a class="code" href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a>): bool</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    {</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">if</span> (defined(<span class="stringliteral">&#39;PHPUNIT_TESTSUITE&#39;</span>)) {</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -336,9 +335,9 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_util_2_exclude
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_exception_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_exception.html">PHPUnit\Framework\Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_framework_2_exception_2_exception_8php_source.html#l00040">Exception.php:41</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_test_case_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_test_case.html">PHPUnit\Framework\TestCase</a></div><div class="ttdef"><b>Definition:</b> <a href="_test_case_8php_source.html#l00119">TestCase.php:120</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_exclude_list_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html">PHPUnit\Util\ExcludeList</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_exclude_list_8php_source.html#l00061">ExcludeList.php:62</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_exclude_list_html_ab34d5f1c61a28e4439cae3b08d6d04e2"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#ab34d5f1c61a28e4439cae3b08d6d04e2">PHPUnit\Util\ExcludeList\addDirectory</a></div><div class="ttdeci">static addDirectory(string $directory)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_exclude_list_8php_source.html#l00175">ExcludeList.php:175</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_exclude_list_html_ad4658b1bfd9ae522aaf132c3200d02f4"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#ad4658b1bfd9ae522aaf132c3200d02f4">PHPUnit\Util\ExcludeList\getExcludedDirectories</a></div><div class="ttdeci">getExcludedDirectories()</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_exclude_list_8php_source.html#l00194">ExcludeList.php:194</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_exclude_list_html_adc451ba3830e9a379f9454bdf8cdf426"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#adc451ba3830e9a379f9454bdf8cdf426">PHPUnit\Util\ExcludeList\isExcluded</a></div><div class="ttdeci">isExcluded(string $file)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_exclude_list_8php_source.html#l00204">ExcludeList.php:204</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_exclude_list_html_a1b87214f11cd9b36d45c5bed6e050c93"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#a1b87214f11cd9b36d45c5bed6e050c93">PHPUnit\Util\ExcludeList\getExcludedDirectories</a></div><div class="ttdeci">getExcludedDirectories()</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_exclude_list_8php_source.html#l00194">ExcludeList.php:194</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_exclude_list_html_a5217f2309ea18589f3204d989b6d3578"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#a5217f2309ea18589f3204d989b6d3578">PHPUnit\Util\ExcludeList\addDirectory</a></div><div class="ttdeci">static addDirectory(string $directory)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_exclude_list_8php_source.html#l00175">ExcludeList.php:175</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_exclude_list_html_acc10a25c4ea29709c1bbedd32af7e90b"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_exclude_list.html#acc10a25c4ea29709c1bbedd32af7e90b">PHPUnit\Util\ExcludeList\isExcluded</a></div><div class="ttdeci">isExcluded(string $file)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_util_2_exclude_list_8php_source.html#l00204">ExcludeList.php:204</a></div></div>
 <div class="ttc" id="aclass_phar_io_1_1_manifest_1_1_manifest_html"><div class="ttname"><a href="class_phar_io_1_1_manifest_1_1_manifest.html">PharIo\Manifest\Manifest</a></div><div class="ttdef"><b>Definition:</b> <a href="_manifest_8php_source.html#l00014">Manifest.php:14</a></div></div>
 <div class="ttc" id="aclass_phar_io_1_1_version_1_1_version_html"><div class="ttname"><a href="class_phar_io_1_1_version_1_1_version.html">PharIo\Version\Version</a></div><div class="ttdef"><b>Definition:</b> <a href="phar-io_2version_2src_2_version_8php_source.html#l00012">Version.php:12</a></div></div>
 <div class="ttc" id="aclass_prophecy_1_1_prophet_html"><div class="ttname"><a href="class_prophecy_1_1_prophet.html">Prophecy\Prophet</a></div><div class="ttdef"><b>Definition:</b> <a href="_prophet_8php_source.html#l00031">Prophet.php:32</a></div></div>

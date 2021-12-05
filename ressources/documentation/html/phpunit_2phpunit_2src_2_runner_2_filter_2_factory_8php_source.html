@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Runner/Filter/Factory.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Runner/Filter/Factory.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -112,7 +111,7 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_runner_2_filte
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">private</span> $filters = [];</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a9a489811af96a5d90f5ea3708e823a33">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a9a489811af96a5d90f5ea3708e823a33">addFilter</a>(ReflectionClass $filter, $args): void</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a8b36caecb46e638b5b84013d8ec902ef">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a8b36caecb46e638b5b84013d8ec902ef">addFilter</a>(ReflectionClass $filter, $args): void</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">if</span> (!$filter-&gt;isSubclassOf(RecursiveFilterIterator::class)) {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_exception.html">Exception</a>(</div>
@@ -126,7 +125,7 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_runner_2_filte
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        $this-&gt;filters[] = [$filter, $args];</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a634ca9d45104bb4d6b54aad857f9da89">   50</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a634ca9d45104bb4d6b54aad857f9da89">factory</a>(Iterator $iterator, <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_test_suite.html">TestSuite</a> $suite): FilterIterator</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a5e17fb6ebec401ebea82d70b1e70c70e">   50</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a5e17fb6ebec401ebea82d70b1e70c70e">factory</a>(Iterator $iterator, <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_test_suite.html">TestSuite</a> $suite): FilterIterator</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">foreach</span> ($this-&gt;filters as $filter) {</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            [$class, $args] = $filter;</div>
@@ -142,8 +141,8 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_runner_2_filte
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_test_suite_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_test_suite.html">PHPUnit\Framework\TestSuite</a></div><div class="ttdef"><b>Definition:</b> <a href="_framework_2_test_suite_8php_source.html#l00051">TestSuite.php:52</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_exception_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_exception.html">PHPUnit\Runner\Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_exception_8php_source.html#l00017">Exception.php:18</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html">PHPUnit\Runner\Filter\Factory</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_filter_2_factory_8php_source.html#l00024">Factory.php:25</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory_html_a634ca9d45104bb4d6b54aad857f9da89"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a634ca9d45104bb4d6b54aad857f9da89">PHPUnit\Runner\Filter\Factory\factory</a></div><div class="ttdeci">factory(Iterator $iterator, TestSuite $suite)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_filter_2_factory_8php_source.html#l00050">Factory.php:50</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory_html_a9a489811af96a5d90f5ea3708e823a33"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a9a489811af96a5d90f5ea3708e823a33">PHPUnit\Runner\Filter\Factory\addFilter</a></div><div class="ttdeci">addFilter(ReflectionClass $filter, $args)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_filter_2_factory_8php_source.html#l00036">Factory.php:36</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory_html_a5e17fb6ebec401ebea82d70b1e70c70e"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a5e17fb6ebec401ebea82d70b1e70c70e">PHPUnit\Runner\Filter\Factory\factory</a></div><div class="ttdeci">factory(Iterator $iterator, TestSuite $suite)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_filter_2_factory_8php_source.html#l00050">Factory.php:50</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory_html_a8b36caecb46e638b5b84013d8ec902ef"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_factory.html#a8b36caecb46e638b5b84013d8ec902ef">PHPUnit\Runner\Filter\Factory\addFilter</a></div><div class="ttdeci">addFilter(ReflectionClass $filter, $args)</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_filter_2_factory_8php_source.html#l00036">Factory.php:36</a></div></div>
 <div class="ttc" id="anamespace_p_h_p_unit_1_1_runner_1_1_filter_html"><div class="ttname"><a href="namespace_p_h_p_unit_1_1_runner_1_1_filter.html">PHPUnit\Runner\Filter</a></div><div class="ttdef"><b>Definition:</b> <a href="_exclude_group_filter_iterator_8php_source.html#l00010">ExcludeGroupFilterIterator.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

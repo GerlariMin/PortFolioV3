@@ -1,16 +1,16 @@
 var class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer =
 [
-    [ "__construct", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a6b212233cca0247d42b5af6d82a24515", null ],
-    [ "colorizeMessageAndDiff", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a1f1698d6e2bc774659fa6f367c047e91", null ],
-    [ "drawSpinner", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a92ce36dcf2d8c67d005f31cc31fe6704", null ],
-    [ "formatClassName", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a978bf459be0196c9e68f490359c00c67", null ],
-    [ "formatStacktrace", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#adfbf2ada39afd06c5c8f85c6ced0fa49", null ],
-    [ "formatTestName", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a344ee6b86751c70fad3684e9a92d8dff", null ],
-    [ "formatTestResultMessage", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a0f499da63debcb14bb6fa92936f1daf2", null ],
-    [ "formatThrowable", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#abe574c7b18c82e69e09e6591d222a882", null ],
-    [ "printHeader", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#ac8e1b689fda5d8e090b9a8337db2268e", null ],
-    [ "printResult", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a432120b5bd996d082e40fa2c575dbf2b", null ],
-    [ "registerTestResult", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a7e1e703ecd0a6b383f1bd79c8efce89a", null ],
-    [ "undrawSpinner", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a7314132f98697007e7950a7250d0c840", null ],
-    [ "writeTestResult", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#ac31b5db4fc8158d59d8cf2b6c6528c47", null ]
+    [ "__construct", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a94f8c815d540b69c48265fe2262b587d", null ],
+    [ "colorizeMessageAndDiff", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#aee3eb86387f425ba2ed73e4343f5daa9", null ],
+    [ "drawSpinner", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#ad5b6815b0fb28936b5836750975801ca", null ],
+    [ "formatClassName", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a233754d050700439ed079a51a73e149e", null ],
+    [ "formatStacktrace", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a0c52b604f13f675d8f278ef6397f7709", null ],
+    [ "formatTestName", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a78f2cc2dccb12728b0f2fa86c2e27b55", null ],
+    [ "formatTestResultMessage", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a8920961dd069a9801ddfd822a12e0617", null ],
+    [ "formatThrowable", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a20cbba67685ee2101ce2c0ca41ed9759", null ],
+    [ "printHeader", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a62b8875c3674822db7b1d3774dcd2269", null ],
+    [ "printResult", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a1c3cb65502551c256307e0f810219ebf", null ],
+    [ "registerTestResult", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#aa8d970faeda5e52ec6e7c7ae29240725", null ],
+    [ "undrawSpinner", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a47e95f6abb4988381dfba7f9ff307f95", null ],
+    [ "writeTestResult", "class_p_h_p_unit_1_1_util_1_1_test_dox_1_1_cli_test_dox_printer.html#a0ae98e87c177543356b01ac37b3ef925", null ]
 ];

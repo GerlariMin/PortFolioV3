@@ -1,7 +1,7 @@
 var class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence.html#abe71e5c26d58abbdaef2afd232a85f21", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "$insteadof", "class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence.html#a85a80cc1e66d036ffd87a0b385ba0463", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence.html#aeba201b58ab2e640613318fb98edb6a5", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence.html#ada668fbd9bf9399d1930cfd0d07e46c1", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence.html#ad948167bbf479803b084e31ef436818e", null ],
+    [ "$insteadof", "class_php_parser_1_1_node_1_1_stmt_1_1_trait_use_adaptation_1_1_precedence.html#a23cd4c448393bb2b18cdbb5494e9c97e", null ]
 ];

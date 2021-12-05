@@ -1,8 +1,8 @@
 var interface_php_parser_1_1_node_1_1_function_like =
 [
-    [ "getAttrGroups", "interface_php_parser_1_1_node_1_1_function_like.html#af76eea7b49ba39be54fbac2debb45f23", null ],
-    [ "getParams", "interface_php_parser_1_1_node_1_1_function_like.html#ae32cd7c32721b02d676bb63b4b1366db", null ],
-    [ "getReturnType", "interface_php_parser_1_1_node_1_1_function_like.html#a8d833642f3f98773f6ad2d64943be1b2", null ],
-    [ "getStmts", "interface_php_parser_1_1_node_1_1_function_like.html#a50ff17b7495cc1618bb06708d881e680", null ],
-    [ "returnsByRef", "interface_php_parser_1_1_node_1_1_function_like.html#adef7cd6ca4145c7ff9d43049f67268ae", null ]
+    [ "getAttrGroups", "interface_php_parser_1_1_node_1_1_function_like.html#a423f5b884717c5778f5291124f31a4e1", null ],
+    [ "getParams", "interface_php_parser_1_1_node_1_1_function_like.html#ac544d30ac3fc1cbbbde94bb589921aa7", null ],
+    [ "getReturnType", "interface_php_parser_1_1_node_1_1_function_like.html#a7fee389543b3db6d0ee03654100c874c", null ],
+    [ "getStmts", "interface_php_parser_1_1_node_1_1_function_like.html#aebb7177362bcb52417955786138e20d8", null ],
+    [ "returnsByRef", "interface_php_parser_1_1_node_1_1_function_like.html#a46843c8b7b49646ec023e672bb76ee49", null ]
 ];

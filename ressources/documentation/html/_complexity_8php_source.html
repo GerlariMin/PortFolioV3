@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/sebastian/complexity/src/Complexity/Complexity.php Source File</title>
+<title>PortFolioV3: ressources/vendor/sebastian/complexity/src/Complexity/Complexity.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -105,26 +104,26 @@ $(document).ready(function(){initNavTree('_complexity_8php_source.html',''); ini
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">private</span> $cyclomaticComplexity;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a6a8bfcedad40dd908389849435ab866f">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a6a8bfcedad40dd908389849435ab866f">__construct</a>(<span class="keywordtype">string</span> $name, <span class="keywordtype">int</span> $cyclomaticComplexity)</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#aea4fe9f89caa34ff3b1df046cf5db4a3">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#aea4fe9f89caa34ff3b1df046cf5db4a3">__construct</a>(<span class="keywordtype">string</span> $name, <span class="keywordtype">int</span> $cyclomaticComplexity)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        $this-&gt;<a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a4b516aaa5fa38da4fed24ab6001627e2">name</a>                 = $name;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        $this-&gt;<a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9793d35cd7e79cd8151be32ca0e451b3">cyclomaticComplexity</a> = $cyclomaticComplexity;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        $this-&gt;<a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9bdadbe2160043764960fa7e59139409">name</a>                 = $name;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        $this-&gt;<a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a757710d2a7aba0fd43b079f02c7156ab">cyclomaticComplexity</a> = $cyclomaticComplexity;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a4b516aaa5fa38da4fed24ab6001627e2">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a4b516aaa5fa38da4fed24ab6001627e2">name</a>(): string</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9bdadbe2160043764960fa7e59139409">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9bdadbe2160043764960fa7e59139409">name</a>(): string</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> $this-&gt;name;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9793d35cd7e79cd8151be32ca0e451b3">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9793d35cd7e79cd8151be32ca0e451b3">cyclomaticComplexity</a>(): int</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a757710d2a7aba0fd43b079f02c7156ab">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a757710d2a7aba0fd43b079f02c7156ab">cyclomaticComplexity</a>(): int</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> $this-&gt;cyclomaticComplexity;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_complexity_1_1_complexity_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html">SebastianBergmann\Complexity\Complexity</a></div><div class="ttdef"><b>Definition:</b> <a href="_complexity_8php_source.html#l00015">Complexity.php:16</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_complexity_1_1_complexity_html_a4b516aaa5fa38da4fed24ab6001627e2"><div class="ttname"><a href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a4b516aaa5fa38da4fed24ab6001627e2">SebastianBergmann\Complexity\Complexity\name</a></div><div class="ttdeci">name()</div><div class="ttdef"><b>Definition:</b> <a href="_complexity_8php_source.html#l00033">Complexity.php:33</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_complexity_1_1_complexity_html_a6a8bfcedad40dd908389849435ab866f"><div class="ttname"><a href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a6a8bfcedad40dd908389849435ab866f">SebastianBergmann\Complexity\Complexity\__construct</a></div><div class="ttdeci">__construct(string $name, int $cyclomaticComplexity)</div><div class="ttdef"><b>Definition:</b> <a href="_complexity_8php_source.html#l00027">Complexity.php:27</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_complexity_1_1_complexity_html_a9793d35cd7e79cd8151be32ca0e451b3"><div class="ttname"><a href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9793d35cd7e79cd8151be32ca0e451b3">SebastianBergmann\Complexity\Complexity\cyclomaticComplexity</a></div><div class="ttdeci">cyclomaticComplexity()</div><div class="ttdef"><b>Definition:</b> <a href="_complexity_8php_source.html#l00038">Complexity.php:38</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_complexity_1_1_complexity_html_a757710d2a7aba0fd43b079f02c7156ab"><div class="ttname"><a href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a757710d2a7aba0fd43b079f02c7156ab">SebastianBergmann\Complexity\Complexity\cyclomaticComplexity</a></div><div class="ttdeci">cyclomaticComplexity()</div><div class="ttdef"><b>Definition:</b> <a href="_complexity_8php_source.html#l00038">Complexity.php:38</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_complexity_1_1_complexity_html_a9bdadbe2160043764960fa7e59139409"><div class="ttname"><a href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#a9bdadbe2160043764960fa7e59139409">SebastianBergmann\Complexity\Complexity\name</a></div><div class="ttdeci">name()</div><div class="ttdef"><b>Definition:</b> <a href="_complexity_8php_source.html#l00033">Complexity.php:33</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_complexity_1_1_complexity_html_aea4fe9f89caa34ff3b1df046cf5db4a3"><div class="ttname"><a href="class_sebastian_bergmann_1_1_complexity_1_1_complexity.html#aea4fe9f89caa34ff3b1df046cf5db4a3">SebastianBergmann\Complexity\Complexity\__construct</a></div><div class="ttdeci">__construct(string $name, int $cyclomaticComplexity)</div><div class="ttdef"><b>Definition:</b> <a href="_complexity_8php_source.html#l00027">Complexity.php:27</a></div></div>
 <div class="ttc" id="anamespace_sebastian_bergmann_1_1_complexity_html"><div class="ttname"><a href="namespace_sebastian_bergmann_1_1_complexity.html">SebastianBergmann\Complexity</a></div><div class="ttdef"><b>Definition:</b> <a href="_calculator_8php_source.html#l00010">Calculator.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

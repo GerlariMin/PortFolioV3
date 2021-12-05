@@ -1,10 +1,10 @@
 var class_mustache___test___loader___filesystem_loader_test =
 [
-    [ "testConstructor", "class_mustache___test___loader___filesystem_loader_test.html#a47094dc941e72950570900d1418f89c6", null ],
-    [ "testConstructorWithProtocol", "class_mustache___test___loader___filesystem_loader_test.html#a9c3e991950abe0b1926fb202a5f436c3", null ],
-    [ "testEmptyExtensionString", "class_mustache___test___loader___filesystem_loader_test.html#a01b3866b83cbb43056dca5d902277a4f", null ],
-    [ "testLoadTemplates", "class_mustache___test___loader___filesystem_loader_test.html#a9596bd29af3bcd47ac76be747dcf7b16", null ],
-    [ "testMissingBaseDirThrowsException", "class_mustache___test___loader___filesystem_loader_test.html#a5ed8fca973153378a71f35a482d2db1a", null ],
-    [ "testMissingTemplateThrowsException", "class_mustache___test___loader___filesystem_loader_test.html#a1baf90459ad93d0488830586732d7b01", null ],
-    [ "testTrailingSlashes", "class_mustache___test___loader___filesystem_loader_test.html#a1d9ec99b3b8337ceef15f29928619a3d", null ]
+    [ "testConstructor", "class_mustache___test___loader___filesystem_loader_test.html#ac54896dc992c9f54b954c761563b602e", null ],
+    [ "testConstructorWithProtocol", "class_mustache___test___loader___filesystem_loader_test.html#a7923805e21bbf048547368c2361a46ec", null ],
+    [ "testEmptyExtensionString", "class_mustache___test___loader___filesystem_loader_test.html#abf806afec85399a178f0d6c11d53bc4e", null ],
+    [ "testLoadTemplates", "class_mustache___test___loader___filesystem_loader_test.html#a59f6b3e8afd0314068b8843f0e7e549c", null ],
+    [ "testMissingBaseDirThrowsException", "class_mustache___test___loader___filesystem_loader_test.html#a44f83e740a7ac2c4e2505b971a4ef515", null ],
+    [ "testMissingTemplateThrowsException", "class_mustache___test___loader___filesystem_loader_test.html#a93dee462dc39267b0864cf480a0d0ac6", null ],
+    [ "testTrailingSlashes", "class_mustache___test___loader___filesystem_loader_test.html#abcacf3fcda4a22a0726fcbeedd32254c", null ]
 ];

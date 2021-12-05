@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/mustache/Render.php Source File</title>
+<title>PortFolioV3: ressources/mustache/Render.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -94,7 +93,7 @@ $(document).ready(function(){initNavTree('_render_8php_source.html',''); initRes
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">private</span> <a class="code" href="class_mustache___engine.html">Mustache_Engine</a> $mustache;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_render.html#a39045a5af7e3dfde30f0aeebef6f6205">   17</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_render.html#a39045a5af7e3dfde30f0aeebef6f6205">__construct</a>($chemin = <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_render.html#ae98e73235ab44924272672107acd04a4">   17</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_render.html#ae98e73235ab44924272672107acd04a4">__construct</a>($chemin = <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            $this-&gt;mustache = <span class="keyword">new</span> <a class="code" href="class_mustache___engine.html">Mustache_Engine</a>(</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                [</div>
@@ -116,7 +115,7 @@ $(document).ready(function(){initNavTree('_render_8php_source.html',''); initRes
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            );</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_render.html#aa448a580d135e4049f452de9f706c0e4">   42</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_render.html#aa448a580d135e4049f452de9f706c0e4">action_render</a>($data = [])</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_render.html#a8a4057733676a294191e112c8bd000df">   42</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_render.html#a8a4057733676a294191e112c8bd000df">action_render</a>($data = [])</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="comment">//On extrait les données à afficher</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            extract($data);</div>
@@ -131,8 +130,8 @@ $(document).ready(function(){initNavTree('_render_8php_source.html',''); initRes
 <div class="ttc" id="aclass_mustache___loader___cascading_loader_html"><div class="ttname"><a href="class_mustache___loader___cascading_loader.html">Mustache_Loader_CascadingLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_cascading_loader_8php_source.html#l00016">CascadingLoader.php:17</a></div></div>
 <div class="ttc" id="aclass_mustache___loader___filesystem_loader_html"><div class="ttname"><a href="class_mustache___loader___filesystem_loader.html">Mustache_Loader_FilesystemLoader</a></div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_loader_8php_source.html#l00027">FilesystemLoader.php:28</a></div></div>
 <div class="ttc" id="aclass_render_html"><div class="ttname"><a href="class_render.html">Render</a></div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00006">Render.php:7</a></div></div>
-<div class="ttc" id="aclass_render_html_a39045a5af7e3dfde30f0aeebef6f6205"><div class="ttname"><a href="class_render.html#a39045a5af7e3dfde30f0aeebef6f6205">Render\__construct</a></div><div class="ttdeci">__construct($chemin=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00017">Render.php:17</a></div></div>
-<div class="ttc" id="aclass_render_html_aa448a580d135e4049f452de9f706c0e4"><div class="ttname"><a href="class_render.html#aa448a580d135e4049f452de9f706c0e4">Render\action_render</a></div><div class="ttdeci">action_render($data=[])</div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00042">Render.php:42</a></div></div>
+<div class="ttc" id="aclass_render_html_a8a4057733676a294191e112c8bd000df"><div class="ttname"><a href="class_render.html#a8a4057733676a294191e112c8bd000df">Render\action_render</a></div><div class="ttdeci">action_render($data=[])</div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00042">Render.php:42</a></div></div>
+<div class="ttc" id="aclass_render_html_ae98e73235ab44924272672107acd04a4"><div class="ttname"><a href="class_render.html#ae98e73235ab44924272672107acd04a4">Render\__construct</a></div><div class="ttdeci">__construct($chemin=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="_render_8php_source.html#l00017">Render.php:17</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

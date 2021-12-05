@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Runner/Version.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Runner/Version.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -112,7 +111,7 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_runner_2_versi
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">private</span> <span class="keyword">static</span> $version = <span class="stringliteral">&#39;&#39;</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a2196ce91263823e966bd0f3e5b49528d">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a2196ce91263823e966bd0f3e5b49528d">id</a>(): string</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a20fd9da45d3f46a632133ba39a91149d">   37</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a20fd9da45d3f46a632133ba39a91149d">id</a>(): string</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">if</span> (self::$pharVersion !== <span class="stringliteral">&#39;&#39;</span>) {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordflow">return</span> self::$pharVersion;</div>
@@ -125,26 +124,26 @@ $(document).ready(function(){initNavTree('phpunit_2phpunit_2src_2_runner_2_versi
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> self::$version;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_version.html#abe8f5f21eb5e37629b894a6796587bd6">   50</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#abe8f5f21eb5e37629b894a6796587bd6">series</a>(): string</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a65a169fb03e251ffe21ea18d56a386a0">   50</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a65a169fb03e251ffe21ea18d56a386a0">series</a>(): string</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (strpos(self::id(), <span class="charliteral">&#39;-&#39;</span>)) {</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            $version = explode(<span class="charliteral">&#39;-&#39;</span>, self::id())[0];</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            $version = <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a2196ce91263823e966bd0f3e5b49528d">self::id</a>();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            $version = <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a20fd9da45d3f46a632133ba39a91149d">self::id</a>();</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span> implode(<span class="charliteral">&#39;.&#39;</span>, array_slice(explode(<span class="charliteral">&#39;.&#39;</span>, $version), 0, 2));</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_version.html#aa7795483db5b6a1859d34f2ad103930a">   61</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#aa7795483db5b6a1859d34f2ad103930a">getVersionString</a>(): string</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a4fd83b8b29b7f680829f0998712128af">   61</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a4fd83b8b29b7f680829f0998712128af">getVersionString</a>(): string</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;PHPUnit &#39;</span> . <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a2196ce91263823e966bd0f3e5b49528d">self::id</a>() . <span class="stringliteral">&#39; by Sebastian Bergmann and contributors.&#39;</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;PHPUnit &#39;</span> . <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_version.html#a20fd9da45d3f46a632133ba39a91149d">self::id</a>() . <span class="stringliteral">&#39; by Sebastian Bergmann and contributors.&#39;</span>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_version_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_version.html">PHPUnit\Runner\Version</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_version_8php_source.html#l00022">Version.php:23</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_version_html_a2196ce91263823e966bd0f3e5b49528d"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_version.html#a2196ce91263823e966bd0f3e5b49528d">PHPUnit\Runner\Version\id</a></div><div class="ttdeci">static id()</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_version_8php_source.html#l00037">Version.php:37</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_version_html_aa7795483db5b6a1859d34f2ad103930a"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_version.html#aa7795483db5b6a1859d34f2ad103930a">PHPUnit\Runner\Version\getVersionString</a></div><div class="ttdeci">static getVersionString()</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_version_8php_source.html#l00061">Version.php:61</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_version_html_abe8f5f21eb5e37629b894a6796587bd6"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_version.html#abe8f5f21eb5e37629b894a6796587bd6">PHPUnit\Runner\Version\series</a></div><div class="ttdeci">static series()</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_version_8php_source.html#l00050">Version.php:50</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_version_html_a20fd9da45d3f46a632133ba39a91149d"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_version.html#a20fd9da45d3f46a632133ba39a91149d">PHPUnit\Runner\Version\id</a></div><div class="ttdeci">static id()</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_version_8php_source.html#l00037">Version.php:37</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_version_html_a4fd83b8b29b7f680829f0998712128af"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_version.html#a4fd83b8b29b7f680829f0998712128af">PHPUnit\Runner\Version\getVersionString</a></div><div class="ttdeci">static getVersionString()</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_version_8php_source.html#l00061">Version.php:61</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_version_html_a65a169fb03e251ffe21ea18d56a386a0"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_version.html#a65a169fb03e251ffe21ea18d56a386a0">PHPUnit\Runner\Version\series</a></div><div class="ttdeci">static series()</div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_runner_2_version_8php_source.html#l00050">Version.php:50</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_version_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_version.html">SebastianBergmann\Version</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2version_2src_2_version_8php_source.html#l00013">Version.php:14</a></div></div>
 <div class="ttc" id="anamespace_p_h_p_unit_1_1_runner_html"><div class="ttname"><a href="namespace_p_h_p_unit_1_1_runner.html">PHPUnit\Runner</a></div><div class="ttdef"><b>Definition:</b> <a href="_base_test_runner_8php_source.html#l00010">BaseTestRunner.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

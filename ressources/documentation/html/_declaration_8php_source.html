@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/nikic/php-parser/lib/PhpParser/Builder/Declaration.php Source File</title>
+<title>PortFolioV3: ressources/vendor/nikic/php-parser/lib/PhpParser/Builder/Declaration.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -97,33 +96,33 @@ $(document).ready(function(){initNavTree('_declaration_8php_source.html',''); in
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html">    8</a></span>&#160;<span class="keyword">abstract</span> <span class="keyword">class </span><a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html">Declaration</a> <span class="keyword">implements</span> <a class="code" href="namespace_php_parser_1_1_builder.html">PhpParser\Builder</a></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html#adc851f7a62250e75df0490c0280aef4c">   10</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#adc851f7a62250e75df0490c0280aef4c">$attributes</a> = [];</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html#a27ca02d680895493f31ff3f6e584c984">   10</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#a27ca02d680895493f31ff3f6e584c984">$attributes</a> = [];</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html#a84285314df11d1a21c01569981967d27">   12</a></span>&#160;    <span class="keyword">abstract</span> <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#a84285314df11d1a21c01569981967d27">addStmt</a>($stmt);</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html#a611f2f93275eb2f09334762563765889">   12</a></span>&#160;    <span class="keyword">abstract</span> <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#a611f2f93275eb2f09334762563765889">addStmt</a>($stmt);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html#a5c42f122153c4d02ae24d12b50712f0d">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#a5c42f122153c4d02ae24d12b50712f0d">addStmts</a>(array $stmts) {</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html#acb093cb02d9bc8b0655819779f3d8978">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#acb093cb02d9bc8b0655819779f3d8978">addStmts</a>(array $stmts) {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">foreach</span> ($stmts as $stmt) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            $this-&gt;<a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#a84285314df11d1a21c01569981967d27">addStmt</a>($stmt);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            $this-&gt;<a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#a611f2f93275eb2f09334762563765889">addStmt</a>($stmt);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> $this;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html#a7331d24646c54f9d8f98ecf7bc5827bd">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#a7331d24646c54f9d8f98ecf7bc5827bd">setDocComment</a>($docComment) {</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_builder_1_1_declaration.html#a72a0a77d0d200694829bad8f5a726720">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_builder_1_1_declaration.html#a72a0a77d0d200694829bad8f5a726720">setDocComment</a>($docComment) {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        $this-&gt;attributes[<span class="stringliteral">&#39;comments&#39;</span>] = [</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="class_php_parser_1_1_builder_helpers.html#aca1217186198210f89379aff20018518">BuilderHelpers::normalizeDocComment</a>($docComment)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="class_php_parser_1_1_builder_helpers.html#a5c53c3cde2d0437a14c8b60d8964b297">BuilderHelpers::normalizeDocComment</a>($docComment)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        ];</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> $this;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html">PhpParser\Builder\Declaration</a></div><div class="ttdef"><b>Definition:</b> <a href="_declaration_8php_source.html#l00008">Declaration.php:9</a></div></div>
-<div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html_a5c42f122153c4d02ae24d12b50712f0d"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html#a5c42f122153c4d02ae24d12b50712f0d">PhpParser\Builder\Declaration\addStmts</a></div><div class="ttdeci">addStmts(array $stmts)</div><div class="ttdef"><b>Definition:</b> <a href="_declaration_8php_source.html#l00021">Declaration.php:21</a></div></div>
-<div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html_a7331d24646c54f9d8f98ecf7bc5827bd"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html#a7331d24646c54f9d8f98ecf7bc5827bd">PhpParser\Builder\Declaration\setDocComment</a></div><div class="ttdeci">setDocComment($docComment)</div><div class="ttdef"><b>Definition:</b> <a href="_declaration_8php_source.html#l00036">Declaration.php:36</a></div></div>
-<div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html_a84285314df11d1a21c01569981967d27"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html#a84285314df11d1a21c01569981967d27">PhpParser\Builder\Declaration\addStmt</a></div><div class="ttdeci">addStmt($stmt)</div></div>
-<div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html_adc851f7a62250e75df0490c0280aef4c"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html#adc851f7a62250e75df0490c0280aef4c">PhpParser\Builder\Declaration\$attributes</a></div><div class="ttdeci">$attributes</div><div class="ttdef"><b>Definition:</b> <a href="_declaration_8php_source.html#l00010">Declaration.php:10</a></div></div>
+<div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html_a27ca02d680895493f31ff3f6e584c984"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html#a27ca02d680895493f31ff3f6e584c984">PhpParser\Builder\Declaration\$attributes</a></div><div class="ttdeci">$attributes</div><div class="ttdef"><b>Definition:</b> <a href="_declaration_8php_source.html#l00010">Declaration.php:10</a></div></div>
+<div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html_a611f2f93275eb2f09334762563765889"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html#a611f2f93275eb2f09334762563765889">PhpParser\Builder\Declaration\addStmt</a></div><div class="ttdeci">addStmt($stmt)</div></div>
+<div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html_a72a0a77d0d200694829bad8f5a726720"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html#a72a0a77d0d200694829bad8f5a726720">PhpParser\Builder\Declaration\setDocComment</a></div><div class="ttdeci">setDocComment($docComment)</div><div class="ttdef"><b>Definition:</b> <a href="_declaration_8php_source.html#l00036">Declaration.php:36</a></div></div>
+<div class="ttc" id="aclass_php_parser_1_1_builder_1_1_declaration_html_acb093cb02d9bc8b0655819779f3d8978"><div class="ttname"><a href="class_php_parser_1_1_builder_1_1_declaration.html#acb093cb02d9bc8b0655819779f3d8978">PhpParser\Builder\Declaration\addStmts</a></div><div class="ttdeci">addStmts(array $stmts)</div><div class="ttdef"><b>Definition:</b> <a href="_declaration_8php_source.html#l00021">Declaration.php:21</a></div></div>
 <div class="ttc" id="aclass_php_parser_1_1_builder_helpers_html"><div class="ttname"><a href="class_php_parser_1_1_builder_helpers.html">PhpParser\BuilderHelpers</a></div><div class="ttdef"><b>Definition:</b> <a href="_builder_helpers_8php_source.html#l00018">BuilderHelpers.php:19</a></div></div>
-<div class="ttc" id="aclass_php_parser_1_1_builder_helpers_html_aca1217186198210f89379aff20018518"><div class="ttname"><a href="class_php_parser_1_1_builder_helpers.html#aca1217186198210f89379aff20018518">PhpParser\BuilderHelpers\normalizeDocComment</a></div><div class="ttdeci">static normalizeDocComment($docComment)</div><div class="ttdef"><b>Definition:</b> <a href="_builder_helpers_8php_source.html#l00263">BuilderHelpers.php:263</a></div></div>
+<div class="ttc" id="aclass_php_parser_1_1_builder_helpers_html_a5c53c3cde2d0437a14c8b60d8964b297"><div class="ttname"><a href="class_php_parser_1_1_builder_helpers.html#a5c53c3cde2d0437a14c8b60d8964b297">PhpParser\BuilderHelpers\normalizeDocComment</a></div><div class="ttdeci">static normalizeDocComment($docComment)</div><div class="ttdef"><b>Definition:</b> <a href="_builder_helpers_8php_source.html#l00263">BuilderHelpers.php:263</a></div></div>
 <div class="ttc" id="anamespace_php_parser_1_1_builder_html"><div class="ttname"><a href="namespace_php_parser_1_1_builder.html">PhpParser\Builder</a></div><div class="ttdef"><b>Definition:</b> <a href="_builder_2_class___8php_source.html#l00003">Class_.php:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

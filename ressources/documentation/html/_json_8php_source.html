@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Util/Json.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Util/Json.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -113,7 +112,7 @@ $(document).ready(function(){initNavTree('_json_8php_source.html',''); initResiz
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_json.html">   27</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_p_h_p_unit_1_1_util_1_1_json.html">Json</a></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_json.html#a9b09cbf4ba74e54a0a7e5476bc56b4b0">   34</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_json.html#a9b09cbf4ba74e54a0a7e5476bc56b4b0">prettify</a>(<span class="keywordtype">string</span> $json): string</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_json.html#a008a4ed702514f12225f8cc701302903">   34</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_json.html#a008a4ed702514f12225f8cc701302903">prettify</a>(<span class="keywordtype">string</span> $json): string</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        $decodedJson = json_decode($json, <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
@@ -126,7 +125,7 @@ $(document).ready(function(){initNavTree('_json_8php_source.html',''); initResiz
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> json_encode($decodedJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_json.html#a596c367126a6eea05ce11a17b7d4f008">   55</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_json.html#a596c367126a6eea05ce11a17b7d4f008">canonicalize</a>(<span class="keywordtype">string</span> $json): array</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_util_1_1_json.html#a9101a8e61e4d3228c9610e2fef5edefe">   55</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_util_1_1_json.html#a9101a8e61e4d3228c9610e2fef5edefe">canonicalize</a>(<span class="keywordtype">string</span> $json): array</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        $decodedJson = json_decode($json);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
@@ -166,8 +165,8 @@ $(document).ready(function(){initNavTree('_json_8php_source.html',''); initResiz
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_exception_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_exception.html">PHPUnit\Framework\Exception</a></div><div class="ttdef"><b>Definition:</b> <a href="phpunit_2phpunit_2src_2_framework_2_exception_2_exception_8php_source.html#l00040">Exception.php:41</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_json_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_json.html">PHPUnit\Util\Json</a></div><div class="ttdef"><b>Definition:</b> <a href="_json_8php_source.html#l00027">Json.php:28</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_json_html_a596c367126a6eea05ce11a17b7d4f008"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_json.html#a596c367126a6eea05ce11a17b7d4f008">PHPUnit\Util\Json\canonicalize</a></div><div class="ttdeci">static canonicalize(string $json)</div><div class="ttdef"><b>Definition:</b> <a href="_json_8php_source.html#l00055">Json.php:55</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_json_html_a9b09cbf4ba74e54a0a7e5476bc56b4b0"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_json.html#a9b09cbf4ba74e54a0a7e5476bc56b4b0">PHPUnit\Util\Json\prettify</a></div><div class="ttdeci">static prettify(string $json)</div><div class="ttdef"><b>Definition:</b> <a href="_json_8php_source.html#l00034">Json.php:34</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_json_html_a008a4ed702514f12225f8cc701302903"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_json.html#a008a4ed702514f12225f8cc701302903">PHPUnit\Util\Json\prettify</a></div><div class="ttdeci">static prettify(string $json)</div><div class="ttdef"><b>Definition:</b> <a href="_json_8php_source.html#l00034">Json.php:34</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_json_html_a9101a8e61e4d3228c9610e2fef5edefe"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_json.html#a9101a8e61e4d3228c9610e2fef5edefe">PHPUnit\Util\Json\canonicalize</a></div><div class="ttdeci">static canonicalize(string $json)</div><div class="ttdef"><b>Definition:</b> <a href="_json_8php_source.html#l00055">Json.php:55</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

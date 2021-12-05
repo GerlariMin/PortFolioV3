@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Framework/MockObject/MockMethodSet.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Framework/MockObject/MockMethodSet.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -107,28 +106,28 @@ $(document).ready(function(){initNavTree('_mock_method_set_8php_source.html','')
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span> $methods = [];</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a741eb4f94af05194cdcc27609b1493a2">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a741eb4f94af05194cdcc27609b1493a2">addMethods</a>(<a class="code" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method.html">MockMethod</a> ...$methods): void</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#aa96ca73f1f366ae92f64426fa4bfc7f4">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#aa96ca73f1f366ae92f64426fa4bfc7f4">addMethods</a>(<a class="code" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method.html">MockMethod</a> ...$methods): void</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">foreach</span> ($methods as $method) {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            $this-&gt;methods[strtolower($method-&gt;getName())] = $method;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a12b8efb717cb31322bfa4d1d75146979">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a12b8efb717cb31322bfa4d1d75146979">asArray</a>(): array</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a12f3b94562da516ec746ca2825980d9e">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a12f3b94562da516ec746ca2825980d9e">asArray</a>(): array</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> array_values($this-&gt;methods);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#ad962225be504a56f29c75d57c82d845b">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#ad962225be504a56f29c75d57c82d845b">hasMethod</a>(<span class="keywordtype">string</span> $methodName): bool</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a03591f70006efd43208ab95fc776bb28">   41</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a03591f70006efd43208ab95fc776bb28">hasMethod</a>(<span class="keywordtype">string</span> $methodName): bool</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> array_key_exists(strtolower($methodName), $this-&gt;methods);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method.html">PHPUnit\Framework\MockObject\MockMethod</a></div><div class="ttdef"><b>Definition:</b> <a href="_mock_method_8php_source.html#l00035">MockMethod.php:36</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html">PHPUnit\Framework\MockObject\MockMethodSet</a></div><div class="ttdef"><b>Definition:</b> <a href="_mock_method_set_8php_source.html#l00019">MockMethodSet.php:20</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set_html_a12b8efb717cb31322bfa4d1d75146979"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a12b8efb717cb31322bfa4d1d75146979">PHPUnit\Framework\MockObject\MockMethodSet\asArray</a></div><div class="ttdeci">asArray()</div><div class="ttdef"><b>Definition:</b> <a href="_mock_method_set_8php_source.html#l00036">MockMethodSet.php:36</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set_html_a741eb4f94af05194cdcc27609b1493a2"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a741eb4f94af05194cdcc27609b1493a2">PHPUnit\Framework\MockObject\MockMethodSet\addMethods</a></div><div class="ttdeci">addMethods(MockMethod ... $methods)</div><div class="ttdef"><b>Definition:</b> <a href="_mock_method_set_8php_source.html#l00026">MockMethodSet.php:26</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set_html_ad962225be504a56f29c75d57c82d845b"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#ad962225be504a56f29c75d57c82d845b">PHPUnit\Framework\MockObject\MockMethodSet\hasMethod</a></div><div class="ttdeci">hasMethod(string $methodName)</div><div class="ttdef"><b>Definition:</b> <a href="_mock_method_set_8php_source.html#l00041">MockMethodSet.php:41</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set_html_a03591f70006efd43208ab95fc776bb28"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a03591f70006efd43208ab95fc776bb28">PHPUnit\Framework\MockObject\MockMethodSet\hasMethod</a></div><div class="ttdeci">hasMethod(string $methodName)</div><div class="ttdef"><b>Definition:</b> <a href="_mock_method_set_8php_source.html#l00041">MockMethodSet.php:41</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set_html_a12f3b94562da516ec746ca2825980d9e"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#a12f3b94562da516ec746ca2825980d9e">PHPUnit\Framework\MockObject\MockMethodSet\asArray</a></div><div class="ttdeci">asArray()</div><div class="ttdef"><b>Definition:</b> <a href="_mock_method_set_8php_source.html#l00036">MockMethodSet.php:36</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set_html_aa96ca73f1f366ae92f64426fa4bfc7f4"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_mock_method_set.html#aa96ca73f1f366ae92f64426fa4bfc7f4">PHPUnit\Framework\MockObject\MockMethodSet\addMethods</a></div><div class="ttdeci">addMethods(MockMethod ... $methods)</div><div class="ttdef"><b>Definition:</b> <a href="_mock_method_set_8php_source.html#l00026">MockMethodSet.php:26</a></div></div>
 <div class="ttc" id="anamespace_p_h_p_unit_1_1_framework_1_1_mock_object_html"><div class="ttname"><a href="namespace_p_h_p_unit_1_1_framework_1_1_mock_object.html">PHPUnit\Framework\MockObject</a></div><div class="ttdef"><b>Definition:</b> <a href="_api_8php_source.html#l00010">Api.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

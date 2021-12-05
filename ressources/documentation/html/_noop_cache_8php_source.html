@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/mustache/mustache/src/Mustache/Cache/NoopCache.php Source File</title>
+<title>PortFolioV3: ressources/vendor/mustache/mustache/src/Mustache/Cache/NoopCache.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -101,15 +100,15 @@ $(document).ready(function(){initNavTree('_noop_cache_8php_source.html',''); ini
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_mustache___cache___noop_cache.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_mustache___cache___noop_cache.html">Mustache_Cache_NoopCache</a> <span class="keyword">extends</span> <a class="code" href="class_mustache___cache___abstract_cache.html">Mustache_Cache_AbstractCache</a></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_mustache___cache___noop_cache.html#a8d0a51036af71436a1e8dcc26fc4281d">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___noop_cache.html#a8d0a51036af71436a1e8dcc26fc4281d">load</a>($key)</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_mustache___cache___noop_cache.html#a470e435bc26e89865a0ae1bc1c430f34">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___noop_cache.html#a470e435bc26e89865a0ae1bc1c430f34">load</a>($key)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_mustache___cache___noop_cache.html#a002454e8760830b2942f6301f276255b">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___noop_cache.html#a002454e8760830b2942f6301f276255b">cache</a>($key, $value)</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_mustache___cache___noop_cache.html#a4ef9c625b18ae19c17b5ee8dd4e7e323">   38</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___cache___noop_cache.html#a4ef9c625b18ae19c17b5ee8dd4e7e323">cache</a>($key, $value)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">log</a>(</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="interface_mustache___logger.html#ad0c7ccd2f8b92a760391d21d0ec7b339">Mustache_Logger::WARNING</a>,</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        $this-&gt;<a class="code" href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">log</a>(</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="interface_mustache___logger.html#a6fdf37865420b70efed5ed0f36a0d524">Mustache_Logger::WARNING</a>,</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="stringliteral">&#39;Template cache disabled, evaluating &quot;{className}&quot; class at runtime&#39;</span>,</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            array(<span class="stringliteral">&#39;className&#39;</span> =&gt; $key)</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        );</div>
@@ -117,11 +116,11 @@ $(document).ready(function(){initNavTree('_noop_cache_8php_source.html',''); ini
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
 <div class="ttc" id="aclass_mustache___cache___abstract_cache_html"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html">Mustache_Cache_AbstractCache</a></div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00019">AbstractCache.php:20</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a142f6bf4e86dc16e0bae4cff1de0dd44"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a142f6bf4e86dc16e0bae4cff1de0dd44">Mustache_Cache_AbstractCache\log</a></div><div class="ttdeci">log($level, $message, array $context=array())</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00054">AbstractCache.php:54</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___abstract_cache_html_a3b75b6bb09e6e7ea87b2bf68c23bcf6f"><div class="ttname"><a href="class_mustache___cache___abstract_cache.html#a3b75b6bb09e6e7ea87b2bf68c23bcf6f">Mustache_Cache_AbstractCache\log</a></div><div class="ttdeci">log($level, $message, array $context=array())</div><div class="ttdef"><b>Definition:</b> <a href="_abstract_cache_8php_source.html#l00054">AbstractCache.php:54</a></div></div>
 <div class="ttc" id="aclass_mustache___cache___noop_cache_html"><div class="ttname"><a href="class_mustache___cache___noop_cache.html">Mustache_Cache_NoopCache</a></div><div class="ttdef"><b>Definition:</b> <a href="_noop_cache_8php_source.html#l00018">NoopCache.php:19</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___noop_cache_html_a002454e8760830b2942f6301f276255b"><div class="ttname"><a href="class_mustache___cache___noop_cache.html#a002454e8760830b2942f6301f276255b">Mustache_Cache_NoopCache\cache</a></div><div class="ttdeci">cache($key, $value)</div><div class="ttdef"><b>Definition:</b> <a href="_noop_cache_8php_source.html#l00038">NoopCache.php:38</a></div></div>
-<div class="ttc" id="aclass_mustache___cache___noop_cache_html_a8d0a51036af71436a1e8dcc26fc4281d"><div class="ttname"><a href="class_mustache___cache___noop_cache.html#a8d0a51036af71436a1e8dcc26fc4281d">Mustache_Cache_NoopCache\load</a></div><div class="ttdeci">load($key)</div><div class="ttdef"><b>Definition:</b> <a href="_noop_cache_8php_source.html#l00027">NoopCache.php:27</a></div></div>
-<div class="ttc" id="ainterface_mustache___logger_html_ad0c7ccd2f8b92a760391d21d0ec7b339"><div class="ttname"><a href="interface_mustache___logger.html#ad0c7ccd2f8b92a760391d21d0ec7b339">Mustache_Logger\WARNING</a></div><div class="ttdeci">const WARNING</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00038">Logger.php:38</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___noop_cache_html_a470e435bc26e89865a0ae1bc1c430f34"><div class="ttname"><a href="class_mustache___cache___noop_cache.html#a470e435bc26e89865a0ae1bc1c430f34">Mustache_Cache_NoopCache\load</a></div><div class="ttdeci">load($key)</div><div class="ttdef"><b>Definition:</b> <a href="_noop_cache_8php_source.html#l00027">NoopCache.php:27</a></div></div>
+<div class="ttc" id="aclass_mustache___cache___noop_cache_html_a4ef9c625b18ae19c17b5ee8dd4e7e323"><div class="ttname"><a href="class_mustache___cache___noop_cache.html#a4ef9c625b18ae19c17b5ee8dd4e7e323">Mustache_Cache_NoopCache\cache</a></div><div class="ttdeci">cache($key, $value)</div><div class="ttdef"><b>Definition:</b> <a href="_noop_cache_8php_source.html#l00038">NoopCache.php:38</a></div></div>
+<div class="ttc" id="ainterface_mustache___logger_html_a6fdf37865420b70efed5ed0f36a0d524"><div class="ttname"><a href="interface_mustache___logger.html#a6fdf37865420b70efed5ed0f36a0d524">Mustache_Logger\WARNING</a></div><div class="ttdeci">const WARNING</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8php_source.html#l00038">Logger.php:38</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

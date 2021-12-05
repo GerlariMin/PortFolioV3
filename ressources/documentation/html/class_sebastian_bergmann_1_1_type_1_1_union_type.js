@@ -1,9 +1,9 @@
 var class_sebastian_bergmann_1_1_type_1_1_union_type =
 [
-    [ "__construct", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#ab7fa8b9fea93e10ffaff0ca06a97d7f3", null ],
-    [ "allowsNull", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#a05ca98197df1f1e68bdf8d730b12bea5", null ],
-    [ "asString", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#aa1a17ab79247b7e7d740bb55e13cab14", null ],
-    [ "getReturnTypeDeclaration", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#a24112dc38671b8bba193f12c54bc4bf0", null ],
-    [ "isAssignable", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#aa3798d529b2d6a985aa3b11db0260e1a", null ],
-    [ "name", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#a4b516aaa5fa38da4fed24ab6001627e2", null ]
+    [ "__construct", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#abc39774915279710b87ea4e80fb7ab06", null ],
+    [ "allowsNull", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#a398eadae9a709681aeefa160b5727883", null ],
+    [ "asString", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#a86185b90de87319f1ad5eb6421726a77", null ],
+    [ "getReturnTypeDeclaration", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#a8e7b037ba59565a1f4271cf92bf7135d", null ],
+    [ "isAssignable", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#a3d187a1f9969e705e35e3a3b71785018", null ],
+    [ "name", "class_sebastian_bergmann_1_1_type_1_1_union_type.html#afebaa9060d4b981894a72ba435a71025", null ]
 ];

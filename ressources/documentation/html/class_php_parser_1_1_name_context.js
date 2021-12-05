@@ -1,15 +1,15 @@
 var class_php_parser_1_1_name_context =
 [
-    [ "__construct", "class_php_parser_1_1_name_context.html#a04d9a6673d674c7fd6945ef19caa84e5", null ],
-    [ "addAlias", "class_php_parser_1_1_name_context.html#a2dc06c178ad90cd80021a7b9c3e187d5", null ],
-    [ "getNamespace", "class_php_parser_1_1_name_context.html#a2614df64646ac71b70b1e1074258052b", null ],
-    [ "getPossibleNames", "class_php_parser_1_1_name_context.html#a0c6605719d680c70c64e01ed363e64ff", null ],
-    [ "getResolvedClassName", "class_php_parser_1_1_name_context.html#a296a4d5945baa8d4a94d0b5445446639", null ],
-    [ "getResolvedName", "class_php_parser_1_1_name_context.html#a7833f3c89047307275577179655bc1d0", null ],
-    [ "getShortName", "class_php_parser_1_1_name_context.html#a906b170cd260b11e880b9b9cb512d75d", null ],
-    [ "startNamespace", "class_php_parser_1_1_name_context.html#a5d8fa69126edd79ae8c7a9fe7716e3fa", null ],
-    [ "$aliases", "class_php_parser_1_1_name_context.html#a7e6d29edbd9ec5d8ec9d478cf98fba03", null ],
-    [ "$errorHandler", "class_php_parser_1_1_name_context.html#ac17770954233f7d662f4c9d08c7f35cc", null ],
-    [ "$namespace", "class_php_parser_1_1_name_context.html#a3825c9b9060c2d6ef594385997cd60aa", null ],
-    [ "$origAliases", "class_php_parser_1_1_name_context.html#ac3519ae6bc7cbadded54ee2d7bb6ad70", null ]
+    [ "__construct", "class_php_parser_1_1_name_context.html#a4cfb35639294d45da0d9ac372e6257db", null ],
+    [ "addAlias", "class_php_parser_1_1_name_context.html#a3ca734c68fe46f761e6ad95747067f96", null ],
+    [ "getNamespace", "class_php_parser_1_1_name_context.html#a02b074e3e8bd63c4aa814042f3db2020", null ],
+    [ "getPossibleNames", "class_php_parser_1_1_name_context.html#aab40cef16344c4525cc25f8a853824c6", null ],
+    [ "getResolvedClassName", "class_php_parser_1_1_name_context.html#a92dccebf4c2266b35da8b923fdb34e59", null ],
+    [ "getResolvedName", "class_php_parser_1_1_name_context.html#a83ac03688edf31ebfd61991d9b519e29", null ],
+    [ "getShortName", "class_php_parser_1_1_name_context.html#aa068cb3daf17cfbd3a43eb2618681db7", null ],
+    [ "startNamespace", "class_php_parser_1_1_name_context.html#afb81cf8d701dc2072c79e387dd6dfaa3", null ],
+    [ "$aliases", "class_php_parser_1_1_name_context.html#a379d0518f18050b1f7f3818a1f9f03cf", null ],
+    [ "$errorHandler", "class_php_parser_1_1_name_context.html#a55d5bab1ded67de5e4e06f7ae0ea8657", null ],
+    [ "$namespace", "class_php_parser_1_1_name_context.html#a2b0a84270b1177a1fa5957f01a7f87d7", null ],
+    [ "$origAliases", "class_php_parser_1_1_name_context.html#aed4df78a57b19fda70b39426629b7026", null ]
 ];

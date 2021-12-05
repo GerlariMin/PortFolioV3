@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: Version</title>
+<title>PortFolioV3: Version</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -89,11 +88,11 @@ $(document).ready(function(){initNavTree('md_ressources_vendor_sebastian_version
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><b>Version</b> is a library that helps with managing the version number of Git-hosted PHP projects.</p>
-<h1><a class="anchor" id="autotoc_md1158"></a>
+<h1><a class="anchor" id="autotoc_md1159"></a>
 Installation</h1>
 <p>You can add this library as a local, per-project dependency to your project using <a href="https://getcomposer.org/">Composer</a>: </p><pre class="fragment">composer require sebastian/version
 </pre><p> If you only need this library during development, for instance to run your project's test suite, then you should add it as a development-time dependency: </p><pre class="fragment">composer require --dev sebastian/version
-</pre> <h1><a class="anchor" id="autotoc_md1159"></a>
+</pre> <h1><a class="anchor" id="autotoc_md1160"></a>
 Usage</h1>
 <p>The constructor of the <code>SebastianBergmann\Version</code> class expects two parameters:</p>
 <ul>
@@ -111,7 +110,7 @@ var_dump($version-&gt;getVersion());
 
 string(18) "3.7.10-17-g00f3408"
 </pre><p> When a new release is prepared, the string that is passed to the constructor as the first argument needs to be updated.</p>
-<h2><a class="anchor" id="autotoc_md1160"></a>
+<h2><a class="anchor" id="autotoc_md1161"></a>
 How SebastianBergmann\Version::getVersion() works</h2>
 <ul>
 <li>If <code>$path</code> is not (part of) a Git repository and <code>$release</code> is in <code>X.Y.Z</code> format then <code>$release</code> is returned as-is.</li>

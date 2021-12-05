@@ -1,7 +1,7 @@
 var class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler.html#acea850cb9cc357443279c90c868dabb6", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "$remaining", "class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler.html#af4b4dbadab0667c8ec103d04bfd3f101", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler.html#ab60c9faf28c6cae5104df9005af5e0a8", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler.html#aca9fe500638dc0b9ff066b98299a7eaa", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler.html#ab8c0f13faa73e01cebb5a513e87c8953", null ],
+    [ "$remaining", "class_php_parser_1_1_node_1_1_stmt_1_1_halt_compiler.html#af29b560e5e06eaf24b57986e98394a41", null ]
 ];

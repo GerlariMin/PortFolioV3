@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['warning_10504',['WARNING',['../interface_mustache___logger.htmlm#ad0c7ccd2f8b92a760391d21d0ec7b339',1,'Mustache_Logger']]]
+  ['warning_10512',['WARNING',['../interface_mustache___logger.html#a6fdf37865420b70efed5ed0f36a0d524',1,'Mustache_Logger']]]
 ];

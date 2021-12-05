@@ -1,8 +1,8 @@
 var class_mustache___test___functional___object_section_test =
 [
-    [ "setUp", "class_mustache___test___functional___object_section_test.html#a0bc688732d2b3b162ffebaf7812e78da", null ],
-    [ "testBasicObject", "class_mustache___test___functional___object_section_test.html#a6ac0a343df85a82a219ab2507b66a23f", null ],
-    [ "testObjectWithGet", "class_mustache___test___functional___object_section_test.html#a19266e546e812df918d6f85a5b889bb6", null ],
-    [ "testSectionObjectWithFunction", "class_mustache___test___functional___object_section_test.html#a75fdf07ed496da6d3544ef95951efc04", null ],
-    [ "testSectionObjectWithGet", "class_mustache___test___functional___object_section_test.html#a660f613c72dcd80951aadf1697a13819", null ]
+    [ "setUp", "class_mustache___test___functional___object_section_test.html#ab673debf19e52a0db4d08aab83acb6ff", null ],
+    [ "testBasicObject", "class_mustache___test___functional___object_section_test.html#a1006c8038ec0ef2411f336850cd79912", null ],
+    [ "testObjectWithGet", "class_mustache___test___functional___object_section_test.html#a078f0467e5d847bdd76cf7f36376b89d", null ],
+    [ "testSectionObjectWithFunction", "class_mustache___test___functional___object_section_test.html#a60c979a9eefdfa376861240b04b42a52", null ],
+    [ "testSectionObjectWithGet", "class_mustache___test___functional___object_section_test.html#ad9a80cf6ff07c67be21d78ec95536865", null ]
 ];

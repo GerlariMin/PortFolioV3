@@ -63,7 +63,7 @@ var namespaces_dup =
       [ "initializeModifierChangeMap", "_pretty_printer_abstract_8php.html#a17941b5802a046856dceb23f78beb2c5", null ],
       [ "initializeNodeListDiffer", "_pretty_printer_abstract_8php.html#acf6911e96c6fde9baa1d40fca8f9cc12", null ],
       [ "initializeRemovalMap", "_pretty_printer_abstract_8php.html#a68c388527aca3850e22a7929bbe8f22c", null ],
-      [ "true", "_pretty_printer_abstract_8php.html#a930920b2bc42824a5c03be681830f4b2", null ]
+      [ "true", "_pretty_printer_abstract_8php.html#a0e8c98cb091e6b7d5a18e7549ae50615", null ]
     ] ],
     [ "PHPSTORM_META", "namespace_p_h_p_s_t_o_r_m___m_e_t_a.html", null ],
     [ "PHPUnit", "namespace_p_h_p_unit.html", "namespace_p_h_p_unit" ],

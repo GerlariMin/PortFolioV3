@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/sebastian/object-enumerator/src/Enumerator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/sebastian/object-enumerator/src/Enumerator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -108,7 +107,7 @@ $(document).ready(function(){initNavTree('_enumerator_8php_source.html',''); ini
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html">Enumerator</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a421ad85cc16593bffcb8d82f631cbff9">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a421ad85cc16593bffcb8d82f631cbff9">enumerate</a>($variable)</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a5c1517a8b5901704424fd3527b829681">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a5c1517a8b5901704424fd3527b829681">enumerate</a>($variable)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> (!is_array($variable) &amp;&amp; !is_object($variable)) {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_invalid_argument_exception.html">InvalidArgumentException</a>;</div>
@@ -131,7 +130,7 @@ $(document).ready(function(){initNavTree('_enumerator_8php_source.html',''); ini
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        $array = $variable;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        $processed-&gt;<a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#af1ed54161c97c29f4c8c1714df6feccc">add</a>($variable);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        $processed-&gt;<a class="code" href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1a77e70003472ef355d309aaae22169a">add</a>($variable);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">if</span> (is_array($variable)) {</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">foreach</span> ($array as $element) {</div>
@@ -141,7 +140,7 @@ $(document).ready(function(){initNavTree('_enumerator_8php_source.html',''); ini
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                $objects = array_merge(</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    $objects,</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    $this-&gt;<a class="code" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a421ad85cc16593bffcb8d82f631cbff9">enumerate</a>($element, $processed)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    $this-&gt;<a class="code" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a5c1517a8b5901704424fd3527b829681">enumerate</a>($element, $processed)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                );</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            }</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        } <span class="keywordflow">else</span> {</div>
@@ -156,7 +155,7 @@ $(document).ready(function(){initNavTree('_enumerator_8php_source.html',''); ini
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                $objects = array_merge(</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    $objects,</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    $this-&gt;<a class="code" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a421ad85cc16593bffcb8d82f631cbff9">enumerate</a>($value, $processed)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    $this-&gt;<a class="code" href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a5c1517a8b5901704424fd3527b829681">enumerate</a>($value, $processed)</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                );</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            }</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
@@ -165,11 +164,11 @@ $(document).ready(function(){initNavTree('_enumerator_8php_source.html',''); ini
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html">SebastianBergmann\ObjectEnumerator\Enumerator</a></div><div class="ttdef"><b>Definition:</b> <a href="_enumerator_8php_source.html#l00023">Enumerator.php:24</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator_html_a421ad85cc16593bffcb8d82f631cbff9"><div class="ttname"><a href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a421ad85cc16593bffcb8d82f631cbff9">SebastianBergmann\ObjectEnumerator\Enumerator\enumerate</a></div><div class="ttdeci">enumerate($variable)</div><div class="ttdef"><b>Definition:</b> <a href="_enumerator_8php_source.html#l00033">Enumerator.php:33</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator_html_a5c1517a8b5901704424fd3527b829681"><div class="ttname"><a href="class_sebastian_bergmann_1_1_object_enumerator_1_1_enumerator.html#a5c1517a8b5901704424fd3527b829681">SebastianBergmann\ObjectEnumerator\Enumerator\enumerate</a></div><div class="ttdeci">enumerate($variable)</div><div class="ttdef"><b>Definition:</b> <a href="_enumerator_8php_source.html#l00033">Enumerator.php:33</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_object_enumerator_1_1_invalid_argument_exception_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_object_enumerator_1_1_invalid_argument_exception.html">SebastianBergmann\ObjectEnumerator\InvalidArgumentException</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2object-enumerator_2src_2_invalid_argument_exception_8php_source.html#l00012">InvalidArgumentException.php:13</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_object_reflector_1_1_object_reflector_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_object_reflector_1_1_object_reflector.html">SebastianBergmann\ObjectReflector\ObjectReflector</a></div><div class="ttdef"><b>Definition:</b> <a href="_object_reflector_8php_source.html#l00017">ObjectReflector.php:18</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html">SebastianBergmann\RecursionContext\Context</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00027">Context.php:28</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_af1ed54161c97c29f4c8c1714df6feccc"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#af1ed54161c97c29f4c8c1714df6feccc">SebastianBergmann\RecursionContext\Context\add</a></div><div class="ttdeci">add(&amp;$value)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00074">Context.php:74</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_recursion_context_1_1_context_html_a1a77e70003472ef355d309aaae22169a"><div class="ttname"><a href="class_sebastian_bergmann_1_1_recursion_context_1_1_context.html#a1a77e70003472ef355d309aaae22169a">SebastianBergmann\RecursionContext\Context\add</a></div><div class="ttdeci">add(&amp;$value)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2recursion-context_2src_2_context_8php_source.html#l00074">Context.php:74</a></div></div>
 <div class="ttc" id="anamespace_sebastian_bergmann_1_1_object_enumerator_html"><div class="ttname"><a href="namespace_sebastian_bergmann_1_1_object_enumerator.html">SebastianBergmann\ObjectEnumerator</a></div><div class="ttdef"><b>Definition:</b> <a href="_enumerator_8php_source.html#l00010">Enumerator.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

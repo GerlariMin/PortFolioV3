@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php Source File</title>
+<title>PortFolioV3: ressources/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/ReplaceFilter.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -94,22 +93,22 @@ $(document).ready(function(){initNavTree('_type_filter_2_replace_filter_8php_sou
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html">ReplaceFilter</a> <span class="keyword">implements</span> <a class="code" href="interface_deep_copy_1_1_type_filter_1_1_type_filter.html">TypeFilter</a></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#abc7c2ac0d93d22f71221e8b60512c860">   13</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#abc7c2ac0d93d22f71221e8b60512c860">$callback</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a77bd116eddd0ab412be8176964032f87">   13</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a77bd116eddd0ab412be8176964032f87">$callback</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#aebfa7ad9f5ca8a07ffa97a0685aea51a">   18</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#aebfa7ad9f5ca8a07ffa97a0685aea51a">__construct</a>(callable $callable)</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a2b44e0045664e2794b0e0e19c4b7d865">   18</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a2b44e0045664e2794b0e0e19c4b7d865">__construct</a>(callable $callable)</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        $this-&gt;callback = $callable;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a959e75f8f2b305dcf33633745c338176">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a959e75f8f2b305dcf33633745c338176">apply</a>($element)</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a88c76a099ece7fbc562425126e4cf393">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a88c76a099ece7fbc562425126e4cf393">apply</a>($element)</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> call_user_func($this-&gt;callback, $element);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 <div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_replace_filter_html"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html">DeepCopy\TypeFilter\ReplaceFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_2_replace_filter_8php_source.html#l00008">ReplaceFilter.php:9</a></div></div>
-<div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_replace_filter_html_a959e75f8f2b305dcf33633745c338176"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a959e75f8f2b305dcf33633745c338176">DeepCopy\TypeFilter\ReplaceFilter\apply</a></div><div class="ttdeci">apply($element)</div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_2_replace_filter_8php_source.html#l00026">ReplaceFilter.php:26</a></div></div>
-<div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_replace_filter_html_abc7c2ac0d93d22f71221e8b60512c860"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#abc7c2ac0d93d22f71221e8b60512c860">DeepCopy\TypeFilter\ReplaceFilter\$callback</a></div><div class="ttdeci">$callback</div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_2_replace_filter_8php_source.html#l00013">ReplaceFilter.php:13</a></div></div>
-<div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_replace_filter_html_aebfa7ad9f5ca8a07ffa97a0685aea51a"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#aebfa7ad9f5ca8a07ffa97a0685aea51a">DeepCopy\TypeFilter\ReplaceFilter\__construct</a></div><div class="ttdeci">__construct(callable $callable)</div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_2_replace_filter_8php_source.html#l00018">ReplaceFilter.php:18</a></div></div>
+<div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_replace_filter_html_a2b44e0045664e2794b0e0e19c4b7d865"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a2b44e0045664e2794b0e0e19c4b7d865">DeepCopy\TypeFilter\ReplaceFilter\__construct</a></div><div class="ttdeci">__construct(callable $callable)</div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_2_replace_filter_8php_source.html#l00018">ReplaceFilter.php:18</a></div></div>
+<div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_replace_filter_html_a77bd116eddd0ab412be8176964032f87"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a77bd116eddd0ab412be8176964032f87">DeepCopy\TypeFilter\ReplaceFilter\$callback</a></div><div class="ttdeci">$callback</div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_2_replace_filter_8php_source.html#l00013">ReplaceFilter.php:13</a></div></div>
+<div class="ttc" id="aclass_deep_copy_1_1_type_filter_1_1_replace_filter_html_a88c76a099ece7fbc562425126e4cf393"><div class="ttname"><a href="class_deep_copy_1_1_type_filter_1_1_replace_filter.html#a88c76a099ece7fbc562425126e4cf393">DeepCopy\TypeFilter\ReplaceFilter\apply</a></div><div class="ttdeci">apply($element)</div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_2_replace_filter_8php_source.html#l00026">ReplaceFilter.php:26</a></div></div>
 <div class="ttc" id="ainterface_deep_copy_1_1_type_filter_1_1_type_filter_html"><div class="ttname"><a href="interface_deep_copy_1_1_type_filter_1_1_type_filter.html">DeepCopy\TypeFilter\TypeFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="_type_filter_8php_source.html#l00005">TypeFilter.php:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

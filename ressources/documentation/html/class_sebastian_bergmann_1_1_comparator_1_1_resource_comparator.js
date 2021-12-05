@@ -1,5 +1,5 @@
 var class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator =
 [
-    [ "accepts", "class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#ae9bdf0cba02ce3470169280656cdeb84", null ],
-    [ "assertEquals", "class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#adb3679ea06503114394431cb250ec5a4", null ]
+    [ "accepts", "class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#a4f7b5f16ffd2c1f75cdc2d754659976f", null ],
+    [ "assertEquals", "class_sebastian_bergmann_1_1_comparator_1_1_resource_comparator.html#a5349209a07a6ef8d9b449f7ef619ed80", null ]
 ];

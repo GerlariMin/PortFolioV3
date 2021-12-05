@@ -1,12 +1,12 @@
 var class_mustache___logger___stream_logger =
 [
-    [ "__construct", "class_mustache___logger___stream_logger.html#a1a948f6c72211b23a77337944c1e22ac", null ],
-    [ "__destruct", "class_mustache___logger___stream_logger.html#a421831a265621325e1fdd19aace0c758", null ],
-    [ "getLevel", "class_mustache___logger___stream_logger.html#a23fac327059bf3fd0fe57555252d8cf2", null ],
-    [ "log", "class_mustache___logger___stream_logger.html#a142f6bf4e86dc16e0bae4cff1de0dd44", null ],
-    [ "setLevel", "class_mustache___logger___stream_logger.html#a0b759f4af85ea8fe8967823a30d54f0c", null ],
-    [ "writeLog", "class_mustache___logger___stream_logger.html#acf2ad1a411ed0a437238be78c203fdd1", null ],
-    [ "$level", "class_mustache___logger___stream_logger.html#abd32cc82c6a3f79491987de36ad580ca", null ],
-    [ "$stream", "class_mustache___logger___stream_logger.html#aa658946a5d6cb700e35df1fc7854e7b3", null ],
-    [ "$url", "class_mustache___logger___stream_logger.html#acf215f34a917d014776ce684a9ee8909", null ]
+    [ "__construct", "class_mustache___logger___stream_logger.html#adca007581559fb9d1cc7e8855fc6101f", null ],
+    [ "__destruct", "class_mustache___logger___stream_logger.html#a3a4410c4814ef5365cb1128f450901e8", null ],
+    [ "getLevel", "class_mustache___logger___stream_logger.html#aa1c26e5e287e5fe6528ecee22dca7e36", null ],
+    [ "log", "class_mustache___logger___stream_logger.html#a4adfb4fd2e4f385c6bdb6e4694a77394", null ],
+    [ "setLevel", "class_mustache___logger___stream_logger.html#a9621c9fb7fc7af5093cb6f002a7b3c9f", null ],
+    [ "writeLog", "class_mustache___logger___stream_logger.html#aa729162fdb79000afefc08d3acd38fd0", null ],
+    [ "$level", "class_mustache___logger___stream_logger.html#af874a5dc1ca0210613e6e73f5bbb7e9d", null ],
+    [ "$stream", "class_mustache___logger___stream_logger.html#a073480c66be9e866c8ccd62e1bd3f0c1", null ],
+    [ "$url", "class_mustache___logger___stream_logger.html#a3e931a73b6bdbbf1117a1b596a758515", null ]
 ];

@@ -1,10 +1,10 @@
 var class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator =
 [
-    [ "__construct", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#afe83c7c2b088d4efecf9f7d5a4037131", null ],
-    [ "count", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#ac751e87b3d4c4bf2feb03bee8b092755", null ],
-    [ "current", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#af343507d1926e6ecf964625d41db528c", null ],
-    [ "key", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#a729e946b4ef600e71740113c6d4332c0", null ],
-    [ "next", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#acea62048bfee7b3cd80ed446c86fb78a", null ],
-    [ "rewind", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#ae619dcf2218c21549cb65d875bbc6c9c", null ],
-    [ "valid", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#abb9f0d6adf1eb9b3b55712056861a247", null ]
+    [ "__construct", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#a30df224d9570bf3fd52fc84d508c48d5", null ],
+    [ "count", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#af2b72a8f2bd4f83fb612bd5fb49621f2", null ],
+    [ "current", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#a764c5997264be69f415bff7cc2ac01e0", null ],
+    [ "key", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#a780cd9acb17404f7453025f20107c449", null ],
+    [ "next", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#aa2647b59ac8caab8137636607bd7b527", null ],
+    [ "rewind", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#abce3368e24572c69419e888658279c8d", null ],
+    [ "valid", "class_p_h_p_unit_1_1_text_u_i_1_1_xml_configuration_1_1_variable_collection_iterator.html#add456c47a9ec88648a6ae5ae90e14eac", null ]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/sebastian/type/src/ReflectionMapper.php Source File</title>
+<title>PortFolioV3: ressources/vendor/sebastian/type/src/ReflectionMapper.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -107,7 +106,7 @@ $(document).ready(function(){initNavTree('_reflection_mapper_8php_source.html','
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html">   18</a></span>&#160;<span class="keyword">final</span> <span class="keyword">class </span><a class="code" href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html">ReflectionMapper</a></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html#aef28c95a210e68e398ed8c9498131e95">   20</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html#aef28c95a210e68e398ed8c9498131e95">fromMethodReturnType</a>(ReflectionMethod $method): <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html">Type</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html#af5a2cc2fc28d86f459d44e4c72244c09">   20</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html#af5a2cc2fc28d86f459d44e4c72244c09">fromMethodReturnType</a>(ReflectionMethod $method): <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html">Type</a></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">if</span> (!$method-&gt;hasReturnType()) {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_unknown_type.html">UnknownType</a>;</div>
@@ -119,7 +118,7 @@ $(document).ready(function(){initNavTree('_reflection_mapper_8php_source.html','
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> ($returnType instanceof ReflectionNamedType) {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">if</span> ($returnType-&gt;getName() === <span class="stringliteral">&#39;self&#39;</span>) {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a9e73e77d2e1eda6ab0349430b711e961">ObjectType::fromName</a>(</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a11245e2abfe989608df24af414e797fb">ObjectType::fromName</a>(</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                    $method-&gt;getDeclaringClass()-&gt;getName(),</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                    $returnType-&gt;allowsNull()</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                );</div>
@@ -127,7 +126,7 @@ $(document).ready(function(){initNavTree('_reflection_mapper_8php_source.html','
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">if</span> ($returnType-&gt;getName() === <span class="stringliteral">&#39;static&#39;</span>) {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_static_type.html">StaticType</a>(</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                    <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type_name.html#a405e6b193133feeb1d4588cce5be9712">TypeName::fromReflection</a>($method-&gt;getDeclaringClass()),</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                    <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type_name.html#aa085fac3c68c60e6755cd157ebb7e050">TypeName::fromReflection</a>($method-&gt;getDeclaringClass()),</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                    $returnType-&gt;allowsNull()</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                );</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            }</div>
@@ -152,13 +151,13 @@ $(document).ready(function(){initNavTree('_reflection_mapper_8php_source.html','
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                }</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <span class="comment">// @codeCoverageIgnoreEnd</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a9e73e77d2e1eda6ab0349430b711e961">ObjectType::fromName</a>(</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a11245e2abfe989608df24af414e797fb">ObjectType::fromName</a>(</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    $parentClass-&gt;getName(),</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    $returnType-&gt;allowsNull()</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                );</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            }</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a9e73e77d2e1eda6ab0349430b711e961">Type::fromName</a>(</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a11245e2abfe989608df24af414e797fb">Type::fromName</a>(</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                $returnType-&gt;getName(),</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                $returnType-&gt;allowsNull()</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            );</div>
@@ -172,12 +171,12 @@ $(document).ready(function(){initNavTree('_reflection_mapper_8php_source.html','
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            assert($type instanceof ReflectionNamedType);</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">if</span> ($type-&gt;getName() === <span class="stringliteral">&#39;self&#39;</span>) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                $types[] = <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a9e73e77d2e1eda6ab0349430b711e961">ObjectType::fromName</a>(</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                $types[] = <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a11245e2abfe989608df24af414e797fb">ObjectType::fromName</a>(</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                    $method-&gt;getDeclaringClass()-&gt;getName(),</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    <span class="keyword">false</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                );</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                $types[] = <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a9e73e77d2e1eda6ab0349430b711e961">Type::fromName</a>($type-&gt;getName(), <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                $types[] = <a class="code" href="class_sebastian_bergmann_1_1_type_1_1_type.html#a11245e2abfe989608df24af414e797fb">Type::fromName</a>($type-&gt;getName(), <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            }</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
@@ -186,12 +185,12 @@ $(document).ready(function(){initNavTree('_reflection_mapper_8php_source.html','
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_mixed_type_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_mixed_type.html">SebastianBergmann\Type\MixedType</a></div><div class="ttdef"><b>Definition:</b> <a href="_mixed_type_8php_source.html#l00012">MixedType.php:13</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_reflection_mapper_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html">SebastianBergmann\Type\ReflectionMapper</a></div><div class="ttdef"><b>Definition:</b> <a href="_reflection_mapper_8php_source.html#l00018">ReflectionMapper.php:19</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_reflection_mapper_html_aef28c95a210e68e398ed8c9498131e95"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html#aef28c95a210e68e398ed8c9498131e95">SebastianBergmann\Type\ReflectionMapper\fromMethodReturnType</a></div><div class="ttdeci">fromMethodReturnType(ReflectionMethod $method)</div><div class="ttdef"><b>Definition:</b> <a href="_reflection_mapper_8php_source.html#l00020">ReflectionMapper.php:20</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_reflection_mapper_html_af5a2cc2fc28d86f459d44e4c72244c09"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_reflection_mapper.html#af5a2cc2fc28d86f459d44e4c72244c09">SebastianBergmann\Type\ReflectionMapper\fromMethodReturnType</a></div><div class="ttdeci">fromMethodReturnType(ReflectionMethod $method)</div><div class="ttdef"><b>Definition:</b> <a href="_reflection_mapper_8php_source.html#l00020">ReflectionMapper.php:20</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_runtime_exception_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_runtime_exception.html">SebastianBergmann\Type\RuntimeException</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2type_2src_2exception_2_runtime_exception_8php_source.html#l00012">RuntimeException.php:13</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_static_type_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_static_type.html">SebastianBergmann\Type\StaticType</a></div><div class="ttdef"><b>Definition:</b> <a href="_static_type_8php_source.html#l00012">StaticType.php:13</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_type_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_type.html">SebastianBergmann\Type\Type</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2type_2src_2_type_8php_source.html#l00016">Type.php:17</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_type_html_a9e73e77d2e1eda6ab0349430b711e961"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_type.html#a9e73e77d2e1eda6ab0349430b711e961">SebastianBergmann\Type\Type\fromName</a></div><div class="ttdeci">static fromName(string $typeName, bool $allowsNull)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2type_2src_2_type_8php_source.html#l00035">Type.php:35</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_type_name_html_a405e6b193133feeb1d4588cce5be9712"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_type_name.html#a405e6b193133feeb1d4588cce5be9712">SebastianBergmann\Type\TypeName\fromReflection</a></div><div class="ttdeci">static fromReflection(ReflectionClass $type)</div><div class="ttdef"><b>Definition:</b> <a href="_type_name_8php_source.html#l00044">TypeName.php:44</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_type_html_a11245e2abfe989608df24af414e797fb"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_type.html#a11245e2abfe989608df24af414e797fb">SebastianBergmann\Type\Type\fromName</a></div><div class="ttdeci">static fromName(string $typeName, bool $allowsNull)</div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2type_2src_2_type_8php_source.html#l00035">Type.php:35</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_type_name_html_aa085fac3c68c60e6755cd157ebb7e050"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_type_name.html#aa085fac3c68c60e6755cd157ebb7e050">SebastianBergmann\Type\TypeName\fromReflection</a></div><div class="ttdeci">static fromReflection(ReflectionClass $type)</div><div class="ttdef"><b>Definition:</b> <a href="_type_name_8php_source.html#l00044">TypeName.php:44</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_union_type_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_union_type.html">SebastianBergmann\Type\UnionType</a></div><div class="ttdef"><b>Definition:</b> <a href="sebastian_2type_2src_2_union_type_8php_source.html#l00016">UnionType.php:17</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_type_1_1_unknown_type_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_type_1_1_unknown_type.html">SebastianBergmann\Type\UnknownType</a></div><div class="ttdef"><b>Definition:</b> <a href="_unknown_type_8php_source.html#l00012">UnknownType.php:13</a></div></div>
 <div class="ttc" id="anamespace_sebastian_bergmann_1_1_type_html"><div class="ttname"><a href="namespace_sebastian_bergmann_1_1_type.html">SebastianBergmann\Type</a></div><div class="ttdef"><b>Definition:</b> <a href="_callable_type_8php_source.html#l00010">CallableType.php:10</a></div></div>

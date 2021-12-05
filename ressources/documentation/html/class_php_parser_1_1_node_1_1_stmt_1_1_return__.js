@@ -1,7 +1,7 @@
 var class_php_parser_1_1_node_1_1_stmt_1_1_return__ =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_return__.html#af2d05c8c45b8526c1777af526e845290", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_return__.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_return__.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "$expr", "class_php_parser_1_1_node_1_1_stmt_1_1_return__.html#aa660a3177eb257a767c0323f967d877f", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_stmt_1_1_return__.html#afce3d587d39f92c722df8015e4fc2546", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_stmt_1_1_return__.html#a03f31e47777db9db481a4808b65b7e61", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_stmt_1_1_return__.html#aa1bffbe1daa7ddd3f5cfa829b1a35717", null ],
+    [ "$expr", "class_php_parser_1_1_node_1_1_stmt_1_1_return__.html#ae6058c5f391bdcee3d58f29795dd8a92", null ]
 ];

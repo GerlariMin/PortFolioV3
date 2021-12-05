@@ -1,12 +1,12 @@
 var class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator =
 [
-    [ "generate", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#ae464de4ebabbdcac041da9b2d02f7f89", null ],
-    [ "generateClassFromWsdl", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#a66a5f389ced20d0f4533c4ab3b2e2ce2", null ],
-    [ "getClassMethods", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#ad256839fc436224663bef1e11fcf3f86", null ],
-    [ "getMock", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#ac315821f988ed103e3aae8e8d91e20c5", null ],
-    [ "getMockForAbstractClass", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#a83e0a557dbe4feebc979b9a9ea526fa7", null ],
-    [ "getMockForTrait", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#a49cda003fe5740b1c17a131efe893752", null ],
-    [ "getObjectForTrait", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#a998bc46c13b4a71b4c2ce069e7ada0ab", null ],
-    [ "mockClassMethods", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#ac4994692f64fdd6882aeb35aa6bd2894", null ],
-    [ "mockInterfaceMethods", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#ad9711f7b99e76d8c29b82d8c67214d5c", null ]
+    [ "generate", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#a14121fb8596221b36d22cea8dda4d81d", null ],
+    [ "generateClassFromWsdl", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#acab105662ab785216bc727180a679434", null ],
+    [ "getClassMethods", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#a1c55d13ddb21437b18b545d360658e27", null ],
+    [ "getMock", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#ac19b9d44805d126ad3e07d5fc1327935", null ],
+    [ "getMockForAbstractClass", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#ad18797ed254175973e2a7427305de43f", null ],
+    [ "getMockForTrait", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#aa509e8fc4537f015846b04b18b18934e", null ],
+    [ "getObjectForTrait", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#aacc5b8a9004bc3b37948071bb03a5e12", null ],
+    [ "mockClassMethods", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#a22a3b44ef8f0d5689370daf70a28842c", null ],
+    [ "mockInterfaceMethods", "class_p_h_p_unit_1_1_framework_1_1_mock_object_1_1_generator.html#a6f7c978bbc7a16b54291a6ab48c1b45e", null ]
 ];

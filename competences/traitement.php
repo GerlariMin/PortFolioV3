@@ -33,43 +33,11 @@
         }
 
         /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc des compétences liées à la conception informatique.
-         *
-         * @return array
-         */
-        public function traitementBlockquoteConception(): array
-        {
-            return $this->texte->texteConception();
-        }
-
-        /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc des compétences liées aux IDE.
-         *
-         * @return array
-         */
-        public function traitementBlockquoteOutils(): array
-        {
-            return $this->texte->texteOutils();
-        }
-
-        /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage du bloc des compétences liées aux langages de programmation.
-         *
-         * @return array
-         */
-        public function traitementBlockquoteProgrammation(): array
-        {
-            return $this->texte->texteProgrammation();
-        }
-
-        /**
          * Affichage de la page des compétences.
          */
         public function traitementRendu(): void
         {
-            $data['programmation'] = $this->traitementBlockquoteProgrammation();
-            $data['conception'] = $this->traitementBlockquoteConception();
-            $data['ide'] = $this->traitementBlockquoteOutils();
+            $data = $this->texte->texteFinal();
 
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['competences'] = true;

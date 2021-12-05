@@ -1,13 +1,13 @@
 var class_sebastian_bergmann_1_1_code_unit_1_1_code_unit =
 [
-    [ "isClass", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a3ca7c72866fe5b4e4ba2609b2541f0bc", null ],
-    [ "isClassMethod", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a0dff59bcfa8a337b01536209de6bb3ec", null ],
-    [ "isFunction", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#ab4a9d4af8b14366c372b16640eb55e2a", null ],
-    [ "isInterface", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a24085f1d1916b88922901502e2b96edb", null ],
-    [ "isInterfaceMethod", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a91ffc747a5a65cf19f1c55175ca11fc3", null ],
-    [ "isTrait", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#ab6a35e92e903321654280f47dd7eb631", null ],
-    [ "isTraitMethod", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a20ea0028965d0d6de21e9484352516bb", null ],
-    [ "name", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a4b516aaa5fa38da4fed24ab6001627e2", null ],
-    [ "sourceFileName", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a8f38acc9cb676893e02d45b5e5429cba", null ],
-    [ "sourceLines", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a99da8a601233ff4250567fad3d20e308", null ]
+    [ "isClass", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a04456e72e349a033d2dd4e2986870924", null ],
+    [ "isClassMethod", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#afcc4d1056a8a159d0df4cb677c9b95d9", null ],
+    [ "isFunction", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a236d8f3ec70858835c5666d699478c60", null ],
+    [ "isInterface", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#ab6306cce3a7f33e018be8440074035f7", null ],
+    [ "isInterfaceMethod", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a127727e12149b2cf13c544717b3d7f42", null ],
+    [ "isTrait", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a8ab02741a7d09ba379c221e02592e429", null ],
+    [ "isTraitMethod", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a85a61138b76b699de51ba0268d709e56", null ],
+    [ "name", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a95b8baa50e959bbea34e706ca742709b", null ],
+    [ "sourceFileName", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a86153090562a1fe96b0eced8cb5e4cd4", null ],
+    [ "sourceLines", "class_sebastian_bergmann_1_1_code_unit_1_1_code_unit.html#a0f9e7f61ec77e6a9d614354287a4d1d1", null ]
 ];

@@ -1,7 +1,7 @@
 var class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception =
 [
-    [ "__construct", "class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception.html#ac905fc9ffb9907aed6b210642823c244", null ],
-    [ "getArguments", "class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception.html#a1d4c324c5a088be98d99d3efbf3502e1", null ],
-    [ "getClassname", "class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception.html#a2de0f0e912c2f4137ae5ce2687ef8fc5", null ],
-    [ "getMethodName", "class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception.html#a0fa2079426d0262e759c4105fa4e9163", null ]
+    [ "__construct", "class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception.html#a2b0f43dbe9fdf7d7178a733929e7d893", null ],
+    [ "getArguments", "class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception.html#a9d2feb908987cb40442f066fb76f0f43", null ],
+    [ "getClassname", "class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception.html#a582fa5b751e3e9908b988c3aa1cab327", null ],
+    [ "getMethodName", "class_prophecy_1_1_exception_1_1_doubler_1_1_method_not_found_exception.html#a5f96ee9bcaf682cd426713fdc819918b", null ]
 ];

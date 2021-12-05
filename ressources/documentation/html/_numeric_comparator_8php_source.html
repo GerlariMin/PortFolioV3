@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/sebastian/comparator/src/NumericComparator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/sebastian/comparator/src/NumericComparator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -109,7 +108,7 @@ $(document).ready(function(){initNavTree('_numeric_comparator_8php_source.html',
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html">NumericComparator</a> <span class="keyword">extends</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_scalar_comparator.html">ScalarComparator</a></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">accepts</a>($expected, $actual)</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#abe48c3a316e0b81fa297b2dbac8ca226">   33</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#abe48c3a316e0b81fa297b2dbac8ca226">accepts</a>($expected, $actual)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="comment">// all numerical values, but not if one of them is a double</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="comment">// or both of them are strings</span></div>
@@ -118,7 +117,7 @@ $(document).ready(function(){initNavTree('_numeric_comparator_8php_source.html',
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;               !(is_string($expected) &amp;&amp; is_string($actual));</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#adb3679ea06503114394431cb250ec5a4">   53</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#adb3679ea06503114394431cb250ec5a4">assertEquals</a>($expected, $actual, $delta = 0.0, $canonicalize = <span class="keyword">false</span>, $ignoreCase = <span class="keyword">false</span>)<span class="comment">/*: void*/</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#a16d34515c1422362b085915068caba0e">   53</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#a16d34515c1422362b085915068caba0e">assertEquals</a>($expected, $actual, $delta = 0.0, $canonicalize = <span class="keyword">false</span>, $ignoreCase = <span class="keyword">false</span>)<span class="comment">/*: void*/</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;isInfinite($actual) &amp;&amp; $this-&gt;isInfinite($expected)) {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">return</span>;</div>
@@ -154,8 +153,8 @@ $(document).ready(function(){initNavTree('_numeric_comparator_8php_source.html',
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_comparison_failure_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_comparison_failure.html">SebastianBergmann\Comparator\ComparisonFailure</a></div><div class="ttdef"><b>Definition:</b> <a href="_comparison_failure_8php_source.html#l00019">ComparisonFailure.php:20</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html">SebastianBergmann\Comparator\NumericComparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_numeric_comparator_8php_source.html#l00023">NumericComparator.php:24</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator_html_adb3679ea06503114394431cb250ec5a4"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#adb3679ea06503114394431cb250ec5a4">SebastianBergmann\Comparator\NumericComparator\assertEquals</a></div><div class="ttdeci">assertEquals($expected, $actual, $delta=0.0, $canonicalize=false, $ignoreCase=false)</div><div class="ttdef"><b>Definition:</b> <a href="_numeric_comparator_8php_source.html#l00053">NumericComparator.php:53</a></div></div>
-<div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator_html_ae9bdf0cba02ce3470169280656cdeb84"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#ae9bdf0cba02ce3470169280656cdeb84">SebastianBergmann\Comparator\NumericComparator\accepts</a></div><div class="ttdeci">accepts($expected, $actual)</div><div class="ttdef"><b>Definition:</b> <a href="_numeric_comparator_8php_source.html#l00033">NumericComparator.php:33</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator_html_a16d34515c1422362b085915068caba0e"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#a16d34515c1422362b085915068caba0e">SebastianBergmann\Comparator\NumericComparator\assertEquals</a></div><div class="ttdeci">assertEquals($expected, $actual, $delta=0.0, $canonicalize=false, $ignoreCase=false)</div><div class="ttdef"><b>Definition:</b> <a href="_numeric_comparator_8php_source.html#l00053">NumericComparator.php:53</a></div></div>
+<div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator_html_abe48c3a316e0b81fa297b2dbac8ca226"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_numeric_comparator.html#abe48c3a316e0b81fa297b2dbac8ca226">SebastianBergmann\Comparator\NumericComparator\accepts</a></div><div class="ttdeci">accepts($expected, $actual)</div><div class="ttdef"><b>Definition:</b> <a href="_numeric_comparator_8php_source.html#l00033">NumericComparator.php:33</a></div></div>
 <div class="ttc" id="aclass_sebastian_bergmann_1_1_comparator_1_1_scalar_comparator_html"><div class="ttname"><a href="class_sebastian_bergmann_1_1_comparator_1_1_scalar_comparator.html">SebastianBergmann\Comparator\ScalarComparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_scalar_comparator_8php_source.html#l00022">ScalarComparator.php:23</a></div></div>
 <div class="ttc" id="anamespace_sebastian_bergmann_1_1_comparator_html"><div class="ttname"><a href="namespace_sebastian_bergmann_1_1_comparator.html">SebastianBergmann\Comparator</a></div><div class="ttdef"><b>Definition:</b> <a href="_array_comparator_8php_source.html#l00010">ArrayComparator.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

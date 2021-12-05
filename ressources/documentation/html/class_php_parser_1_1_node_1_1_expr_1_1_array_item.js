@@ -1,10 +1,10 @@
 var class_php_parser_1_1_node_1_1_expr_1_1_array_item =
 [
-    [ "__construct", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a159653b506f6ce8b96abf05f76755371", null ],
-    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a7e06a91cc526dc52826d18313e64798a", null ],
-    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a830b5c75df72b32396701bc563fbe3c7", null ],
-    [ "$byRef", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a5649918e8bd2664fff6709e4e8d1e52f", null ],
-    [ "$key", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#aa60b0284e0dfa2463495481cf11e3cf4", null ],
-    [ "$unpack", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a8411753436f7ee89c8e4b1682ddb08d7", null ],
-    [ "$value", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a0f298096f322952a72a50f98a74c7b60", null ]
+    [ "__construct", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a3691f7875dfd64d9b2cd41a58b67aae4", null ],
+    [ "getSubNodeNames", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a96d992c1b5d82f929fac8750d1e18079", null ],
+    [ "getType", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a97616810c390cab26b289c67c7f11e04", null ],
+    [ "$byRef", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a37284dd29523a781459db54f733ce35e", null ],
+    [ "$key", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#afb70b89c2d292ad7528e59da4519c822", null ],
+    [ "$unpack", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a19b71b00013d5682ecd9437c0cba4282", null ],
+    [ "$value", "class_php_parser_1_1_node_1_1_expr_1_1_array_item.html#a3838ddf32c1fdfdf049d76733a3f3090", null ]
 ];

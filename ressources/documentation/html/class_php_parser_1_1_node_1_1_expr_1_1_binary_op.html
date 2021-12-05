@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: BinaryOp Class Reference</title>
+<title>PortFolioV3: PhpParser\Node\Expr\BinaryOp Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -86,122 +85,123 @@ $(document).ready(function(){initNavTree('class_php_parser_1_1_node_1_1_expr_1_1
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">BinaryOp Class Reference</div>  </div>
+<div class="title">PhpParser\Node\Expr\BinaryOp Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for BinaryOp:</div>
+Inheritance diagram for PhpParser\Node\Expr\BinaryOp:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.png" usemap="#BinaryOp_map" alt=""/>
-  <map id="BinaryOp_map" name="BinaryOp_map">
-<area href="class_php_parser_1_1_node_1_1_expr.html" alt="Expr" shape="rect" coords="57,112,162,136"/>
-<area href="class_php_parser_1_1_node_abstract.html" alt="NodeAbstract" shape="rect" coords="57,56,162,80"/>
-<area href="interface_php_parser_1_1_node.html" alt="Node" shape="rect" coords="0,0,105,24"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_and.html" alt="BitwiseAnd" shape="rect" coords="172,224,277,248"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_or.html" alt="BitwiseOr" shape="rect" coords="172,280,277,304"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor.html" alt="BitwiseXor" shape="rect" coords="172,336,277,360"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_boolean_and.html" alt="BooleanAnd" shape="rect" coords="172,392,277,416"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_boolean_or.html" alt="BooleanOr" shape="rect" coords="172,448,277,472"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_coalesce.html" alt="Coalesce" shape="rect" coords="172,504,277,528"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_concat.html" alt="Concat" shape="rect" coords="172,560,277,584"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_div.html" alt="Div" shape="rect" coords="172,616,277,640"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_equal.html" alt="Equal" shape="rect" coords="172,672,277,696"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_greater.html" alt="Greater" shape="rect" coords="172,728,277,752"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_greater_or_equal.html" alt="GreaterOrEqual" shape="rect" coords="172,784,277,808"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_identical.html" alt="Identical" shape="rect" coords="172,840,277,864"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_and.html" alt="LogicalAnd" shape="rect" coords="172,896,277,920"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_or.html" alt="LogicalOr" shape="rect" coords="172,952,277,976"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_xor.html" alt="LogicalXor" shape="rect" coords="172,1008,277,1032"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus.html" alt="Minus" shape="rect" coords="172,1064,277,1088"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_mod.html" alt="Mod" shape="rect" coords="172,1120,277,1144"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_mul.html" alt="Mul" shape="rect" coords="172,1176,277,1200"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_not_equal.html" alt="NotEqual" shape="rect" coords="172,1232,277,1256"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_not_identical.html" alt="NotIdentical" shape="rect" coords="172,1288,277,1312"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_plus.html" alt="Plus" shape="rect" coords="172,1344,277,1368"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_pow.html" alt="Pow" shape="rect" coords="172,1400,277,1424"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_shift_left.html" alt="ShiftLeft" shape="rect" coords="172,1456,277,1480"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_shift_right.html" alt="ShiftRight" shape="rect" coords="172,1512,277,1536"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_smaller.html" alt="Smaller" shape="rect" coords="172,1568,277,1592"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_smaller_or_equal.html" alt="SmallerOrEqual" shape="rect" coords="172,1624,277,1648"/>
-<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship.html" alt="Spaceship" shape="rect" coords="172,1680,277,1704"/>
+  <img src="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.png" usemap="#PhpParser_5CNode_5CExpr_5CBinaryOp_map" alt=""/>
+  <map id="PhpParser_5CNode_5CExpr_5CBinaryOp_map" name="PhpParser_5CNode_5CExpr_5CBinaryOp_map">
+<area href="class_php_parser_1_1_node_1_1_expr.html" alt="PhpParser\Node\Expr" shape="rect" coords="148,112,435,136"/>
+<area href="class_php_parser_1_1_node_abstract.html" alt="PhpParser\NodeAbstract" shape="rect" coords="148,56,435,80"/>
+<area href="interface_php_parser_1_1_node.html" alt="PhpParser\Node" shape="rect" coords="0,0,287,24"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_and.html" alt="PhpParser\Node\Expr\BinaryOp\BitwiseAnd" shape="rect" coords="445,224,732,248"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_or.html" alt="PhpParser\Node\Expr\BinaryOp\BitwiseOr" shape="rect" coords="445,280,732,304"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor.html" alt="PhpParser\Node\Expr\BinaryOp\BitwiseXor" shape="rect" coords="445,336,732,360"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_boolean_and.html" alt="PhpParser\Node\Expr\BinaryOp\BooleanAnd" shape="rect" coords="445,392,732,416"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_boolean_or.html" alt="PhpParser\Node\Expr\BinaryOp\BooleanOr" shape="rect" coords="445,448,732,472"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_coalesce.html" alt="PhpParser\Node\Expr\BinaryOp\Coalesce" shape="rect" coords="445,504,732,528"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_concat.html" alt="PhpParser\Node\Expr\BinaryOp\Concat" shape="rect" coords="445,560,732,584"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_div.html" alt="PhpParser\Node\Expr\BinaryOp\Div" shape="rect" coords="445,616,732,640"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_equal.html" alt="PhpParser\Node\Expr\BinaryOp\Equal" shape="rect" coords="445,672,732,696"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_greater.html" alt="PhpParser\Node\Expr\BinaryOp\Greater" shape="rect" coords="445,728,732,752"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_greater_or_equal.html" alt="PhpParser\Node\Expr\BinaryOp\GreaterOrEqual" shape="rect" coords="445,784,732,808"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_identical.html" alt="PhpParser\Node\Expr\BinaryOp\Identical" shape="rect" coords="445,840,732,864"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_and.html" alt="PhpParser\Node\Expr\BinaryOp\LogicalAnd" shape="rect" coords="445,896,732,920"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_or.html" alt="PhpParser\Node\Expr\BinaryOp\LogicalOr" shape="rect" coords="445,952,732,976"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_xor.html" alt="PhpParser\Node\Expr\BinaryOp\LogicalXor" shape="rect" coords="445,1008,732,1032"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus.html" alt="PhpParser\Node\Expr\BinaryOp\Minus" shape="rect" coords="445,1064,732,1088"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_mod.html" alt="PhpParser\Node\Expr\BinaryOp\Mod" shape="rect" coords="445,1120,732,1144"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_mul.html" alt="PhpParser\Node\Expr\BinaryOp\Mul" shape="rect" coords="445,1176,732,1200"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_not_equal.html" alt="PhpParser\Node\Expr\BinaryOp\NotEqual" shape="rect" coords="445,1232,732,1256"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_not_identical.html" alt="PhpParser\Node\Expr\BinaryOp\NotIdentical" shape="rect" coords="445,1288,732,1312"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_plus.html" alt="PhpParser\Node\Expr\BinaryOp\Plus" shape="rect" coords="445,1344,732,1368"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_pow.html" alt="PhpParser\Node\Expr\BinaryOp\Pow" shape="rect" coords="445,1400,732,1424"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_shift_left.html" alt="PhpParser\Node\Expr\BinaryOp\ShiftLeft" shape="rect" coords="445,1456,732,1480"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_shift_right.html" alt="PhpParser\Node\Expr\BinaryOp\ShiftRight" shape="rect" coords="445,1512,732,1536"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_smaller.html" alt="PhpParser\Node\Expr\BinaryOp\Smaller" shape="rect" coords="445,1568,732,1592"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_smaller_or_equal.html" alt="PhpParser\Node\Expr\BinaryOp\SmallerOrEqual" shape="rect" coords="445,1624,732,1648"/>
+<area href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship.html" alt="PhpParser\Node\Expr\BinaryOp\Spaceship" shape="rect" coords="445,1680,732,1704"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab8aab10b326c798ff3774de1e5dfa266"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#ab8aab10b326c798ff3774de1e5dfa266">__construct</a> (<a class="el" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $left, <a class="el" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $right, array $attributes=[])</td></tr>
-<tr class="separator:ab8aab10b326c798ff3774de1e5dfa266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e06a91cc526dc52826d18313e64798a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a7e06a91cc526dc52826d18313e64798a">getSubNodeNames</a> ()</td></tr>
-<tr class="separator:a7e06a91cc526dc52826d18313e64798a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed7b4ab91d29701a3d5f4936de669b72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#aed7b4ab91d29701a3d5f4936de669b72">getOperatorSigil</a> ()</td></tr>
-<tr class="separator:aed7b4ab91d29701a3d5f4936de669b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_php_parser_1_1_node_abstract"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_php_parser_1_1_node_abstract')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_php_parser_1_1_node_abstract.html">NodeAbstract</a></td></tr>
-<tr class="memitem:afe55bc1439758d475e70446a774807d9 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#afe55bc1439758d475e70446a774807d9">__construct</a> (array $attributes=[])</td></tr>
-<tr class="separator:afe55bc1439758d475e70446a774807d9 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef9c32f6066788a101028a1d4150f8cb inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#aef9c32f6066788a101028a1d4150f8cb">getLine</a> ()</td></tr>
-<tr class="separator:aef9c32f6066788a101028a1d4150f8cb inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c5336ffcf8d85709d6f212bd49c7bb4 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a0c5336ffcf8d85709d6f212bd49c7bb4">getStartLine</a> ()</td></tr>
-<tr class="separator:a0c5336ffcf8d85709d6f212bd49c7bb4 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ad149e4075bba710a8933065263fe0e inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a7ad149e4075bba710a8933065263fe0e">getEndLine</a> ()</td></tr>
-<tr class="separator:a7ad149e4075bba710a8933065263fe0e inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2071892dabcf856e81bb5fdf4ea0d365 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a2071892dabcf856e81bb5fdf4ea0d365">getStartTokenPos</a> ()</td></tr>
-<tr class="separator:a2071892dabcf856e81bb5fdf4ea0d365 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae97bed5b5ce902777f7c749aea714262 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#ae97bed5b5ce902777f7c749aea714262">getEndTokenPos</a> ()</td></tr>
-<tr class="separator:ae97bed5b5ce902777f7c749aea714262 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aada4875e3d94d2987234f496bcd86970 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#aada4875e3d94d2987234f496bcd86970">getStartFilePos</a> ()</td></tr>
-<tr class="separator:aada4875e3d94d2987234f496bcd86970 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada2c7786e2cd53a4f78cf5fbacf84088 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#ada2c7786e2cd53a4f78cf5fbacf84088">getEndFilePos</a> ()</td></tr>
-<tr class="separator:ada2c7786e2cd53a4f78cf5fbacf84088 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3034ead082330d2c046a69814009808 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#af3034ead082330d2c046a69814009808">getComments</a> ()</td></tr>
-<tr class="separator:af3034ead082330d2c046a69814009808 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ad315042ad7fc45bd7e7d979647738a inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a7ad315042ad7fc45bd7e7d979647738a">getDocComment</a> ()</td></tr>
-<tr class="separator:a7ad315042ad7fc45bd7e7d979647738a inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49368ce706cdb1cbdd2b68039788dfee inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a49368ce706cdb1cbdd2b68039788dfee">setDocComment</a> (Comment\Doc $docComment)</td></tr>
-<tr class="separator:a49368ce706cdb1cbdd2b68039788dfee inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d036ff8a979c733d4b44be513ebff63 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a5d036ff8a979c733d4b44be513ebff63">setAttribute</a> (string $key, $value)</td></tr>
-<tr class="separator:a5d036ff8a979c733d4b44be513ebff63 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79a755c05ccf0aae60a84dae8d3aaa23 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a79a755c05ccf0aae60a84dae8d3aaa23">hasAttribute</a> (string $key)</td></tr>
-<tr class="separator:a79a755c05ccf0aae60a84dae8d3aaa23 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8326238c49c45406cddb3625e0dadf67 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a8326238c49c45406cddb3625e0dadf67">getAttribute</a> (string $key, $default=null)</td></tr>
-<tr class="separator:a8326238c49c45406cddb3625e0dadf67 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbe85ec4b9947cc951c67d63911cf0a4 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#afbe85ec4b9947cc951c67d63911cf0a4">getAttributes</a> ()</td></tr>
-<tr class="separator:afbe85ec4b9947cc951c67d63911cf0a4 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4c58c23f94923a1ba4ad37b24a80504 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#ad4c58c23f94923a1ba4ad37b24a80504">setAttributes</a> (array $attributes)</td></tr>
-<tr class="separator:ad4c58c23f94923a1ba4ad37b24a80504 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad402d8679325bc514874370f02b5c2ac inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#ad402d8679325bc514874370f02b5c2ac">jsonSerialize</a> ()</td></tr>
-<tr class="separator:ad402d8679325bc514874370f02b5c2ac inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_interface_php_parser_1_1_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_php_parser_1_1_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interface_php_parser_1_1_node.html">Node</a></td></tr>
-<tr class="memitem:a830b5c75df72b32396701bc563fbe3c7 inherit pub_methods_interface_php_parser_1_1_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_php_parser_1_1_node.html#a830b5c75df72b32396701bc563fbe3c7">getType</a> ()</td></tr>
-<tr class="separator:a830b5c75df72b32396701bc563fbe3c7 inherit pub_methods_interface_php_parser_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a876b57cfa9fcddb62216754c043e9532"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a876b57cfa9fcddb62216754c043e9532">__construct</a> (<a class="el" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $left, <a class="el" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $right, array $attributes=[])</td></tr>
+<tr class="separator:a876b57cfa9fcddb62216754c043e9532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e87604c9923e21f24ca9e8669a6a1a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a1e87604c9923e21f24ca9e8669a6a1a9">getSubNodeNames</a> ()</td></tr>
+<tr class="separator:a1e87604c9923e21f24ca9e8669a6a1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2b741cba3df6fc1d57d9cb6d068879"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#aaa2b741cba3df6fc1d57d9cb6d068879">getOperatorSigil</a> ()</td></tr>
+<tr class="separator:aaa2b741cba3df6fc1d57d9cb6d068879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_php_parser_1_1_node_abstract"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_php_parser_1_1_node_abstract')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_php_parser_1_1_node_abstract.html">PhpParser\NodeAbstract</a></td></tr>
+<tr class="memitem:a43dab61c39002f7ce8256019aedec917 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a43dab61c39002f7ce8256019aedec917">__construct</a> (array $attributes=[])</td></tr>
+<tr class="separator:a43dab61c39002f7ce8256019aedec917 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab359dbde246b2ee89550b12e3d000df9 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#ab359dbde246b2ee89550b12e3d000df9">getLine</a> ()</td></tr>
+<tr class="separator:ab359dbde246b2ee89550b12e3d000df9 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555c7d43c9703464b65110ed9c67f3a8 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a555c7d43c9703464b65110ed9c67f3a8">getStartLine</a> ()</td></tr>
+<tr class="separator:a555c7d43c9703464b65110ed9c67f3a8 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a546f07ce3814eed3f81303fc0442614f inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a546f07ce3814eed3f81303fc0442614f">getEndLine</a> ()</td></tr>
+<tr class="separator:a546f07ce3814eed3f81303fc0442614f inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73728ead23ae7f828d6f0e4c0726d06 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#aa73728ead23ae7f828d6f0e4c0726d06">getStartTokenPos</a> ()</td></tr>
+<tr class="separator:aa73728ead23ae7f828d6f0e4c0726d06 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9812eaf664ada865db57526c7a8e8e23 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a9812eaf664ada865db57526c7a8e8e23">getEndTokenPos</a> ()</td></tr>
+<tr class="separator:a9812eaf664ada865db57526c7a8e8e23 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40154f59b68afd2a56e58d5a8d7fd58f inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a40154f59b68afd2a56e58d5a8d7fd58f">getStartFilePos</a> ()</td></tr>
+<tr class="separator:a40154f59b68afd2a56e58d5a8d7fd58f inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d8ab17afe1be4441b0e2e2054e27ff5 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a2d8ab17afe1be4441b0e2e2054e27ff5">getEndFilePos</a> ()</td></tr>
+<tr class="separator:a2d8ab17afe1be4441b0e2e2054e27ff5 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae124fac32f30b3d9c6b6e21bd84aa693 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#ae124fac32f30b3d9c6b6e21bd84aa693">getComments</a> ()</td></tr>
+<tr class="separator:ae124fac32f30b3d9c6b6e21bd84aa693 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e3440b0c8e24015bf51bbba38d2fe34 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a8e3440b0c8e24015bf51bbba38d2fe34">getDocComment</a> ()</td></tr>
+<tr class="separator:a8e3440b0c8e24015bf51bbba38d2fe34 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f797339969e9f5b9c67a39ece15173e inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a7f797339969e9f5b9c67a39ece15173e">setDocComment</a> (Comment\Doc $docComment)</td></tr>
+<tr class="separator:a7f797339969e9f5b9c67a39ece15173e inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c01b36e669e482ce78b9546f492105 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#ac8c01b36e669e482ce78b9546f492105">setAttribute</a> (string $key, $value)</td></tr>
+<tr class="separator:ac8c01b36e669e482ce78b9546f492105 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa25bcb15385162e8f07c4b1ee26d8c3c inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#aa25bcb15385162e8f07c4b1ee26d8c3c">hasAttribute</a> (string $key)</td></tr>
+<tr class="separator:aa25bcb15385162e8f07c4b1ee26d8c3c inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40047b286cf317a6a3890f28e4bc6328 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a40047b286cf317a6a3890f28e4bc6328">getAttribute</a> (string $key, $default=null)</td></tr>
+<tr class="separator:a40047b286cf317a6a3890f28e4bc6328 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656d48be529612c3c272ddeb06ed103a inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a656d48be529612c3c272ddeb06ed103a">getAttributes</a> ()</td></tr>
+<tr class="separator:a656d48be529612c3c272ddeb06ed103a inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1faa48ef0ec52e6387d57234b5c160a4 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a1faa48ef0ec52e6387d57234b5c160a4">setAttributes</a> (array $attributes)</td></tr>
+<tr class="separator:a1faa48ef0ec52e6387d57234b5c160a4 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3231a326c5e6c8e79c7308587fa91bd1 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a3231a326c5e6c8e79c7308587fa91bd1">jsonSerialize</a> ()</td></tr>
+<tr class="separator:a3231a326c5e6c8e79c7308587fa91bd1 inherit pub_methods_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_php_parser_1_1_node"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_php_parser_1_1_node')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interface_php_parser_1_1_node.html">PhpParser\Node</a></td></tr>
+<tr class="memitem:a58a990fb23e1aa2b0f0ca12e2a4480a0 inherit pub_methods_interface_php_parser_1_1_node"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_php_parser_1_1_node.html#a58a990fb23e1aa2b0f0ca12e2a4480a0">getType</a> ()</td></tr>
+<tr class="separator:a58a990fb23e1aa2b0f0ca12e2a4480a0 inherit pub_methods_interface_php_parser_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Data Fields</h2></td></tr>
-<tr class="memitem:a8ce48148e988ab5ecd61213c1d460962"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a8ce48148e988ab5ecd61213c1d460962">$left</a></td></tr>
-<tr class="separator:a8ce48148e988ab5ecd61213c1d460962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e068e5169b6f084dcf0baf74137378"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a79e068e5169b6f084dcf0baf74137378">$right</a></td></tr>
-<tr class="separator:a79e068e5169b6f084dcf0baf74137378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a70d8aa6e37412b44e33815356fb69563"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a70d8aa6e37412b44e33815356fb69563">$left</a></td></tr>
+<tr class="separator:a70d8aa6e37412b44e33815356fb69563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bda44efca61e47307f49352d60b278f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op.html#a7bda44efca61e47307f49352d60b278f">$right</a></td></tr>
+<tr class="separator:a7bda44efca61e47307f49352d60b278f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_class_php_parser_1_1_node_abstract"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_php_parser_1_1_node_abstract')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_php_parser_1_1_node_abstract.html">NodeAbstract</a></td></tr>
-<tr class="memitem:adc851f7a62250e75df0490c0280aef4c inherit pro_attribs_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#adc851f7a62250e75df0490c0280aef4c">$attributes</a></td></tr>
-<tr class="separator:adc851f7a62250e75df0490c0280aef4c inherit pro_attribs_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_php_parser_1_1_node_abstract"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_php_parser_1_1_node_abstract')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_php_parser_1_1_node_abstract.html">PhpParser\NodeAbstract</a></td></tr>
+<tr class="memitem:a755226455bfcfc13a8980605db4b7b5f inherit pro_attribs_class_php_parser_1_1_node_abstract"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_php_parser_1_1_node_abstract.html#a755226455bfcfc13a8980605db4b7b5f">$attributes</a></td></tr>
+<tr class="separator:a755226455bfcfc13a8980605db4b7b5f inherit pro_attribs_class_php_parser_1_1_node_abstract"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_binary_op_8php_source.html#l00007">7</a> of file <a class="el" href="_binary_op_8php_source.html">BinaryOp.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab8aab10b326c798ff3774de1e5dfa266"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8aab10b326c798ff3774de1e5dfa266">&#9670;&nbsp;</a></span>__construct()</h2>
+<a id="a876b57cfa9fcddb62216754c043e9532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a876b57cfa9fcddb62216754c043e9532">&#9670;&nbsp;</a></span>__construct()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__construct </td>
+          <td class="memname">PhpParser\Node\Expr\BinaryOp::__construct </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a>&#160;</td>
           <td class="paramname"><em>$left</em>, </td>
@@ -240,8 +240,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aed7b4ab91d29701a3d5f4936de669b72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed7b4ab91d29701a3d5f4936de669b72">&#9670;&nbsp;</a></span>getOperatorSigil()</h2>
+<a id="aaa2b741cba3df6fc1d57d9cb6d068879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2b741cba3df6fc1d57d9cb6d068879">&#9670;&nbsp;</a></span>getOperatorSigil()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +250,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">getOperatorSigil </td>
+          <td class="memname">PhpParser\Node\Expr\BinaryOp::getOperatorSigil </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -266,18 +266,18 @@ Additional Inherited Members</h2></td></tr>
 <p>In the case there are multiple possible sigils for an operator, this method does not necessarily return the one used in the parsed code.</p>
 <dl class="section return"><dt>Returns</dt><dd>string </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship.html#aed7b4ab91d29701a3d5f4936de669b72">Spaceship</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_smaller_or_equal.html#aed7b4ab91d29701a3d5f4936de669b72">SmallerOrEqual</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_smaller.html#aed7b4ab91d29701a3d5f4936de669b72">Smaller</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_shift_right.html#aed7b4ab91d29701a3d5f4936de669b72">ShiftRight</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_shift_left.html#aed7b4ab91d29701a3d5f4936de669b72">ShiftLeft</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_pow.html#aed7b4ab91d29701a3d5f4936de669b72">Pow</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_plus.html#aed7b4ab91d29701a3d5f4936de669b72">Plus</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_not_identical.html#aed7b4ab91d29701a3d5f4936de669b72">NotIdentical</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_not_equal.html#aed7b4ab91d29701a3d5f4936de669b72">NotEqual</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_mul.html#aed7b4ab91d29701a3d5f4936de669b72">Mul</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_mod.html#aed7b4ab91d29701a3d5f4936de669b72">Mod</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus.html#aed7b4ab91d29701a3d5f4936de669b72">Minus</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_xor.html#aed7b4ab91d29701a3d5f4936de669b72">LogicalXor</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_or.html#aed7b4ab91d29701a3d5f4936de669b72">LogicalOr</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_and.html#aed7b4ab91d29701a3d5f4936de669b72">LogicalAnd</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_identical.html#aed7b4ab91d29701a3d5f4936de669b72">Identical</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_greater_or_equal.html#aed7b4ab91d29701a3d5f4936de669b72">GreaterOrEqual</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_greater.html#aed7b4ab91d29701a3d5f4936de669b72">Greater</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_equal.html#aed7b4ab91d29701a3d5f4936de669b72">Equal</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_div.html#aed7b4ab91d29701a3d5f4936de669b72">Div</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_concat.html#aed7b4ab91d29701a3d5f4936de669b72">Concat</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_coalesce.html#aed7b4ab91d29701a3d5f4936de669b72">Coalesce</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_boolean_or.html#aed7b4ab91d29701a3d5f4936de669b72">BooleanOr</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_boolean_and.html#aed7b4ab91d29701a3d5f4936de669b72">BooleanAnd</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor.html#aed7b4ab91d29701a3d5f4936de669b72">BitwiseXor</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_or.html#aed7b4ab91d29701a3d5f4936de669b72">BitwiseOr</a>, and <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_and.html#aed7b4ab91d29701a3d5f4936de669b72">BitwiseAnd</a>.</p>
+<p>Reimplemented in <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_spaceship.html#a9d2edbc8af47198b3691534bfbd58fff">PhpParser\Node\Expr\BinaryOp\Spaceship</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_smaller_or_equal.html#abdcc33126154a8143fcb420d150d9335">PhpParser\Node\Expr\BinaryOp\SmallerOrEqual</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_smaller.html#a3f4350f4da144c6c921138a61c354e1c">PhpParser\Node\Expr\BinaryOp\Smaller</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_shift_right.html#a0fa2341e897db6de10ac4e781e51634f">PhpParser\Node\Expr\BinaryOp\ShiftRight</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_shift_left.html#a08d05e1696533a8a5efccd53b88753cd">PhpParser\Node\Expr\BinaryOp\ShiftLeft</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_pow.html#a2af9b59898af0404a1bd498ed5ccd88e">PhpParser\Node\Expr\BinaryOp\Pow</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_plus.html#a5fb07cb8ce2dea3c7a102c6488b8648c">PhpParser\Node\Expr\BinaryOp\Plus</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_not_identical.html#a2b2b912a401f94502c330408935759f6">PhpParser\Node\Expr\BinaryOp\NotIdentical</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_not_equal.html#ab75968e6802f98154bafb85792e9e1ef">PhpParser\Node\Expr\BinaryOp\NotEqual</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_mul.html#a169f7e2de8ed94e4562819c4bef1b7dd">PhpParser\Node\Expr\BinaryOp\Mul</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_mod.html#a9f2675a3fb30e94f1e0fe5500626979f">PhpParser\Node\Expr\BinaryOp\Mod</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_minus.html#ad85259e08807341e2515d9d0f416bbe6">PhpParser\Node\Expr\BinaryOp\Minus</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_xor.html#aa1723cee5880fc60a487a8e07467ff94">PhpParser\Node\Expr\BinaryOp\LogicalXor</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_or.html#a17ba185030b1f015ad24b836d94be105">PhpParser\Node\Expr\BinaryOp\LogicalOr</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_logical_and.html#a5e2d50198b9c84a6f2fdc8a0b257d7c8">PhpParser\Node\Expr\BinaryOp\LogicalAnd</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_identical.html#a4e5fc959a7bb1455ea92e37032c63f5f">PhpParser\Node\Expr\BinaryOp\Identical</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_greater_or_equal.html#aead7dcdf17ca98f72fb235c83d615cc6">PhpParser\Node\Expr\BinaryOp\GreaterOrEqual</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_greater.html#ae6c3527422d593beec5e11e79a015e0f">PhpParser\Node\Expr\BinaryOp\Greater</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_equal.html#a534d43c93b89ab0a17ef48c9ad175e19">PhpParser\Node\Expr\BinaryOp\Equal</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_div.html#aecb5b4695333e8854fa14b8aab29c799">PhpParser\Node\Expr\BinaryOp\Div</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_concat.html#afbd845b01c55d559075fa19fad07d2d3">PhpParser\Node\Expr\BinaryOp\Concat</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_coalesce.html#a8635073b003f9ea08d6b2eb58031f70b">PhpParser\Node\Expr\BinaryOp\Coalesce</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_boolean_or.html#a2bde139df1846344808bcef7f7cd8565">PhpParser\Node\Expr\BinaryOp\BooleanOr</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_boolean_and.html#ac6c1a3db95e46db195cd72b217451b7d">PhpParser\Node\Expr\BinaryOp\BooleanAnd</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_xor.html#a7e92957e4aeae5c353c4ec4a9caa7dfb">PhpParser\Node\Expr\BinaryOp\BitwiseXor</a>, <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_or.html#aac6a2a317d1d647a354054a5de49074b">PhpParser\Node\Expr\BinaryOp\BitwiseOr</a>, and <a class="el" href="class_php_parser_1_1_node_1_1_expr_1_1_binary_op_1_1_bitwise_and.html#adc3178deac4058c66d7a34ece7f95db0">PhpParser\Node\Expr\BinaryOp\BitwiseAnd</a>.</p>
 
 </div>
 </div>
-<a id="a7e06a91cc526dc52826d18313e64798a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e06a91cc526dc52826d18313e64798a">&#9670;&nbsp;</a></span>getSubNodeNames()</h2>
+<a id="a1e87604c9923e21f24ca9e8669a6a1a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e87604c9923e21f24ca9e8669a6a1a9">&#9670;&nbsp;</a></span>getSubNodeNames()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">getSubNodeNames </td>
+          <td class="memname">PhpParser\Node\Expr\BinaryOp::getSubNodeNames </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -287,21 +287,21 @@ Additional Inherited Members</h2></td></tr>
 <p>Gets the names of the sub nodes.</p>
 <dl class="section return"><dt>Returns</dt><dd>array Names of sub nodes </dd></dl>
 
-<p>Implements <a class="el" href="interface_php_parser_1_1_node.html#a7e06a91cc526dc52826d18313e64798a">Node</a>.</p>
+<p>Implements <a class="el" href="interface_php_parser_1_1_node.html#a3409b9dbd545a6fe968cbf2339029d5f">PhpParser\Node</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_binary_op_8php_source.html#l00027">27</a> of file <a class="el" href="_binary_op_8php_source.html">BinaryOp.php</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Field Documentation</h2>
-<a id="a8ce48148e988ab5ecd61213c1d460962"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ce48148e988ab5ecd61213c1d460962">&#9670;&nbsp;</a></span>$left</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a70d8aa6e37412b44e33815356fb69563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70d8aa6e37412b44e33815356fb69563">&#9670;&nbsp;</a></span>$left</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$left</td>
+          <td class="memname">PhpParser\Node\Expr\BinaryOp::$left</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -310,14 +310,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a79e068e5169b6f084dcf0baf74137378"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79e068e5169b6f084dcf0baf74137378">&#9670;&nbsp;</a></span>$right</h2>
+<a id="a7bda44efca61e47307f49352d60b278f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bda44efca61e47307f49352d60b278f">&#9670;&nbsp;</a></span>$right</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$right</td>
+          <td class="memname">PhpParser\Node\Expr\BinaryOp::$right</td>
         </tr>
       </table>
 </div><div class="memdoc">

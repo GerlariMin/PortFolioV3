@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['qualifiedname_9292',['qualifiedName',['../class_sebastian_bergmann_1_1_type_1_1_type_name.htmlm#a7bb3d57f675c4ce001ed9e2faccc096c',1,'SebastianBergmann::Type::TypeName']]],
-  ['qux_9293',['qux',['../class_whitespace.htmlm#a09dd5c21d41c91f4191c92bab5c98928',1,'Whitespace']]]
+  ['qualifiedname_9299',['qualifiedName',['../class_sebastian_bergmann_1_1_type_1_1_type_name.html#a894315613ad70b5faa746aaf5a1d68e0',1,'SebastianBergmann::Type::TypeName']]],
+  ['qux_9300',['qux',['../class_whitespace.html#a79ecdb903a33a4d598853205d05cc107',1,'Whitespace']]]
 ];

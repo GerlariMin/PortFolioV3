@@ -1,10 +1,10 @@
 var class_mustache___test___all_the_things =
 [
-    [ "foo", "class_mustache___test___all_the_things.html#a79418a120498dd9cf915655654607747", null ],
-    [ "offsetExists", "class_mustache___test___all_the_things.html#a24ff257ec0c2221bc6fd7b1b4388e26e", null ],
-    [ "offsetGet", "class_mustache___test___all_the_things.html#a59aee6e89465b48f014699f41b521f87", null ],
-    [ "offsetSet", "class_mustache___test___all_the_things.html#ac6bde6b1eb50eb5377e91771fe46b7a3", null ],
-    [ "offsetUnset", "class_mustache___test___all_the_things.html#a2411227ea7118b13495de9839fd4b563", null ],
-    [ "$bar", "class_mustache___test___all_the_things.html#ab669d165b99e23bf90d68a0a057f69ac", null ],
-    [ "$foo", "class_mustache___test___all_the_things.html#a7a1efa8a0f6183fb3a5e8e8b0696526c", null ]
+    [ "foo", "class_mustache___test___all_the_things.html#abe730a1c93b4f9b490711c5a87907851", null ],
+    [ "offsetExists", "class_mustache___test___all_the_things.html#a0591ea4cad3891e824d13d83dac3f62c", null ],
+    [ "offsetGet", "class_mustache___test___all_the_things.html#a8f677f23e367a535622d72bf5e94a3cd", null ],
+    [ "offsetSet", "class_mustache___test___all_the_things.html#a31ef111f6da3f6e3a56b4096ea8e1f32", null ],
+    [ "offsetUnset", "class_mustache___test___all_the_things.html#a4fb298b41797171323ee6819f71ce5db", null ],
+    [ "$bar", "class_mustache___test___all_the_things.html#a287b5b9d786c6fb795f9b9b046192ba8", null ],
+    [ "$foo", "class_mustache___test___all_the_things.html#a2a3610a20d38eeace3e61a988068cfb7", null ]
 ];

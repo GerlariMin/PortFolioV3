@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/phpunit/phpunit/src/Runner/Filter/NameFilterIterator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/phpunit/phpunit/src/Runner/Filter/NameFilterIterator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -120,14 +119,14 @@ $(document).ready(function(){initNavTree('_name_filter_iterator_8php_source.html
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">private</span> $filterMax;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#aedf227d88ed063ed5c81c5119bf37cfa">   48</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#aedf227d88ed063ed5c81c5119bf37cfa">__construct</a>(RecursiveIterator $iterator, <span class="keywordtype">string</span> $filter)</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#af217fb56a8f65643be3051bdc836f8e0">   48</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#af217fb56a8f65643be3051bdc836f8e0">__construct</a>(RecursiveIterator $iterator, <span class="keywordtype">string</span> $filter)</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        parent::__construct($iterator);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        $this-&gt;setFilter($filter);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#acb64affba32059c09533892d9ded224a">   58</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#acb64affba32059c09533892d9ded224a">accept</a>(): bool</div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#a5db2287dfa10f3a9cb4309eed10fa8da">   58</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#a5db2287dfa10f3a9cb4309eed10fa8da">accept</a>(): bool</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        $test = $this-&gt;getInnerIterator()-&gt;current();</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
@@ -135,7 +134,7 @@ $(document).ready(function(){initNavTree('_name_filter_iterator_8php_source.html
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        $tmp = <a class="code" href="class_p_h_p_unit_1_1_util_1_1_test.html#a051a1e5f0bf23d49cde61d6620fdfc2d">\PHPUnit\Util\Test::describe</a>($test);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        $tmp = <a class="code" href="class_p_h_p_unit_1_1_util_1_1_test.html#ab1443222cc0690884d79f978b0718bf0">\PHPUnit\Util\Test::describe</a>($test);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">if</span> ($test instanceof <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_error_test_case.html">ErrorTestCase</a> || $test instanceof <a class="code" href="class_p_h_p_unit_1_1_framework_1_1_warning_test_case.html">WarningTestCase</a>) {</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            $name = $test-&gt;getMessage();</div>
@@ -157,7 +156,7 @@ $(document).ready(function(){initNavTree('_name_filter_iterator_8php_source.html
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keyword">private</span> <span class="keyword">function</span> setFilter(<span class="keywordtype">string</span> $filter): void</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_p_h_p_unit_1_1_util_1_1_regular_expression.html#a0e63aab9ebc145c7a3bf78fc1d16bfb5">RegularExpression::safeMatch</a>($filter, <span class="stringliteral">&#39;&#39;</span>) === <span class="keyword">false</span>) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_p_h_p_unit_1_1_util_1_1_regular_expression.html#a3777208f3613a7c9afb7f405d9a522a5">RegularExpression::safeMatch</a>($filter, <span class="stringliteral">&#39;&#39;</span>) === <span class="keyword">false</span>) {</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="comment">// Handles:</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="comment">//  * testAssertEqualsSucceeds#4</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="comment">//  * testAssertEqualsSucceeds#4-8</span></div>
@@ -207,11 +206,11 @@ $(document).ready(function(){initNavTree('_name_filter_iterator_8php_source.html
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_test_suite_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_test_suite.html">PHPUnit\Framework\TestSuite</a></div><div class="ttdef"><b>Definition:</b> <a href="_framework_2_test_suite_8php_source.html#l00051">TestSuite.php:52</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_framework_1_1_warning_test_case_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_framework_1_1_warning_test_case.html">PHPUnit\Framework\WarningTestCase</a></div><div class="ttdef"><b>Definition:</b> <a href="_warning_test_case_8php_source.html#l00015">WarningTestCase.php:16</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html">PHPUnit\Runner\Filter\NameFilterIterator</a></div><div class="ttdef"><b>Definition:</b> <a href="_name_filter_iterator_8php_source.html#l00028">NameFilterIterator.php:29</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator_html_acb64affba32059c09533892d9ded224a"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#acb64affba32059c09533892d9ded224a">PHPUnit\Runner\Filter\NameFilterIterator\accept</a></div><div class="ttdeci">accept()</div><div class="ttdef"><b>Definition:</b> <a href="_name_filter_iterator_8php_source.html#l00058">NameFilterIterator.php:58</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator_html_aedf227d88ed063ed5c81c5119bf37cfa"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#aedf227d88ed063ed5c81c5119bf37cfa">PHPUnit\Runner\Filter\NameFilterIterator\__construct</a></div><div class="ttdeci">__construct(RecursiveIterator $iterator, string $filter)</div><div class="ttdef"><b>Definition:</b> <a href="_name_filter_iterator_8php_source.html#l00048">NameFilterIterator.php:48</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator_html_a5db2287dfa10f3a9cb4309eed10fa8da"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#a5db2287dfa10f3a9cb4309eed10fa8da">PHPUnit\Runner\Filter\NameFilterIterator\accept</a></div><div class="ttdeci">accept()</div><div class="ttdef"><b>Definition:</b> <a href="_name_filter_iterator_8php_source.html#l00058">NameFilterIterator.php:58</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator_html_af217fb56a8f65643be3051bdc836f8e0"><div class="ttname"><a href="class_p_h_p_unit_1_1_runner_1_1_filter_1_1_name_filter_iterator.html#af217fb56a8f65643be3051bdc836f8e0">PHPUnit\Runner\Filter\NameFilterIterator\__construct</a></div><div class="ttdeci">__construct(RecursiveIterator $iterator, string $filter)</div><div class="ttdef"><b>Definition:</b> <a href="_name_filter_iterator_8php_source.html#l00048">NameFilterIterator.php:48</a></div></div>
 <div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_regular_expression_html"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_regular_expression.html">PHPUnit\Util\RegularExpression</a></div><div class="ttdef"><b>Definition:</b> <a href="_util_2_regular_expression_8php_source.html#l00017">RegularExpression.php:18</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_regular_expression_html_a0e63aab9ebc145c7a3bf78fc1d16bfb5"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_regular_expression.html#a0e63aab9ebc145c7a3bf78fc1d16bfb5">PHPUnit\Util\RegularExpression\safeMatch</a></div><div class="ttdeci">static safeMatch(string $pattern, string $subject)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_regular_expression_8php_source.html#l00022">RegularExpression.php:22</a></div></div>
-<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_test_html_a051a1e5f0bf23d49cde61d6620fdfc2d"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_test.html#a051a1e5f0bf23d49cde61d6620fdfc2d">PHPUnit\Util\Test\describe</a></div><div class="ttdeci">static describe(\PHPUnit\Framework\Test $test)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_test_8php_source.html#l00090">Test.php:90</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_regular_expression_html_a3777208f3613a7c9afb7f405d9a522a5"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_regular_expression.html#a3777208f3613a7c9afb7f405d9a522a5">PHPUnit\Util\RegularExpression\safeMatch</a></div><div class="ttdeci">static safeMatch(string $pattern, string $subject)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_regular_expression_8php_source.html#l00022">RegularExpression.php:22</a></div></div>
+<div class="ttc" id="aclass_p_h_p_unit_1_1_util_1_1_test_html_ab1443222cc0690884d79f978b0718bf0"><div class="ttname"><a href="class_p_h_p_unit_1_1_util_1_1_test.html#ab1443222cc0690884d79f978b0718bf0">PHPUnit\Util\Test\describe</a></div><div class="ttdeci">static describe(\PHPUnit\Framework\Test $test)</div><div class="ttdef"><b>Definition:</b> <a href="_util_2_test_8php_source.html#l00090">Test.php:90</a></div></div>
 <div class="ttc" id="anamespace_p_h_p_unit_1_1_runner_1_1_filter_html"><div class="ttname"><a href="namespace_p_h_p_unit_1_1_runner_1_1_filter.html">PHPUnit\Runner\Filter</a></div><div class="ttdef"><b>Definition:</b> <a href="_exclude_group_filter_iterator_8php_source.html#l00010">ExcludeGroupFilterIterator.php:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

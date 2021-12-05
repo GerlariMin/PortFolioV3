@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/nikic/php-parser/lib/PhpParser/ConstExprEvaluator.php Source File</title>
+<title>PortFolioV3: ressources/vendor/nikic/php-parser/lib/PhpParser/ConstExprEvaluator.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -99,7 +98,7 @@ $(document).ready(function(){initNavTree('_const_expr_evaluator_8php_source.html
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">private</span> $fallbackEvaluator;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_const_expr_evaluator.html#a9f3fdd112616ad0e249b074bed174ee5">   39</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_const_expr_evaluator.html#a9f3fdd112616ad0e249b074bed174ee5">__construct</a>(callable $fallbackEvaluator = <span class="keyword">null</span>) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_const_expr_evaluator.html#a2042478a440b2a8e8f19802eadef1c68">   39</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_const_expr_evaluator.html#a2042478a440b2a8e8f19802eadef1c68">__construct</a>(callable $fallbackEvaluator = <span class="keyword">null</span>) {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        $this-&gt;fallbackEvaluator = $fallbackEvaluator ?? <span class="keyword">function</span>(<a class="code" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $expr) {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_php_parser_1_1_const_expr_evaluation_exception.html">ConstExprEvaluationException</a>(</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="stringliteral">&quot;Expression of type {$expr-&gt;getType()} cannot be evaluated&quot;</span></div>
@@ -107,7 +106,7 @@ $(document).ready(function(){initNavTree('_const_expr_evaluator_8php_source.html
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        };</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_const_expr_evaluator.html#a926e9a9664604b95ec73cdffa2cd8429">   64</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_const_expr_evaluator.html#a926e9a9664604b95ec73cdffa2cd8429">evaluateSilently</a>(<a class="code" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $expr) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_const_expr_evaluator.html#aa3601a1c17c59f0c21c2325f8919d9cb">   64</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_const_expr_evaluator.html#aa3601a1c17c59f0c21c2325f8919d9cb">evaluateSilently</a>(<a class="code" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $expr) {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        set_error_handler(<span class="keyword">function</span>($num, $str, <a class="code" href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a>, $line) {</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">throw</span> new \ErrorException($str, 0, $num, <a class="code" href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a>, $line);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        });</div>
@@ -125,7 +124,7 @@ $(document).ready(function(){initNavTree('_const_expr_evaluator_8php_source.html
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_const_expr_evaluator.html#aca590c5cc9c182a5fc87c0cef6764e33">   99</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_const_expr_evaluator.html#aca590c5cc9c182a5fc87c0cef6764e33">evaluateDirectly</a>(<a class="code" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $expr) {</div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_php_parser_1_1_const_expr_evaluator.html#a23e9e127ba9e68f3904d8c48bdbf1a77">   99</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_php_parser_1_1_const_expr_evaluator.html#a23e9e127ba9e68f3904d8c48bdbf1a77">evaluateDirectly</a>(<a class="code" href="class_php_parser_1_1_node_1_1_expr.html">Expr</a> $expr) {</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> $this-&gt;evaluate($expr);</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
@@ -256,9 +255,9 @@ $(document).ready(function(){initNavTree('_const_expr_evaluator_8php_source.html
 <div class="ttc" id="abuild__bootstrap_8php_html_aa1bfbd27060176201b271918dff57e8f"><div class="ttname"><a href="build__bootstrap_8php.html#aa1bfbd27060176201b271918dff57e8f">$file</a></div><div class="ttdeci">$file</div><div class="ttdef"><b>Definition:</b> <a href="build__bootstrap_8php_source.html#l00029">build_bootstrap.php:29</a></div></div>
 <div class="ttc" id="aclass_php_parser_1_1_const_expr_evaluation_exception_html"><div class="ttname"><a href="class_php_parser_1_1_const_expr_evaluation_exception.html">PhpParser\ConstExprEvaluationException</a></div><div class="ttdef"><b>Definition:</b> <a href="_const_expr_evaluation_exception_8php_source.html#l00005">ConstExprEvaluationException.php:6</a></div></div>
 <div class="ttc" id="aclass_php_parser_1_1_const_expr_evaluator_html"><div class="ttname"><a href="class_php_parser_1_1_const_expr_evaluator.html">PhpParser\ConstExprEvaluator</a></div><div class="ttdef"><b>Definition:</b> <a href="_const_expr_evaluator_8php_source.html#l00027">ConstExprEvaluator.php:28</a></div></div>
-<div class="ttc" id="aclass_php_parser_1_1_const_expr_evaluator_html_a926e9a9664604b95ec73cdffa2cd8429"><div class="ttname"><a href="class_php_parser_1_1_const_expr_evaluator.html#a926e9a9664604b95ec73cdffa2cd8429">PhpParser\ConstExprEvaluator\evaluateSilently</a></div><div class="ttdeci">evaluateSilently(Expr $expr)</div><div class="ttdef"><b>Definition:</b> <a href="_const_expr_evaluator_8php_source.html#l00064">ConstExprEvaluator.php:64</a></div></div>
-<div class="ttc" id="aclass_php_parser_1_1_const_expr_evaluator_html_a9f3fdd112616ad0e249b074bed174ee5"><div class="ttname"><a href="class_php_parser_1_1_const_expr_evaluator.html#a9f3fdd112616ad0e249b074bed174ee5">PhpParser\ConstExprEvaluator\__construct</a></div><div class="ttdeci">__construct(callable $fallbackEvaluator=null)</div><div class="ttdef"><b>Definition:</b> <a href="_const_expr_evaluator_8php_source.html#l00039">ConstExprEvaluator.php:39</a></div></div>
-<div class="ttc" id="aclass_php_parser_1_1_const_expr_evaluator_html_aca590c5cc9c182a5fc87c0cef6764e33"><div class="ttname"><a href="class_php_parser_1_1_const_expr_evaluator.html#aca590c5cc9c182a5fc87c0cef6764e33">PhpParser\ConstExprEvaluator\evaluateDirectly</a></div><div class="ttdeci">evaluateDirectly(Expr $expr)</div><div class="ttdef"><b>Definition:</b> <a href="_const_expr_evaluator_8php_source.html#l00099">ConstExprEvaluator.php:99</a></div></div>
+<div class="ttc" id="aclass_php_parser_1_1_const_expr_evaluator_html_a2042478a440b2a8e8f19802eadef1c68"><div class="ttname"><a href="class_php_parser_1_1_const_expr_evaluator.html#a2042478a440b2a8e8f19802eadef1c68">PhpParser\ConstExprEvaluator\__construct</a></div><div class="ttdeci">__construct(callable $fallbackEvaluator=null)</div><div class="ttdef"><b>Definition:</b> <a href="_const_expr_evaluator_8php_source.html#l00039">ConstExprEvaluator.php:39</a></div></div>
+<div class="ttc" id="aclass_php_parser_1_1_const_expr_evaluator_html_a23e9e127ba9e68f3904d8c48bdbf1a77"><div class="ttname"><a href="class_php_parser_1_1_const_expr_evaluator.html#a23e9e127ba9e68f3904d8c48bdbf1a77">PhpParser\ConstExprEvaluator\evaluateDirectly</a></div><div class="ttdeci">evaluateDirectly(Expr $expr)</div><div class="ttdef"><b>Definition:</b> <a href="_const_expr_evaluator_8php_source.html#l00099">ConstExprEvaluator.php:99</a></div></div>
+<div class="ttc" id="aclass_php_parser_1_1_const_expr_evaluator_html_aa3601a1c17c59f0c21c2325f8919d9cb"><div class="ttname"><a href="class_php_parser_1_1_const_expr_evaluator.html#aa3601a1c17c59f0c21c2325f8919d9cb">PhpParser\ConstExprEvaluator\evaluateSilently</a></div><div class="ttdeci">evaluateSilently(Expr $expr)</div><div class="ttdef"><b>Definition:</b> <a href="_const_expr_evaluator_8php_source.html#l00064">ConstExprEvaluator.php:64</a></div></div>
 <div class="ttc" id="aclass_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_string___html"><div class="ttname"><a href="class_php_parser_1_1_node_1_1_expr_1_1_cast_1_1_string__.html">PhpParser\Node\Expr\Cast\String_</a></div><div class="ttdef"><b>Definition:</b> <a href="nikic_2php-parser_2lib_2_php_parser_2_node_2_expr_2_cast_2_string___8php_source.html#l00007">String_.php:8</a></div></div>
 <div class="ttc" id="aclass_php_parser_1_1_node_1_1_expr_html"><div class="ttname"><a href="class_php_parser_1_1_node_1_1_expr.html">PhpParser\Node\Expr</a></div><div class="ttdef"><b>Definition:</b> <a href="_expr_8php_source.html#l00007">Expr.php:8</a></div></div>
 <div class="ttc" id="aclass_php_parser_1_1_node_1_1_scalar_1_1_d_number_html"><div class="ttname"><a href="class_php_parser_1_1_node_1_1_scalar_1_1_d_number.html">PhpParser\Node\Scalar\DNumber</a></div><div class="ttdef"><b>Definition:</b> <a href="_d_number_8php_source.html#l00007">DNumber.php:8</a></div></div>

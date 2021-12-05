@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ressources/vendor/mustache/mustache/src/Mustache/Source/FilesystemSource.php Source File</title>
+<title>PortFolioV3: ressources/vendor/mustache/mustache/src/Mustache/Source/FilesystemSource.php Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -105,13 +104,13 @@ $(document).ready(function(){initNavTree('_filesystem_source_8php_source.html','
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">private</span> $statProps;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span> $stat;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_mustache___source___filesystem_source.html#a7bb36bc2cc7968d03bed2c24e9b0a4a1">   32</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___source___filesystem_source.html#a7bb36bc2cc7968d03bed2c24e9b0a4a1">__construct</a>($fileName, array $statProps)</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_mustache___source___filesystem_source.html#a7afe1f350bfdfc91916b0e2673dae0be">   32</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___source___filesystem_source.html#a7afe1f350bfdfc91916b0e2673dae0be">__construct</a>($fileName, array $statProps)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        $this-&gt;fileName = $fileName;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        $this-&gt;statProps = $statProps;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_mustache___source___filesystem_source.html#ad40c766ec8aced9770fe6ae269a1e781">   45</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___source___filesystem_source.html#ad40c766ec8aced9770fe6ae269a1e781">getKey</a>()</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_mustache___source___filesystem_source.html#a11e571767812ae96f6796ee01e59918a">   45</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___source___filesystem_source.html#a11e571767812ae96f6796ee01e59918a">getKey</a>()</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        $chunks = array(</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="stringliteral">&#39;fileName&#39;</span> =&gt; $this-&gt;fileName,</div>
@@ -134,15 +133,15 @@ $(document).ready(function(){initNavTree('_filesystem_source_8php_source.html','
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">return</span> json_encode($chunks);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="class_mustache___source___filesystem_source.html#a42fdd8313c99d9c5f80219c1e192b93a">   73</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___source___filesystem_source.html#a42fdd8313c99d9c5f80219c1e192b93a">getSource</a>()</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="class_mustache___source___filesystem_source.html#ac26a2a1d1fdf3e9fc69345b711049c9e">   73</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_mustache___source___filesystem_source.html#ac26a2a1d1fdf3e9fc69345b711049c9e">getSource</a>()</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">return</span> file_get_contents($this-&gt;fileName);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
 <div class="ttc" id="aclass_mustache___source___filesystem_source_html"><div class="ttname"><a href="class_mustache___source___filesystem_source.html">Mustache_Source_FilesystemSource</a></div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_source_8php_source.html#l00020">FilesystemSource.php:21</a></div></div>
-<div class="ttc" id="aclass_mustache___source___filesystem_source_html_a42fdd8313c99d9c5f80219c1e192b93a"><div class="ttname"><a href="class_mustache___source___filesystem_source.html#a42fdd8313c99d9c5f80219c1e192b93a">Mustache_Source_FilesystemSource\getSource</a></div><div class="ttdeci">getSource()</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_source_8php_source.html#l00073">FilesystemSource.php:73</a></div></div>
-<div class="ttc" id="aclass_mustache___source___filesystem_source_html_a7bb36bc2cc7968d03bed2c24e9b0a4a1"><div class="ttname"><a href="class_mustache___source___filesystem_source.html#a7bb36bc2cc7968d03bed2c24e9b0a4a1">Mustache_Source_FilesystemSource\__construct</a></div><div class="ttdeci">__construct($fileName, array $statProps)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_source_8php_source.html#l00032">FilesystemSource.php:32</a></div></div>
-<div class="ttc" id="aclass_mustache___source___filesystem_source_html_ad40c766ec8aced9770fe6ae269a1e781"><div class="ttname"><a href="class_mustache___source___filesystem_source.html#ad40c766ec8aced9770fe6ae269a1e781">Mustache_Source_FilesystemSource\getKey</a></div><div class="ttdeci">getKey()</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_source_8php_source.html#l00045">FilesystemSource.php:45</a></div></div>
+<div class="ttc" id="aclass_mustache___source___filesystem_source_html_a11e571767812ae96f6796ee01e59918a"><div class="ttname"><a href="class_mustache___source___filesystem_source.html#a11e571767812ae96f6796ee01e59918a">Mustache_Source_FilesystemSource\getKey</a></div><div class="ttdeci">getKey()</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_source_8php_source.html#l00045">FilesystemSource.php:45</a></div></div>
+<div class="ttc" id="aclass_mustache___source___filesystem_source_html_a7afe1f350bfdfc91916b0e2673dae0be"><div class="ttname"><a href="class_mustache___source___filesystem_source.html#a7afe1f350bfdfc91916b0e2673dae0be">Mustache_Source_FilesystemSource\__construct</a></div><div class="ttdeci">__construct($fileName, array $statProps)</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_source_8php_source.html#l00032">FilesystemSource.php:32</a></div></div>
+<div class="ttc" id="aclass_mustache___source___filesystem_source_html_ac26a2a1d1fdf3e9fc69345b711049c9e"><div class="ttname"><a href="class_mustache___source___filesystem_source.html#ac26a2a1d1fdf3e9fc69345b711049c9e">Mustache_Source_FilesystemSource\getSource</a></div><div class="ttdeci">getSource()</div><div class="ttdef"><b>Definition:</b> <a href="_filesystem_source_8php_source.html#l00073">FilesystemSource.php:73</a></div></div>
 <div class="ttc" id="ainterface_mustache___source_html"><div class="ttname"><a href="interface_mustache___source.html">Mustache_Source</a></div><div class="ttdef"><b>Definition:</b> <a href="mustache_2mustache_2src_2_mustache_2_source_8php_source.html#l00015">Source.php:16</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

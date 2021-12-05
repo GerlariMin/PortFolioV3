@@ -33,21 +33,11 @@
         }
 
         /**
-         * Retourne un tableau formaté pour les différentes balises Mustache pour l'affichage de la page Contact.
-         *
-         * @return array[]
-         */
-        public function traitementCard(): array
-        {
-            return $this->texte->textCard();
-        }
-
-        /**
          * Affichage de la page de contact.
          */
         public function traitementRendu(): void
         {
-            $data['card'] = $this->traitementCard();
+            $data = $this->texte->texteFinal();
 
             $data['chemin'] = $this->config['variables']['chemin'];
             $data['contact'] = true;

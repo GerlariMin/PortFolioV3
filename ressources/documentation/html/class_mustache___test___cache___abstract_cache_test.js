@@ -1,5 +1,5 @@
 var class_mustache___test___cache___abstract_cache_test =
 [
-    [ "testGetSetLogger", "class_mustache___test___cache___abstract_cache_test.html#a9ae75bbdc2f256c818177e71bdb4e7cd", null ],
-    [ "testSetLoggerThrowsExceptions", "class_mustache___test___cache___abstract_cache_test.html#a6c766ad21a4c871cb25b25c5804889af", null ]
+    [ "testGetSetLogger", "class_mustache___test___cache___abstract_cache_test.html#a2ebf1b1cc30ed38e5f3fb92b4973e9fe", null ],
+    [ "testSetLoggerThrowsExceptions", "class_mustache___test___cache___abstract_cache_test.html#a552000a5b02176d1f2981b4380c0f632", null ]
 ];

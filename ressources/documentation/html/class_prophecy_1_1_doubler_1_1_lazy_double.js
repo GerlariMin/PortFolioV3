@@ -1,8 +1,8 @@
 var class_prophecy_1_1_doubler_1_1_lazy_double =
 [
-    [ "__construct", "class_prophecy_1_1_doubler_1_1_lazy_double.html#a8e491234072b12a2eafa143624a9769b", null ],
-    [ "addInterface", "class_prophecy_1_1_doubler_1_1_lazy_double.html#a8ee340e93f5c12065057df00a3b37e3a", null ],
-    [ "getInstance", "class_prophecy_1_1_doubler_1_1_lazy_double.html#afba86dd08ac8528cc6cfe07a44c91fbe", null ],
-    [ "setArguments", "class_prophecy_1_1_doubler_1_1_lazy_double.html#a5398ebf107a0f0c136b0d134714b13ff", null ],
-    [ "setParentClass", "class_prophecy_1_1_doubler_1_1_lazy_double.html#a36c45e1400b3e0404a90bfa058ef8019", null ]
+    [ "__construct", "class_prophecy_1_1_doubler_1_1_lazy_double.html#afd0d09dae6d7bc37ad5976dad36909ce", null ],
+    [ "addInterface", "class_prophecy_1_1_doubler_1_1_lazy_double.html#ad1f8f52f194b5dec25ae421e08222c60", null ],
+    [ "getInstance", "class_prophecy_1_1_doubler_1_1_lazy_double.html#a8d41a90bdb6b7c600b6d6ca462376e6c", null ],
+    [ "setArguments", "class_prophecy_1_1_doubler_1_1_lazy_double.html#a23818706e2499fd5833bcad82e257642", null ],
+    [ "setParentClass", "class_prophecy_1_1_doubler_1_1_lazy_double.html#a5b93920c2d57f5cab346c234c14af676", null ]
 ];

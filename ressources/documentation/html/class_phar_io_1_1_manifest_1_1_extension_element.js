@@ -1,5 +1,5 @@
 var class_phar_io_1_1_manifest_1_1_extension_element =
 [
-    [ "getCompatible", "class_phar_io_1_1_manifest_1_1_extension_element.html#a6a73afc509dcaf5bfe8adb06a463d617", null ],
-    [ "getFor", "class_phar_io_1_1_manifest_1_1_extension_element.html#a2aafc757f842f8802903eedf52168b85", null ]
+    [ "getCompatible", "class_phar_io_1_1_manifest_1_1_extension_element.html#a4e955c014fed30d610abd9d2c52b5a58", null ],
+    [ "getFor", "class_phar_io_1_1_manifest_1_1_extension_element.html#a4145eab3c675a269c871bd7ae29c64dd", null ]
 ];

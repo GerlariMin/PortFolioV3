@@ -1,11 +1,11 @@
 var class_sebastian_bergmann_1_1_type_1_1_type_name =
 [
-    [ "__construct", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#aea5d9e35bce8c615e9600b85b345018a", null ],
-    [ "getNamespaceName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#af5438a8f8b82f3d239f5ad1eb3d07eff", null ],
-    [ "getQualifiedName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#ae39fb2f89f278e0702f6a55b616dd855", null ],
-    [ "getSimpleName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a287627b42f973635f17842bd1e2e8024", null ],
-    [ "isNamespaced", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#adbdd547e8c72798e30aa744dca32878b", null ],
-    [ "namespaceName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a14c29e7ed7199daff9bfbb108b2daa11", null ],
-    [ "qualifiedName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a7bb3d57f675c4ce001ed9e2faccc096c", null ],
-    [ "simpleName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#ae571dc3ed4eba754f1ee8d2c9ec7227f", null ]
+    [ "__construct", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#af32020621a7e6f4e903b72c39fe6d38f", null ],
+    [ "getNamespaceName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a059e3bd382f355e5da6f84ac086cedc1", null ],
+    [ "getQualifiedName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a690af6c2088c4bb5156d1ae9d7e1554f", null ],
+    [ "getSimpleName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#ab884125ce7a054b9833d5926edc5244e", null ],
+    [ "isNamespaced", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a9304299f6924f4f9318a0ce4fc8fc560", null ],
+    [ "namespaceName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a3fc828980cc2c5d9ec45d47b02a98cd9", null ],
+    [ "qualifiedName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a894315613ad70b5faa746aaf5a1d68e0", null ],
+    [ "simpleName", "class_sebastian_bergmann_1_1_type_1_1_type_name.html#a7f97802b075455baf415aca7291af7b2", null ]
 ];

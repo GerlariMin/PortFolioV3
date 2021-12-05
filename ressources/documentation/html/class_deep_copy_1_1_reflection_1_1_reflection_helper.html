@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PortFolio - Morgan MINBIELLE: ReflectionHelper Class Reference</title>
+<title>PortFolioV3: DeepCopy\Reflection\ReflectionHelper Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -26,8 +26,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="site.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PortFolio - Morgan MINBIELLE
-   &#160;<span id="projectnumber">3.0</span>
+   <div id="projectname">PortFolioV3
    </div>
    <div id="projectbrief">Troisième version de mon PortFolio sur laquelle j&#39;ai voulu mettre en place une nouvelle structure en place (inspirée de ce que j&#39;ai appris au sein de mon alternance).</div>
   </td>
@@ -85,25 +84,26 @@ $(document).ready(function(){initNavTree('class_deep_copy_1_1_reflection_1_1_ref
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="class_deep_copy_1_1_reflection_1_1_reflection_helper-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ReflectionHelper Class Reference</div>  </div>
+<div class="title">DeepCopy\Reflection\ReflectionHelper Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7bcfead6b23a2737622241564072d657"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a7bcfead6b23a2737622241564072d657">getProperties</a> (ReflectionClass $ref)</td></tr>
-<tr class="separator:a7bcfead6b23a2737622241564072d657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cbe7dd2f6c9bc8b41ca4beaffb376a7"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a2cbe7dd2f6c9bc8b41ca4beaffb376a7">getProperty</a> ($object, $name)</td></tr>
-<tr class="separator:a2cbe7dd2f6c9bc8b41ca4beaffb376a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0475992ac93c2d0a69447391f96277fa"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a0475992ac93c2d0a69447391f96277fa">getProperties</a> (ReflectionClass $ref)</td></tr>
+<tr class="separator:a0475992ac93c2d0a69447391f96277fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e3914eb80dc5734a24ef2a9a5780dc4"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a5e3914eb80dc5734a24ef2a9a5780dc4">getProperty</a> ($object, $name)</td></tr>
+<tr class="separator:a5e3914eb80dc5734a24ef2a9a5780dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_reflection_helper_8php_source.html#l00011">11</a> of file <a class="el" href="_reflection_helper_8php_source.html">ReflectionHelper.php</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7bcfead6b23a2737622241564072d657"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bcfead6b23a2737622241564072d657">&#9670;&nbsp;</a></span>getProperties()</h2>
+<a id="a0475992ac93c2d0a69447391f96277fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0475992ac93c2d0a69447391f96277fa">&#9670;&nbsp;</a></span>getProperties()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112,7 +112,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static getProperties </td>
+          <td class="memname">static DeepCopy\Reflection\ReflectionHelper::getProperties </td>
           <td>(</td>
           <td class="paramtype">ReflectionClass&#160;</td>
           <td class="paramname"><em>$ref</em></td><td>)</td>
@@ -126,7 +126,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Retrieves all properties (including private ones), from object and all its ancestors.</p>
-<p>Standard \ReflectionClass-&gt;<a class="el" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a7bcfead6b23a2737622241564072d657">getProperties()</a> does not return private properties from ancestor classes.</p>
+<p>Standard \ReflectionClass-&gt;<a class="el" href="class_deep_copy_1_1_reflection_1_1_reflection_helper.html#a0475992ac93c2d0a69447391f96277fa">getProperties()</a> does not return private properties from ancestor classes.</p>
 <dl class="section author"><dt>Author</dt><dd><a href="#" onclick="location.href='mai'+'lto:'+'mur'+'at'+'yam'+'an'+'@gm'+'ai'+'l.c'+'om'; return false;">murat<span style="display: none;">.nosp@m.</span>yama<span style="display: none;">.nosp@m.</span>n@gma<span style="display: none;">.nosp@m.</span>il.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="http://php.net/manual/en/reflectionclass.getproperties.php">http://php.net/manual/en/reflectionclass.getproperties.php</a></dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -141,8 +141,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2cbe7dd2f6c9bc8b41ca4beaffb376a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cbe7dd2f6c9bc8b41ca4beaffb376a7">&#9670;&nbsp;</a></span>getProperty()</h2>
+<a id="a5e3914eb80dc5734a24ef2a9a5780dc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e3914eb80dc5734a24ef2a9a5780dc4">&#9670;&nbsp;</a></span>getProperty()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,7 +151,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static getProperty </td>
+          <td class="memname">static DeepCopy\Reflection\ReflectionHelper::getProperty </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>$object</em>, </td>

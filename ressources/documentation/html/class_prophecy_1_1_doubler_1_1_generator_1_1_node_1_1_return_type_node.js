@@ -1,6 +1,6 @@
 var class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_return_type_node =
 [
-    [ "getRealType", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_return_type_node.html#ac7835357bef6394a5170091328c7fdbf", null ],
-    [ "guardIsValidType", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_return_type_node.html#a3b526c062ede5d702b91e437c73c7247", null ],
-    [ "isVoid", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_return_type_node.html#a47ab359be614c67ac2607fa9869deed3", null ]
+    [ "getRealType", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_return_type_node.html#aa053f1f98839f7a767cf28f3817bcbf5", null ],
+    [ "guardIsValidType", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_return_type_node.html#adc4748bac12b665eae4f8af3698e097c", null ],
+    [ "isVoid", "class_prophecy_1_1_doubler_1_1_generator_1_1_node_1_1_return_type_node.html#af9a18965a2f4c86655be0d19772fe349", null ]
 ];
